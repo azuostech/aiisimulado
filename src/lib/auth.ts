@@ -6,21 +6,34 @@ import { nextCookies } from "better-auth/next-js";
 
 import { getDb } from "@/lib/db";
 
-export const auth = betterAuth({
-  appName: "Clareza AI",
-  database: prismaAdapter(getDb(), { provider: "postgresql" }),
-  emailAndPassword: {
-    enabled: true,
-    minPasswordLength: 10,
-    maxPasswordLength: 128,
-  },
-  user: { modelName: "User" },
-  session: {
-    modelName: "AuthSession",
-    expiresIn: 60 * 60 * 24 * 30,
-    updateAge: 60 * 60 * 24,
-  },
-  account: { modelName: "AuthAccount" },
-  verification: { modelName: "AuthVerification" },
-  plugins: [nextCookies()],
-});
+function createAuth() {
+  return betterAuth({
+    appName: "Clareza AI",
+    database: prismaAdapter(getDb(), { provider: "postgresql" }),
+    emailAndPassword: {
+      enabled: true,
+      minPasswordLength: 10,
+      maxPasswordLength: 128,
+    },
+    user: { modelName: "User" },
+    session: {
+      modelName: "AuthSession",
+      expiresIn: 60 * 60 * 24 * 30,
+      updateAge: 60 * 60 * 24,
+    },
+    account: { modelName: "AuthAccount" },
+    verification: { modelName: "AuthVerification" },
+    plugins: [nextCookies()],
+  });
+}
+
+type Auth = ReturnType<typeof createAuth>;
+
+const globalForAuth = globalThis as unknown as {
+  auth: Auth | undefined;
+};
+
+export function getAuth(): Auth {
+  if (!globalForAuth.auth) globalForAuth.auth = createAuth();
+  return globalForAuth.auth;
+}

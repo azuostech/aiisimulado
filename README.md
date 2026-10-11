@@ -71,6 +71,16 @@ Use `npm run db:migrate -- --name nome_da_alteracao` somente ao desenvolver uma 
 
 5. Inicie a aplicação com `npm run dev`.
 
+## Deploy no Vercel
+
+Em **Project Settings > Environment Variables**, configure para o ambiente de produção:
+
+- `DATABASE_URL` — conexão PostgreSQL do Supabase (não use a Project URL nem a chave pública);
+- `BETTER_AUTH_SECRET` — segredo aleatório com pelo menos 32 caracteres;
+- `BETTER_AUTH_URL` — URL pública da aplicação, por exemplo `https://seu-dominio.com`.
+
+Configure também o ambiente Preview se os deploys de preview precisarem acessar autenticação e banco. Depois de incluir ou alterar uma variável, faça um novo deploy para que a configuração seja aplicada. Nunca salve esses valores no repositório.
+
 ## Scripts
 
 - `npm run dev` — servidor de desenvolvimento
