@@ -3,6 +3,7 @@ import "server-only";
 import { randomUUID } from "node:crypto";
 
 import type { ExamMode } from "@/generated/prisma/enums";
+import { analyzeEditorialBalance } from "@/features/exams/editorial-balance";
 import {
   deterministicShuffle,
   selectExamQuestions,
@@ -37,6 +38,16 @@ const questionInclude = {
 function hasValidAnswerKey(question: { options: Array<{ isCorrect: boolean }> }) {
   return question.options.length === 4
     && question.options.filter((option) => option.isCorrect).length === 1;
+}
+
+function selectBalancedQuestions<T extends { options: Array<{ text: string; isCorrect: boolean }> }>(
+  questions: T[],
+  seed: string,
+  count: number,
+) {
+  return deterministicShuffle(questions, seed)
+    .sort((left, right) => analyzeEditorialBalance(left.options).penalty - analyzeEditorialBalance(right.options).penalty)
+    .slice(0, count);
 }
 
 type SessionConfiguration = {
@@ -75,7 +86,7 @@ export async function createExamSession(userId: string, mode: ExamMode, configur
       throw new InsufficientQuestionBankError("piloto");
     }
 
-    selected.push(...deterministicShuffle(validQuestions, `${randomSeed}:quick-review`).slice(0, requestedQuestionCount));
+    selected.push(...selectBalancedQuestions(validQuestions, `${randomSeed}:quick-review`, requestedQuestionCount));
   } else if (mode === "ERROR_NOTEBOOK") {
     const wrongAnswers = await db.userAnswer.findMany({
       where: { userId, isCorrect: false, session: { status: "SUBMITTED" } },
@@ -85,7 +96,7 @@ export async function createExamSession(userId: string, mode: ExamMode, configur
     const questionIds = new Set(wrongAnswers.map((answer) => answer.questionId));
     const personalQuestions = validQuestions.filter((question) => questionIds.has(question.id));
     if (personalQuestions.length === 0) throw new EmptyPersonalQuestionSetError("ERROR_NOTEBOOK");
-    selected.push(...deterministicShuffle(personalQuestions, `${randomSeed}:error-notebook`).slice(0, requestedQuestionCount));
+    selected.push(...selectBalancedQuestions(personalQuestions, `${randomSeed}:error-notebook`, requestedQuestionCount));
   } else if (mode === "FAVORITES") {
     const bookmarks = await db.bookmark.findMany({
       where: { userId },
@@ -94,7 +105,7 @@ export async function createExamSession(userId: string, mode: ExamMode, configur
     const questionIds = new Set(bookmarks.map((bookmark) => bookmark.questionId));
     const personalQuestions = validQuestions.filter((question) => questionIds.has(question.id));
     if (personalQuestions.length === 0) throw new EmptyPersonalQuestionSetError("FAVORITES");
-    selected.push(...deterministicShuffle(personalQuestions, `${randomSeed}:favorites`).slice(0, requestedQuestionCount));
+    selected.push(...selectBalancedQuestions(personalQuestions, `${randomSeed}:favorites`, requestedQuestionCount));
   } else if (mode === "SPACED_REVIEW") {
     const dueReviews = await db.userQuestionReview.findMany({
       where: { userId, dueAt: { lte: now } },
@@ -105,12 +116,12 @@ export async function createExamSession(userId: string, mode: ExamMode, configur
     const questionIds = new Set(dueReviews.map((review) => review.questionId));
     const personalQuestions = validQuestions.filter((question) => questionIds.has(question.id));
     if (personalQuestions.length === 0) throw new EmptyPersonalQuestionSetError("SPACED_REVIEW");
-    selected.push(...deterministicShuffle(personalQuestions, `${randomSeed}:spaced-review`).slice(0, requestedQuestionCount));
+    selected.push(...selectBalancedQuestions(personalQuestions, `${randomSeed}:spaced-review`, requestedQuestionCount));
   } else if (mode === "TOPIC") {
     const topicCode = configuration.topicCode ?? "";
     const topicQuestions = validQuestions.filter((question) => question.topic.code === topicCode);
     if (topicQuestions.length === 0) throw new InsufficientQuestionBankError(topicCode || "selecionado");
-    selected.push(...deterministicShuffle(topicQuestions, `${randomSeed}:topic:${topicCode}`).slice(0, requestedQuestionCount));
+    selected.push(...selectBalancedQuestions(topicQuestions, `${randomSeed}:topic:${topicCode}`, requestedQuestionCount));
   } else {
     if (mode !== "REAL" && mode !== "BLINDAGEM") {
       throw new Error(`UNSUPPORTED_EXAM_MODE:${mode}`);
@@ -130,6 +141,7 @@ export async function createExamSession(userId: string, mode: ExamMode, configur
       candidates: validQuestions.map((question) => ({
         ...question,
         topicCode: question.topic.code,
+        editorialPenalty: analyzeEditorialBalance(question.options).penalty,
       })),
       topicQuotas: new Map(blueprint.topics.map((topic) => [topic.topicCode, topic.questionCount])),
       seed: `${randomSeed}:${mode}`,

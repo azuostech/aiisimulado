@@ -8,10 +8,10 @@
       "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["mercado secundário", "liquidez"],
       "statement": "Um investidor vende em bolsa ações já emitidas de uma companhia a outro investidor. Nessa operação, os recursos pagos pelo comprador são destinados:",
       "options": [
-        { "id": "opt_1", "text": "À companhia emissora, aumentando diretamente seu capital social.", "isCorrect": false, "distractorReason": "Isso caracterizaria captação primária, não negociação secundária." },
-        { "id": "opt_2", "text": "Ao investidor vendedor, pois ocorre transferência de valores mobiliários já existentes.", "isCorrect": true },
-        { "id": "opt_3", "text": "À CVM, que redistribui o valor entre os acionistas.", "isCorrect": false, "distractorReason": "A CVM regula e fiscaliza, mas não recebe o preço da negociação." },
-        { "id": "opt_4", "text": "À B3, que passa a ser proprietária definitiva das ações.", "isCorrect": false, "distractorReason": "A infraestrutura liquida e registra; ela não se torna a beneficiária econômica da venda." }
+        { "id": "opt_1", "text": "À companhia emissora, como nova captação incorporada diretamente ao seu patrimônio.", "isCorrect": false, "distractorReason": "Isso caracterizaria captação primária, não negociação secundária." },
+        { "id": "opt_2", "text": "Ao investidor vendedor, em contrapartida à transferência das ações já emitidas.", "isCorrect": true },
+        { "id": "opt_3", "text": "À corretora do vendedor, que incorpora o preço ao seu patrimônio após a liquidação.", "isCorrect": false, "distractorReason": "A corretora intermedeia e liquida a operação, mas o beneficiário econômico da venda é o cliente." },
+        { "id": "opt_4", "text": "À contraparte central, que mantém o preço como garantia definitiva das ações liquidadas.", "isCorrect": false, "distractorReason": "A infraestrutura assegura a liquidação, mas não se torna beneficiária econômica do preço." }
       ],
       "explanation": "No mercado secundário, investidores negociam entre si valores mobiliários já emitidos. O vendedor recebe o preço, enquanto a companhia não obtém nova captação com essa troca de titularidade.",
       "commonTrap": "Confundir negociação em bolsa com emissão primária de novas ações.",
@@ -24,10 +24,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["ações ordinárias", "voto"],
       "statement": "Como regra geral da Lei das Sociedades por Ações, cada ação ordinária confere ao seu titular:",
       "options": [
-        { "id": "opt_1", "text": "Um voto nas deliberações da assembleia-geral, ressalvadas as regras legais aplicáveis.", "isCorrect": true },
-        { "id": "opt_2", "text": "Prioridade absoluta no recebimento de dividendos fixos.", "isCorrect": false, "distractorReason": "Prioridades econômicas são características possíveis de ações preferenciais." },
-        { "id": "opt_3", "text": "Garantia de rentabilidade mínima anual paga pela companhia.", "isCorrect": false, "distractorReason": "A ação não assegura rentabilidade mínima ao investidor." },
-        { "id": "opt_4", "text": "Direito de exigir o resgate da ação a qualquer momento.", "isCorrect": false, "distractorReason": "A ação não funciona como título resgatável por iniciativa irrestrita do acionista." }
+        { "id": "opt_1", "text": "Um voto nas deliberações da assembleia-geral, observadas as disposições legais aplicáveis.", "isCorrect": true },
+        { "id": "opt_2", "text": "Prioridade no reembolso do capital, ainda que essa vantagem não conste do estatuto.", "isCorrect": false, "distractorReason": "A prioridade econômica é característica possível da ação preferencial e depende de disciplina estatutária." },
+        { "id": "opt_3", "text": "Remuneração mínima anual, calculada sobre o valor patrimonial apurado pela companhia.", "isCorrect": false, "distractorReason": "A ação ordinária não assegura remuneração mínima ao investidor." },
+        { "id": "opt_4", "text": "Resgate pelo valor de emissão, exercível por decisão unilateral de seu titular.", "isCorrect": false, "distractorReason": "A ação não funciona como título resgatável por iniciativa unilateral do acionista." }
       ],
       "explanation": "A regra geral é que cada ação ordinária corresponda a um voto nas deliberações da assembleia-geral. A legislação admite situações específicas, mas não transforma a ON em promessa de renda ou resgate.",
       "commonTrap": "Associar ação ordinária a preferência econômica, em vez de ao direito político de voto.",
@@ -40,10 +40,10 @@
       "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["ações preferenciais", "dividendos", "reembolso"],
       "statement": "A preferência atribuída por estatuto a uma ação preferencial pode consistir em prioridade na distribuição de dividendos, no reembolso do capital, ou em ambas. Isso significa que a PN:",
       "options": [
-        { "id": "opt_1", "text": "É um título de dívida com pagamento obrigatório de juros.", "isCorrect": false, "distractorReason": "A PN continua sendo participação societária, não dívida da companhia." },
+        { "id": "opt_1", "text": "Constitui dívida subordinada da companhia, remunerada conforme a preferência definida no estatuto.", "isCorrect": false, "distractorReason": "A PN continua sendo participação societária, não dívida da companhia." },
         { "id": "opt_2", "text": "Possui a vantagem estatutária, mas permanece sujeita aos riscos do investimento em ações.", "isCorrect": true },
-        { "id": "opt_3", "text": "Tem proteção integral do FGC contra perdas de mercado.", "isCorrect": false, "distractorReason": "Ações não são cobertas pelo FGC." },
-        { "id": "opt_4", "text": "Sempre acumula dividendos não pagos, independentemente do estatuto.", "isCorrect": false, "distractorReason": "A cumulatividade não é automática e depende da disciplina estatutária e legal." }
+        { "id": "opt_3", "text": "Conta com cobertura do FGC até o limite aplicável, por possuir preferência econômica.", "isCorrect": false, "distractorReason": "Ações não recebem cobertura do FGC, seja qual for sua espécie." },
+        { "id": "opt_4", "text": "Acumula dividendos não pagos, mesmo quando o estatuto define a preferência como não cumulativa.", "isCorrect": false, "distractorReason": "A cumulatividade depende da disciplina estatutária e legal; preferência não implica acumulação em qualquer caso." }
       ],
       "explanation": "A ação preferencial pode receber vantagens econômicas previstas no estatuto, como prioridade em dividendos ou reembolso. Isso não a converte em renda fixa nem elimina risco de mercado e risco empresarial.",
       "commonTrap": "Interpretar preferência como garantia de retorno ou proteção do principal.",
@@ -56,10 +56,10 @@
       "difficulty": 1, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["desdobramento", "quantidade", "preço"],
       "statement": "Uma companhia aprova desdobramento de 1 ação para 4. Imediatamente antes do evento, um investidor possui 100 ações cotadas a R$ 40,00. Desconsideradas oscilações de mercado, após o evento ele terá:",
       "options": [
-        { "id": "opt_1", "text": "400 ações a aproximadamente R$ 10,00 cada, sem alteração imediata do valor total da posição.", "isCorrect": true },
-        { "id": "opt_2", "text": "400 ações a R$ 40,00 cada, quadruplicando automaticamente seu patrimônio.", "isCorrect": false, "distractorReason": "O preço unitário é ajustado proporcionalmente; não há criação automática de riqueza." },
-        { "id": "opt_3", "text": "25 ações a aproximadamente R$ 160,00 cada.", "isCorrect": false, "distractorReason": "Esse seria o efeito inverso, semelhante a um grupamento." },
-        { "id": "opt_4", "text": "100 ações a R$ 10,00 cada, reduzindo o capital social em 75%.", "isCorrect": false, "distractorReason": "O número de ações do investidor também aumenta e o capital social não é reduzido pelo desdobramento." }
+        { "id": "opt_1", "text": "400 ações a cerca de R$ 10,00, mantendo o valor total próximo de R$ 4.000,00.", "isCorrect": true },
+        { "id": "opt_2", "text": "400 ações a cerca de R$ 40,00, elevando o valor total para aproximadamente R$ 16.000,00.", "isCorrect": false, "distractorReason": "O preço unitário é ajustado proporcionalmente; o evento não quadruplica o patrimônio." },
+        { "id": "opt_3", "text": "25 ações a cerca de R$ 160,00, mantendo o valor total próximo de R$ 4.000,00.", "isCorrect": false, "distractorReason": "Esse cálculo corresponde ao movimento inverso, semelhante a um grupamento." },
+        { "id": "opt_4", "text": "100 ações a cerca de R$ 10,00, reduzindo o valor total para aproximadamente R$ 1.000,00.", "isCorrect": false, "distractorReason": "A quantidade de ações também é ajustada na proporção do desdobramento." }
       ],
       "explanation": "O desdobramento aumenta a quantidade de ações e reduz proporcionalmente o preço unitário de referência. No instante do ajuste, não altera o valor econômico total da posição nem o capital social.",
       "commonTrap": "Multiplicar a quantidade sem ajustar o preço unitário e concluir que houve ganho gratuito.",
@@ -73,9 +73,9 @@
       "statement": "Em aumento de capital por emissão de novas ações, o direito de preferência conferido ao acionista tem como principal finalidade permitir que ele:",
       "options": [
         { "id": "opt_1", "text": "Mantenha, se desejar exercê-lo, sua participação proporcional no capital da companhia.", "isCorrect": true },
-        { "id": "opt_2", "text": "Venda obrigatoriamente suas ações antigas à própria companhia.", "isCorrect": false, "distractorReason": "Subscrição envolve aquisição de novos valores mobiliários, não venda obrigatória dos antigos." },
-        { "id": "opt_3", "text": "Receba dividendos antes dos titulares de ações preferenciais.", "isCorrect": false, "distractorReason": "O direito de subscrição não altera a ordem estatutária de dividendos." },
-        { "id": "opt_4", "text": "Elimine o risco de queda do preço após o aumento de capital.", "isCorrect": false, "distractorReason": "O exercício preserva proporção, mas não garante preço ou retorno." }
+        { "id": "opt_2", "text": "Venda suas ações antigas à companhia para financiar a aquisição das novas ações.", "isCorrect": false, "distractorReason": "O exercício exige o aporte correspondente, mas não impõe venda das ações antigas à companhia." },
+        { "id": "opt_3", "text": "Receba as novas ações sem desembolso, na proporção de sua participação anterior.", "isCorrect": false, "distractorReason": "O direito assegura preferência para subscrever, e não distribuição gratuita de novas ações." },
+        { "id": "opt_4", "text": "Mantenha o preço de mercado de sua posição após o aumento de capital.", "isCorrect": false, "distractorReason": "Preservar proporção societária não garante preço ou retorno de mercado." }
       ],
       "explanation": "O direito de preferência possibilita ao acionista subscrever novas ações na proporção de sua participação e, assim, evitar diluição proporcional caso queira aportar os recursos necessários.",
       "commonTrap": "Confundir preservação de participação proporcional com proteção contra perda de mercado.",
@@ -88,10 +88,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["debêntures", "direito de crédito"],
       "statement": "Ao adquirir uma debênture simples emitida por uma companhia, o investidor passa, em regra, a ser:",
       "options": [
-        { "id": "opt_1", "text": "Credor da companhia nas condições estabelecidas na escritura de emissão.", "isCorrect": true },
-        { "id": "opt_2", "text": "Acionista ordinário com direito automático de voto.", "isCorrect": false, "distractorReason": "A debênture simples representa crédito, não participação acionária." },
-        { "id": "opt_3", "text": "Depositante com cobertura ordinária do FGC.", "isCorrect": false, "distractorReason": "Debêntures não são depósitos bancários cobertos pelo FGC." },
-        { "id": "opt_4", "text": "Cotista de fundo administrado pela companhia emissora.", "isCorrect": false, "distractorReason": "A relação jurídica não é de condomínio em fundo de investimento." }
+        { "id": "opt_1", "text": "Credor da companhia, conforme as condições estabelecidas na escritura de emissão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Acionista da companhia, com os direitos políticos previstos para as ações ordinárias.", "isCorrect": false, "distractorReason": "A debênture simples representa crédito, não participação acionária." },
+        { "id": "opt_3", "text": "Depositante da instituição emissora, sujeito aos limites de cobertura ordinária do FGC.", "isCorrect": false, "distractorReason": "Debêntures não são depósitos bancários e não recebem cobertura do FGC." },
+        { "id": "opt_4", "text": "Cotista de veículo coletivo, cuja carteira corresponde às dívidas da companhia emissora.", "isCorrect": false, "distractorReason": "A aquisição direta da debênture não cria relação de condomínio em fundo." }
       ],
       "explanation": "A debênture confere ao titular direito de crédito contra a companhia emissora, conforme a escritura. O investidor assume risco de crédito do emissor e não se torna acionista pela debênture simples.",
       "commonTrap": "Confundir título de dívida corporativa com participação no capital social.",
@@ -104,10 +104,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["debênture conversível", "ações"],
       "statement": "Uma escritura prevê que a debênture pode ser convertida em ações da companhia nas bases nela definidas. Se a conversão for realizada, o investidor:",
       "options": [
-        { "id": "opt_1", "text": "Troca o direito de crédito representado pela debênture pela participação acionária resultante da conversão.", "isCorrect": true },
-        { "id": "opt_2", "text": "Mantém integralmente o crédito e recebe as ações como prêmio adicional obrigatório.", "isCorrect": false, "distractorReason": "A conversão substitui a posição nos termos da escritura; não duplica automaticamente os direitos." },
-        { "id": "opt_3", "text": "Passa a contar com garantia do FGC sobre as novas ações.", "isCorrect": false, "distractorReason": "Nem a debênture nem as ações recebem cobertura do FGC." },
-        { "id": "opt_4", "text": "Converte a dívida da companhia em título público federal.", "isCorrect": false, "distractorReason": "A conversão prevista é em ações da companhia, não em título soberano." }
+        { "id": "opt_1", "text": "Substitui o crédito da debênture pela participação acionária resultante da conversão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Mantém o crédito da debênture e recebe participação acionária como remuneração adicional.", "isCorrect": false, "distractorReason": "A conversão substitui a posição correspondente nos termos da escritura, em vez de duplicá-la." },
+        { "id": "opt_3", "text": "Substitui o crédito privado por ações cobertas pelo FGC até o limite vigente.", "isCorrect": false, "distractorReason": "Nem a debênture nem as ações resultantes recebem cobertura do FGC." },
+        { "id": "opt_4", "text": "Mantém a condição de credor, mas transfere o risco da dívida ao Tesouro Nacional.", "isCorrect": false, "distractorReason": "A conversão ocorre em ações da companhia e não transforma o crédito em obrigação soberana." }
       ],
       "explanation": "A debênture pode prever conversão em ações nas condições da escritura. Exercida a conversão, o investidor deixa a posição de credor correspondente e passa a deter participação acionária.",
       "commonTrap": "Imaginar que conversão significa acumular simultaneamente o crédito integral e as ações.",
@@ -120,10 +120,10 @@
       "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["governança", "segmentos"],
       "statement": "A listagem de uma companhia em segmento especial de governança corporativa da B3 significa que ela:",
       "options": [
-        { "id": "opt_1", "text": "Adere voluntariamente a regras adicionais às obrigações gerais da legislação societária.", "isCorrect": true },
-        { "id": "opt_2", "text": "Deixa de se submeter à Lei das Sociedades por Ações.", "isCorrect": false, "distractorReason": "As regras do segmento se somam à legislação, não a substituem." },
-        { "id": "opt_3", "text": "Recebe garantia da B3 contra queda no preço das ações.", "isCorrect": false, "distractorReason": "Governança não elimina risco de mercado." },
-        { "id": "opt_4", "text": "Passa a emitir apenas títulos de dívida e não ações.", "isCorrect": false, "distractorReason": "Os segmentos tratam justamente da listagem e governança de emissores e ações." }
+        { "id": "opt_1", "text": "Assume compromissos adicionais de governança além das obrigações legais gerais.", "isCorrect": true },
+        { "id": "opt_2", "text": "Substitui as obrigações da Lei das Sociedades por Ações pelas regras privadas do segmento.", "isCorrect": false, "distractorReason": "As regras do segmento se somam à legislação, em vez de substituí-la." },
+        { "id": "opt_3", "text": "Obtém garantia da B3 para o preço das ações enquanto permanecer listada no segmento.", "isCorrect": false, "distractorReason": "Compromissos de governança não eliminam o risco de mercado das ações." },
+        { "id": "opt_4", "text": "Transfere à B3 a administração da companhia e as decisões reservadas aos acionistas.", "isCorrect": false, "distractorReason": "A adesão não transfere a gestão nem as competências societárias à entidade administradora do mercado." }
       ],
       "explanation": "Os segmentos especiais estabelecem compromissos voluntários de governança, transparência e direitos que vão além das obrigações legais gerais. Eles não afastam a Lei das S.A. nem garantem valorização.",
       "commonTrap": "Tratar autorregulação contratual da B3 como substituição da legislação ou seguro de investimento.",
@@ -136,10 +136,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["Novo Mercado", "ações ordinárias"],
       "statement": "Quanto à composição do capital social, as companhias listadas no Novo Mercado da B3 podem emitir:",
       "options": [
-        { "id": "opt_1", "text": "Apenas ações ordinárias com direito de voto.", "isCorrect": true },
-        { "id": "opt_2", "text": "Apenas ações preferenciais sem direito de voto.", "isCorrect": false, "distractorReason": "O Novo Mercado exige capital composto por ações ordinárias." },
-        { "id": "opt_3", "text": "Ações ordinárias e preferenciais em qualquer proporção.", "isCorrect": false, "distractorReason": "Essa composição não atende à regra distintiva do Novo Mercado." },
-        { "id": "opt_4", "text": "Somente debêntures conversíveis, sem ações em circulação.", "isCorrect": false, "distractorReason": "A listagem no segmento pressupõe capital em ações ordinárias." }
+        { "id": "opt_1", "text": "Capital composto por ações ordinárias com direito de voto.", "isCorrect": true },
+        { "id": "opt_2", "text": "Capital composto por ações preferenciais com prioridade no recebimento de dividendos.", "isCorrect": false, "distractorReason": "O Novo Mercado exige capital composto por ações ordinárias." },
+        { "id": "opt_3", "text": "Capital composto por ações ordinárias e preferenciais, observada proporção definida no regulamento.", "isCorrect": false, "distractorReason": "A admissão de preferenciais não atende à regra distintiva do Novo Mercado." },
+        { "id": "opt_4", "text": "Capital representado por debêntures conversíveis, enquanto as ações permanecem fora de circulação.", "isCorrect": false, "distractorReason": "Debêntures não substituem o capital social em ações ordinárias exigido pelo segmento." }
       ],
       "explanation": "O Novo Mercado é o segmento especial em que o capital social das companhias é composto somente por ações ordinárias, reforçando a associação entre participação acionária e direito de voto.",
       "commonTrap": "Confundir o Novo Mercado com os Níveis 1 e 2, que admitem estruturas diferentes.",
@@ -152,10 +152,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["Ibovespa", "carteira teórica"],
       "statement": "Considerando sua metodologia oficial e sua função no mercado brasileiro, o Ibovespa é corretamente descrito como:",
       "options": [
-        { "id": "opt_1", "text": "Indicador do desempenho médio das cotações de uma carteira teórica de ativos de elevada negociabilidade e representatividade.", "isCorrect": true },
-        { "id": "opt_2", "text": "Fundo garantido pela B3 que compra todas as ações listadas em pesos iguais.", "isCorrect": false, "distractorReason": "O índice é indicador baseado em carteira teórica, não fundo garantido." },
-        { "id": "opt_3", "text": "Taxa média de juros das debêntures emitidas no Brasil.", "isCorrect": false, "distractorReason": "O Ibovespa representa o mercado acionário, não juros corporativos." },
-        { "id": "opt_4", "text": "Índice composto obrigatoriamente por todas as companhias abertas registradas na CVM.", "isCorrect": false, "distractorReason": "A composição depende de critérios metodológicos de elegibilidade." }
+        { "id": "opt_1", "text": "Indicador do desempenho de uma carteira teórica de ativos com negociabilidade e representatividade relevantes.", "isCorrect": true },
+        { "id": "opt_2", "text": "Fundo de índice que adquire ações elegíveis em proporções iguais e distribui seus resultados.", "isCorrect": false, "distractorReason": "O Ibovespa é um indicador, não um fundo, e adota metodologia própria de ponderação." },
+        { "id": "opt_3", "text": "Indicador do retorno médio das debêntures de companhias integrantes do mercado acionário brasileiro.", "isCorrect": false, "distractorReason": "O índice acompanha ativos do mercado de ações, e não juros de dívidas corporativas." },
+        { "id": "opt_4", "text": "Indicador do valor de mercado das companhias abertas, incluindo cada emissor registrado na CVM.", "isCorrect": false, "distractorReason": "A carteira segue critérios de elegibilidade e não inclui cada companhia aberta por esse simples fato." }
       ],
       "explanation": "O Ibovespa resulta de carteira teórica e busca indicar o desempenho médio dos ativos mais negociáveis e representativos do mercado acionário brasileiro, conforme critérios de sua metodologia.",
       "commonTrap": "Confundir índice de referência com fundo de investimento ou carteira de todas as ações.",
@@ -168,10 +168,10 @@
       "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["BDR", "lastro", "exterior"],
       "statement": "Considerando o local de emissão do certificado e o ativo que lhe serve de lastro, de acordo com a Resolução CVM 182, um BDR é:",
       "options": [
-        { "id": "opt_1", "text": "Certificado de depósito emitido no Brasil e lastreado em valores mobiliários emitidos no exterior.", "isCorrect": true },
-        { "id": "opt_2", "text": "Ação estrangeira transferida fisicamente ao investidor e emitida pela B3.", "isCorrect": false, "distractorReason": "O BDR é certificado de depósito; não é a própria ação emitida pela B3." },
-        { "id": "opt_3", "text": "Título público brasileiro denominado em dólar.", "isCorrect": false, "distractorReason": "BDR não é título da dívida pública." },
-        { "id": "opt_4", "text": "Certificado emitido no exterior com lastro obrigatório em ações brasileiras.", "isCorrect": false, "distractorReason": "Essa descrição inverte o local de emissão e a direção do lastro do BDR." }
+        { "id": "opt_1", "text": "Certificado emitido no Brasil e lastreado em valores mobiliários emitidos no exterior.", "isCorrect": true },
+        { "id": "opt_2", "text": "Valor mobiliário emitido no exterior e transferido diretamente ao investidor no mercado brasileiro.", "isCorrect": false, "distractorReason": "BDR é certificado emitido no Brasil por instituição depositária, e não transferência direta do ativo estrangeiro." },
+        { "id": "opt_3", "text": "Certificado emitido no exterior e lastreado em valores mobiliários emitidos no Brasil.", "isCorrect": false, "distractorReason": "A alternativa inverte o local de emissão e a origem do lastro característicos do BDR." },
+        { "id": "opt_4", "text": "Título de dívida emitido no Brasil e remunerado pela variação de moeda estrangeira.", "isCorrect": false, "distractorReason": "A exposição cambial de um título de dívida não o transforma em certificado representativo de valores mobiliários externos." }
       ],
       "explanation": "BDR é certificado de depósito emitido no Brasil com lastro em ações, certificados de ações ou valores mobiliários representativos de dívida emitidos no exterior, conforme a regulamentação da CVM.",
       "commonTrap": "Confundir BDR negociado no Brasil com ADR emitido e negociado no exterior.",
@@ -184,10 +184,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["ordem limitada", "execução"],
       "statement": "Um cliente envia ordem limitada de compra de uma ação a R$ 25,00. Durante a validade, existem ofertas de venda a R$ 24,80 e depois a R$ 25,30. A ordem pode ser executada:",
       "options": [
-        { "id": "opt_1", "text": "A R$ 24,80, por ser preço igual ou melhor para o comprador, mas não a R$ 25,30.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente exatamente a R$ 25,00, nunca por preço inferior.", "isCorrect": false, "distractorReason": "O limite admite execução por preço melhor para o comprador." },
-        { "id": "opt_3", "text": "A qualquer preço disponível, porque prioridade de execução substitui o limite.", "isCorrect": false, "distractorReason": "Isso descaracterizaria a proteção de preço da ordem limitada." },
-        { "id": "opt_4", "text": "A R$ 25,30, desde que seja a primeira oferta exibida no livro.", "isCorrect": false, "distractorReason": "Compra acima do limite indicado viola a condição da ordem." }
+        { "id": "opt_1", "text": "A R$ 24,80, que melhora o limite do comprador, mas não a R$ 25,30.", "isCorrect": true },
+        { "id": "opt_2", "text": "A R$ 25,00, pois o limite funciona simultaneamente como preço mínimo e máximo.", "isCorrect": false, "distractorReason": "Na compra, o limite é o máximo aceito e permite execução por preço inferior." },
+        { "id": "opt_3", "text": "A R$ 25,30, caso essa oferta tenha prioridade temporal sobre a oferta de R$ 24,80.", "isCorrect": false, "distractorReason": "A prioridade não autoriza execução acima do limite nem ignora a oferta de melhor preço." },
+        { "id": "opt_4", "text": "A R$ 25,30, desde que a diferença seja compensada pela corretora na liquidação.", "isCorrect": false, "distractorReason": "A corretora não substitui o limite definido pelo cliente por compensação financeira." }
       ],
       "explanation": "Na compra limitada, a execução não pode ocorrer acima do limite fixado, mas pode ocorrer por preço inferior, que é melhor ao comprador. Na venda, a lógica se inverte: não se vende abaixo do limite.",
       "commonTrap": "Interpretar preço limite como preço exato, rejeitando uma execução mais favorável.",
@@ -200,10 +200,10 @@
       "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["ordem stop", "gatilho"],
       "statement": "Um investidor cadastra uma ordem stop de venda para ser acionada quando o ativo atingir determinado preço. Ao ocorrer o gatilho em mercado volátil, é correto afirmar que:",
       "options": [
-        { "id": "opt_1", "text": "O preço de disparo determina quando a ordem é enviada, mas não assegura, por si só, execução exatamente naquele preço.", "isCorrect": true },
-        { "id": "opt_2", "text": "A B3 garante execução exatamente no preço de disparo, ainda que não haja contraparte.", "isCorrect": false, "distractorReason": "O gatilho não cria liquidez nem contraparte no preço desejado." },
-        { "id": "opt_3", "text": "A ordem é executada antes de o ativo atingir o preço definido.", "isCorrect": false, "distractorReason": "Isso contraria a função do preço de acionamento." },
-        { "id": "opt_4", "text": "O stop transforma a posição de renda variável em aplicação garantida.", "isCorrect": false, "distractorReason": "O mecanismo auxilia a estratégia, mas não elimina gaps ou risco de execução." }
+        { "id": "opt_1", "text": "O preço de disparo envia a ordem, cuja execução dependerá das ofertas então disponíveis.", "isCorrect": true },
+        { "id": "opt_2", "text": "O preço de disparo reserva a contraparte necessária para executar a ordem naquele valor.", "isCorrect": false, "distractorReason": "O gatilho não cria liquidez nem reserva contraparte no preço desejado." },
+        { "id": "opt_3", "text": "O preço de disparo define o valor de liquidação, mesmo que o mercado salte para nível inferior.", "isCorrect": false, "distractorReason": "Gaps e liquidez podem levar a execução em preço diferente do disparo." },
+        { "id": "opt_4", "text": "O preço de disparo encerra a posição no cadastro, com liquidação futura condicionada ao mercado.", "isCorrect": false, "distractorReason": "A posição não é encerrada no cadastro; o preço definido apenas aciona o envio posterior da ordem." }
       ],
       "explanation": "A ordem stop especifica o preço do ativo a partir do qual a ordem deve ser executada. O acionamento não equivale a garantia de preenchimento exatamente no gatilho, pois a execução depende do mercado e da liquidez.",
       "commonTrap": "Confundir preço de disparo com preço garantido de execução.",
@@ -216,10 +216,10 @@
       "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["call de abertura", "fixing", "leilão"],
       "statement": "Durante o call de abertura, diferentes preços teóricos permitiriam cruzamentos. Pelo primeiro critério do fixing da B3, deve ser priorizado o preço que:",
       "options": [
-        { "id": "opt_1", "text": "Maximize a quantidade de ativos ou derivativos negociada no leilão.", "isCorrect": true },
-        { "id": "opt_2", "text": "Seja sempre igual ao fechamento do pregão anterior.", "isCorrect": false, "distractorReason": "O fechamento anterior pode participar de desempates, mas não é o primeiro critério." },
-        { "id": "opt_3", "text": "Atenda exclusivamente à oferta registrada primeiro no tempo.", "isCorrect": false, "distractorReason": "O fixing busca preço único segundo critérios de quantidade e equilíbrio." },
-        { "id": "opt_4", "text": "Produza a maior oscilação possível para revelar a demanda.", "isCorrect": false, "distractorReason": "A maximização de oscilação não é objetivo do algoritmo." }
+        { "id": "opt_1", "text": "Maximize a quantidade de ativos ou derivativos negociada durante o leilão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Minimize a distância em relação ao preço de fechamento do pregão anterior.", "isCorrect": false, "distractorReason": "A proximidade de referência pode atuar em desempates, mas não constitui o primeiro critério." },
+        { "id": "opt_3", "text": "Priorize a oferta de maior quantidade registrada primeiro no livro de negociação.", "isCorrect": false, "distractorReason": "O fixing forma preço único pelo cruzamento agregado, não pela prioridade isolada da primeira oferta." },
+        { "id": "opt_4", "text": "Minimize a quantidade não atendida da oferta com maior prioridade temporal.", "isCorrect": false, "distractorReason": "O primeiro critério maximiza a quantidade total negociada, em vez de privilegiar uma oferta específica." }
       ],
       "explanation": "O primeiro critério do fixing seleciona o preço capaz de maximizar a quantidade negociada. Se houver empate, entram critérios adicionais de menor desequilíbrio e proximidade de preços de referência.",
       "commonTrap": "Usar preço anterior ou prioridade temporal como primeiro critério de formação do preço único.",
@@ -264,10 +264,10 @@
       "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["clearing", "CCP", "risco de contraparte"],
       "statement": "Na pós-negociação de operações abrangidas pela Câmara B3, a atuação como contraparte central significa que a Câmara:",
       "options": [
-        { "id": "opt_1", "text": "Interpõe-se na liquidação e utiliza estrutura de salvaguardas e gerenciamento de risco para as obrigações assumidas.", "isCorrect": true },
-        { "id": "opt_2", "text": "Garante ao investidor que o ativo negociado nunca perderá valor.", "isCorrect": false, "distractorReason": "A CCP gerencia risco de liquidação e contraparte, não risco de mercado do ativo." },
-        { "id": "opt_3", "text": "Substitui a CVM na fiscalização dos emissores e participantes.", "isCorrect": false, "distractorReason": "Infraestrutura de pós-negociação não substitui o regulador estatal." },
-        { "id": "opt_4", "text": "Escolhe discricionariamente os investimentos para os clientes das corretoras.", "isCorrect": false, "distractorReason": "A Câmara não administra carteiras de investidores." }
+        { "id": "opt_1", "text": "Assume posições contrapostas na liquidação e administra o risco das obrigações perante os participantes.", "isCorrect": true },
+        { "id": "opt_2", "text": "Assume o risco de mercado dos ativos e recompõe perdas de preço sofridas pelos investidores.", "isCorrect": false, "distractorReason": "A CCP gerencia risco de liquidação e contraparte, não perdas decorrentes da oscilação do ativo." },
+        { "id": "opt_3", "text": "Assume a supervisão dos emissores e aplica as sanções administrativas atribuídas à CVM.", "isCorrect": false, "distractorReason": "A infraestrutura de pós-negociação não substitui as competências do regulador estatal." },
+        { "id": "opt_4", "text": "Assume a decisão de investimento quando uma corretora deixa de cumprir sua obrigação financeira.", "isCorrect": false, "distractorReason": "A Câmara administra a liquidação e suas salvaguardas, não carteiras ou decisões dos clientes." }
       ],
       "explanation": "Como CCP, a Câmara B3 se interpõe nas obrigações de liquidação perante seus participantes e mantém salvaguardas e modelos de risco. Isso reduz risco de contraparte, sem eliminar risco de preço.",
       "commonTrap": "Interpretar garantia da liquidação como garantia de rentabilidade do investimento.",
@@ -296,10 +296,10 @@
       "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["empréstimo de ativos", "doador", "tomador", "proventos"],
       "statement": "Durante um empréstimo de ações, a companhia paga dividendos e o tomador já vendeu os ativos no mercado. Segundo o funcionamento do serviço, o tomador:",
       "options": [
-        { "id": "opt_1", "text": "Permanece obrigado a devolver ativos equivalentes e os proventos do doador são tratados pelo mecanismo de reembolso.", "isCorrect": true },
-        { "id": "opt_2", "text": "Torna-se definitivamente proprietário, sem obrigação de devolver ou compensar eventos.", "isCorrect": false, "distractorReason": "A venda não extingue a obrigação contratual de devolução e compensação." },
-        { "id": "opt_3", "text": "Transfere automaticamente a obrigação de devolução para o comprador no mercado.", "isCorrect": false, "distractorReason": "O comprador recebe o ativo; a obrigação perante o contrato continua com o tomador." },
-        { "id": "opt_4", "text": "Pode escolher entre devolver os ativos ou pagar somente a taxa de empréstimo.", "isCorrect": false, "distractorReason": "A remuneração não substitui a obrigação de devolução do ativo equivalente." }
+        { "id": "opt_1", "text": "Deve devolver ativos equivalentes, enquanto os dividendos do doador são tratados por reembolso.", "isCorrect": true },
+        { "id": "opt_2", "text": "Deve devolver o preço obtido na venda, ficando dispensado de recomprar ativos equivalentes.", "isCorrect": false, "distractorReason": "A venda não substitui a obrigação contratual de devolver ativos equivalentes." },
+        { "id": "opt_3", "text": "Transfere ao comprador a obrigação de devolver os ativos e reembolsar os dividendos ao doador.", "isCorrect": false, "distractorReason": "O comprador recebe os ativos; a obrigação contratual continua vinculada ao tomador." },
+        { "id": "opt_4", "text": "Devolve ativos equivalentes, mas retém os dividendos porque era titular na data do evento.", "isCorrect": false, "distractorReason": "O mecanismo de reembolso preserva ao doador o tratamento econômico dos proventos." }
       ],
       "explanation": "O tomador pode usar ou vender os ativos, mas deve devolvê-los conforme o contrato. Eventos econômicos são compensados para preservar ao doador tratamento equivalente ao que teria com os ativos em carteira.",
       "commonTrap": "Achar que a venda a descoberto transfere a obrigação contratual do tomador ao comprador.",
@@ -312,10 +312,10 @@
       "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["mercado a termo", "mercado futuro", "ajuste diário"],
       "statement": "Dois investidores assumem compromissos sobre ações para data futura. O primeiro opera contrato a termo e o segundo contrato futuro. A distinção correta é:",
       "options": [
-        { "id": "opt_1", "text": "O contrato futuro possui ajuste diário de ganhos e perdas; o termo não sofre esse ajuste diário típico.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente o termo envolve compromisso, enquanto o futuro concede direito sem obrigação.", "isCorrect": false, "distractorReason": "Direito sem obrigação do titular é característica de opção, não de futuro." },
-        { "id": "opt_3", "text": "O termo é sempre liquidado no mesmo dia e o futuro apenas após dez anos.", "isCorrect": false, "distractorReason": "Ambos se referem a liquidação ou exposição futura; esses prazos não definem os mercados." },
-        { "id": "opt_4", "text": "Nenhum dos dois pode exigir margem ou garantia.", "isCorrect": false, "distractorReason": "A infraestrutura pode exigir garantias para administrar o risco das posições." }
+        { "id": "opt_1", "text": "O futuro apura ganhos e perdas diariamente; o termo não possui esse ajuste diário típico.", "isCorrect": true },
+        { "id": "opt_2", "text": "O futuro concede faculdade de exercício ao comprador; o termo cria compromisso para ambas as partes.", "isCorrect": false, "distractorReason": "Tanto futuro quanto termo envolvem compromissos; faculdade de exercício caracteriza opção." },
+        { "id": "opt_3", "text": "O termo possui ajuste diário de ganhos e perdas; o futuro concentra o resultado na liquidação.", "isCorrect": false, "distractorReason": "A alternativa inverte a característica: o ajuste diário é típico do mercado futuro." },
+        { "id": "opt_4", "text": "O futuro dispensa garantias pela padronização; o termo exige depósito diário equivalente ao nocional.", "isCorrect": false, "distractorReason": "A padronização não elimina garantias e o termo não exige, por definição, depósito diário do nocional." }
       ],
       "explanation": "No futuro, resultados são apurados e liquidados diariamente pelo ajuste. No termo, comprador e vendedor permanecem obrigados até a liquidação sem o mecanismo típico de ajuste diário do mercado futuro.",
       "commonTrap": "Confundir contrato a termo ou futuro com opção, em que o titular adquire um direito.",

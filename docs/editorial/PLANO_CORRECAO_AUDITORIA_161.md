@@ -25,11 +25,14 @@ Data de referência: 11/10/2026.
 - Arquivamento das nove questões JSON marcadas para substituição.
 - Inclusão de dez questões substitutas sobre lacunas prioritárias; `Q-III-001` passa a ser arquivada no seed base.
 - Finalização de sessão idempotente para recuperar o resultado já persistido após repetição da requisição.
+- Detector compartilhado de pistas de gabarito por extensão, proporção e uso assimétrico de absolutos.
+- Penalidade editorial dominante no seletor: uma dificuldade declarada maior não compensa uma resposta que denuncia o gabarito.
+- Reescrita integral dos bancos ativos dos Temas IV, VIII e XV, com alternativas equilibradas e distratores tecnicamente plausíveis.
 
 ## Próximo lote editorial
 
-- Reescrever as 112 questões sinalizadas, em lotes de 20 a 30.
-- Priorizar Temas I, III, VIII e XV e questões em que a correta é isoladamente a mais longa.
+- Reescrever as 77 questões ainda sinalizadas, em lotes de 20 a 30.
+- Priorizar agora Temas I e III e questões em que a correta é isoladamente a mais longa.
 - Reduzir absolutos usados apenas nos distratores.
 - Produzir famílias com três a seis ângulos para nós de maior peso.
 - Criar questões de nível 5 suficientes para tornar viáveis as matrizes Real e Blindagem.
@@ -40,8 +43,9 @@ Data de referência: 11/10/2026.
 - zero erro no gate estrutural;
 - zero gabarito ambíguo na amostra revisada;
 - fontes primárias verificadas nos itens normativos;
-- correta isoladamente mais longa em no máximo 35% do lote novo;
-- absolutos apenas em distratores em no máximo 25% do lote novo;
+- correta isoladamente mais longa em no máximo 10% do lote novo;
+- absolutos apenas em distratores em no máximo 10% do lote novo;
+- zero questão com penalidade editorial severa no lote novo;
 - ao menos três ângulos por família prioritária;
 - distribuição de dificuldade alcançável pelo banco ativo;
 - geração de dez provas simuladas com relatório de sobreposição.

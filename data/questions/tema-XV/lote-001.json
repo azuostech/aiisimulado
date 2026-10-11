@@ -8,10 +8,10 @@
       "difficulty": 2, "questionType": "comparison", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["hedge", "especulação", "derivativo"],
       "statement": "Qual situação caracteriza hedge, e não mera especulação com derivativos?",
       "options": [
-        { "id": "opt_1", "text": "Uma empresa com dívida em dólar assume posição destinada a compensar o aumento do custo dessa obrigação se a moeda subir.", "isCorrect": true },
-        { "id": "opt_2", "text": "Um investidor sem exposição cambial compra dólar futuro apenas porque espera lucrar com a alta.", "isCorrect": false, "distractorReason": "Sem exposição original a proteger, a posição é direcional e especulativa." },
-        { "id": "opt_3", "text": "Um operador compra e vende contratos em mercados diferentes para explorar uma distorção de preços.", "isCorrect": false, "distractorReason": "A descrição corresponde a arbitragem." },
-        { "id": "opt_4", "text": "Um investidor aumenta deliberadamente sua exposição líquida ao risco para ampliar o retorno potencial.", "isCorrect": false, "distractorReason": "A operação aumenta risco em vez de compensar uma exposição existente." }
+        { "id": "opt_1", "text": "Uma empresa endividada em dólar assume posição que ganha valor quando sua obrigação cambial encarece.", "isCorrect": true },
+        { "id": "opt_2", "text": "Um fundo sem passivo cambial compra dólar futuro para aproveitar sua expectativa de valorização da moeda.", "isCorrect": false, "distractorReason": "Sem exposição original a proteger, a posição é direcional e especulativa." },
+        { "id": "opt_3", "text": "Um operador negocia contratos equivalentes em mercados distintos para capturar uma diferença temporária de preços.", "isCorrect": false, "distractorReason": "A descrição corresponde a arbitragem, pois explora uma discrepância entre mercados." },
+        { "id": "opt_4", "text": "Um investidor vende índice futuro para aumentar sua exposição líquida a uma expectativa de queda.", "isCorrect": false, "distractorReason": "A posição cria exposição direcional em vez de compensar um risco econômico preexistente." }
       ],
       "explanation": "Hedge busca reduzir o efeito de uma variação adversa sobre exposição econômica existente. Especulação assume risco direcional sem posição correspondente, enquanto arbitragem explora discrepâncias de preços.",
       "commonTrap": "Classificar qualquer uso de derivativo como hedge, mesmo sem risco econômico preexistente.",
@@ -27,7 +27,7 @@
         { "id": "opt_1", "text": "Crédito de R$ 120,00.", "isCorrect": true },
         { "id": "opt_2", "text": "Débito de R$ 120,00.", "isCorrect": false, "distractorReason": "A alta favorece a posição comprada, gerando crédito, não débito." },
         { "id": "opt_3", "text": "Crédito de R$ 600,00.", "isCorrect": false, "distractorReason": "Ignora o valor de R$ 0,20 por ponto." },
-        { "id": "opt_4", "text": "Nenhum ajuste, pois o resultado só é reconhecido no vencimento.", "isCorrect": false, "distractorReason": "Contratos futuros apuram e liquidam resultados diariamente." }
+        { "id": "opt_4", "text": "Ajuste de R$ 0,00, com reconhecimento do resultado financeiro concentrado no vencimento.", "isCorrect": false, "distractorReason": "Contratos futuros apuram e liquidam resultados diariamente." }
       ],
       "explanation": "A variação foi de 600 pontos. Multiplicando por R$ 0,20, obtém-se R$ 120,00. Como o preço subiu, o comprado recebe o ajuste e a posição vendida paga valor equivalente.",
       "commonTrap": "Inverter o sinal do comprado ou esquecer o multiplicador financeiro do contrato.",
@@ -56,10 +56,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["call", "titular", "lançador"],
       "statement": "Em uma opção de compra — call —, caso o titular exerça seu direito nas condições do contrato:",
       "options": [
-        { "id": "opt_1", "text": "O titular tem o direito de comprar e o lançador assume a obrigação correspondente de vender.", "isCorrect": true },
-        { "id": "opt_2", "text": "O titular é obrigado a vender e o lançador pode escolher se compra.", "isCorrect": false, "distractorReason": "Inverte tanto o objeto da call quanto os papéis das partes." },
-        { "id": "opt_3", "text": "Ambas as partes possuem apenas direitos, sem qualquer obrigação potencial.", "isCorrect": false, "distractorReason": "O lançador assume obrigação em contrapartida ao prêmio recebido." },
-        { "id": "opt_4", "text": "O titular tem o direito de vender e o lançador a obrigação de comprar.", "isCorrect": false, "distractorReason": "Essa estrutura corresponde à put, não à call." }
+        { "id": "opt_1", "text": "O titular compra pelo strike, e o lançador deve vender nas condições pactuadas.", "isCorrect": true },
+        { "id": "opt_2", "text": "O titular vende pelo strike, e o lançador deve comprar nas condições pactuadas.", "isCorrect": false, "distractorReason": "Essa relação entre venda do titular e compra do lançador caracteriza uma put." },
+        { "id": "opt_3", "text": "O lançador escolhe se vende pelo strike, enquanto o titular deve concluir a compra.", "isCorrect": false, "distractorReason": "A faculdade de exercer pertence ao titular; o lançador assume a obrigação correspondente." },
+        { "id": "opt_4", "text": "O titular compra pelo preço de mercado, e o lançador recebe a diferença para o strike.", "isCorrect": false, "distractorReason": "No exercício da call, o preço contratual relevante para a compra é o strike." }
       ],
       "explanation": "A call dá ao titular, que paga o prêmio, o direito de comprar o ativo pelo strike. Se houver exercício, o lançador da call deve realizar a venda nas condições contratadas.",
       "commonTrap": "Trocar call por put ou atribuir ao titular uma obrigação em vez de um direito.",
@@ -88,10 +88,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["put", "titular", "lançador"],
       "statement": "O titular de uma opção de venda — put — adquire, mediante pagamento do prêmio:",
       "options": [
-        { "id": "opt_1", "text": "O direito de vender o ativo pelo strike, cabendo ao lançador a obrigação de comprar se houver exercício.", "isCorrect": true },
-        { "id": "opt_2", "text": "A obrigação de vender o ativo, ainda que o exercício seja desvantajoso.", "isCorrect": false, "distractorReason": "O titular possui direito, não obrigação de exercer." },
-        { "id": "opt_3", "text": "O direito de comprar o ativo, cabendo ao lançador vender.", "isCorrect": false, "distractorReason": "Essa é a estrutura de uma call." },
-        { "id": "opt_4", "text": "Uma garantia de lucro igual ao prêmio pago.", "isCorrect": false, "distractorReason": "O prêmio é custo do titular e não representa lucro garantido." }
+        { "id": "opt_1", "text": "O direito de vender pelo strike, ficando o lançador obrigado a comprar no exercício.", "isCorrect": true },
+        { "id": "opt_2", "text": "O direito de comprar pelo strike, ficando o lançador obrigado a vender no exercício.", "isCorrect": false, "distractorReason": "Essa relação entre compra do titular e venda do lançador caracteriza uma call." },
+        { "id": "opt_3", "text": "A obrigação de vender pelo strike, ficando o lançador livre para recusar a compra.", "isCorrect": false, "distractorReason": "O titular decide se exerce, enquanto o lançador deve cumprir o exercício." },
+        { "id": "opt_4", "text": "O direito de receber o prêmio, ficando o lançador protegido contra a queda do ativo.", "isCorrect": false, "distractorReason": "Quem recebe o prêmio é o lançador; o titular paga por seu direito de venda." }
       ],
       "explanation": "A put confere ao titular o direito de vender o ativo ao preço de exercício. Se o titular exercer, o lançador assume a obrigação correspondente de comprar o ativo pelo strike.",
       "commonTrap": "Inverter o direito da put ou atribuir obrigação de exercício ao titular.",
@@ -104,10 +104,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["put", "proteção", "carteira"],
       "statement": "Um investidor possui ações e teme forte queda, mas deseja mantê-las para participar de eventual alta. A compra de puts sobre essas ações é compatível com a estratégia porque:",
       "options": [
-        { "id": "opt_1", "text": "Cria um direito de venda pelo strike, limitando economicamente a perda abaixo desse nível, descontado o prêmio e demais diferenças.", "isCorrect": true },
-        { "id": "opt_2", "text": "Obriga o investidor a vender as ações mesmo que elas subam.", "isCorrect": false, "distractorReason": "O titular pode deixar a put expirar e manter participação na alta." },
-        { "id": "opt_3", "text": "Elimina o pagamento de prêmio por se tratar de hedge.", "isCorrect": false, "distractorReason": "A proteção por opção comprada possui o custo do prêmio." },
-        { "id": "opt_4", "text": "Gera lucro ilimitado quando a ação cai, sem considerar a posição à vista.", "isCorrect": false, "distractorReason": "O resultado deve ser analisado em conjunto com as ações e o prêmio." }
+        { "id": "opt_1", "text": "Estabelece um preço de venda pelo strike, preservando a participação do investidor em eventual alta.", "isCorrect": true },
+        { "id": "opt_2", "text": "Estabelece um preço de compra pelo strike, ampliando a participação do investidor em eventual alta.", "isCorrect": false, "distractorReason": "Uma put confere direito de venda; o direito de compra pertence ao titular de uma call." },
+        { "id": "opt_3", "text": "Limita a queda pelo valor do prêmio, mas transfere ao lançador os ganhos acima do strike.", "isCorrect": false, "distractorReason": "O prêmio é o custo da proteção e a put não retira a valorização das ações mantidas." },
+        { "id": "opt_4", "text": "Protege contra a queda ao vender antecipadamente as ações e substituí-las pela opção comprada.", "isCorrect": false, "distractorReason": "A estratégia descrita mantém as ações e acrescenta o direito de venda; não exige alienação antecipada." }
       ],
       "explanation": "A put comprada funciona como proteção ao conferir direito de venda pelo strike. Se a ação subir, o investidor pode não exercer; se cair, o ganho da put compensa parte da perda da carteira.",
       "commonTrap": "Confundir o direito do titular com obrigação de vender ou ignorar o custo do prêmio.",
@@ -152,10 +152,10 @@
       "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["venda de call", "lançador", "risco"],
       "statement": "Para o lançador de uma call descoberta, sem possuir o ativo subjacente, o perfil de resultado é corretamente descrito como:",
       "options": [
-        { "id": "opt_1", "text": "Ganho máximo limitado ao prêmio e perda potencial crescente à medida que o ativo sobe acima do strike.", "isCorrect": true },
-        { "id": "opt_2", "text": "Perda máxima limitada ao prêmio e ganho potencial ilimitado com a alta do ativo.", "isCorrect": false, "distractorReason": "Esse raciocínio se aproxima do titular da call, não do lançador descoberto." },
-        { "id": "opt_3", "text": "Ganho e perda sempre nulos porque prêmio e exercício se compensam.", "isCorrect": false, "distractorReason": "O prêmio não neutraliza automaticamente a obrigação do lançador." },
-        { "id": "opt_4", "text": "Perda limitada a zero porque o lançador decide unilateralmente se cumpre o exercício.", "isCorrect": false, "distractorReason": "O lançador é obrigado a cumprir quando o titular exerce." }
+        { "id": "opt_1", "text": "Ganho limitado ao prêmio e perda crescente quando o ativo supera o strike acrescido do prêmio.", "isCorrect": true },
+        { "id": "opt_2", "text": "Perda limitada ao prêmio e ganho crescente quando o ativo supera o strike acrescido do prêmio.", "isCorrect": false, "distractorReason": "Esse perfil corresponde ao titular da call; o lançador recebe o prêmio e suporta a alta." },
+        { "id": "opt_3", "text": "Ganho limitado à diferença entre mercado e strike, com perda restrita ao prêmio recebido.", "isCorrect": false, "distractorReason": "O prêmio limita o ganho, mas não limita a perda de uma call descoberta." },
+        { "id": "opt_4", "text": "Ganho crescente com a alta do ativo, pois o lançador escolhe o momento de cumprir o exercício.", "isCorrect": false, "distractorReason": "A decisão de exercer cabe ao titular, e a alta amplia a obrigação desfavorável do lançador." }
       ],
       "explanation": "O lançador recebe o prêmio, que limita seu ganho máximo. Se o ativo subir muito, pode ter de vender pelo strike um ativo adquirido por preço muito maior, fazendo a perda crescer com a alta.",
       "commonTrap": "Transferir ao lançador a assimetria favorável do titular que compra a opção.",
@@ -168,10 +168,10 @@
       "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["swap", "ponta ativa", "ponta passiva"],
       "statement": "Uma empresa contrata swap ficando ativa em IPCA e passiva em taxa prefixada, sobre o mesmo valor-base. No período, o IPCA acumulado supera a taxa prefixada pactuada. Antes de custos, a empresa tende a:",
       "options": [
-        { "id": "opt_1", "text": "Receber o diferencial, pois o indexador de sua ponta ativa superou o da ponta passiva.", "isCorrect": true },
-        { "id": "opt_2", "text": "Pagar o diferencial, porque a ponta ativa nunca produz recebimento.", "isCorrect": false, "distractorReason": "O resultado depende da comparação entre as duas pontas." },
-        { "id": "opt_3", "text": "Receber os dois indexadores integralmente, sem compensação.", "isCorrect": false, "distractorReason": "O swap liquida a diferença entre os fluxos, conforme o contrato." },
-        { "id": "opt_4", "text": "Não ter resultado, porque swaps não podem envolver inflação e taxa prefixada.", "isCorrect": false, "distractorReason": "A B3 admite diversos indexadores, inclusive inflação e taxas de juros." }
+        { "id": "opt_1", "text": "Receber o diferencial entre o IPCA da ponta ativa e a taxa prefixada da ponta passiva.", "isCorrect": true },
+        { "id": "opt_2", "text": "Pagar o diferencial entre o IPCA da ponta ativa e a taxa prefixada da ponta passiva.", "isCorrect": false, "distractorReason": "Como a ponta ativa superou a passiva, o diferencial é favorável à empresa." },
+        { "id": "opt_3", "text": "Receber a soma do IPCA com a taxa prefixada, sem compensação entre as duas pontas.", "isCorrect": false, "distractorReason": "A liquidação considera o diferencial, e não a soma dos fluxos dos indexadores." },
+        { "id": "opt_4", "text": "Pagar o IPCA e receber a taxa prefixada, porque a posição ativa representa obrigação financeira.", "isCorrect": false, "distractorReason": "A alternativa inverte as pontas: a empresa está ativa em IPCA e passiva na taxa prefixada." }
       ],
       "explanation": "No swap, o agente assume posição comprada em um indexador e vendida em outro. Se a rentabilidade da ponta ativa supera a passiva, o diferencial líquido é favorável ao agente.",
       "commonTrap": "Analisar cada indexador isoladamente e esquecer que o swap liquida a diferença entre as pontas.",
@@ -185,9 +185,9 @@
       "statement": "Após a abertura de uma posição em contrato futuro de DI, a taxa de juros negociada para aquele vencimento sobe. Mantidas as demais condições, o preço unitário — PU — do contrato tende a:",
       "options": [
         { "id": "opt_1", "text": "Cair, porque taxa de juros e PU são inversamente proporcionais.", "isCorrect": true },
-        { "id": "opt_2", "text": "Subir na mesma proporção, porque taxa e PU se movem sempre juntos.", "isCorrect": false, "distractorReason": "No DI futuro, o PU corresponde ao valor presente e se move inversamente à taxa." },
-        { "id": "opt_3", "text": "Permanecer necessariamente constante até o vencimento.", "isCorrect": false, "distractorReason": "O PU oscila conforme as taxas negociadas e o prazo remanescente." },
-        { "id": "opt_4", "text": "Tornar-se negativo sempre que a taxa superar o CDI corrente.", "isCorrect": false, "distractorReason": "Uma alta de taxa reduz o PU, mas não implica automaticamente PU negativo." }
+        { "id": "opt_2", "text": "Subir na mesma proporção, porque o PU incorpora diretamente a nova taxa negociada.", "isCorrect": false, "distractorReason": "No DI futuro, o PU corresponde ao valor presente e se move inversamente à taxa." },
+        { "id": "opt_3", "text": "Permanecer constante até o vencimento, quando seria ajustado pela taxa acumulada.", "isCorrect": false, "distractorReason": "O PU oscila conforme as taxas negociadas e o prazo remanescente." },
+        { "id": "opt_4", "text": "Tornar-se negativo caso a taxa negociada supere o CDI corrente do período.", "isCorrect": false, "distractorReason": "Uma alta de taxa reduz o PU, mas não implica PU negativo." }
       ],
       "explanation": "O PU traz o valor de 100.000 pontos do vencimento a valor presente pela taxa negociada. Quanto maior a taxa, maior o desconto e menor o PU; quando a taxa cai, o PU aumenta.",
       "commonTrap": "Supor que compra de taxa e compra de PU representam a mesma direção econômica.",
@@ -200,10 +200,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["exportador", "dólar futuro", "hedge"],
       "statement": "Uma exportadora receberá dólares em três meses e teme que a moeda se desvalorize até a conversão para reais. A posição de hedge direcionalmente compatível é:",
       "options": [
-        { "id": "opt_1", "text": "Vender contratos futuros de dólar, buscando ganho na posição se a cotação cair.", "isCorrect": true },
-        { "id": "opt_2", "text": "Comprar contratos futuros de dólar, ampliando a exposição à alta da moeda.", "isCorrect": false, "distractorReason": "A compra protege obrigação futura em dólar, não recebível ameaçado por queda." },
-        { "id": "opt_3", "text": "Comprar futuro de índice de ações, pois qualquer derivativo compensa risco cambial.", "isCorrect": false, "distractorReason": "O ativo do hedge deve guardar relação adequada com a exposição protegida." },
-        { "id": "opt_4", "text": "Vender reais à vista sem considerar valor e vencimento do recebível.", "isCorrect": false, "distractorReason": "A estratégia não corresponde ao casamento temporal e financeiro descrito." }
+        { "id": "opt_1", "text": "Vender dólar futuro em valor e vencimento compatíveis com o recebível da exportação.", "isCorrect": true },
+        { "id": "opt_2", "text": "Comprar dólar futuro em valor e vencimento compatíveis com o recebível da exportação.", "isCorrect": false, "distractorReason": "A compra acrescenta exposição à alta, enquanto o exportador precisa compensar uma possível queda do dólar." },
+        { "id": "opt_3", "text": "Vender dólar futuro por valor superior ao recebível para assegurar resultado líquido positivo.", "isCorrect": false, "distractorReason": "O excesso cria posição especulativa e pode gerar perda além da exposição protegida." },
+        { "id": "opt_4", "text": "Comprar dólar à vista agora e vendê-lo quando receber os recursos da exportação.", "isCorrect": false, "distractorReason": "A compra atual de dólares reforça a mesma direção da exposição e exige desembolso antecipado." }
       ],
       "explanation": "O exportador possui recebível em moeda estrangeira e perde valor em reais se o dólar cair. A venda de futuro tende a ganhar nesse cenário, compensando o menor valor convertido no mercado à vista.",
       "commonTrap": "Usar para o exportador a compra de dólar futuro que normalmente protege o importador.",
@@ -216,10 +216,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["produtor", "commodity", "posição vendida"],
       "statement": "Um produtor rural venderá sua safra após a colheita e teme queda no preço da commodity. Para reduzir esse risco com futuros, ele tende a:",
       "options": [
-        { "id": "opt_1", "text": "Vender contratos futuros, de modo que uma queda de preço possa gerar ganho no derivativo e compensar a receita menor no mercado físico.", "isCorrect": true },
-        { "id": "opt_2", "text": "Comprar contratos futuros, pois toda proteção exige posição comprada.", "isCorrect": false, "distractorReason": "A compra aumentaria a exposição à queda para quem já venderá a commodity." },
-        { "id": "opt_3", "text": "Comprar calls sobre índice de ações, independentemente da correlação com a safra.", "isCorrect": false, "distractorReason": "Um hedge inadequado ao risco físico pode não compensar a oscilação da commodity." },
-        { "id": "opt_4", "text": "Não assumir posição, porque derivativos só protegem compradores de commodities.", "isCorrect": false, "distractorReason": "Produtores são usuários clássicos de hedge de venda." }
+        { "id": "opt_1", "text": "Vender contratos futuros em quantidade e vencimento compatíveis com a safra que será comercializada.", "isCorrect": true },
+        { "id": "opt_2", "text": "Comprar contratos futuros em quantidade e vencimento compatíveis com a safra que será comercializada.", "isCorrect": false, "distractorReason": "A compra se beneficia da alta e não compensa a perda de receita do produtor em uma queda." },
+        { "id": "opt_3", "text": "Vender contratos futuros acima da produção esperada para ampliar a proteção contra a queda.", "isCorrect": false, "distractorReason": "A parcela superior à safra não possui exposição física correspondente e cria risco especulativo." },
+        { "id": "opt_4", "text": "Comprar opções de compra da commodity para fixar o preço mínimo recebido pela safra.", "isCorrect": false, "distractorReason": "A call protege o comprador contra alta; não estabelece piso de venda para o produtor." }
       ],
       "explanation": "Como o produtor já está economicamente comprado na commodity que produzirá, a venda de futuros cria posição oposta. A queda reduz a receita física, mas tende a favorecer o contrato vendido.",
       "commonTrap": "Escolher a compra futura apenas porque o produtor possui fisicamente o produto.",
@@ -232,10 +232,10 @@
       "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["margem", "garantia", "chamada"],
       "statement": "Após movimento adverso relevante, a corretora exige reforço de margem de um cliente com posição futura. Essa exigência significa que:",
       "options": [
-        { "id": "opt_1", "text": "As garantias precisam ser recompostas para cobrir o risco da posição; margem não é simplesmente pagamento antecipado do valor nocional.", "isCorrect": true },
-        { "id": "opt_2", "text": "O cliente está comprando uma parcela adicional do ativo físico no mercado à vista.", "isCorrect": false, "distractorReason": "A chamada reforça garantia, não representa compra física automática." },
-        { "id": "opt_3", "text": "A posição passou a ter lucro garantido pela B3.", "isCorrect": false, "distractorReason": "Margem mitiga risco de inadimplência, não garante resultado favorável." },
-        { "id": "opt_4", "text": "Somente dinheiro pode ser aceito, sem possibilidade de outros ativos elegíveis.", "isCorrect": false, "distractorReason": "A infraestrutura admite diferentes ativos, sujeitos a critérios e limites." }
+        { "id": "opt_1", "text": "A garantia deve ser recomposta para adequar sua cobertura ao risco atualizado da posição.", "isCorrect": true },
+        { "id": "opt_2", "text": "O valor nocional remanescente deve ser antecipado para converter o futuro em compra à vista.", "isCorrect": false, "distractorReason": "Margem é garantia de cumprimento e não antecipação do pagamento integral do ativo." },
+        { "id": "opt_3", "text": "A perda acumulada atingiu o limite contratual e ficará restrita ao novo depósito exigido.", "isCorrect": false, "distractorReason": "A margem não funciona como limite máximo de perda econômica da posição." },
+        { "id": "opt_4", "text": "A garantia depositada perdeu elegibilidade, razão pela qual deverá ser substituída por uma garantia em dinheiro.", "isCorrect": false, "distractorReason": "O reforço pode decorrer do risco ou valor da posição, sem implicar inelegibilidade nem exigir apenas dinheiro." }
       ],
       "explanation": "A margem serve para assegurar o cumprimento das obrigações e pode ser recalculada conforme risco, posição e valor das garantias. Movimento adverso pode exigir depósito adicional ou redução da posição.",
       "commonTrap": "Tratar margem como entrada do ativo ou como limite máximo de perda da operação.",
@@ -248,10 +248,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["importador", "dólar futuro", "resultado do hedge"],
       "statement": "Um importador protege integralmente uma obrigação futura em dólares comprando contratos futuros equivalentes. Se o dólar cair até o pagamento, desconsiderando diferenças de base e custos, espera-se que:",
       "options": [
-        { "id": "opt_1", "text": "O menor custo dos dólares no mercado à vista seja compensado pela perda na posição futura comprada, estabilizando o custo em reais.", "isCorrect": true },
-        { "id": "opt_2", "text": "O importador ganhe simultaneamente no mercado à vista e na posição futura comprada.", "isCorrect": false, "distractorReason": "A queda favorece a compra física, mas desfavorece o futuro comprado." },
-        { "id": "opt_3", "text": "A posição futura não tenha resultado, pois hedge só funciona quando o risco adverso se concretiza.", "isCorrect": false, "distractorReason": "O derivativo também gera resultado no cenário favorável à exposição original." },
-        { "id": "opt_4", "text": "A obrigação em dólares deixe de existir automaticamente.", "isCorrect": false, "distractorReason": "O hedge compensa variação de preço, mas não extingue a dívida comercial." }
+        { "id": "opt_1", "text": "A economia na compra à vista seja compensada pela perda na posição futura comprada.", "isCorrect": true },
+        { "id": "opt_2", "text": "A economia na compra à vista seja ampliada pelo ganho na posição futura comprada.", "isCorrect": false, "distractorReason": "A queda do dólar reduz o custo à vista, mas produz perda para a posição comprada no futuro." },
+        { "id": "opt_3", "text": "A economia na compra à vista permaneça, pois a posição futura é encerrada sem ajuste.", "isCorrect": false, "distractorReason": "O encerramento do futuro incorpora a perda provocada pela queda da cotação." },
+        { "id": "opt_4", "text": "A perda futura seja compensada pelo cancelamento da obrigação comercial denominada em dólares.", "isCorrect": false, "distractorReason": "O hedge altera o resultado financeiro, mas não extingue a obrigação com o fornecedor." }
       ],
       "explanation": "O hedge integral busca estabilizar o custo, não maximizar ganhos em todos os cenários. Nas premissas simplificadoras do enunciado, se o dólar cai, a obrigação fica mais barata em reais e a perda equivalente no futuro comprado compensa integralmente essa vantagem.",
       "commonTrap": "Avaliar apenas a perna do derivativo e chamar a perda futura de falha do hedge.",

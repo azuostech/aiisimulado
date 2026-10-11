@@ -8,10 +8,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["PIB", "produção"],
       "statement": "Ao afirmar que o PIB mede a atividade econômica de um país em determinado período, considera-se, de forma adequada:",
       "options": [
-        { "id": "opt_1", "text": "O valor dos bens e serviços finais produzidos, evitando dupla contagem dos insumos intermediários.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente o valor das ações negociadas em bolsa durante o período.", "isCorrect": false, "distractorReason": "Negociação de ações não corresponde à produção agregada de bens e serviços." },
-        { "id": "opt_3", "text": "Todo o patrimônio acumulado pelos residentes desde a criação do país.", "isCorrect": false, "distractorReason": "PIB é fluxo de produção em um período, não estoque histórico de riqueza." },
-        { "id": "opt_4", "text": "Apenas a produção realizada diretamente pelo governo.", "isCorrect": false, "distractorReason": "O indicador abrange a produção final dos diferentes setores da economia." }
+        { "id": "opt_1", "text": "Os bens e serviços finais produzidos no território durante o período considerado.", "isCorrect": true },
+        { "id": "opt_2", "text": "Os bens e serviços adquiridos por residentes, inclusive os produzidos no exterior.", "isCorrect": false, "distractorReason": "O critério territorial do PIB não equivale ao consumo dos residentes nem inclui, por esse motivo, a produção externa." },
+        { "id": "opt_3", "text": "Os bens intermediários e finais negociados, somados pelo valor integral de cada etapa.", "isCorrect": false, "distractorReason": "Somar integralmente os bens intermediários aos finais provocaria dupla contagem." },
+        { "id": "opt_4", "text": "O patrimônio financeiro acumulado pelos residentes ao término do período de referência.", "isCorrect": false, "distractorReason": "PIB é fluxo de produção em um período, e não estoque de patrimônio financeiro." }
       ],
       "explanation": "O PIB sintetiza o valor dos bens e serviços finais produzidos em certo território e período. Contar apenas produtos finais evita somar novamente os insumos incorporados à produção.",
       "commonTrap": "Confundir fluxo de produção com estoque de patrimônio ou volume negociado no mercado financeiro.",
@@ -25,9 +25,9 @@
       "statement": "No regime brasileiro de metas para a inflação, o índice de preços utilizado como referência para verificar o cumprimento da meta é o:",
       "options": [
         { "id": "opt_1", "text": "IPCA, calculado pelo IBGE.", "isCorrect": true },
-        { "id": "opt_2", "text": "Ibovespa, calculado pela B3.", "isCorrect": false, "distractorReason": "Ibovespa é índice do mercado acionário, não índice oficial de inflação." },
-        { "id": "opt_3", "text": "CDI, apurado a partir de operações interfinanceiras.", "isCorrect": false, "distractorReason": "CDI é referência de juros, não medida de preços ao consumidor." },
-        { "id": "opt_4", "text": "PIB nominal, calculado pelo Banco Central.", "isCorrect": false, "distractorReason": "PIB mede produção e o cálculo oficial é do IBGE; não é o índice da meta." }
+        { "id": "opt_2", "text": "INPC, calculado pelo IBGE.", "isCorrect": false, "distractorReason": "O INPC mede preços para uma faixa específica de renda, mas não é a referência do regime de metas." },
+        { "id": "opt_3", "text": "IPCA-15, calculado pelo IBGE.", "isCorrect": false, "distractorReason": "O IPCA-15 antecipa a tendência do IPCA, mas não substitui o índice cheio na aferição da meta." },
+        { "id": "opt_4", "text": "IGP-M, calculado pela FGV.", "isCorrect": false, "distractorReason": "O IGP-M é outro índice de preços e não constitui a referência oficial da meta." }
       ],
       "explanation": "A meta de inflação definida pelo CMN é aferida pela variação do IPCA, calculado pelo IBGE. O Banco Central conduz a política monetária buscando manter a inflação ao redor dessa meta.",
       "commonTrap": "Confundir índices de mercado ou taxas de juros com o índice oficial de preços da meta.",
@@ -40,10 +40,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["Selic", "crédito", "inflação"],
       "statement": "Diante de pressões inflacionárias persistentes, o Copom eleva a taxa Selic. Mantidas as demais condições, o efeito esperado pelo canal do crédito é:",
       "options": [
-        { "id": "opt_1", "text": "Encarecimento do crédito, menor estímulo ao consumo e ao investimento e redução da pressão sobre os preços.", "isCorrect": true },
-        { "id": "opt_2", "text": "Barateamento imediato de todos os empréstimos e forte expansão da demanda.", "isCorrect": false, "distractorReason": "Inverte o sentido usual da transmissão de uma alta da taxa básica." },
-        { "id": "opt_3", "text": "Eliminação automática da inflação, sem defasagem ou outros canais.", "isCorrect": false, "distractorReason": "A transmissão ocorre com defasagens e não produz resultado automático." },
-        { "id": "opt_4", "text": "Aumento obrigatório do gasto público no mesmo montante.", "isCorrect": false, "distractorReason": "A decisão monetária não determina mecanicamente o nível do gasto fiscal." }
+        { "id": "opt_1", "text": "Crédito mais caro, moderação da demanda e menor pressão inflacionária com alguma defasagem.", "isCorrect": true },
+        { "id": "opt_2", "text": "Crédito mais barato, expansão da demanda e redução dos preços pelo aumento da oferta.", "isCorrect": false, "distractorReason": "A alternativa inverte o efeito inicial esperado de uma elevação da taxa básica sobre o custo do crédito." },
+        { "id": "opt_3", "text": "Crédito mais caro, queda contemporânea da inflação e neutralização dos demais canais de transmissão.", "isCorrect": false, "distractorReason": "O encarecimento do crédito é coerente, mas a inflação não reage integralmente no mesmo momento nem os outros canais são neutralizados." },
+        { "id": "opt_4", "text": "Financiamento mais caro, expansão do consumo pela renda dos poupadores e maior pressão inflacionária.", "isCorrect": false, "distractorReason": "O efeito-renda sobre poupadores não caracteriza o canal predominante esperado no cenário apresentado." }
       ],
       "explanation": "A Selic influencia outras taxas da economia. Quando sobe, tende a tornar crédito e financiamento mais caros, moderando consumo e investimento e, com defasagem, as pressões inflacionárias.",
       "commonTrap": "Tratar a política monetária como efeito instantâneo ou inverter a relação entre juros e demanda.",
@@ -56,10 +56,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["política monetária", "open market", "liquidez"],
       "statement": "Em uma operação de mercado aberto com finalidade expansionista, o Banco Central tende a comprar títulos no mercado. O efeito operacional direto é:",
       "options": [
-        { "id": "opt_1", "text": "Injetar liquidez no sistema, pois entrega recursos em troca dos títulos adquiridos.", "isCorrect": true },
-        { "id": "opt_2", "text": "Retirar liquidez, porque recebe dinheiro dos vendedores dos títulos.", "isCorrect": false, "distractorReason": "Na compra, é o Banco Central que paga pelos títulos e injeta recursos." },
-        { "id": "opt_3", "text": "Elevar diretamente todos os impostos federais.", "isCorrect": false, "distractorReason": "Tributação é instrumento fiscal, não efeito direto de open market." },
-        { "id": "opt_4", "text": "Reduzir contabilmente o PIB no mesmo valor da operação.", "isCorrect": false, "distractorReason": "A troca de títulos por reservas não reduz mecanicamente o PIB." }
+        { "id": "opt_1", "text": "Aumentar as reservas do sistema, mediante o pagamento pelos títulos comprados.", "isCorrect": true },
+        { "id": "opt_2", "text": "Reduzir as reservas do sistema, mediante o recolhimento dos títulos vendidos pelo mercado.", "isCorrect": false, "distractorReason": "Na compra, o Banco Central paga ao mercado; o recolhimento de reservas ocorre na venda de títulos pelo BC." },
+        { "id": "opt_3", "text": "Aumentar o caixa do Tesouro, mediante a emissão primária dos títulos adquiridos.", "isCorrect": false, "distractorReason": "A questão trata de operação no mercado aberto, e não de financiamento primário do Tesouro." },
+        { "id": "opt_4", "text": "Reduzir a base monetária, mediante a troca das reservas bancárias por títulos públicos.", "isCorrect": false, "distractorReason": "Essa descrição corresponde ao sentido de uma venda contracionista de títulos, não de uma compra expansionista." }
       ],
       "explanation": "Ao comprar títulos, o Banco Central credita recursos aos participantes e aumenta a liquidez. A venda de títulos produz o movimento oposto, retirando recursos do sistema.",
       "commonTrap": "Analisar a operação pela posição do vendedor e concluir que a compra do BC retira dinheiro.",
@@ -72,10 +72,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["política fiscal", "déficit", "dívida"],
       "statement": "Se as despesas primárias do governo superam persistentemente suas receitas primárias, sem medidas compensatórias, é correto esperar:",
       "options": [
-        { "id": "opt_1", "text": "Necessidade de financiamento do déficit, com possível aumento da dívida pública e do prêmio exigido pelos investidores.", "isCorrect": true },
-        { "id": "opt_2", "text": "Redução automática da dívida, pois todo déficit gera superávit financeiro.", "isCorrect": false, "distractorReason": "Déficit representa insuficiência de receitas diante das despesas, não superávit." },
-        { "id": "opt_3", "text": "Queda obrigatória de todas as taxas de juros de longo prazo.", "isCorrect": false, "distractorReason": "Maior percepção de risco fiscal pode elevar, não reduzir obrigatoriamente, prêmios longos." },
-        { "id": "opt_4", "text": "Nenhuma consequência de financiamento, porque política fiscal não afeta a dívida.", "isCorrect": false, "distractorReason": "Déficits e seu financiamento estão diretamente relacionados à dinâmica da dívida." }
+        { "id": "opt_1", "text": "Maior necessidade de financiamento, podendo elevar a dívida e o prêmio de risco.", "isCorrect": true },
+        { "id": "opt_2", "text": "Menor necessidade de financiamento, pois o déficit primário reduz o serviço da dívida.", "isCorrect": false, "distractorReason": "O déficit amplia a necessidade de recursos; não reduz, por si, o serviço da dívida." },
+        { "id": "opt_3", "text": "Maior necessidade de financiamento, acompanhada de queda do prêmio pela expansão fiscal.", "isCorrect": false, "distractorReason": "A primeira relação é possível, mas a queda do prêmio não decorre da deterioração fiscal apresentada." },
+        { "id": "opt_4", "text": "Manutenção da dívida, porque receitas e despesas primárias não alteram sua dinâmica.", "isCorrect": false, "distractorReason": "O resultado primário integra a dinâmica da dívida e afeta a necessidade de financiamento." }
       ],
       "explanation": "Déficits precisam ser financiados por disponibilidades, emissão de dívida ou outras fontes. Persistência e perda de credibilidade podem aumentar dívida e prêmio de risco na curva de juros.",
       "commonTrap": "Supor que desequilíbrio fiscal não se transmite às necessidades de financiamento e às taxas longas.",
@@ -88,10 +88,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["câmbio", "desvalorização", "inflação"],
       "statement": "O real se desvaloriza de forma relevante frente ao dólar. Mantidas as demais condições, qual efeito tende a pressionar a inflação doméstica?",
       "options": [
-        { "id": "opt_1", "text": "O encarecimento, em reais, de importados e de insumos cotados em moeda estrangeira.", "isCorrect": true },
-        { "id": "opt_2", "text": "A queda automática do preço em reais de todos os produtos importados.", "isCorrect": false, "distractorReason": "A desvalorização torna a moeda estrangeira mais cara em reais." },
-        { "id": "opt_3", "text": "A eliminação do custo de matérias-primas importadas.", "isCorrect": false, "distractorReason": "Esses custos tendem a aumentar quando convertidos para reais." },
-        { "id": "opt_4", "text": "A proibição imediata de exportações brasileiras.", "isCorrect": false, "distractorReason": "Variação cambial não implica proibição automática de exportar." }
+        { "id": "opt_1", "text": "O encarecimento, em reais, de importados e insumos cotados em moeda estrangeira.", "isCorrect": true },
+        { "id": "opt_2", "text": "O barateamento, em reais, de importados pela conversão a uma taxa cambial maior.", "isCorrect": false, "distractorReason": "Uma taxa maior de reais por dólar encarece, e não barateia, a conversão do preço externo." },
+        { "id": "opt_3", "text": "O encarecimento das exportações em dólares, reduzindo a receita dos exportadores em reais.", "isCorrect": false, "distractorReason": "A relação de conversão foi invertida: receitas em dólares passam a equivaler a mais reais." },
+        { "id": "opt_4", "text": "A redução do custo dos insumos importados, compensada por maior demanda doméstica.", "isCorrect": false, "distractorReason": "A desvalorização tende a elevar o custo em reais desses insumos, não a reduzi-lo." }
       ],
       "explanation": "Com o dólar mais caro em reais, bens importados e insumos com preços externos tendem a custar mais. Parte desse aumento pode ser repassada aos preços internos, conforme o contexto econômico.",
       "commonTrap": "Inverter valorização e desvalorização da moeda doméstica ao converter preços externos.",
@@ -120,10 +120,10 @@
       "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["juros", "inflação", "defasagem"],
       "statement": "Sobre a relação entre uma decisão de elevar a Selic e a inflação observada, a interpretação tecnicamente mais adequada é:",
       "options": [
-        { "id": "opt_1", "text": "A decisão atua por vários canais e com defasagens; seu efeito depende também de expectativas e demais condições econômicas.", "isCorrect": true },
-        { "id": "opt_2", "text": "A inflação deve cair integralmente no mesmo instante da divulgação da decisão.", "isCorrect": false, "distractorReason": "Os mecanismos de transmissão não são instantâneos." },
-        { "id": "opt_3", "text": "A Selic afeta somente títulos públicos, sem alcançar crédito, câmbio ou ativos.", "isCorrect": false, "distractorReason": "A política opera por diversos canais na economia." },
-        { "id": "opt_4", "text": "Elevar juros sempre aumenta a demanda agregada no curto e no longo prazo.", "isCorrect": false, "distractorReason": "Em geral, juros maiores moderam demanda, embora o processo seja complexo." }
+        { "id": "opt_1", "text": "A decisão opera por diferentes canais e seus efeitos aparecem com defasagens.", "isCorrect": true },
+        { "id": "opt_2", "text": "A inflação corrente incorpora a nova Selic antes que crédito e expectativas reajam.", "isCorrect": false, "distractorReason": "A transmissão para a inflação ocorre por meio desses canais e não os antecede de forma mecânica." },
+        { "id": "opt_3", "text": "A Selic alcança a inflação pelo mercado de títulos, sem depender das condições de crédito.", "isCorrect": false, "distractorReason": "O crédito é um dos canais relevantes da política monetária, ao lado de câmbio, ativos e expectativas." },
+        { "id": "opt_4", "text": "A alta dos juros estimula a demanda pela renda financeira e, por isso, reduz a inflação.", "isCorrect": false, "distractorReason": "A conclusão combina um suposto estímulo à demanda com redução da inflação e ignora o canal contracionista predominante." }
       ],
       "explanation": "A transmissão monetária passa por juros, crédito, câmbio, preços de ativos e expectativas. Esses canais operam com defasagens, razão pela qual a inflação não reage de modo mecânico e imediato.",
       "commonTrap": "Exigir relação contemporânea de um para um entre decisão do Copom e inflação corrente.",

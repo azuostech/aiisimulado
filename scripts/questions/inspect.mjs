@@ -5,7 +5,7 @@ import { validateQuestionBank } from "./lib.mjs";
 
 const QUESTION_ROOT = path.resolve("data/questions");
 const TAXONOMY_ROOT = path.resolve("data/taxonomy");
-const ABSOLUTE_PATTERN = /\b(sempre|nunca|jamais|exclusivamente|somente|qualquer|todos?|nenhum(?:a)?|integralmente|ilimitad[oa]s?|automaticamente)\b/iu;
+const ABSOLUTE_PATTERN = /\b(sempre|nunca|jamais|exclusivamente|somente|apenas|qualquer|todos?|nenhum(?:a)?|integralmente|ilimitad[oa]s?|automaticamente|obrigatoriamente)\b/iu;
 const difficultyTargets = {
   REAL: { 1: 8, 2: 12, 3: 32, 4: 20, 5: 8 },
   BLINDAGEM: { 1: 4, 2: 8, 3: 24, 4: 28, 5: 16 },
@@ -48,6 +48,8 @@ for (const question of active) {
 
 const uniquelyLongestCorrect = [];
 const absolutesOnlyInDistractors = [];
+const severeAnswerKeyCues = [];
+const editorialPenaltyByQuestion = {};
 let correctWords = 0;
 let distractorWords = 0;
 let distractorCount = 0;
@@ -62,6 +64,15 @@ for (const question of active) {
   if (!ABSOLUTE_PATTERN.test(correct.text) && distractors.some((option) => ABSOLUTE_PATTERN.test(option.text))) {
     absolutesOnlyInDistractors.push(question.id);
   }
+  const averageDistractorLength = distractorLengths.reduce((sum, length) => sum + length, 0) / distractorLengths.length;
+  const ratio = correctLength / averageDistractorLength;
+  let editorialPenalty = 0;
+  if (distractorLengths.every((length) => correctLength > length)) editorialPenalty += 2;
+  if (ratio > 1.2) editorialPenalty += 3;
+  if (ratio > 1.45) editorialPenalty += 3;
+  if (!ABSOLUTE_PATTERN.test(correct.text) && distractors.some((option) => ABSOLUTE_PATTERN.test(option.text))) editorialPenalty += 3;
+  editorialPenaltyByQuestion[question.id] = editorialPenalty;
+  if (editorialPenalty >= 5) severeAnswerKeyCues.push(question.id);
   correctWords += correctLength;
   distractorWords += distractorLengths.reduce((sum, length) => sum + length, 0);
   distractorCount += distractors.length;
@@ -108,6 +119,12 @@ console.log(JSON.stringify({
       percentage: Number((100 * absolutesOnlyInDistractors.length / active.length).toFixed(1)),
       questionIds: absolutesOnlyInDistractors,
     },
+    severeAnswerKeyCues: {
+      count: severeAnswerKeyCues.length,
+      percentage: Number((100 * severeAnswerKeyCues.length / active.length).toFixed(1)),
+      questionIds: severeAnswerKeyCues,
+    },
+    editorialPenaltyByQuestion,
     averageCorrectWords: Number((correctWords / active.length).toFixed(2)),
     averageDistractorWords: Number((distractorWords / distractorCount).toFixed(2)),
     calculationFlagMismatch,

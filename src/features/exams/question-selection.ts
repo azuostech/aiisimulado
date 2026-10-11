@@ -8,12 +8,15 @@ export type SelectableExamQuestion = {
   subtopicId: string;
   topicCode: string;
   difficulty: number;
+  editorialPenalty?: number;
 };
 
 export const difficultyTargets: Record<SelectionMode, Record<number, number>> = {
   REAL: { 1: 8, 2: 12, 3: 32, 4: 20, 5: 8 },
   BLINDAGEM: { 1: 4, 2: 8, 3: 24, 4: 28, 5: 16 },
 };
+
+const EDITORIAL_PENALTY_WEIGHT = 1_000;
 
 export function deterministicShuffle<T>(items: T[], seed: string): T[] {
   const result = [...items];
@@ -105,7 +108,11 @@ export function selectExamQuestions<T extends SelectableExamQuestion>({
       const subtopicKey = `${question.topicCode}:${question.subtopicId}`;
       const subtopicPenalty = selectedBySubtopic.get(subtopicKey) ?? 0;
       const recentPenalty = recentQuestionIds.has(question.id) ? 10_000 : 0;
-      const score = difficultyDeficit * 100 - subtopicPenalty * 30 - recentPenalty;
+      const editorialPenalty = question.editorialPenalty ?? 0;
+      const score = difficultyDeficit * 100
+        - subtopicPenalty * 30
+        - recentPenalty
+        - editorialPenalty * EDITORIAL_PENALTY_WEIGHT;
 
       if (score > bestScore) {
         best = question;

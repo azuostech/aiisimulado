@@ -6,8 +6,8 @@ import {
   selectExamQuestions,
 } from "../../src/features/exams/question-selection.ts";
 
-function question(id, topicCode, familyId, difficulty, subtopicId = familyId) {
-  return { id, topicCode, familyId, difficulty, subtopicId };
+function question(id, topicCode, familyId, difficulty, subtopicId = familyId, editorialPenalty = 0) {
+  return { id, topicCode, familyId, difficulty, subtopicId, editorialPenalty };
 }
 
 test("a seleção é determinística para a mesma semente", () => {
@@ -76,4 +76,34 @@ test("informa escassez quando o tema não possui famílias únicas suficientes",
 
   assert.equal(result.shortageTopic, "I");
   assert.deepEqual(result.questions, []);
+});
+
+test("prefere a questão editorialmente equilibrada quando os demais critérios empatam", () => {
+  const result = selectExamQuestions({
+    candidates: [
+      question("com-pista", "I", "family-a", 3, "subtopic-a", 8),
+      question("equilibrada", "I", "family-b", 3, "subtopic-b", 0),
+    ],
+    topicQuotas: new Map([["I", 1]]),
+    seed: "editorial-balance",
+    recentQuestionIds: new Set(),
+    mode: "REAL",
+  });
+
+  assert.equal(result.questions[0].id, "equilibrada");
+});
+
+test("não sacrifica equilíbrio editorial para perseguir uma dificuldade declarada", () => {
+  const result = selectExamQuestions({
+    candidates: [
+      question("dificil-com-pista", "I", "family-a", 3, "subtopic-a", 8),
+      question("moderada-equilibrada", "I", "family-b", 2, "subtopic-b", 0),
+    ],
+    topicQuotas: new Map([["I", 1]]),
+    seed: "editorial-over-label",
+    recentQuestionIds: new Set(),
+    mode: "REAL",
+  });
+
+  assert.equal(result.questions[0].id, "moderada-equilibrada");
 });
