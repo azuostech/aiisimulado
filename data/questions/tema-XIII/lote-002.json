@@ -1,0 +1,44 @@
+{
+  "batchId": "tema-XIII-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-XIII-000018", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-taxa-over", "contentNodeSlug": "tema-xiii-taxa-over-conceito",
+      "family": { "code": "AI-XIII-OVER-CONCEITO-001", "name": "Convenção da taxa over", "angle": "distinguir taxa efetiva diária de taxa mensal proporcional" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["taxa over", "taxa efetiva", "dia útil"],
+      "statement": "Uma mesa informa que determinada taxa over é uma taxa efetiva-dia. Um candidato pretende compará-la diretamente com uma taxa anual dividindo esta por 12. Qual é o problema central desse procedimento?",
+      "options": [
+        { "id": "opt_1", "text": "A taxa over é uma taxa real por definição, enquanto a taxa anual informada seria nominal.", "isCorrect": false, "distractorReason": "A denominação over não determina, por si só, que a taxa seja real ou livre de inflação." },
+        { "id": "opt_2", "text": "A divisão por 12 transforma uma taxa anual em taxa diária equivalente para operações de mercado.", "isCorrect": false, "distractorReason": "Dividir por 12 não produz uma taxa efetiva diária equivalente." },
+        { "id": "opt_3", "text": "Taxas efetivas com períodos distintos exigem conversão pela convenção e capitalização correspondentes, não simples divisão mensal.", "isCorrect": true },
+        { "id": "opt_4", "text": "A taxa over só pode ser comparada com variações cambiais apuradas no mesmo dia civil.", "isCorrect": false, "distractorReason": "A comparação relevante é entre taxas trazidas para bases temporais compatíveis." }
+      ],
+      "explanation": "A taxa over é apresentada em convenção efetiva diária. Para comparar taxas de períodos diferentes, é preciso convertê-las para uma mesma base temporal respeitando a capitalização e a convenção de dias aplicável.",
+      "commonTrap": "Usar proporcionalidade simples em uma comparação que exige equivalência entre taxas efetivas.",
+      "estimatedSeconds": 115, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [
+        { "authority": "Banco Central do Brasil", "normNumber": "Circular BCB 2.347/1993", "versionLabel": "Texto oficial consultado em 11/10/2026", "url": "https://normativos.bcb.gov.br/Lists/Normativos/Attachments/43585/Circ_2347_v1_O.pdf", "locator": "art. 1º, § 1º — taxa efetiva-dia conhecida como taxa over", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" },
+        { "authority": "ANCORD/FGV", "normNumber": "Programa do Exame de Certificação", "versionLabel": "Programa vigente consultado em 11/10/2026", "url": "https://certpessoas.fgv.br/ancord/arquivos/RegulamentoAI.htm", "locator": "Tema XIII, item 4 — Taxa Over", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }
+      ]
+    },
+    {
+      "id": "AI-XIII-000019", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-valor-recompra", "contentNodeSlug": "tema-xiii-valor-recompra-operacao-compromissada",
+      "family": { "code": "AI-XIII-RECOMPRA-COMPROMISSADA-001", "name": "Valor de recompra em compromissada", "angle": "relacionar preço de retorno e remuneração pactuada" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["valor de recompra", "operação compromissada", "renda fixa"],
+      "statement": "Uma instituição vende um título de renda fixa e assume compromisso de recomprá-lo em data futura por valor definido no contrato. Para a contraparte compradora, o valor de recompra representa:",
+      "options": [
+        { "id": "opt_1", "text": "O valor de face do título no vencimento, ainda que a recompra ocorra antes dessa data.", "isCorrect": false, "distractorReason": "O valor de recompra decorre do compromisso pactuado e pode diferir do valor de face." },
+        { "id": "opt_2", "text": "O preço futuro de retorno do ativo, que incorpora as condições de remuneração acordadas para a operação.", "isCorrect": true },
+        { "id": "opt_3", "text": "A cotação de mercado que prevalecer no retorno, sem vínculo com a contratação original.", "isCorrect": false, "distractorReason": "No caso descrito, o preço de recompra foi definido contratualmente." },
+        { "id": "opt_4", "text": "A soma do preço inicial com os cupons futuros do título, sem ajuste pelo prazo da operação.", "isCorrect": false, "distractorReason": "A remuneração da compromissada segue as condições pactuadas, não a soma irrestrita de fluxos do título." }
+      ],
+      "explanation": "Na operação compromissada há uma venda conjugada com compromisso de recompra e correspondente compromisso de revenda. Quando prazo e remuneração são definidos, o valor de retorno reflete as condições de liquidação pactuadas.",
+      "commonTrap": "Confundir o preço contratual da recompra com valor de face, preço de mercado futuro ou soma dos fluxos do título usado como lastro.",
+      "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [
+        { "authority": "Banco Central do Brasil", "normNumber": "Resolução BCB 525/2025", "versionLabel": "Texto oficial vigente consultado em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=525&tipo=Resolu%C3%A7%C3%A3o+BCB", "locator": "arts. 2º e 13, incisos I e II", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" },
+        { "authority": "ANCORD/FGV", "normNumber": "Programa do Exame de Certificação", "versionLabel": "Programa vigente consultado em 11/10/2026", "url": "https://certpessoas.fgv.br/ancord/arquivos/RegulamentoAI.htm", "locator": "Tema XIII, item 8 — Valor de Recompra", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }
+      ]
+    }
+  ]
+}

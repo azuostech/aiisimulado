@@ -1,0 +1,21 @@
+{
+  "topicCode": "VI",
+  "topicName": "Instituições e Intermediadores Financeiros",
+  "subtopicPrefix": "instituicoes-intermediadores",
+  "version": "2026-10-11",
+  "source": "Banco Central do Brasil, BNDES e CVM",
+  "branches": [
+    { "slug": "banco-comercial", "name": "Banco Comercial", "concepts": ["captação", "crédito", "depósitos"] },
+    { "slug": "banco-investimento", "name": "Banco de Investimento", "concepts": ["financiamento", "mercado de capitais", "estruturação"] },
+    { "slug": "banco-multiplo", "name": "Banco Múltiplo", "concepts": ["carteiras", "características", "atuação"] },
+    { "slug": "caixa-economica-federal", "name": "Caixa Econômica Federal", "concepts": ["características", "atuação"] },
+    { "slug": "bndes", "name": "BNDES", "concepts": ["financiamento de longo prazo", "desenvolvimento"] },
+    { "slug": "cooperativas-credito", "name": "Cooperativas de Crédito", "concepts": ["associados", "captação", "operações"] },
+    { "slug": "financeiras", "name": "Financeiras", "concepts": ["crédito ao consumidor", "financiamento"] },
+    { "slug": "corretoras", "name": "Corretoras", "concepts": ["intermediação", "bolsa", "execução"] },
+    { "slug": "distribuidoras", "name": "Distribuidoras", "concepts": ["distribuição", "intermediação", "atuação"] },
+    { "slug": "corretoras-cambio", "name": "Corretoras de câmbio", "concepts": ["operações cambiais", "intermediação"] },
+    { "slug": "assessores-investimentos", "name": "Assessores de investimentos", "concepts": ["relacionamento com intermediadores", "atuação"] },
+    { "slug": "mercados-organizados", "name": "Mercados organizados", "concepts": ["bolsa", "balcão", "mercados regulamentados"] }
+  ]
+}

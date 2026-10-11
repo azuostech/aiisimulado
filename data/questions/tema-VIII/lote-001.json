@@ -1,0 +1,329 @@
+{
+  "batchId": "tema-VIII-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-VIII-000002", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-mercado-secundario", "contentNodeSlug": "tema-viii-mercado-secundario-transferencia-entre-investidores",
+      "family": { "code": "AI-VIII-SECUNDARIO-FLUXO-001", "name": "Fluxo no mercado secundário", "angle": "identificar o destinatário dos recursos" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["mercado secundário", "liquidez"],
+      "statement": "Um investidor vende em bolsa ações já emitidas de uma companhia a outro investidor. Nessa operação, os recursos pagos pelo comprador são destinados:",
+      "options": [
+        { "id": "opt_1", "text": "À companhia emissora, aumentando diretamente seu capital social.", "isCorrect": false, "distractorReason": "Isso caracterizaria captação primária, não negociação secundária." },
+        { "id": "opt_2", "text": "Ao investidor vendedor, pois ocorre transferência de valores mobiliários já existentes.", "isCorrect": true },
+        { "id": "opt_3", "text": "À CVM, que redistribui o valor entre os acionistas.", "isCorrect": false, "distractorReason": "A CVM regula e fiscaliza, mas não recebe o preço da negociação." },
+        { "id": "opt_4", "text": "À B3, que passa a ser proprietária definitiva das ações.", "isCorrect": false, "distractorReason": "A infraestrutura liquida e registra; ela não se torna a beneficiária econômica da venda." }
+      ],
+      "explanation": "No mercado secundário, investidores negociam entre si valores mobiliários já emitidos. O vendedor recebe o preço, enquanto a companhia não obtém nova captação com essa troca de titularidade.",
+      "commonTrap": "Confundir negociação em bolsa com emissão primária de novas ações.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 160/2022", "versionLabel": "Texto consolidado vigente em 11/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol160consolid.pdf", "locator": "art. 2º, XIV, alíneas a e b", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000003", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-acoes", "contentNodeSlug": "tema-viii-acoes-ordinarias",
+      "family": { "code": "AI-VIII-ACOES-ON-001", "name": "Direito essencial da ação ordinária", "angle": "relacionar espécie e voto" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["ações ordinárias", "voto"],
+      "statement": "Como regra geral da Lei das Sociedades por Ações, cada ação ordinária confere ao seu titular:",
+      "options": [
+        { "id": "opt_1", "text": "Um voto nas deliberações da assembleia-geral, ressalvadas as regras legais aplicáveis.", "isCorrect": true },
+        { "id": "opt_2", "text": "Prioridade absoluta no recebimento de dividendos fixos.", "isCorrect": false, "distractorReason": "Prioridades econômicas são características possíveis de ações preferenciais." },
+        { "id": "opt_3", "text": "Garantia de rentabilidade mínima anual paga pela companhia.", "isCorrect": false, "distractorReason": "A ação não assegura rentabilidade mínima ao investidor." },
+        { "id": "opt_4", "text": "Direito de exigir o resgate da ação a qualquer momento.", "isCorrect": false, "distractorReason": "A ação não funciona como título resgatável por iniciativa irrestrita do acionista." }
+      ],
+      "explanation": "A regra geral é que cada ação ordinária corresponda a um voto nas deliberações da assembleia-geral. A legislação admite situações específicas, mas não transforma a ON em promessa de renda ou resgate.",
+      "commonTrap": "Associar ação ordinária a preferência econômica, em vez de ao direito político de voto.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado vigente em 11/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 110, caput", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000004", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-acoes", "contentNodeSlug": "tema-viii-acoes-preferenciais",
+      "family": { "code": "AI-VIII-ACOES-PN-001", "name": "Vantagens da ação preferencial", "angle": "distinguir preferência de garantia" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["ações preferenciais", "dividendos", "reembolso"],
+      "statement": "A preferência atribuída por estatuto a uma ação preferencial pode consistir em prioridade na distribuição de dividendos, no reembolso do capital, ou em ambas. Isso significa que a PN:",
+      "options": [
+        { "id": "opt_1", "text": "É um título de dívida com pagamento obrigatório de juros.", "isCorrect": false, "distractorReason": "A PN continua sendo participação societária, não dívida da companhia." },
+        { "id": "opt_2", "text": "Possui a vantagem estatutária, mas permanece sujeita aos riscos do investimento em ações.", "isCorrect": true },
+        { "id": "opt_3", "text": "Tem proteção integral do FGC contra perdas de mercado.", "isCorrect": false, "distractorReason": "Ações não são cobertas pelo FGC." },
+        { "id": "opt_4", "text": "Sempre acumula dividendos não pagos, independentemente do estatuto.", "isCorrect": false, "distractorReason": "A cumulatividade não é automática e depende da disciplina estatutária e legal." }
+      ],
+      "explanation": "A ação preferencial pode receber vantagens econômicas previstas no estatuto, como prioridade em dividendos ou reembolso. Isso não a converte em renda fixa nem elimina risco de mercado e risco empresarial.",
+      "commonTrap": "Interpretar preferência como garantia de retorno ou proteção do principal.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado vigente em 11/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "arts. 15 e 17", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000005", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-eventos-societarios", "contentNodeSlug": "tema-viii-eventos-societarios-desdobramento",
+      "family": { "code": "AI-VIII-EVENTO-DESDOBRAMENTO-001", "name": "Efeito do desdobramento", "angle": "calcular efeito patrimonial imediato" },
+      "difficulty": 1, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["desdobramento", "quantidade", "preço"],
+      "statement": "Uma companhia aprova desdobramento de 1 ação para 4. Imediatamente antes do evento, um investidor possui 100 ações cotadas a R$ 40,00. Desconsideradas oscilações de mercado, após o evento ele terá:",
+      "options": [
+        { "id": "opt_1", "text": "400 ações a aproximadamente R$ 10,00 cada, sem alteração imediata do valor total da posição.", "isCorrect": true },
+        { "id": "opt_2", "text": "400 ações a R$ 40,00 cada, quadruplicando automaticamente seu patrimônio.", "isCorrect": false, "distractorReason": "O preço unitário é ajustado proporcionalmente; não há criação automática de riqueza." },
+        { "id": "opt_3", "text": "25 ações a aproximadamente R$ 160,00 cada.", "isCorrect": false, "distractorReason": "Esse seria o efeito inverso, semelhante a um grupamento." },
+        { "id": "opt_4", "text": "100 ações a R$ 10,00 cada, reduzindo o capital social em 75%.", "isCorrect": false, "distractorReason": "O número de ações do investidor também aumenta e o capital social não é reduzido pelo desdobramento." }
+      ],
+      "explanation": "O desdobramento aumenta a quantidade de ações e reduz proporcionalmente o preço unitário de referência. No instante do ajuste, não altera o valor econômico total da posição nem o capital social.",
+      "commonTrap": "Multiplicar a quantidade sem ajustar o preço unitário e concluir que houve ganho gratuito.",
+      "estimatedSeconds": 100, "requiresCalculation": true, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado vigente em 11/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 12", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000006", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-proventos", "contentNodeSlug": "tema-viii-proventos-direitos-de-subscricao",
+      "family": { "code": "AI-VIII-SUBSCRICAO-PREFERENCIA-001", "name": "Direito de preferência na subscrição", "angle": "identificar finalidade econômica" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["subscrição", "diluição"],
+      "statement": "Em aumento de capital por emissão de novas ações, o direito de preferência conferido ao acionista tem como principal finalidade permitir que ele:",
+      "options": [
+        { "id": "opt_1", "text": "Mantenha, se desejar exercê-lo, sua participação proporcional no capital da companhia.", "isCorrect": true },
+        { "id": "opt_2", "text": "Venda obrigatoriamente suas ações antigas à própria companhia.", "isCorrect": false, "distractorReason": "Subscrição envolve aquisição de novos valores mobiliários, não venda obrigatória dos antigos." },
+        { "id": "opt_3", "text": "Receba dividendos antes dos titulares de ações preferenciais.", "isCorrect": false, "distractorReason": "O direito de subscrição não altera a ordem estatutária de dividendos." },
+        { "id": "opt_4", "text": "Elimine o risco de queda do preço após o aumento de capital.", "isCorrect": false, "distractorReason": "O exercício preserva proporção, mas não garante preço ou retorno." }
+      ],
+      "explanation": "O direito de preferência possibilita ao acionista subscrever novas ações na proporção de sua participação e, assim, evitar diluição proporcional caso queira aportar os recursos necessários.",
+      "commonTrap": "Confundir preservação de participação proporcional com proteção contra perda de mercado.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado vigente em 11/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 171, caput", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000007", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-debentures", "contentNodeSlug": "tema-viii-debentures-emissor",
+      "family": { "code": "AI-VIII-DEBENTURE-CREDITO-001", "name": "Natureza da debênture", "angle": "distinguir credor de acionista" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["debêntures", "direito de crédito"],
+      "statement": "Ao adquirir uma debênture simples emitida por uma companhia, o investidor passa, em regra, a ser:",
+      "options": [
+        { "id": "opt_1", "text": "Credor da companhia nas condições estabelecidas na escritura de emissão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Acionista ordinário com direito automático de voto.", "isCorrect": false, "distractorReason": "A debênture simples representa crédito, não participação acionária." },
+        { "id": "opt_3", "text": "Depositante com cobertura ordinária do FGC.", "isCorrect": false, "distractorReason": "Debêntures não são depósitos bancários cobertos pelo FGC." },
+        { "id": "opt_4", "text": "Cotista de fundo administrado pela companhia emissora.", "isCorrect": false, "distractorReason": "A relação jurídica não é de condomínio em fundo de investimento." }
+      ],
+      "explanation": "A debênture confere ao titular direito de crédito contra a companhia emissora, conforme a escritura. O investidor assume risco de crédito do emissor e não se torna acionista pela debênture simples.",
+      "commonTrap": "Confundir título de dívida corporativa com participação no capital social.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado vigente em 11/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 52", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000008", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-debentures", "contentNodeSlug": "tema-viii-debentures-conversibilidade",
+      "family": { "code": "AI-VIII-DEBENTURE-CONVERSAO-001", "name": "Debênture conversível", "angle": "identificar efeito da conversão" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["debênture conversível", "ações"],
+      "statement": "Uma escritura prevê que a debênture pode ser convertida em ações da companhia nas bases nela definidas. Se a conversão for realizada, o investidor:",
+      "options": [
+        { "id": "opt_1", "text": "Troca o direito de crédito representado pela debênture pela participação acionária resultante da conversão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Mantém integralmente o crédito e recebe as ações como prêmio adicional obrigatório.", "isCorrect": false, "distractorReason": "A conversão substitui a posição nos termos da escritura; não duplica automaticamente os direitos." },
+        { "id": "opt_3", "text": "Passa a contar com garantia do FGC sobre as novas ações.", "isCorrect": false, "distractorReason": "Nem a debênture nem as ações recebem cobertura do FGC." },
+        { "id": "opt_4", "text": "Converte a dívida da companhia em título público federal.", "isCorrect": false, "distractorReason": "A conversão prevista é em ações da companhia, não em título soberano." }
+      ],
+      "explanation": "A debênture pode prever conversão em ações nas condições da escritura. Exercida a conversão, o investidor deixa a posição de credor correspondente e passa a deter participação acionária.",
+      "commonTrap": "Imaginar que conversão significa acumular simultaneamente o crédito integral e as ações.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado vigente em 11/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 57", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000009", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-governanca-corporativa", "contentNodeSlug": "tema-viii-governanca-corporativa-segmentos",
+      "family": { "code": "AI-VIII-GOV-ADESAO-001", "name": "Adesão a segmento especial", "angle": "distinguir regra legal de compromisso adicional" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["governança", "segmentos"],
+      "statement": "A listagem de uma companhia em segmento especial de governança corporativa da B3 significa que ela:",
+      "options": [
+        { "id": "opt_1", "text": "Adere voluntariamente a regras adicionais às obrigações gerais da legislação societária.", "isCorrect": true },
+        { "id": "opt_2", "text": "Deixa de se submeter à Lei das Sociedades por Ações.", "isCorrect": false, "distractorReason": "As regras do segmento se somam à legislação, não a substituem." },
+        { "id": "opt_3", "text": "Recebe garantia da B3 contra queda no preço das ações.", "isCorrect": false, "distractorReason": "Governança não elimina risco de mercado." },
+        { "id": "opt_4", "text": "Passa a emitir apenas títulos de dívida e não ações.", "isCorrect": false, "distractorReason": "Os segmentos tratam justamente da listagem e governança de emissores e ações." }
+      ],
+      "explanation": "Os segmentos especiais estabelecem compromissos voluntários de governança, transparência e direitos que vão além das obrigações legais gerais. Eles não afastam a Lei das S.A. nem garantem valorização.",
+      "commonTrap": "Tratar autorregulação contratual da B3 como substituição da legislação ou seguro de investimento.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Segmentos de Listagem", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://b3.com.br/pt_br/produtos-e-servicos/solucoes-para-emissores/segmentos-de-listagem/sobre-segmentos-de-listagem/", "locator": "seção Sobre segmentos de listagem", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000010", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-segmentos-listagem", "contentNodeSlug": "tema-viii-segmentos-listagem-novo-mercado",
+      "family": { "code": "AI-VIII-NOVO-MERCADO-CAPITAL-001", "name": "Capital social no Novo Mercado", "angle": "identificar espécie de ação admitida" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["Novo Mercado", "ações ordinárias"],
+      "statement": "Quanto à composição do capital social, as companhias listadas no Novo Mercado da B3 podem emitir:",
+      "options": [
+        { "id": "opt_1", "text": "Apenas ações ordinárias com direito de voto.", "isCorrect": true },
+        { "id": "opt_2", "text": "Apenas ações preferenciais sem direito de voto.", "isCorrect": false, "distractorReason": "O Novo Mercado exige capital composto por ações ordinárias." },
+        { "id": "opt_3", "text": "Ações ordinárias e preferenciais em qualquer proporção.", "isCorrect": false, "distractorReason": "Essa composição não atende à regra distintiva do Novo Mercado." },
+        { "id": "opt_4", "text": "Somente debêntures conversíveis, sem ações em circulação.", "isCorrect": false, "distractorReason": "A listagem no segmento pressupõe capital em ações ordinárias." }
+      ],
+      "explanation": "O Novo Mercado é o segmento especial em que o capital social das companhias é composto somente por ações ordinárias, reforçando a associação entre participação acionária e direito de voto.",
+      "commonTrap": "Confundir o Novo Mercado com os Níveis 1 e 2, que admitem estruturas diferentes.",
+      "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Regulamento do Novo Mercado", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/main.jsp?lumA=1&lumII=8A80CB81633FBF0B01633FED566F1C2A&lumPageId=8A6A8E1C4ECF7568014ED0C245D6155F", "locator": "seção Novo Mercado — capital social", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000011", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-indices", "contentNodeSlug": "tema-viii-indices-finalidade",
+      "family": { "code": "AI-VIII-IBOV-FINALIDADE-001", "name": "Finalidade do Ibovespa", "angle": "distinguir índice de ativo garantido" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["Ibovespa", "carteira teórica"],
+      "statement": "Considerando sua metodologia oficial e sua função no mercado brasileiro, o Ibovespa é corretamente descrito como:",
+      "options": [
+        { "id": "opt_1", "text": "Indicador do desempenho médio das cotações de uma carteira teórica de ativos de elevada negociabilidade e representatividade.", "isCorrect": true },
+        { "id": "opt_2", "text": "Fundo garantido pela B3 que compra todas as ações listadas em pesos iguais.", "isCorrect": false, "distractorReason": "O índice é indicador baseado em carteira teórica, não fundo garantido." },
+        { "id": "opt_3", "text": "Taxa média de juros das debêntures emitidas no Brasil.", "isCorrect": false, "distractorReason": "O Ibovespa representa o mercado acionário, não juros corporativos." },
+        { "id": "opt_4", "text": "Índice composto obrigatoriamente por todas as companhias abertas registradas na CVM.", "isCorrect": false, "distractorReason": "A composição depende de critérios metodológicos de elegibilidade." }
+      ],
+      "explanation": "O Ibovespa resulta de carteira teórica e busca indicar o desempenho médio dos ativos mais negociáveis e representativos do mercado acionário brasileiro, conforme critérios de sua metodologia.",
+      "commonTrap": "Confundir índice de referência com fundo de investimento ou carteira de todas as ações.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Metodologia do Ibovespa", "versionLabel": "Página e metodologia consultadas em 11/10/2026", "url": "https://b3.com.br/pt_br/market-data-e-indices/indices/indices-amplos/ibovespa-b3.htm", "locator": "seção O índice e metodologia, itens 1 a 3", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000012", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-bdr", "contentNodeSlug": "tema-viii-bdr-conceito",
+      "family": { "code": "AI-VIII-BDR-CONCEITO-001", "name": "Conceito regulamentar de BDR", "angle": "identificar local de emissão e lastro" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["BDR", "lastro", "exterior"],
+      "statement": "Considerando o local de emissão do certificado e o ativo que lhe serve de lastro, de acordo com a Resolução CVM 182, um BDR é:",
+      "options": [
+        { "id": "opt_1", "text": "Certificado de depósito emitido no Brasil e lastreado em valores mobiliários emitidos no exterior.", "isCorrect": true },
+        { "id": "opt_2", "text": "Ação estrangeira transferida fisicamente ao investidor e emitida pela B3.", "isCorrect": false, "distractorReason": "O BDR é certificado de depósito; não é a própria ação emitida pela B3." },
+        { "id": "opt_3", "text": "Título público brasileiro denominado em dólar.", "isCorrect": false, "distractorReason": "BDR não é título da dívida pública." },
+        { "id": "opt_4", "text": "Certificado emitido no exterior com lastro obrigatório em ações brasileiras.", "isCorrect": false, "distractorReason": "Essa descrição inverte o local de emissão e a direção do lastro do BDR." }
+      ],
+      "explanation": "BDR é certificado de depósito emitido no Brasil com lastro em ações, certificados de ações ou valores mobiliários representativos de dívida emitidos no exterior, conforme a regulamentação da CVM.",
+      "commonTrap": "Confundir BDR negociado no Brasil com ADR emitido e negociado no exterior.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 182/2023", "versionLabel": "Texto vigente em 11/10/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/100/resol182.pdf", "locator": "arts. 1º e 2º, I", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000013", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-tipos-ordem", "contentNodeSlug": "tema-viii-tipos-ordem-limitada",
+      "family": { "code": "AI-VIII-ORDEM-LIMITADA-001", "name": "Execução da ordem limitada", "angle": "aplicar limite de compra e venda" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["ordem limitada", "execução"],
+      "statement": "Um cliente envia ordem limitada de compra de uma ação a R$ 25,00. Durante a validade, existem ofertas de venda a R$ 24,80 e depois a R$ 25,30. A ordem pode ser executada:",
+      "options": [
+        { "id": "opt_1", "text": "A R$ 24,80, por ser preço igual ou melhor para o comprador, mas não a R$ 25,30.", "isCorrect": true },
+        { "id": "opt_2", "text": "Somente exatamente a R$ 25,00, nunca por preço inferior.", "isCorrect": false, "distractorReason": "O limite admite execução por preço melhor para o comprador." },
+        { "id": "opt_3", "text": "A qualquer preço disponível, porque prioridade de execução substitui o limite.", "isCorrect": false, "distractorReason": "Isso descaracterizaria a proteção de preço da ordem limitada." },
+        { "id": "opt_4", "text": "A R$ 25,30, desde que seja a primeira oferta exibida no livro.", "isCorrect": false, "distractorReason": "Compra acima do limite indicado viola a condição da ordem." }
+      ],
+      "explanation": "Na compra limitada, a execução não pode ocorrer acima do limite fixado, mas pode ocorrer por preço inferior, que é melhor ao comprador. Na venda, a lógica se inverte: não se vende abaixo do limite.",
+      "commonTrap": "Interpretar preço limite como preço exato, rejeitando uma execução mais favorável.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Manual de Procedimentos Operacionais de Negociação", "versionLabel": "Versão vigente consultada em 11/10/2026", "url": "https://www.b3.com.br/data/files/CF/D0/64/95/753D0A105BF9020AAC094EA8/MPO%20de%20Negociacao%20da%20B3.pdf", "locator": "definições — oferta limitada e oferta a mercado", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000014", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-tipos-ordem", "contentNodeSlug": "tema-viii-tipos-ordem-stop",
+      "family": { "code": "AI-VIII-ORDEM-STOP-001", "name": "Gatilho da ordem stop", "angle": "distinguir disparo de garantia de preço" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["ordem stop", "gatilho"],
+      "statement": "Um investidor cadastra uma ordem stop de venda para ser acionada quando o ativo atingir determinado preço. Ao ocorrer o gatilho em mercado volátil, é correto afirmar que:",
+      "options": [
+        { "id": "opt_1", "text": "O preço de disparo determina quando a ordem é enviada, mas não assegura, por si só, execução exatamente naquele preço.", "isCorrect": true },
+        { "id": "opt_2", "text": "A B3 garante execução exatamente no preço de disparo, ainda que não haja contraparte.", "isCorrect": false, "distractorReason": "O gatilho não cria liquidez nem contraparte no preço desejado." },
+        { "id": "opt_3", "text": "A ordem é executada antes de o ativo atingir o preço definido.", "isCorrect": false, "distractorReason": "Isso contraria a função do preço de acionamento." },
+        { "id": "opt_4", "text": "O stop transforma a posição de renda variável em aplicação garantida.", "isCorrect": false, "distractorReason": "O mecanismo auxilia a estratégia, mas não elimina gaps ou risco de execução." }
+      ],
+      "explanation": "A ordem stop especifica o preço do ativo a partir do qual a ordem deve ser executada. O acionamento não equivale a garantia de preenchimento exatamente no gatilho, pois a execução depende do mercado e da liquidez.",
+      "commonTrap": "Confundir preço de disparo com preço garantido de execução.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Manual de Procedimentos Operacionais de Negociação", "versionLabel": "Versão vigente consultada em 11/10/2026", "url": "https://www.b3.com.br/data/files/CF/D0/64/95/753D0A105BF9020AAC094EA8/MPO%20de%20Negociacao%20da%20B3.pdf", "locator": "definições — ordem stop", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000015", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-call-abertura", "contentNodeSlug": "tema-viii-call-abertura-formacao-de-preco",
+      "family": { "code": "AI-VIII-CALL-FIXING-001", "name": "Fixing no call de abertura", "angle": "aplicar o primeiro critério de preço" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["call de abertura", "fixing", "leilão"],
+      "statement": "Durante o call de abertura, diferentes preços teóricos permitiriam cruzamentos. Pelo primeiro critério do fixing da B3, deve ser priorizado o preço que:",
+      "options": [
+        { "id": "opt_1", "text": "Maximize a quantidade de ativos ou derivativos negociada no leilão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Seja sempre igual ao fechamento do pregão anterior.", "isCorrect": false, "distractorReason": "O fechamento anterior pode participar de desempates, mas não é o primeiro critério." },
+        { "id": "opt_3", "text": "Atenda exclusivamente à oferta registrada primeiro no tempo.", "isCorrect": false, "distractorReason": "O fixing busca preço único segundo critérios de quantidade e equilíbrio." },
+        { "id": "opt_4", "text": "Produza a maior oscilação possível para revelar a demanda.", "isCorrect": false, "distractorReason": "A maximização de oscilação não é objetivo do algoritmo." }
+      ],
+      "explanation": "O primeiro critério do fixing seleciona o preço capaz de maximizar a quantidade negociada. Se houver empate, entram critérios adicionais de menor desequilíbrio e proximidade de preços de referência.",
+      "commonTrap": "Usar preço anterior ou prioridade temporal como primeiro critério de formação do preço único.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Características e Regras do Mercado de Ações", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/mercado-de-acoes/caracteristicas-e-regras.htm", "locator": "Regras de pré-abertura, pré-fechamento e fixing — primeiro critério", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000016", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-leiloes", "contentNodeSlug": "tema-viii-leiloes-acionamento",
+      "family": { "code": "AI-VIII-TUNEL-LEILAO-001", "name": "Acionamento por túnel de leilão", "angle": "distinguir leilão de rejeição" },
+      "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["túnel de leilão", "oscilação"],
+      "statement": "Quando uma operação está prestes a ocorrer fora do intervalo definido pelo túnel de leilão da B3, o mecanismo tende a:",
+      "options": [
+        { "id": "opt_1", "text": "Acionar leilão automático antes do fechamento do negócio, permitindo formação de preço único.", "isCorrect": true },
+        { "id": "opt_2", "text": "Liquidar a operação pelo preço de fechamento do dia anterior sem consulta ao livro.", "isCorrect": false, "distractorReason": "O mecanismo aciona leilão e formação de preço, não liquidação automática por preço passado." },
+        { "id": "opt_3", "text": "Cancelar definitivamente a negociação do ativo pelo restante do dia.", "isCorrect": false, "distractorReason": "O acionamento de leilão não implica suspensão definitiva da negociação." },
+        { "id": "opt_4", "text": "Garantir ao primeiro ofertante o preço solicitado, independentemente das demais ofertas.", "isCorrect": false, "distractorReason": "O leilão considera o conjunto de ofertas e seu algoritmo de formação de preço." }
+      ],
+      "explanation": "O túnel de leilão atua na iminência do negócio e aciona leilão automático quando o preço ficaria fora do intervalo definido. O processo usa formação de preço único e amplia a transparência.",
+      "commonTrap": "Confundir túnel de leilão com rejeição definitiva da oferta ou com limite estático pós-negócio.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Características e Regras do Mercado de Ações", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/mercado-de-acoes/caracteristicas-e-regras.htm", "locator": "seções Túneis de leilão e Túneis de proteção", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000017", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-custodia", "contentNodeSlug": "tema-viii-custodia-titularidade",
+      "family": { "code": "AI-VIII-CUSTODIA-REGISTRO-001", "name": "Registro na central depositária", "angle": "identificar segregação por comitente" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["custódia", "central depositária", "titularidade"],
+      "statement": "No depósito centralizado da B3, a estrutura de contas dos registros escriturais deve permitir:",
+      "options": [
+        { "id": "opt_1", "text": "A identificação dos ativos no nível do respectivo comitente.", "isCorrect": true },
+        { "id": "opt_2", "text": "A mistura definitiva dos ativos dos clientes com o patrimônio da corretora.", "isCorrect": false, "distractorReason": "A estrutura deve preservar identificação e controles, não confusão patrimonial." },
+        { "id": "opt_3", "text": "A eliminação dos direitos e ônus incidentes durante a guarda.", "isCorrect": false, "distractorReason": "Eventos, direitos e ônus são tratados no depósito centralizado." },
+        { "id": "opt_4", "text": "O anonimato do titular perante toda a infraestrutura de mercado.", "isCorrect": false, "distractorReason": "Os registros devem justamente permitir identificação no nível do comitente." }
+      ],
+      "explanation": "A guarda centralizada é mantida por registros escriturais em estrutura que identifica o comitente. A depositária também trata eventos, movimentações, conciliações, direitos e ônus dos ativos.",
+      "commonTrap": "Confundir fungibilidade operacional dos ativos com perda da identificação do investidor.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Serviços da Central Depositária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/central-depositaria/deposito-centralizado/servicos-oferecidos/", "locator": "seção Guarda centralizada de títulos fungíveis e infungíveis", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000018", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-clearing", "contentNodeSlug": "tema-viii-clearing-contraparte-central",
+      "family": { "code": "AI-VIII-CLEARING-CCP-001", "name": "Atuação da contraparte central", "angle": "identificar função na pós-negociação" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["clearing", "CCP", "risco de contraparte"],
+      "statement": "Na pós-negociação de operações abrangidas pela Câmara B3, a atuação como contraparte central significa que a Câmara:",
+      "options": [
+        { "id": "opt_1", "text": "Interpõe-se na liquidação e utiliza estrutura de salvaguardas e gerenciamento de risco para as obrigações assumidas.", "isCorrect": true },
+        { "id": "opt_2", "text": "Garante ao investidor que o ativo negociado nunca perderá valor.", "isCorrect": false, "distractorReason": "A CCP gerencia risco de liquidação e contraparte, não risco de mercado do ativo." },
+        { "id": "opt_3", "text": "Substitui a CVM na fiscalização dos emissores e participantes.", "isCorrect": false, "distractorReason": "Infraestrutura de pós-negociação não substitui o regulador estatal." },
+        { "id": "opt_4", "text": "Escolhe discricionariamente os investimentos para os clientes das corretoras.", "isCorrect": false, "distractorReason": "A Câmara não administra carteiras de investidores." }
+      ],
+      "explanation": "Como CCP, a Câmara B3 se interpõe nas obrigações de liquidação perante seus participantes e mantém salvaguardas e modelos de risco. Isso reduz risco de contraparte, sem eliminar risco de preço.",
+      "commonTrap": "Interpretar garantia da liquidação como garantia de rentabilidade do investimento.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Compensação, Liquidação e Gerenciamento de Riscos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/pt_br/regulacao/estrutura-normativa/regulamentos-e-manuais/compensacao-liquidacao-e-gerenciamento-de-riscos.htm", "locator": "seção Câmara B3 — atuação como contraparte central", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000019", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-liquidacao", "contentNodeSlug": "tema-viii-liquidacao-prazo",
+      "family": { "code": "AI-VIII-LIQUIDACAO-D2-001", "name": "Liquidação do mercado à vista", "angle": "aplicar contagem do ciclo D+2" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["liquidação", "D+2", "mercado à vista"],
+      "statement": "Uma compra de ações no mercado à vista é realizada em uma segunda-feira sem feriados no período. Considerando o ciclo usual D+2, a liquidação ocorrerá:",
+      "options": [
+        { "id": "opt_1", "text": "Na própria segunda-feira, imediatamente após o negócio.", "isCorrect": false, "distractorReason": "Isso corresponderia a liquidação em D+0." },
+        { "id": "opt_2", "text": "Na terça-feira, primeiro dia útil após a negociação.", "isCorrect": false, "distractorReason": "Terça-feira corresponde a D+1." },
+        { "id": "opt_3", "text": "Na quarta-feira, segundo dia útil após a negociação.", "isCorrect": true },
+        { "id": "opt_4", "text": "Na quinta-feira, terceiro dia útil após a negociação.", "isCorrect": false, "distractorReason": "Isso corresponderia ao antigo ciclo D+3, não ao D+2 usual." }
+      ],
+      "explanation": "D representa a data da negociação. Em D+2, contam-se dois dias úteis posteriores: terça é D+1 e quarta é D+2. Feriados e dias não úteis alterariam o calendário efetivo.",
+      "commonTrap": "Contar o próprio dia do negócio como D+1 ou aplicar o antigo ciclo D+3.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Projeto de Liquidação D+2", "versionLabel": "Documentação oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/pt_br/projeto-d-2/documentos/", "locator": "seção Ciclo e Liquidação em D+2 — Liquidação de Ativos", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000020", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-btc", "contentNodeSlug": "tema-viii-btc-devolucao",
+      "family": { "code": "AI-VIII-BTC-DIREITOS-001", "name": "Obrigações no empréstimo de ativos", "angle": "relacionar devolução e proventos" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["empréstimo de ativos", "doador", "tomador", "proventos"],
+      "statement": "Durante um empréstimo de ações, a companhia paga dividendos e o tomador já vendeu os ativos no mercado. Segundo o funcionamento do serviço, o tomador:",
+      "options": [
+        { "id": "opt_1", "text": "Permanece obrigado a devolver ativos equivalentes e os proventos do doador são tratados pelo mecanismo de reembolso.", "isCorrect": true },
+        { "id": "opt_2", "text": "Torna-se definitivamente proprietário, sem obrigação de devolver ou compensar eventos.", "isCorrect": false, "distractorReason": "A venda não extingue a obrigação contratual de devolução e compensação." },
+        { "id": "opt_3", "text": "Transfere automaticamente a obrigação de devolução para o comprador no mercado.", "isCorrect": false, "distractorReason": "O comprador recebe o ativo; a obrigação perante o contrato continua com o tomador." },
+        { "id": "opt_4", "text": "Pode escolher entre devolver os ativos ou pagar somente a taxa de empréstimo.", "isCorrect": false, "distractorReason": "A remuneração não substitui a obrigação de devolução do ativo equivalente." }
+      ],
+      "explanation": "O tomador pode usar ou vender os ativos, mas deve devolvê-los conforme o contrato. Eventos econômicos são compensados para preservar ao doador tratamento equivalente ao que teria com os ativos em carteira.",
+      "commonTrap": "Achar que a venda a descoberto transfere a obrigação contratual do tomador ao comprador.",
+      "estimatedSeconds": 110, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Empréstimo de Ativos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/emprestimo-de-ativos/informacoes.htm", "locator": "seções Doador dos ativos e Tomador dos ativos", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VIII-000021", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-mercado-termo", "contentNodeSlug": "tema-viii-mercado-termo-caracteristicas",
+      "family": { "code": "AI-VIII-TERMO-FUTURO-001", "name": "Termo versus futuro", "angle": "distinguir ajuste diário" },
+      "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["mercado a termo", "mercado futuro", "ajuste diário"],
+      "statement": "Dois investidores assumem compromissos sobre ações para data futura. O primeiro opera contrato a termo e o segundo contrato futuro. A distinção correta é:",
+      "options": [
+        { "id": "opt_1", "text": "O contrato futuro possui ajuste diário de ganhos e perdas; o termo não sofre esse ajuste diário típico.", "isCorrect": true },
+        { "id": "opt_2", "text": "Somente o termo envolve compromisso, enquanto o futuro concede direito sem obrigação.", "isCorrect": false, "distractorReason": "Direito sem obrigação do titular é característica de opção, não de futuro." },
+        { "id": "opt_3", "text": "O termo é sempre liquidado no mesmo dia e o futuro apenas após dez anos.", "isCorrect": false, "distractorReason": "Ambos se referem a liquidação ou exposição futura; esses prazos não definem os mercados." },
+        { "id": "opt_4", "text": "Nenhum dos dois pode exigir margem ou garantia.", "isCorrect": false, "distractorReason": "A infraestrutura pode exigir garantias para administrar o risco das posições." }
+      ],
+      "explanation": "No futuro, resultados são apurados e liquidados diariamente pelo ajuste. No termo, comprador e vendedor permanecem obrigados até a liquidação sem o mecanismo típico de ajuste diário do mercado futuro.",
+      "commonTrap": "Confundir contrato a termo ou futuro com opção, em que o titular adquire um direito.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [
+        { "authority": "B3", "normNumber": "Termo de Ações", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/termo-de-acoes.htm", "locator": "características — compra sem ajuste diário", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" },
+        { "authority": "B3", "normNumber": "Dinâmica de Negociação — Mercado Futuro", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/mercado-de-acoes/dinamica-de-negociacao.htm", "locator": "seção Ajuste diário", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }
+      ]
+    }
+  ]
+}

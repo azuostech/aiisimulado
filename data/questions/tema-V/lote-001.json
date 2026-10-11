@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-V-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-V-000001", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-cmn", "contentNodeSlug": "tema-v-cmn-formulacao-de-politicas",
+      "family": { "code": "AI-V-CMN-FORMULACAO-001", "name": "Papel normativo do CMN", "angle": "distinguir formulação de execução" },
+      "difficulty": 2, "questionType": "comparison", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["CMN", "política monetária", "SFN"],
+      "statement": "Na estrutura do Sistema Financeiro Nacional, a atribuição que melhor caracteriza o Conselho Monetário Nacional é:",
+      "options": [
+        { "id": "opt_1", "text": "Formular diretrizes da política da moeda e do crédito e estabelecer normas gerais para o sistema.", "isCorrect": true },
+        { "id": "opt_2", "text": "Executar diariamente ordens de compra e venda de ações dos investidores.", "isCorrect": false, "distractorReason": "Execução de ordens é atividade de intermediários e ambientes de negociação." },
+        { "id": "opt_3", "text": "Administrar diretamente todas as instituições financeiras privadas.", "isCorrect": false, "distractorReason": "O CMN é órgão normativo e não gestor das instituições privadas." },
+        { "id": "opt_4", "text": "Fiscalizar exclusivamente companhias abertas e ofertas de ações.", "isCorrect": false, "distractorReason": "Essa descrição se aproxima de competências da CVM no mercado de valores mobiliários." }
+      ],
+      "explanation": "O CMN é o órgão normativo responsável pelas diretrizes da política monetária, creditícia e cambial. A execução e a supervisão cabem às entidades competentes, como BCB e CVM.",
+      "commonTrap": "Atribuir ao órgão formulador as tarefas operacionais e fiscalizatórias dos supervisores.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Sistema Financeiro Nacional", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/sfn", "locator": "diretrizes para o sistema — Conselho Monetário Nacional", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000002", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-banco-central", "contentNodeSlug": "tema-v-banco-central-execucao-da-politica-monetaria",
+      "family": { "code": "AI-V-BC-EXECUCAO-001", "name": "Execução pelo Banco Central", "angle": "associar diretriz e implementação" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["Banco Central", "execução", "supervisão"],
+      "statement": "Após a definição das diretrizes monetárias no âmbito competente, qual entidade executa a política monetária e supervisiona instituições bancárias no Brasil?",
+      "options": [
+        { "id": "opt_1", "text": "Banco Central do Brasil.", "isCorrect": true },
+        { "id": "opt_2", "text": "Conselho Nacional de Previdência Complementar.", "isCorrect": false, "distractorReason": "O CNPC trata da previdência complementar fechada." },
+        { "id": "opt_3", "text": "Tesouro Nacional, com exclusividade sobre bancos privados.", "isCorrect": false, "distractorReason": "O Tesouro gere finanças e dívida federais, não exerce essa supervisão bancária." },
+        { "id": "opt_4", "text": "BSM Supervisão de Mercados.", "isCorrect": false, "distractorReason": "A BSM atua na autorregulação dos mercados administrados pela B3." }
+      ],
+      "explanation": "O Banco Central executa as políticas monetária, cambial e de crédito e monitora e fiscaliza as instituições sob sua supervisão, fazendo cumprir as normas aplicáveis.",
+      "commonTrap": "Confundir a formulação normativa do CMN com a execução e a supervisão realizadas pelo BCB.",
+      "estimatedSeconds": 70, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Sistema Financeiro Nacional", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/sfn", "locator": "papel do Banco Central — execução e fiscalização", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000003", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-cvm", "contentNodeSlug": "tema-v-cvm-mercado-de-capitais",
+      "family": { "code": "AI-V-CVM-MERCADO-001", "name": "Competência da CVM", "angle": "identificar mercado supervisionado" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["CVM", "valores mobiliários", "mercado de capitais"],
+      "statement": "Uma companhia aberta realiza oferta pública de valores mobiliários. A autarquia responsável por normatizar, disciplinar e fiscalizar esse mercado é a:",
+      "options": [
+        { "id": "opt_1", "text": "Comissão de Valores Mobiliários — CVM.", "isCorrect": true },
+        { "id": "opt_2", "text": "Secretaria do Tesouro Nacional.", "isCorrect": false, "distractorReason": "O Tesouro não é o supervisor das ofertas públicas de valores mobiliários." },
+        { "id": "opt_3", "text": "Superintendência Nacional de Previdência Complementar.", "isCorrect": false, "distractorReason": "A Previc supervisiona entidades fechadas de previdência complementar." },
+        { "id": "opt_4", "text": "Conselho Nacional de Seguros Privados.", "isCorrect": false, "distractorReason": "O CNSP formula diretrizes para seguros privados." }
+      ],
+      "explanation": "A CVM foi criada para fiscalizar, normatizar, disciplinar e desenvolver o mercado de valores mobiliários, abrangendo emissores, ofertas, intermediários e mercados regulados.",
+      "commonTrap": "Escolher um órgão do SFN apenas por ele tratar de finanças, sem observar o segmento supervisionado.",
+      "estimatedSeconds": 70, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Sobre a CVM", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/cvm/pt-br/acesso-a-informacao-cvm/institucional/sobre-a-cvm/sobre-a-cvm", "locator": "objetivo institucional e mercado de valores mobiliários", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000004", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-tesouro-nacional", "contentNodeSlug": "tema-v-tesouro-nacional-divida-publica",
+      "family": { "code": "AI-V-TESOURO-DIVIDA-001", "name": "Tesouro e dívida pública", "angle": "distinguir gestão fiscal de política monetária" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["Tesouro Nacional", "dívida pública", "política fiscal"],
+      "statement": "Qual atividade se vincula diretamente ao papel do Tesouro Nacional, e não à supervisão bancária exercida pelo Banco Central?",
+      "options": [
+        { "id": "opt_1", "text": "Administrar a dívida pública federal e realizar emissões de títulos para seu financiamento.", "isCorrect": true },
+        { "id": "opt_2", "text": "Autorizar o funcionamento de bancos comerciais privados.", "isCorrect": false, "distractorReason": "A autorização de instituições financeiras pertence ao âmbito do Banco Central." },
+        { "id": "opt_3", "text": "Fiscalizar ofertas públicas de ações de companhias abertas.", "isCorrect": false, "distractorReason": "Essa fiscalização pertence ao campo de atuação da CVM." },
+        { "id": "opt_4", "text": "Autorregular operações realizadas nos mercados da B3.", "isCorrect": false, "distractorReason": "Essa função é exercida pela estrutura autorreguladora do mercado." }
+      ],
+      "explanation": "O Tesouro Nacional está ligado à gestão fiscal e à administração da dívida pública federal, incluindo planejamento de emissões. Não exerce supervisão prudencial de bancos ou de ofertas públicas.",
+      "commonTrap": "Confundir a emissão de títulos públicos com a execução da política monetária pelo Banco Central.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Tesouro Nacional", "normNumber": "Dívida Pública Federal", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.tesourotransparente.gov.br/temas/divida-publica-federal", "locator": "gestão e financiamento da Dívida Pública Federal", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000005", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-cnsp", "contentNodeSlug": "tema-v-cnsp-regulacao",
+      "family": { "code": "AI-V-CONSELHOS-SEG-PREV-001", "name": "CNSP versus CNPC", "angle": "associar conselho ao segmento" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["CNSP", "CNPC", "seguros", "previdência"],
+      "statement": "Assinale a associação correta entre órgão normativo e segmento do Sistema Financeiro Nacional:",
+      "options": [
+        { "id": "opt_1", "text": "CNSP — seguros privados; CNPC — previdência complementar fechada.", "isCorrect": true },
+        { "id": "opt_2", "text": "CNSP — mercado de ações; CNPC — bancos comerciais.", "isCorrect": false, "distractorReason": "Mercado de ações e bancos pertencem a outros ramos e supervisores." },
+        { "id": "opt_3", "text": "CNSP — dívida pública; CNPC — política cambial.", "isCorrect": false, "distractorReason": "Dívida e câmbio não constituem os segmentos desses conselhos." },
+        { "id": "opt_4", "text": "CNSP — previdência fechada; CNPC — seguros privados.", "isCorrect": false, "distractorReason": "A alternativa troca os campos de competência dos dois conselhos." }
+      ],
+      "explanation": "O CNSP é o órgão normativo do segmento de seguros privados, enquanto o CNPC exerce função normativa sobre a previdência complementar fechada. Seus supervisores são distintos.",
+      "commonTrap": "Trocar CNSP e CNPC por ambos serem conselhos normativos de segmentos não bancários.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Sistema Financeiro Nacional", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/sfn", "locator": "seguros e previdência — CNSP e CNPC", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000006", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-b3", "contentNodeSlug": "tema-v-b3-infraestrutura",
+      "family": { "code": "AI-V-B3-INFRA-001", "name": "Infraestrutura da B3", "angle": "reconhecer funções pós-negociação" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["B3", "negociação", "clearing", "registro"],
+      "statement": "Além de manter ambientes de negociação, a B3 desempenha funções de infraestrutura relevantes ao mercado, entre elas:",
+      "options": [
+        { "id": "opt_1", "text": "Compensação, liquidação, depósito centralizado e registro de ativos e operações.", "isCorrect": true },
+        { "id": "opt_2", "text": "Definição da meta oficial de inflação do país.", "isCorrect": false, "distractorReason": "A meta é definida no âmbito do Conselho Monetário Nacional." },
+        { "id": "opt_3", "text": "Emissão exclusiva de moeda e administração das reservas internacionais.", "isCorrect": false, "distractorReason": "Essas são funções de autoridade monetária, não da bolsa." },
+        { "id": "opt_4", "text": "Concessão obrigatória de crédito de varejo ao público.", "isCorrect": false, "distractorReason": "B3 é infraestrutura de mercado, não banco comercial de varejo." }
+      ],
+      "explanation": "A B3 integra negociação e atividades de pós-negociação, como compensação, liquidação, contraparte central, depósito e registro, compondo a infraestrutura do mercado financeiro.",
+      "commonTrap": "Reduzir a B3 apenas ao pregão de ações e ignorar suas funções de infraestrutura e pós-negociação.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Produtos e Serviços", "versionLabel": "Portal oficial consultado em 11/10/2026", "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/", "locator": "negociação, compensação, liquidação, depósito e registro", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000007", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-bsm", "contentNodeSlug": "tema-v-bsm-autorregulacao",
+      "family": { "code": "AI-V-BSM-AUTORREG-001", "name": "Autorregulação pela BSM", "angle": "distinguir autorregulador e regulador estatal" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["BSM", "autorregulação", "supervisão"],
+      "statement": "A BSM Supervisão de Mercados atua, no âmbito dos mercados administrados pela B3, principalmente como:",
+      "options": [
+        { "id": "opt_1", "text": "Entidade de autorregulação, monitorando operações e supervisionando participantes segundo as regras aplicáveis.", "isCorrect": true },
+        { "id": "opt_2", "text": "Órgão responsável por formular a política monetária nacional.", "isCorrect": false, "distractorReason": "Formulação monetária pertence aos órgãos estatais competentes." },
+        { "id": "opt_3", "text": "Banco público emissor de títulos da dívida federal.", "isCorrect": false, "distractorReason": "A BSM não é banco nem emissora da dívida pública." },
+        { "id": "opt_4", "text": "Substituta integral da CVM em todo o mercado de capitais.", "isCorrect": false, "distractorReason": "Autorregulação não elimina nem substitui a regulação e fiscalização estatal da CVM." }
+      ],
+      "explanation": "A BSM exerce autorregulação sobre os mercados organizados administrados pela B3, supervisionando operações e participantes. Essa atuação convive com a competência regulatória da CVM.",
+      "commonTrap": "Interpretar autorregulação como substituição completa do regulador estatal.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "BSM Supervisão de Mercados", "normNumber": "Quem somos", "versionLabel": "Página institucional consultada em 11/10/2026", "url": "https://www.bsmsupervisao.com.br/quem-somos", "locator": "missão de autorregulação e supervisão dos mercados da B3", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-V-000008", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-spb", "contentNodeSlug": "tema-v-spb-liquidacao",
+      "family": { "code": "AI-V-SPB-LIQUIDACAO-001", "name": "Função do SPB", "angle": "identificar infraestrutura de liquidação" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ARCHIVED", "tags": ["SPB", "liquidação", "infraestrutura"],
+      "statement": "No Sistema de Pagamentos Brasileiro, as infraestruturas do mercado financeiro são essenciais porque viabilizam atividades como:",
+      "options": [
+        { "id": "opt_1", "text": "Compensação, liquidação, depósito centralizado e registro de pagamentos, ativos ou transações.", "isCorrect": true },
+        { "id": "opt_2", "text": "Definição individual do perfil de risco de cada investidor.", "isCorrect": false, "distractorReason": "Perfil do investidor é tratado no processo de suitability, não é função central do SPB." },
+        { "id": "opt_3", "text": "Elaboração das demonstrações financeiras de todas as empresas brasileiras.", "isCorrect": false, "distractorReason": "O SPB não exerce contabilidade empresarial universal." },
+        { "id": "opt_4", "text": "Garantia de rentabilidade mínima para investimentos privados.", "isCorrect": false, "distractorReason": "Infraestrutura de pagamentos e liquidação não garante retorno de investimentos." }
+      ],
+      "explanation": "O SPB reúne infraestruturas e arranjos que sustentam pagamentos, compensação, liquidação, depósito e registro. Seu funcionamento sólido é relevante para a segurança e estabilidade financeira.",
+      "commonTrap": "Confundir segurança operacional da liquidação com garantia de rentabilidade ou ausência de risco do ativo.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Sistema de Pagamentos Brasileiro", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/spb", "locator": "segmentos, infraestruturas e atividades de liquidação e registro", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

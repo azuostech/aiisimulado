@@ -1,0 +1,24 @@
+{
+  "topicCode": "XIV",
+  "topicName": "Mercado Financeiro — Renda Fixa",
+  "subtopicPrefix": "renda-fixa",
+  "version": "2026-10-11",
+  "source": "Tesouro Nacional, Banco Central, Receita Federal, FGC e B3",
+  "branches": [
+    { "slug": "titulos-publicos", "name": "Títulos públicos", "concepts": ["Tesouro Selic", "Tesouro Prefixado", "Tesouro IPCA+", "preço", "taxa", "marcação a mercado"] },
+    { "slug": "cdb", "name": "CDB", "concepts": ["emissor", "remuneração", "liquidez", "risco", "tributação"] },
+    { "slug": "rdb", "name": "RDB", "concepts": ["características", "diferença para CDB", "resgate"] },
+    { "slug": "lc", "name": "Letra de Câmbio", "concepts": ["emissor", "remuneração", "risco"] },
+    { "slug": "cdi", "name": "CDI", "concepts": ["conceito", "benchmark", "taxa"] },
+    { "slug": "lci", "name": "LCI", "concepts": ["lastro", "emissor", "tributação", "risco"] },
+    { "slug": "lca", "name": "LCA", "concepts": ["lastro", "emissor", "tributação", "risco"] },
+    { "slug": "lh", "name": "Letra Hipotecária", "concepts": ["características", "emissor"] },
+    { "slug": "lf", "name": "Letra Financeira", "concepts": ["prazo", "liquidez", "risco"] },
+    { "slug": "fgc", "name": "FGC", "concepts": ["cobertura", "elegibilidade", "limites", "produtos não cobertos"] },
+    { "slug": "tributacao", "name": "Tributação", "concepts": ["IR regressivo", "IOF", "isenções", "fato gerador"] },
+    { "slug": "marcacao-mercado", "name": "Marcação a mercado", "concepts": ["preço x taxa", "juros", "volatilidade"] },
+    { "slug": "risco-credito", "name": "Risco de crédito", "concepts": ["emissor", "spread"] },
+    { "slug": "liquidez", "name": "Liquidez", "concepts": ["vencimento", "mercado secundário", "resgate"] },
+    { "slug": "cambio", "name": "Câmbio", "concepts": ["compra", "venda", "liquidação", "risco cambial"] }
+  ]
+}

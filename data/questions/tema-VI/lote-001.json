@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-VI-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-VI-000001", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-banco-comercial", "contentNodeSlug": "tema-vi-banco-comercial-depositos",
+      "family": { "code": "AI-VI-BCOM-DEP-001", "name": "Banco comercial e depósitos", "angle": "identificar intermediação bancária" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["banco comercial", "depósitos", "crédito"],
+      "statement": "A atividade típica de um banco comercial pode ser corretamente resumida como:",
+      "options": [
+        { "id": "opt_1", "text": "Captar depósitos, inclusive à vista, e conceder crédito, intermediando recursos entre poupadores e tomadores.", "isCorrect": true },
+        { "id": "opt_2", "text": "Administrar exclusivamente fundos de previdência complementar fechada.", "isCorrect": false, "distractorReason": "Essa não é a atividade característica de um banco comercial." },
+        { "id": "opt_3", "text": "Fiscalizar as ofertas públicas de ações realizadas no país.", "isCorrect": false, "distractorReason": "Fiscalização do mercado de valores mobiliários cabe à CVM." },
+        { "id": "opt_4", "text": "Definir a meta de inflação e a taxa Selic por conta própria.", "isCorrect": false, "distractorReason": "Bancos comerciais não formulam nem decidem a política monetária." }
+      ],
+      "explanation": "Bancos realizam intermediação financeira, captando recursos de poupadores e oferecendo empréstimos e financiamentos. O banco comercial também se caracteriza pela captação de depósitos à vista.",
+      "commonTrap": "Confundir a instituição operadora com órgãos normativos ou supervisores do sistema.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Bancos e caixas econômicas", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/bancoscaixaseconomicas", "locator": "conceito de banco e intermediação entre poupadores e tomadores", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000002", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-banco-investimento", "contentNodeSlug": "tema-vi-banco-investimento-mercado-de-capitais",
+      "family": { "code": "AI-VI-BINV-CAPITAIS-001", "name": "Atuação do banco de investimento", "angle": "distinguir financiamento estruturado de varejo" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["banco de investimento", "mercado de capitais", "estruturação"],
+      "statement": "Uma empresa busca estruturar captação de médio e longo prazo e uma emissão no mercado de capitais. A instituição mais diretamente associada a esse tipo de atuação é o:",
+      "options": [
+        { "id": "opt_1", "text": "Banco de investimento.", "isCorrect": true },
+        { "id": "opt_2", "text": "Conselho Monetário Nacional.", "isCorrect": false, "distractorReason": "O CMN é órgão normativo, não estruturador comercial da emissão." },
+        { "id": "opt_3", "text": "Conselho Nacional de Previdência Complementar.", "isCorrect": false, "distractorReason": "O CNPC formula regras para previdência complementar fechada." },
+        { "id": "opt_4", "text": "Fundo Garantidor de Créditos.", "isCorrect": false, "distractorReason": "O FGC mantém mecanismo de garantia, não estrutura captações empresariais." }
+      ],
+      "explanation": "Bancos de investimento atuam no financiamento de médio e longo prazo e em operações do mercado de capitais, incluindo assessoria e estruturação de captações empresariais.",
+      "commonTrap": "Escolher um órgão regulador ou garantidor em lugar da instituição que presta o serviço financeiro.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Regulação do Sistema Financeiro", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/regulacao", "locator": "instituições reguladas — bancos de investimento", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000003", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-banco-multiplo", "contentNodeSlug": "tema-vi-banco-multiplo-carteiras",
+      "family": { "code": "AI-VI-BMULT-CARTEIRAS-001", "name": "Carteiras do banco múltiplo", "angle": "aplicar requisito de composição" },
+      "difficulty": 3, "questionType": "conceptual_trap", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["banco múltiplo", "carteiras"],
+      "statement": "Segundo a regulamentação, para ser constituída como banco múltiplo, uma instituição deve possuir:",
+      "options": [
+        { "id": "opt_1", "text": "No mínimo duas carteiras, sendo uma delas obrigatoriamente comercial ou de investimento.", "isCorrect": true },
+        { "id": "opt_2", "text": "Exatamente uma carteira, necessariamente de câmbio.", "isCorrect": false, "distractorReason": "Banco múltiplo pressupõe pluralidade mínima de carteiras." },
+        { "id": "opt_3", "text": "Somente carteiras de seguros e previdência fechada.", "isCorrect": false, "distractorReason": "Esses segmentos não satisfazem a composição bancária exigida." },
+        { "id": "opt_4", "text": "Todas as carteiras existentes no Sistema Financeiro Nacional.", "isCorrect": false, "distractorReason": "A norma exige mínimo de duas, não a totalidade das carteiras possíveis." }
+      ],
+      "explanation": "Banco múltiplo é constituído com pelo menos duas carteiras autorizadas, sendo uma obrigatoriamente comercial ou de investimento. A instituição opera sob uma única personalidade jurídica.",
+      "commonTrap": "Imaginar que a denominação múltiplo exige todas as carteiras ou apenas mais de um produto.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Resolução CMN 5.060", "versionLabel": "Texto oficial consultado em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=5060&tipo=Resolu%C3%A7%C3%A3o+CMN", "locator": "art. 4º — composição do banco múltiplo", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000004", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-caixa-economica-federal", "contentNodeSlug": "tema-vi-caixa-economica-federal-atuacao",
+      "family": { "code": "AI-VI-CEF-POLITICAS-001", "name": "Atuação institucional da Caixa", "angle": "reconhecer banco e agente de políticas públicas" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["Caixa", "políticas públicas", "habitação"],
+      "statement": "Uma característica que diferencia institucionalmente a Caixa Econômica Federal é sua atuação como:",
+      "options": [
+        { "id": "opt_1", "text": "Empresa pública e importante agente de políticas públicas, com presença em habitação, FGTS e programas sociais.", "isCorrect": true },
+        { "id": "opt_2", "text": "Autarquia responsável por fiscalizar todas as companhias abertas.", "isCorrect": false, "distractorReason": "Essa descrição corresponde à CVM, não à Caixa." },
+        { "id": "opt_3", "text": "Órgão normativo máximo dos seguros privados.", "isCorrect": false, "distractorReason": "Essa função pertence ao CNSP." },
+        { "id": "opt_4", "text": "Entidade privada sem atuação bancária ou social.", "isCorrect": false, "distractorReason": "A Caixa é empresa pública, instituição financeira e agente de políticas públicas." }
+      ],
+      "explanation": "A Caixa é empresa pública que exerce atividades bancárias e atua como agente relevante do Governo Federal na execução de políticas públicas, inclusive habitação e administração do FGTS.",
+      "commonTrap": "Tratar a Caixa como órgão regulador por causa de seu vínculo com o poder público.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Caixa Econômica Federal", "normNumber": "Sobre a Caixa", "versionLabel": "Página institucional consultada em 11/10/2026", "url": "https://www.caixa.gov.br/sobre-a-caixa/apresentacao/Paginas/default.aspx", "locator": "empresa pública, políticas públicas, habitação e FGTS", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000005", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-bndes", "contentNodeSlug": "tema-vi-bndes-financiamento-de-longo-prazo",
+      "family": { "code": "AI-VI-BNDES-LONGO-001", "name": "BNDES e longo prazo", "angle": "associar financiamento ao desenvolvimento" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["BNDES", "longo prazo", "desenvolvimento"],
+      "statement": "Um grande projeto de infraestrutura exige financiamento de longo prazo e possui impacto duradouro sobre a competitividade. A instituição pública especialmente ligada a esse papel é o:",
+      "options": [
+        { "id": "opt_1", "text": "BNDES.", "isCorrect": true },
+        { "id": "opt_2", "text": "CNSP.", "isCorrect": false, "distractorReason": "O CNSP é órgão normativo do setor de seguros privados." },
+        { "id": "opt_3", "text": "COAF.", "isCorrect": false, "distractorReason": "O COAF atua na inteligência financeira e prevenção à lavagem de dinheiro." },
+        { "id": "opt_4", "text": "BSM.", "isCorrect": false, "distractorReason": "A BSM exerce autorregulação de mercados, não financiamento de desenvolvimento." }
+      ],
+      "explanation": "O BNDES tem papel relevante no financiamento de longo prazo a investimentos em infraestrutura, inovação e setores produtivos, apoiando o desenvolvimento socioeconômico brasileiro.",
+      "commonTrap": "Escolher uma entidade normativa ou de fiscalização para uma função de financiamento.",
+      "estimatedSeconds": 70, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "BNDES", "normNumber": "O papel do BNDES e o financiamento de longo prazo", "versionLabel": "Estudo oficial consultado em 11/10/2026", "url": "https://blogdodesenvolvimento.bndes.gov.br/serie/estudos-especiais/O-papel-do-BNDES-e-o-financiamento-de-longo-prazo-no-Brasil/", "locator": "financiamento de longo prazo, infraestrutura e desenvolvimento", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000006", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-cooperativas-credito", "contentNodeSlug": "tema-vi-cooperativas-credito-associados",
+      "family": { "code": "AI-VI-COOP-ASSOCIADOS-001", "name": "Cooperativa e quadro social", "angle": "identificar destinatários dos serviços" },
+      "difficulty": 3, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["cooperativa de crédito", "associados", "captação"],
+      "statement": "A característica central da cooperativa de crédito, em comparação com um banco comercial tradicional, é que ela:",
+      "options": [
+        { "id": "opt_1", "text": "É formada pela associação de pessoas e presta serviços financeiros principalmente aos respectivos associados.", "isCorrect": true },
+        { "id": "opt_2", "text": "Não é instituição financeira e não pode conceder crédito.", "isCorrect": false, "distractorReason": "Cooperativa de crédito é instituição financeira e pode conceder crédito conforme as regras." },
+        { "id": "opt_3", "text": "Emite moeda e define a política cambial brasileira.", "isCorrect": false, "distractorReason": "Essas são funções de autoridade monetária, não da cooperativa." },
+        { "id": "opt_4", "text": "Presta serviços exclusivamente a companhias abertas listadas em bolsa.", "isCorrect": false, "distractorReason": "Seu vínculo característico é com associados, não com emissores listados." }
+      ],
+      "explanation": "Cooperativas de crédito são instituições financeiras constituídas pela associação de pessoas. Podem captar depósitos e conceder crédito aos associados, além de outras operações autorizadas.",
+      "commonTrap": "Confundir forma cooperativa com ausência de natureza financeira ou de supervisão pelo BCB.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Cooperativas de crédito", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/cooperativacredito", "locator": "conceito, associados, captação e concessão de crédito", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000007", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-financeiras", "contentNodeSlug": "tema-vi-financeiras-credito-ao-consumidor",
+      "family": { "code": "AI-VI-SCFI-CONSUMIDOR-001", "name": "Atuação das financeiras", "angle": "distinguir crédito de conta corrente" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["financeira", "crédito ao consumidor", "financiamento"],
+      "statement": "Uma Sociedade de Crédito, Financiamento e Investimento — financeira — caracteriza-se por:",
+      "options": [
+        { "id": "opt_1", "text": "Fornecer empréstimos e financiamentos para bens, serviços e capital de giro, sem oferecer conta corrente típica.", "isCorrect": true },
+        { "id": "opt_2", "text": "Emitir ações de terceiros e fiscalizar as bolsas de valores.", "isCorrect": false, "distractorReason": "A descrição mistura intermediação de valores mobiliários e fiscalização." },
+        { "id": "opt_3", "text": "Receber depósitos à vista em conta corrente como atividade obrigatória.", "isCorrect": false, "distractorReason": "O Banco Central esclarece que não se abre conta corrente em SCFI." },
+        { "id": "opt_4", "text": "Administrar exclusivamente a dívida pública federal.", "isCorrect": false, "distractorReason": "Essa função pertence ao Tesouro Nacional." }
+      ],
+      "explanation": "As SCFIs, conhecidas como financeiras, concedem empréstimos e financiamentos, frequentemente ligados ao consumo e capital de giro. Não oferecem conta corrente como um banco comercial.",
+      "commonTrap": "Presumir que toda instituição que concede crédito também pode captar depósitos à vista.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Sociedades de Crédito, Financiamento e Investimento", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/scfi", "locator": "empréstimos, financiamentos e ausência de conta corrente", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VI-000008", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-distribuidoras", "contentNodeSlug": "tema-vi-distribuidoras-atuacao",
+      "family": { "code": "AI-VI-CTVM-DTVM-001", "name": "Corretoras versus distribuidoras", "angle": "reconhecer convergência de atuação" },
+      "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["corretora", "distribuidora", "intermediação"],
+      "statement": "Sobre corretoras e distribuidoras de títulos e valores mobiliários, é correto afirmar que:",
+      "options": [
+        { "id": "opt_1", "text": "Após a autorização para distribuidoras operarem diretamente em mercados organizados, a principal diferença operacional foi eliminada e ambas podem realizar praticamente as mesmas operações.", "isCorrect": true },
+        { "id": "opt_2", "text": "Somente corretoras podem intermediar qualquer valor mobiliário e distribuidoras não podem atuar em bolsa.", "isCorrect": false, "distractorReason": "Essa distinção histórica deixou de representar a regra atual." },
+        { "id": "opt_3", "text": "Distribuidoras são órgãos públicos que fiscalizam corretoras privadas.", "isCorrect": false, "distractorReason": "Ambas são instituições intermediárias, não relação de regulador e regulado." },
+        { "id": "opt_4", "text": "Corretoras e distribuidoras não estão sujeitas à supervisão do BCB ou da CVM.", "isCorrect": false, "distractorReason": "A supervisão é compartilhada conforme as atividades exercidas." }
+      ],
+      "explanation": "CTVMs e DTVMs intermedeiam operações nos mercados financeiro, cambial e de capitais. Desde a Decisão Conjunta 17/2009, podem realizar praticamente as mesmas operações.",
+      "commonTrap": "Reproduzir a antiga separação que impedia distribuidoras de operar diretamente em bolsa.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Corretoras e distribuidoras", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/corretoradistribuidora", "locator": "diferença entre corretoras e distribuidoras e Decisão Conjunta 17/2009", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

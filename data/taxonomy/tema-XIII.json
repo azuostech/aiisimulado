@@ -1,0 +1,21 @@
+{
+  "topicCode": "XIII",
+  "topicName": "Matemática Financeira",
+  "subtopicPrefix": "matematica-financeira",
+  "version": "2026-10-11",
+  "source": "Banco Central, CVM, Escola Virtual de Governo e HP",
+  "branches": [
+    { "slug": "juros-simples", "name": "Juros simples", "concepts": ["capital", "taxa", "prazo", "montante"] },
+    { "slug": "juros-compostos", "name": "Juros compostos", "concepts": ["capitalização", "taxa", "prazo", "montante"] },
+    { "slug": "valor-presente", "name": "Valor presente", "concepts": ["desconto", "equivalência"] },
+    { "slug": "valor-futuro", "name": "Valor futuro", "concepts": ["capitalização", "crescimento"] },
+    { "slug": "taxas", "name": "Taxas", "concepts": ["nominal", "efetiva", "proporcional", "equivalente"] },
+    { "slug": "desconto", "name": "Desconto", "concepts": ["comercial", "racional", "bancário"] },
+    { "slug": "taxa-over", "name": "Taxa over", "concepts": ["conceito", "conversão"] },
+    { "slug": "valor-recompra", "name": "Valor de recompra", "concepts": ["conceito", "operação compromissada"] },
+    { "slug": "fluxo-caixa", "name": "Fluxo de caixa", "concepts": ["entradas", "saídas", "representação"] },
+    { "slug": "vpl", "name": "VPL", "concepts": ["conceito", "cálculo", "decisão"] },
+    { "slug": "tir", "name": "TIR", "concepts": ["conceito", "interpretação", "comparação"] },
+    { "slug": "hp12c", "name": "HP 12C e calculadora financeira", "concepts": ["PV", "FV", "i", "n", "PMT"] }
+  ]
+}

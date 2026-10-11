@@ -1,0 +1,15 @@
+{
+  "topicCode": "XII",
+  "topicName": "Clubes de Investimento",
+  "subtopicPrefix": "clubes-investimento",
+  "version": "2026-10-11",
+  "source": "Resolução CVM 11 e Receita Federal",
+  "branches": [
+    { "slug": "conceito", "name": "Conceito", "concepts": ["finalidade", "estrutura"] },
+    { "slug": "participantes", "name": "Participantes", "concepts": ["cotistas", "limites"] },
+    { "slug": "gestao", "name": "Gestão", "concepts": ["administrador", "gestor", "responsabilidades"] },
+    { "slug": "carteira", "name": "Carteira", "concepts": ["composição", "limites"] },
+    { "slug": "regulamento", "name": "Regulamento", "concepts": ["regras", "funcionamento"] },
+    { "slug": "tributacao", "name": "Tributação", "concepts": ["incidência", "tratamento"] }
+  ]
+}

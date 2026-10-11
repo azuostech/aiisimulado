@@ -1,0 +1,20 @@
+{
+  "batchId": "tema-XI-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [{
+    "id": "AI-XI-000009", "topicCode": "XI", "subtopicSlug": "securitizacao-recebiveis-risco", "contentNodeSlug": "tema-xi-risco-fluxo",
+    "family": { "code": "AI-XI-FLUXO-LASTRO-001", "name": "Fluxo de uma securitização", "angle": "avaliar efeito da inadimplência do lastro" },
+    "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["securitização", "lastro", "fluxo de caixa"],
+    "statement": "Uma emissão de títulos de securitização é lastreada por recebíveis de vendas parceladas. A inadimplência dos devedores cresce acima da proteção prevista na estrutura. Qual efeito deve ser avaliado primeiro?",
+    "options": [
+      { "id": "opt_1", "text": "A conversão automática dos títulos em ações da companhia que originou os créditos.", "isCorrect": false, "distractorReason": "Conversibilidade não decorre da inadimplência dos recebíveis." },
+      { "id": "opt_2", "text": "A redução do fluxo disponível para juros e amortização, observadas garantias, subordinação e demais mecanismos da emissão.", "isCorrect": true },
+      { "id": "opt_3", "text": "A extinção da obrigação dos devedores, porque os créditos foram cedidos à securitizadora.", "isCorrect": false, "distractorReason": "A cessão não extingue a obrigação de pagamento associada aos direitos creditórios." },
+      { "id": "opt_4", "text": "O aumento do valor nominal e do vencimento dos recebíveis, em proporção suficiente para preservar a remuneração originalmente esperada pelos investidores.", "isCorrect": false, "distractorReason": "O valor dos créditos não aumenta automaticamente para compensar inadimplência." }
+    ],
+    "explanation": "O pagamento dos títulos é primariamente condicionado ao fluxo dos direitos creditórios e das garantias vinculadas. Se a inadimplência supera as proteções, há menos caixa disponível para atender a emissão.",
+    "commonTrap": "Presumir que a securitizadora garante com patrimônio próprio todo o risco econômico dos recebíveis cedidos.",
+    "estimatedSeconds": 120, "requiresCalculation": false, "calculatorAllowed": false,
+    "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 60/2021", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol060consolid.pdf", "locator": "art. 2º, incisos IV e VII a X", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+  }]
+}

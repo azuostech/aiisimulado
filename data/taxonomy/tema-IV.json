@@ -1,0 +1,16 @@
+{
+  "topicCode": "IV",
+  "topicName": "Economia",
+  "subtopicPrefix": "economia",
+  "version": "2026-10-11",
+  "source": "Banco Central do Brasil, IBGE e Tesouro Nacional",
+  "branches": [
+    { "slug": "pib", "name": "PIB", "concepts": ["conceito", "crescimento", "recessão", "impacto nos mercados"] },
+    { "slug": "inflacao", "name": "Inflação", "concepts": ["conceito", "IPCA", "IGP", "causas", "efeitos"] },
+    { "slug": "taxa-selic", "name": "Taxa Selic", "concepts": ["conceito", "meta", "impacto sobre crédito", "impacto sobre inflação", "impacto sobre ativos"] },
+    { "slug": "politica-monetaria", "name": "Política monetária", "concepts": ["expansionista", "contracionista", "juros", "compulsório", "operações de mercado aberto"] },
+    { "slug": "politica-fiscal", "name": "Política fiscal", "concepts": ["gastos", "impostos", "déficit", "dívida pública"] },
+    { "slug": "politica-cambial", "name": "Política cambial", "concepts": ["câmbio", "valorização", "desvalorização", "intervenção"] },
+    { "slug": "relacoes-macroeconomicas", "name": "Relações macroeconômicas", "concepts": ["juros x inflação", "câmbio x inflação", "atividade x juros", "fiscal x curva de juros"] }
+  ]
+}

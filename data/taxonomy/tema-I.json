@@ -1,0 +1,25 @@
+{
+  "topicCode": "I",
+  "topicName": "A Atividade do Assessor de Investimentos",
+  "subtopicPrefix": "atividade-assessor",
+  "version": "2026-10-10",
+  "source": "Resolução CVM 178/2023 e regulamento ANCORD/FGV vigente",
+  "branches": [
+    { "slug": "conceito-enquadramento", "name": "Conceito e enquadramento da atividade", "concepts": ["definição legal do assessor", "atuação como preposto", "limites da atividade", "escopo permitido", "escopo vedado"] },
+    { "slug": "registro-credenciamento", "name": "Registro e credenciamento", "concepts": ["requisitos", "manutenção do registro", "suspensão", "cancelamento", "consequências do exercício irregular"] },
+    { "slug": "pessoa-natural", "name": "Pessoa natural", "concepts": ["requisitos", "atuação individual", "deveres", "responsabilidades"] },
+    { "slug": "pessoa-juridica", "name": "Pessoa jurídica", "concepts": ["constituição", "sócios", "sócio atuante", "sócio capitalista", "responsabilidade", "estrutura de atuação"] },
+    { "slug": "relacao-intermediarios", "name": "Relação com intermediários", "concepts": ["vínculo", "múltiplos vínculos", "deveres do intermediário", "fiscalização", "controles", "supervisão"] },
+    { "slug": "transicao-intermediarios", "name": "Transição entre intermediários", "concepts": ["encerramento de vínculo", "novo vínculo", "comunicação", "deveres durante transição", "relacionamento com clientes"] },
+    { "slug": "atividades-permitidas", "name": "Atividades permitidas", "concepts": ["prospecção", "captação", "recepção de ordens", "transmissão de ordens", "prestação de informações", "apoio comercial"] },
+    { "slug": "vedacoes", "name": "Vedações", "concepts": ["receber dinheiro do cliente", "receber ativos do cliente", "administrar carteira", "decidir pelo cliente", "atuar como procurador", "exercer atividade incompatível", "indução indevida"] },
+    { "slug": "assessor-consultor", "name": "Assessor x Consultor", "concepts": ["recomendação", "independência", "conflito de interesse", "remuneração", "dever fiduciário"] },
+    { "slug": "assessor-analista", "name": "Assessor x Analista", "concepts": ["relatório", "opinião pública", "recomendação pública", "atividade privativa"] },
+    { "slug": "assessor-administrador-carteira", "name": "Assessor x Administrador de Carteira", "concepts": ["poder discricionário", "mandato", "decisão de investimento", "gestão profissional"] },
+    { "slug": "assessor-intermediario", "name": "Assessor x Intermediário", "concepts": ["responsabilidades", "execução", "controles", "relacionamento com cliente"] },
+    { "slug": "conflitos-interesse", "name": "Conflitos de interesse", "concepts": ["identificação", "divulgação", "mitigação", "remuneração", "incentivo comercial"] },
+    { "slug": "transparencia-remuneracao", "name": "Transparência de remuneração", "concepts": ["disclosure", "conflito", "incentivo", "comunicação ao cliente"] },
+    { "slug": "materiais-divulgacao", "name": "Materiais de divulgação", "concepts": ["responsabilidade", "identificação", "publicidade", "uso de marca"] },
+    { "slug": "conduta-responsabilidade", "name": "Conduta e responsabilidade", "concepts": ["dever de diligência", "boa-fé", "transparência", "dever de informação", "responsabilização"] }
+  ]
+}

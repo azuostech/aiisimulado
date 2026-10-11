@@ -1,0 +1,20 @@
+{
+  "batchId": "tema-XV-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [{
+    "id": "AI-XV-000018", "topicCode": "XV", "subtopicSlug": "derivativos-commodities", "contentNodeSlug": "tema-xv-commodities-comprador",
+    "family": { "code": "AI-XV-COMMODITY-COMPRADOR-001", "name": "Hedge do comprador de commodity", "angle": "identificar posição e custo protegido" },
+    "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["commodity", "comprador", "hedge"],
+    "statement": "Uma indústria precisará comprar determinada commodity em três meses. Para estabilizar o custo, assume posição comprada em contratos futuros equivalentes à exposição. Se o preço à vista subir e não houver diferença de base relevante, espera-se que:",
+    "options": [
+      { "id": "opt_1", "text": "O maior desembolso na compra física seja compensado pelo ganho nos futuros comprados.", "isCorrect": true },
+      { "id": "opt_2", "text": "O maior desembolso físico seja ampliado por perda nos futuros, pois o comprador ganha com quedas.", "isCorrect": false, "distractorReason": "A posição comprada em futuros tende a ganhar com a alta do preço." },
+      { "id": "opt_3", "text": "O contrato futuro elimine a necessidade de adquirir a commodity no mercado físico.", "isCorrect": false, "distractorReason": "O hedge financeiro não extingue a necessidade operacional descrita." },
+      { "id": "opt_4", "text": "A proteção gere ganho líquido sem risco porque as duas posições se valorizam simultaneamente.", "isCorrect": false, "distractorReason": "A alta favorece o futuro, mas aumenta o custo da compra física; o objetivo é compensação." }
+    ],
+    "explanation": "Quem terá de comprar a commodity está exposto à alta de preço. A posição comprada no futuro tende a ganhar quando o ativo sobe e, nas premissas dadas, compensa o custo adicional da aquisição física.",
+    "commonTrap": "Aplicar ao comprador a posição vendida utilizada pelo produtor que busca proteção contra queda de preço.",
+    "estimatedSeconds": 120, "requiresCalculation": false, "calculatorAllowed": false,
+    "sources": [{ "authority": "B3", "normNumber": "Guia Por Dentro da B3", "versionLabel": "Edição oficial consultada em 11/10/2026", "url": "https://edu.b3.com.br/documents/d/guest/guia_por_dentro_da_b3_2024_final-min-1", "locator": "Mercado futuro — hedge de preço para compradores e vendedores", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+  }]
+}

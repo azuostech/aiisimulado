@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-XII-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-XII-000001", "topicCode": "XII", "subtopicSlug": "clubes-investimento-conceito", "contentNodeSlug": "tema-xii-conceito-finalidade",
+      "family": { "code": "AI-XII-CLUBE-CONCEITO-001", "name": "Investimento coletivo pelo clube", "angle": "identificar finalidade e estrutura" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["clube de investimento", "cotistas", "carteira"],
+      "statement": "Um clube de investimento pode ser adequadamente descrito como:",
+      "options": [
+        { "id": "opt_1", "text": "Uma comunhão de recursos de pessoas que investem coletivamente em carteira de valores mobiliários segundo estatuto próprio.", "isCorrect": true },
+        { "id": "opt_2", "text": "Uma companhia aberta que emite ações para financiar sua atividade industrial.", "isCorrect": false, "distractorReason": "O clube é veículo coletivo de investimento, não sociedade operacional emissora." },
+        { "id": "opt_3", "text": "Um órgão público responsável por supervisionar corretoras.", "isCorrect": false, "distractorReason": "Clube não exerce função regulatória ou de fiscalização." },
+        { "id": "opt_4", "text": "Uma conta individual sem patrimônio ou regras compartilhadas.", "isCorrect": false, "distractorReason": "A essência do clube é a comunhão coletiva de recursos e regras comuns." }
+      ],
+      "explanation": "O clube reúne recursos de cotistas para aplicação coletiva em valores mobiliários. Sua constituição, administração, carteira e funcionamento seguem o estatuto e a regulamentação da CVM.",
+      "commonTrap": "Confundir clube com empresa emissora, fundo garantido ou carteira individual de um único cliente.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 11", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol011.html", "locator": "constituição e funcionamento dos clubes de investimento", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000002", "topicCode": "XII", "subtopicSlug": "clubes-investimento-participantes", "contentNodeSlug": "tema-xii-participantes-limites",
+      "family": { "code": "AI-XII-COTISTA-LIMITE-001", "name": "Limite de concentração por cotista", "angle": "aplicar teto de participação" },
+      "difficulty": 3, "questionType": "calculation", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["clube de investimento", "cotista", "limite"],
+      "statement": "Um clube possui 1.000 cotas emitidas. Segundo o limite geral de concentração da Resolução CVM 11, um único cotista pode possuir, no máximo:",
+      "options": [
+        { "id": "opt_1", "text": "400 cotas, equivalentes a 40% do total.", "isCorrect": true },
+        { "id": "opt_2", "text": "500 cotas, equivalentes a 50% do total.", "isCorrect": false, "distractorReason": "Ultrapassa o limite geral de 40% por cotista." },
+        { "id": "opt_3", "text": "670 cotas, equivalentes ao limite de composição da carteira.", "isCorrect": false, "distractorReason": "Confunde limite por cotista com percentual mínimo aplicado em certos ativos." },
+        { "id": "opt_4", "text": "1.000 cotas, pois não existe limite individual.", "isCorrect": false, "distractorReason": "A regulamentação estabelece teto geral de titularidade individual." }
+      ],
+      "explanation": "Nenhum cotista pode deter mais de 40% do total de cotas do clube. Sobre 1.000 cotas, o teto corresponde a 1.000 × 40% = 400 cotas.",
+      "commonTrap": "Confundir o teto individual de 40% com o percentual de 67% exigido para composição da carteira.",
+      "estimatedSeconds": 80, "requiresCalculation": true, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 11", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol011.html", "locator": "art. 7º — limite de 40% das cotas por cotista", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000003", "topicCode": "XII", "subtopicSlug": "clubes-investimento-gestao", "contentNodeSlug": "tema-xii-gestao-administrador",
+      "family": { "code": "AI-XII-ADMIN-REGISTRO-001", "name": "Administrador e registro do clube", "angle": "identificar responsabilidade operacional" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["clube de investimento", "administrador", "registro"],
+      "statement": "Na constituição de um clube de investimento, quem apresenta o pedido de registro ao sistema da entidade administradora de mercado organizado?",
+      "options": [
+        { "id": "opt_1", "text": "O administrador do clube.", "isCorrect": true },
+        { "id": "opt_2", "text": "Cada devedor dos ativos da carteira individualmente.", "isCorrect": false, "distractorReason": "Devedores dos ativos não constituem nem registram o clube." },
+        { "id": "opt_3", "text": "O Banco Central, atuando como cotista fundador.", "isCorrect": false, "distractorReason": "O Banco Central não exerce esse papel de cotista ou requerente." },
+        { "id": "opt_4", "text": "O FGC, por ser garantidor obrigatório das cotas.", "isCorrect": false, "distractorReason": "Clubes não são garantidos pelo FGC, que não solicita seu registro." }
+      ],
+      "explanation": "O processo de registro do clube é iniciado pelo administrador no sistema da entidade administradora de mercado organizado. Ele também responde pelas funções administrativas previstas na norma.",
+      "commonTrap": "Confundir administrador do veículo com gestor da carteira ou com autoridade reguladora.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Registro de Clubes de Investimento", "versionLabel": "Serviço oficial consultado em 11/10/2026", "url": "https://www.gov.br/pt-br/atos-publicos/registro-de-clubes-de-investimento", "locator": "pedido de registro inserido pelo administrador no sistema da B3", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000004", "topicCode": "XII", "subtopicSlug": "clubes-investimento-gestao", "contentNodeSlug": "tema-xii-gestao-gestor",
+      "family": { "code": "AI-XII-GESTOR-COTISTA-001", "name": "Gestão exercida por cotista", "angle": "aplicar vedações ao gestor eleito" },
+      "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["clube de investimento", "gestor", "cotista"],
+      "statement": "Quando a gestão da carteira é exercida por um ou mais cotistas eleitos pela assembleia, a regulamentação estabelece que esse gestor cotista:",
+      "options": [
+        { "id": "opt_1", "text": "Não pode gerir mais de um clube nem receber remuneração ou benefício pelos serviços de gestão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Pode gerir número ilimitado de clubes e cobrar livremente taxa de performance pessoal.", "isCorrect": false, "distractorReason": "A norma impõe limites e veda remuneração ao cotista gestor." },
+        { "id": "opt_3", "text": "Passa automaticamente a ser servidor da CVM.", "isCorrect": false, "distractorReason": "Eleição pelo clube não cria vínculo funcional com o regulador." },
+        { "id": "opt_4", "text": "Fica dispensado de observar o estatuto e os deveres de diligência.", "isCorrect": false, "distractorReason": "A gestão continua submetida à norma, ao estatuto e aos deveres aplicáveis." }
+      ],
+      "explanation": "A gestão pode ser confiada a cotista eleito, mas ele só pode gerir um clube e não pode receber remuneração ou benefício, direto ou indireto, por esse serviço.",
+      "commonTrap": "Aplicar ao cotista gestor as mesmas condições comerciais de um gestor profissional contratado.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 11/2020", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol011consolid.pdf", "locator": "art. 20, caput e § 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000005", "topicCode": "XII", "subtopicSlug": "clubes-investimento-carteira", "contentNodeSlug": "tema-xii-carteira-composicao",
+      "family": { "code": "AI-XII-CARTEIRA-67-001", "name": "Composição mínima da carteira", "angle": "calcular enquadramento de 67%" },
+      "difficulty": 3, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["clube de investimento", "carteira", "67%"],
+      "statement": "Um clube possui patrimônio líquido de R$ 1.000.000. Para cumprir o percentual mínimo geral de 67% nos ativos elegíveis previstos na Resolução CVM 11, deve manter pelo menos:",
+      "options": [
+        { "id": "opt_1", "text": "R$ 670.000.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 400.000.", "isCorrect": false, "distractorReason": "Confunde composição da carteira com o teto de 40% por cotista." },
+        { "id": "opt_3", "text": "R$ 500.000.", "isCorrect": false, "distractorReason": "Aplica percentual de 50%, inferior ao mínimo exigido." },
+        { "id": "opt_4", "text": "R$ 1.000.000, pois todos os ativos devem ser ações à vista.", "isCorrect": false, "distractorReason": "A norma exige mínimo de 67% em conjunto de ativos elegíveis, não 100% somente em ações." }
+      ],
+      "explanation": "O mínimo corresponde a R$ 1.000.000 × 0,67 = R$ 670.000. O conjunto elegível inclui ações e outros instrumentos expressamente previstos na regulamentação.",
+      "commonTrap": "Trocar o percentual mínimo de carteira pelo limite máximo de titularidade individual.",
+      "estimatedSeconds": 85, "requiresCalculation": true, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 11/2020", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol011consolid.pdf", "locator": "art. 27, caput — mínimo de 67% em ativos elegíveis", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000006", "topicCode": "XII", "subtopicSlug": "clubes-investimento-regulamento", "contentNodeSlug": "tema-xii-regulamento-regras",
+      "family": { "code": "AI-XII-ESTATUTO-REGRAS-001", "name": "Estatuto do clube", "angle": "identificar documento de funcionamento" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["clube de investimento", "estatuto", "regras"],
+      "statement": "O documento que estabelece as regras de funcionamento, política de investimento e direitos e deveres aplicáveis ao clube e aos cotistas é o:",
+      "options": [
+        { "id": "opt_1", "text": "Estatuto do clube.", "isCorrect": true },
+        { "id": "opt_2", "text": "Boletim Focus do Banco Central.", "isCorrect": false, "distractorReason": "O boletim reúne expectativas econômicas e não rege o clube." },
+        { "id": "opt_3", "text": "Contrato social de cada empresa investida.", "isCorrect": false, "distractorReason": "Documentos das investidas não substituem as regras internas do veículo." },
+        { "id": "opt_4", "text": "Regulamento do Fundo Garantidor de Créditos.", "isCorrect": false, "distractorReason": "O FGC não define o funcionamento dos clubes de investimento." }
+      ],
+      "explanation": "O estatuto disciplina a organização e o funcionamento do clube, incluindo política, administração, gestão e regras aplicáveis aos cotistas, sempre subordinado à regulamentação vigente.",
+      "commonTrap": "Chamar o estatuto de prospecto ou confundi-lo com documentos dos ativos mantidos na carteira.",
+      "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 11", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol011.html", "locator": "estatuto e regras de funcionamento do clube", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000007", "topicCode": "XII", "subtopicSlug": "clubes-investimento-gestao", "contentNodeSlug": "tema-xii-gestao-responsabilidades",
+      "family": { "code": "AI-XII-DEVERES-LEALDADE-001", "name": "Deveres do administrador e gestor", "angle": "aplicar diligência e lealdade" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["clube de investimento", "diligência", "lealdade"],
+      "statement": "O administrador direciona operações do clube apenas para gerar corretagem a parte relacionada, sem benefício para os cotistas. Essa conduta:",
+      "options": [
+        { "id": "opt_1", "text": "Viola deveres de boa-fé, diligência e lealdade na atuação em favor do clube e dos cotistas.", "isCorrect": true },
+        { "id": "opt_2", "text": "É sempre permitida porque o administrador decide sem qualquer limite de interesse.", "isCorrect": false, "distractorReason": "A discricionariedade não afasta deveres fiduciários e conflitos." },
+        { "id": "opt_3", "text": "Torna o FGC responsável por reembolsar toda a corretagem.", "isCorrect": false, "distractorReason": "O FGC não cobre esse tipo de conduta em clubes." },
+        { "id": "opt_4", "text": "É irrelevante se o estatuto não mencionar expressamente cada operação.", "isCorrect": false, "distractorReason": "Os deveres normativos aplicam-se independentemente de repetição literal no estatuto." }
+      ],
+      "explanation": "Administrador e gestor devem atuar com boa-fé, transparência, diligência e lealdade. Gerar corretagem predominante sem interesse do clube configura conflito e violação desses deveres.",
+      "commonTrap": "Entender poder de gestão como autorização para privilegiar remuneração de parte relacionada.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 11", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol011.pdf", "locator": "art. 21 — boa-fé, transparência, diligência e lealdade", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XII-000008", "topicCode": "XII", "subtopicSlug": "clubes-investimento-tributacao", "contentNodeSlug": "tema-xii-tributacao-tratamento",
+      "family": { "code": "AI-XII-TRIBUTACAO-REGIME-001", "name": "Tratamento tributário do clube", "angle": "identificar regra de remissão aos fundos" },
+      "difficulty": 4, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["clube de investimento", "tributação", "IR"],
+      "statement": "Segundo a regulamentação tributária geral aplicável, aos clubes de investimento são aplicadas:",
+      "options": [
+        { "id": "opt_1", "text": "As normas de imposto de renda fixadas para fundos de investimento conforme sua classificação, cabendo ao administrador as responsabilidades previstas.", "isCorrect": true },
+        { "id": "opt_2", "text": "Isenção total e permanente de qualquer imposto para todos os cotistas.", "isCorrect": false, "distractorReason": "A forma coletiva não cria isenção universal." },
+        { "id": "opt_3", "text": "Exatamente o mesmo regime de salário recebido por pessoa física, sem considerar a carteira.", "isCorrect": false, "distractorReason": "A tributação segue regras de aplicações e classificação do veículo." },
+        { "id": "opt_4", "text": "Tributação definida livremente pela assembleia, independentemente da legislação.", "isCorrect": false, "distractorReason": "A assembleia não pode afastar a legislação tributária." }
+      ],
+      "explanation": "A norma tributária remete clubes, carteiras administradas e formas coletivas às regras de fundos conforme a classificação. O administrador responde pela retenção e recolhimento quando aplicável.",
+      "commonTrap": "Presumir que o clube cria isenção própria ou que seus cotistas escolhem livremente o regime fiscal.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Receita Federal do Brasil", "normNumber": "IN RFB 1.585/2015", "versionLabel": "Norma oficial consultada em 11/10/2026", "url": "https://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=67494", "locator": "art. 43 — clubes e formas de investimento coletivo", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

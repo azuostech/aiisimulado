@@ -1,0 +1,21 @@
+{
+  "topicCode": "VII",
+  "topicName": "Administração de Risco",
+  "subtopicPrefix": "administracao-risco",
+  "version": "2026-10-11",
+  "source": "CVM, Banco Central do Brasil e B3",
+  "branches": [
+    { "slug": "risco-mercado", "name": "Risco de mercado", "concepts": ["juros", "câmbio", "ações", "preços"] },
+    { "slug": "risco-credito", "name": "Risco de crédito", "concepts": ["emissor", "contraparte", "inadimplência", "deterioração de crédito"] },
+    { "slug": "risco-liquidez", "name": "Risco de liquidez", "concepts": ["falta de mercado", "spread", "prazo de saída", "liquidez de caixa"] },
+    { "slug": "risco-operacional", "name": "Risco operacional", "concepts": ["processos", "pessoas", "sistemas", "eventos externos"] },
+    { "slug": "risco-sistematico", "name": "Risco sistemático", "concepts": ["mercado", "não diversificável"] },
+    { "slug": "risco-nao-sistematico", "name": "Risco não sistemático", "concepts": ["específico", "diversificável"] },
+    { "slug": "diversificacao", "name": "Diversificação", "concepts": ["correlação", "concentração", "redução de risco"] },
+    { "slug": "duration", "name": "Duration", "concepts": ["conceito", "sensibilidade", "juros"] },
+    { "slug": "var", "name": "VaR", "concepts": ["conceito", "horizonte", "confiança", "limitação"] },
+    { "slug": "clearing", "name": "Clearing", "concepts": ["contraparte central", "risco", "garantias"] },
+    { "slug": "margem", "name": "Margem", "concepts": ["garantia", "chamada", "risco"] },
+    { "slug": "tuneis-limites", "name": "Túneis e limites", "concepts": ["oscilação", "negociação", "proteção de mercado"] }
+  ]
+}

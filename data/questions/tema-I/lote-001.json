@@ -1,0 +1,198 @@
+{
+  "batchId": "tema-I-lote-001",
+  "reviewedAt": "2026-10-10",
+  "questions": [
+    {
+      "id": "AI-I-000002", "topicCode": "I", "subtopicSlug": "atividade-assessor-conceito-enquadramento", "contentNodeSlug": "tema-i-conceito-enquadramento-atuacao-como-preposto",
+      "family": { "code": "AI-I-PREPOSTO-ESCOPO-001", "name": "Atuação como preposto", "angle": "identificar a natureza do vínculo" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["preposto", "intermediário"],
+      "statement": "Uma profissional registrada como assessora de investimento inicia a prospecção de clientes por conta própria, sem contrato com integrante do sistema de distribuição. À luz da regulamentação, essa atuação é:",
+      "options": [
+        { "id": "opt_1", "text": "Regular, porque o registro na CVM basta para autorizar a atuação autônoma.", "isCorrect": false, "distractorReason": "Confunde registro com o vínculo contratual exigido para o exercício da atividade." },
+        { "id": "opt_2", "text": "Irregular, porque a atividade é exercida sob responsabilidade e como preposto de intermediário contratado.", "isCorrect": true },
+        { "id": "opt_3", "text": "Regular, desde que a profissional não receba nem transmita ordens.", "isCorrect": false, "distractorReason": "A própria prospecção integra a atividade regulada e pressupõe vínculo com intermediário." },
+        { "id": "opt_4", "text": "Irregular apenas se houver recomendação de valores mobiliários específicos.", "isCorrect": false, "distractorReason": "Restringe indevidamente a exigência de vínculo à recomendação." }
+      ],
+      "explanation": "O assessor realiza as atividades regulamentadas sob responsabilidade e como preposto de intermediário integrante do sistema de distribuição. O registro não autoriza atuação independente sem o contrato escrito exigido pela norma.",
+      "commonTrap": "Tratar o registro na CVM como autorização suficiente para atuação autônoma.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 2º, I, e 4º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000003", "topicCode": "I", "subtopicSlug": "atividade-assessor-atividades-permitidas", "contentNodeSlug": "tema-i-atividades-permitidas-prestacao-de-informacoes",
+      "family": { "code": "AI-I-ESCOPO-INFORMACOES-001", "name": "Prestação de informações", "angle": "delimitar recomendação comercial permitida" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["escopo", "suitability"],
+      "statement": "No atendimento a um cliente, um assessor apresenta os produtos do intermediário e recomenda aquele que considera compatível com o perfil apurado pela instituição. Qual avaliação está correta?",
+      "options": [
+        { "id": "opt_1", "text": "A recomendação é sempre vedada, pois pertence exclusivamente ao consultor de valores mobiliários.", "isCorrect": false, "distractorReason": "Ignora que a orientação e a recomendação inerentes à relação comercial integram a prestação de informações do assessor." },
+        { "id": "opt_2", "text": "A conduta é permitida, desde que a recomendação observe as políticas e os procedimentos de adequação ao perfil do cliente do intermediário.", "isCorrect": true },
+        { "id": "opt_3", "text": "A recomendação é permitida somente se o cliente pagar diretamente uma taxa de consultoria ao assessor.", "isCorrect": false, "distractorReason": "Pagamento por consultoria não transforma a atividade conflitante em atividade permitida." },
+        { "id": "opt_4", "text": "A conduta é permitida mesmo fora da oferta do intermediário, desde que o produto tenha risco inferior ao perfil do cliente.", "isCorrect": false, "distractorReason": "O assessor presta informações sobre produtos e serviços dos intermediários em nome dos quais atua." }
+      ],
+      "explanation": "A prestação de informações inclui suporte, orientação e recomendações inerentes à relação comercial. Elas devem se limitar ao contexto dos intermediários representados e ser compatíveis com suas políticas de suitability.",
+      "commonTrap": "Confundir recomendação comercial vinculada ao intermediário com consultoria independente.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 3º, III e § 3º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000004", "topicCode": "I", "subtopicSlug": "atividade-assessor-relacao-intermediarios", "contentNodeSlug": "tema-i-relacao-intermediarios-multiplos-vinculos",
+      "family": { "code": "AI-I-MULTIPLOS-VINCULOS-001", "name": "Múltiplos vínculos", "angle": "identificação dos intermediários" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["não exclusividade", "identificação"],
+      "statement": "Um assessor não exclusivo divulga uma campanha de prospecção sem mencionar os dois intermediários em nome dos quais atua. Posteriormente, identifica o intermediário somente quando o cliente decide abrir conta. Essa prática é:",
+      "options": [
+        { "id": "opt_1", "text": "Adequada, pois a identificação só é obrigatória na recepção de ordens.", "isCorrect": false, "distractorReason": "A identificação de todos os intermediários também é exigida na prospecção e captação." },
+        { "id": "opt_2", "text": "Adequada, se nenhum produto específico tiver sido mencionado na campanha.", "isCorrect": false, "distractorReason": "A obrigação decorre da prospecção, não da menção a produto específico." },
+        { "id": "opt_3", "text": "Inadequada, porque na prospecção o assessor deve identificar todos os intermediários em nome dos quais atua.", "isCorrect": true },
+        { "id": "opt_4", "text": "Inadequada apenas quando os intermediários oferecerem produtos concorrentes.", "isCorrect": false, "distractorReason": "A norma não condiciona a identificação à existência de produtos concorrentes." }
+      ],
+      "explanation": "Na prospecção e captação, o assessor deve identificar todos os intermediários em nome dos quais atua. Nas atividades de ordens e de informação, deve especificar o intermediário relacionado à atuação concreta.",
+      "commonTrap": "Imaginar que a identificação do intermediário só é necessária depois da abertura da conta.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 3º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000005", "topicCode": "I", "subtopicSlug": "atividade-assessor-pessoa-natural", "contentNodeSlug": "tema-i-pessoa-natural-atuacao-individual",
+      "family": { "code": "AI-I-PESSOA-NATURAL-VINCULO-001", "name": "Formas de atuação da pessoa natural", "angle": "comparar contratação direta e atuação por pessoa jurídica" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["pessoa natural", "contrato"],
+      "statement": "De acordo com a Resolução CVM 178, um assessor de investimento pessoa natural pode exercer suas atividades regularmente:",
+      "options": [
+        { "id": "opt_1", "text": "Somente como sócio de assessor de investimento pessoa jurídica.", "isCorrect": false, "distractorReason": "A norma também admite vínculo direto com intermediário e atuação como empregado ou contratado da pessoa jurídica." },
+        { "id": "opt_2", "text": "Somente mediante contrato direto e exclusivo com um único intermediário.", "isCorrect": false, "distractorReason": "A exclusividade não é requisito geral e a atuação também pode ocorrer por pessoa jurídica de assessoria." },
+        { "id": "opt_3", "text": "Com contrato direto com um ou mais intermediários, ou como sócio, empregado ou contratado de assessor pessoa jurídica vinculado a intermediário.", "isCorrect": true },
+        { "id": "opt_4", "text": "Independentemente de contrato, desde que permaneça credenciado e informe essa condição aos clientes.", "isCorrect": false, "distractorReason": "O credenciamento pode ser mantido sem contrato, mas a atividade não pode ser exercida sem o vínculo exigido." }
+      ],
+      "explanation": "A pessoa natural pode contratar diretamente com um ou mais intermediários ou atuar como sócia, empregada ou contratada de pessoa jurídica de assessoria que mantenha o contrato com os intermediários.",
+      "commonTrap": "Confundir a possibilidade de permanecer credenciado sem contrato com autorização para continuar atendendo clientes.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 4º e 5º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000006", "topicCode": "I", "subtopicSlug": "atividade-assessor-assessor-consultor", "contentNodeSlug": "tema-i-assessor-consultor-independencia",
+      "family": { "code": "AI-I-CONFLITO-CONSULTORIA-001", "name": "Assessor versus consultor", "angle": "reconhecer atividade conflitante" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["consultoria", "atividade conflitante"],
+      "statement": "Uma assessora credenciada pretende cobrar separadamente de clientes pela elaboração de recomendações independentes, incluindo produtos não oferecidos pelos intermediários que representa. Para iniciar essa atividade, ela deve:",
+      "options": [
+        { "id": "opt_1", "text": "Apenas divulgar aos clientes o conflito entre a comissão de assessoria e a taxa de consultoria.", "isCorrect": false, "distractorReason": "A divulgação não elimina a incompatibilidade entre as atividades." },
+        { "id": "opt_2", "text": "Obter anuência prévia de todos os intermediários e manter os dois registros simultaneamente.", "isCorrect": false, "distractorReason": "A anuência dos intermediários não afasta a atividade conflitante." },
+        { "id": "opt_3", "text": "Limitar as recomendações a clientes que não tenham conta nos intermediários representados.", "isCorrect": false, "distractorReason": "A incompatibilidade não depende de o cliente manter conta no intermediário." },
+        { "id": "opt_4", "text": "Requerer previamente o cancelamento do credenciamento como assessora e cumprir a regulamentação da consultoria.", "isCorrect": true }
+      ],
+      "explanation": "Consultoria, análise e administração de carteira são exemplos expressos de atividades conflitantes. Para exercer uma delas, o profissional deve antes requerer o cancelamento de seu credenciamento como assessor.",
+      "commonTrap": "Acreditar que transparência ou segregação de clientes permite acumular registros incompatíveis.",
+      "estimatedSeconds": 110, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 7º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000007", "topicCode": "I", "subtopicSlug": "atividade-assessor-transicao-intermediarios", "contentNodeSlug": "tema-i-transicao-intermediarios-comunicacao",
+      "family": { "code": "AI-I-TRANSICAO-COMUNICACAO-001", "name": "Comunicação na transição", "angle": "identificar conteúdo e período do alerta" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["transição", "conflito de interesse"],
+      "statement": "Vinte dias após iniciar contrato com um novo intermediário, um assessor oferece seus produtos a investidores com quem já se relacionava no intermediário anterior. O contrato antigo havia terminado dez dias antes do novo vínculo. Qual providência é exigida?",
+      "options": [
+        { "id": "opt_1", "text": "Nenhuma, porque o contrato antigo já estava encerrado quando o novo começou.", "isCorrect": false, "distractorReason": "A regra alcança contrato anterior rescindido menos de trinta dias antes do novo." },
+        { "id": "opt_2", "text": "Informar o novo relacionamento e alertar sobre potenciais conflitos, inclusive diferenças de remuneração e incentivos de captação.", "isCorrect": true },
+        { "id": "opt_3", "text": "Comunicar apenas ao intermediário anterior, preservando do cliente as condições remuneratórias.", "isCorrect": false, "distractorReason": "A comunicação e o alerta são dirigidos aos investidores previamente relacionados." },
+        { "id": "opt_4", "text": "Aguardar completar trinta dias de contrato antes de oferecer qualquer produto do novo intermediário.", "isCorrect": false, "distractorReason": "A norma não impõe quarentena; impõe ciência e alerta durante a situação descrita." }
+      ],
+      "explanation": "Nos trinta dias iniciais do novo contrato, a oferta a investidor previamente relacionado exige ciência do novo vínculo e alerta específico sobre conflitos, inclusive remuneração e incentivos. A regra também alcança contrato antigo rescindido menos de trinta dias antes.",
+      "commonTrap": "Confundir o período de transparência reforçada com uma proibição de contato ou quarentena.",
+      "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 8º a 10", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000008", "topicCode": "I", "subtopicSlug": "atividade-assessor-registro-credenciamento", "contentNodeSlug": "tema-i-registro-credenciamento-requisitos",
+      "family": { "code": "AI-I-CREDENCIAMENTO-PN-001", "name": "Credenciamento da pessoa natural", "angle": "selecionar conjunto de requisitos" },
+      "difficulty": 3, "questionType": "multiple_statements", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["credenciamento", "requisitos"],
+      "statement": "Para o credenciamento de assessor de investimento pessoa natural, considere: I. conclusão do ensino médio ou equivalente; II. aprovação nos exames definidos pela CVM; III. inexistência das inabilitações e condenações impeditivas previstas na norma. Está correto o que se afirma em:",
+      "options": [
+        { "id": "opt_1", "text": "I, apenas.", "isCorrect": false, "distractorReason": "Desconsidera requisitos adicionais expressamente previstos." },
+        { "id": "opt_2", "text": "I e II, apenas.", "isCorrect": false, "distractorReason": "Também devem ser observados os impedimentos e condenações descritos na norma." },
+        { "id": "opt_3", "text": "II e III, apenas.", "isCorrect": false, "distractorReason": "A escolaridade mínima também integra os requisitos." },
+        { "id": "opt_4", "text": "I, II e III.", "isCorrect": true }
+      ],
+      "explanation": "A norma exige ensino médio ou equivalente, aprovação nos exames técnicos e éticos, ausência de inabilitação ou suspensão perante os reguladores e ausência dos impedimentos judiciais e condenações especificados.",
+      "commonTrap": "Reduzir o credenciamento à aprovação no exame e ignorar requisitos pessoais impeditivos.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 15, I a V", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000009", "topicCode": "I", "subtopicSlug": "atividade-assessor-pessoa-juridica", "contentNodeSlug": "tema-i-pessoa-juridica-constituicao",
+      "family": { "code": "AI-I-PJ-CONSTITUICAO-001", "name": "Constituição da pessoa jurídica", "angle": "distinguir regra vigente de regra antiga" },
+      "difficulty": 3, "questionType": "except", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["pessoa jurídica", "regra vigente"],
+      "statement": "Uma sociedade pretende obter credenciamento como assessor de investimento pessoa jurídica. Segundo a regra vigente, constitui requisito, EXCETO:",
+      "options": [
+        { "id": "opt_1", "text": "Estar regularmente constituída e registrada no CNPJ.", "isCorrect": false, "distractorReason": "É requisito expresso da pessoa jurídica." },
+        { "id": "opt_2", "text": "Ter sede no País e indicar diretor responsável.", "isCorrect": false, "distractorReason": "Ambas são exigências expressas do credenciamento." },
+        { "id": "opt_3", "text": "Adotar objeto social exclusivamente limitado à atividade de assessor de investimento.", "isCorrect": true },
+        { "id": "opt_4", "text": "Incluir no objeto social o exercício da atividade de assessor de investimento.", "isCorrect": false, "distractorReason": "A inclusão da atividade no objeto social é exigida, embora exclusividade não seja." }
+      ],
+      "explanation": "A Resolução CVM 178 exige constituição regular, CNPJ, sede no País, atividade de assessor no objeto social e diretor responsável. A exigência de objeto social exclusivo não integra a regra vigente.",
+      "commonTrap": "Aplicar requisito societário antigo e transformar presença no objeto social em exclusividade do objeto.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 6º e 16", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000010", "topicCode": "I", "subtopicSlug": "atividade-assessor-vedacoes", "contentNodeSlug": "tema-i-vedacoes-receber-dinheiro-do-cliente",
+      "family": { "code": "AI-I-VEDACAO-RECEBIMENTO-001", "name": "Recebimento de recursos", "angle": "aplicar vedação em operação aparentemente conveniente" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["vedação", "numerário"],
+      "statement": "Para não perder o prazo de uma aplicação, um cliente transfere recursos à conta pessoal do assessor e pede que ele os encaminhe ao intermediário. Mesmo com autorização expressa e sem remuneração, o assessor deve:",
+      "options": [
+        { "id": "opt_1", "text": "Aceitar, desde que encaminhe os recursos no mesmo dia.", "isCorrect": false, "distractorReason": "Rapidez na transferência não afasta a vedação." },
+        { "id": "opt_2", "text": "Aceitar, se guardar a autorização escrita do cliente.", "isCorrect": false, "distractorReason": "O consentimento do cliente não cria exceção para recebimento de numerário." },
+        { "id": "opt_3", "text": "Recusar, pois não pode receber de clientes ou em nome deles numerário, títulos, valores mobiliários ou outros ativos.", "isCorrect": true },
+        { "id": "opt_4", "text": "Recusar apenas se o valor superar o limite de comunicação ao COAF.", "isCorrect": false, "distractorReason": "A vedação da atividade não depende de valor nem de regra de comunicação de PLD." }
+      ],
+      "explanation": "O assessor não pode receber de clientes, em nome deles, nem lhes entregar numerário, títulos, valores mobiliários ou outros ativos. Autorização, urgência ou gratuidade não afastam a proibição.",
+      "commonTrap": "Misturar a vedação profissional com limites ou procedimentos de PLD/FTP.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 25, I", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000011", "topicCode": "I", "subtopicSlug": "atividade-assessor-vedacoes", "contentNodeSlug": "tema-i-vedacoes-decidir-pelo-cliente",
+      "family": { "code": "AI-I-VEDACAO-SENHA-001", "name": "Uso de credencial do cliente", "angle": "distinguir transmissão de ordem de acesso à conta" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["senha", "ordem"],
+      "statement": "Um cliente envia sua senha de negociação ao assessor e determina por mensagem que ele acesse a plataforma para comprar quantidade específica de ações. Embora preço, ativo e quantidade estejam definidos pelo cliente, o assessor:",
+      "options": [
+        { "id": "opt_1", "text": "Pode executar, pois existe ordem prévia com todos os elementos essenciais.", "isCorrect": false, "distractorReason": "A existência de ordem não autoriza o uso de senha ou assinatura eletrônica exclusiva do cliente." },
+        { "id": "opt_2", "text": "Pode executar somente se registrar a mensagem e comunicar o intermediário.", "isCorrect": false, "distractorReason": "Registro e comunicação não afastam a vedação ao uso da credencial." },
+        { "id": "opt_3", "text": "Não pode acessar a plataforma com a senha do cliente, devendo transmitir a ordem pelos canais admitidos pelo intermediário.", "isCorrect": true },
+        { "id": "opt_4", "text": "Não pode executar porque o assessor está proibido de receber qualquer ordem de cliente.", "isCorrect": false, "distractorReason": "Receber, registrar e transmitir ordens integra a atividade; o problema é usar a credencial exclusiva." }
+      ],
+      "explanation": "A recepção e transmissão de ordens são permitidas, mas o assessor não pode usar senha ou assinatura eletrônica de uso exclusivo do cliente. A ordem deve seguir os canais e controles do intermediário.",
+      "commonTrap": "Concluir que uma ordem completa torna lícito o acesso direto à conta do cliente.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 3º, II, e 25, VI", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000012", "topicCode": "I", "subtopicSlug": "atividade-assessor-materiais-divulgacao", "contentNodeSlug": "tema-i-materiais-divulgacao-uso-de-marca",
+      "family": { "code": "AI-I-MATERIAL-MARCA-001", "name": "Uso de marca em divulgação", "angle": "avaliar destaque de identificação" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["publicidade", "marca"],
+      "statement": "Em uma página de divulgação, a logomarca do escritório de assessoria aparece em destaque, enquanto o nome do intermediário representado consta apenas em texto pequeno no rodapé. Essa apresentação:",
+      "options": [
+        { "id": "opt_1", "text": "É adequada, porque basta que o intermediário seja identificável em qualquer parte da página.", "isCorrect": false, "distractorReason": "A norma exige identificação acompanhada de destaque no mínimo igual." },
+        { "id": "opt_2", "text": "É inadequada, pois sinais do assessor não podem aparecer desacompanhados da identificação do intermediário com, no mínimo, igual destaque.", "isCorrect": true },
+        { "id": "opt_3", "text": "É adequada se a página não permitir envio de ordens ou abertura de conta.", "isCorrect": false, "distractorReason": "A regra se aplica ao material de divulgação e às páginas na internet independentemente dessas funções." },
+        { "id": "opt_4", "text": "É inadequada somente quando o assessor representa mais de um intermediário.", "isCorrect": false, "distractorReason": "A exigência de identificação e destaque também vale para assessor exclusivo." }
+      ],
+      "explanation": "Materiais e páginas do assessor devem identificar o intermediário contratante. Logotipos e sinais distintivos próprios não podem aparecer desacompanhados da identificação do intermediário, que deve ter destaque ao menos equivalente.",
+      "commonTrap": "Considerar suficiente uma menção discreta ao intermediário no rodapé.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 24, caput e §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-I-000013", "topicCode": "I", "subtopicSlug": "atividade-assessor-relacao-intermediarios", "contentNodeSlug": "tema-i-relacao-intermediarios-fiscalizacao",
+      "family": { "code": "AI-I-FISCALIZACAO-ESCOPO-001", "name": "Fiscalização do intermediário", "angle": "delimitar dever e proteção de dados" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["fiscalização", "sigilo"],
+      "statement": "Um assessor não exclusivo representa os intermediários Alfa e Beta. Para fiscalizar sua estrutura, Alfa exige acesso aos dados dos clientes atendidos exclusivamente por Beta, embora estejam protegidos por sigilo. Segundo a norma:",
+      "options": [
+        { "id": "opt_1", "text": "Alfa pode acessar todos os dados, pois seu dever de fiscalização abrange integralmente a atividade do assessor.", "isCorrect": false, "distractorReason": "O dever de fiscalização não autoriza acesso a dados de outros intermediários protegidos por sigilo." },
+        { "id": "opt_2", "text": "Alfa não pode exigir esses dados; o assessor deve indicar expressamente que deixou de fornecê-los por sigilo e proteção de dados.", "isCorrect": true },
+        { "id": "opt_3", "text": "Alfa só pode acessar os dados mediante autorização da entidade credenciadora.", "isCorrect": false, "distractorReason": "A entidade credenciadora não substitui a base legal necessária para afastar sigilo e proteção de dados." },
+        { "id": "opt_4", "text": "A existência de múltiplos vínculos elimina o dever de fiscalização de ambos os intermediários.", "isCorrect": false, "distractorReason": "Cada intermediário mantém dever de fiscalização no âmbito de seu contrato." }
+      ],
+      "explanation": "O intermediário fiscaliza o assessor durante todo o contrato, mas não pode acessar dados de clientes de outros intermediários protegidos por sigilo e proteção de dados. O assessor deve indicar expressamente a razão da não entrega.",
+      "commonTrap": "Tratar o dever de supervisão como autorização irrestrita para compartilhar bases de clientes.",
+      "estimatedSeconds": 120, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 33 e 36", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    }
+  ]
+}

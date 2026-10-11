@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-VII-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-VII-000001", "topicCode": "VII", "subtopicSlug": "administracao-risco-risco-mercado", "contentNodeSlug": "tema-vii-risco-mercado-juros",
+      "family": { "code": "AI-VII-MERCADO-JUROS-001", "name": "Risco de mercado em renda fixa", "angle": "identificar oscilação por taxa de juros" },
+      "difficulty": 1, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["risco de mercado", "juros", "renda fixa"],
+      "statement": "Um investidor compra título prefixado e, logo depois, as taxas de mercado sobem. A queda do preço do título antes do vencimento materializa principalmente risco de:",
+      "options": [
+        { "id": "opt_1", "text": "Mercado, decorrente da variação das taxas de juros.", "isCorrect": true },
+        { "id": "opt_2", "text": "Crédito, necessariamente causado pela inadimplência já consumada do emissor.", "isCorrect": false, "distractorReason": "O caso descreve oscilação de preço por juros, sem inadimplência." },
+        { "id": "opt_3", "text": "Operacional, causado por falha humana na execução da ordem.", "isCorrect": false, "distractorReason": "Não há falha de processo, pessoa ou sistema no enunciado." },
+        { "id": "opt_4", "text": "Legal, provocado por nulidade contratual do título.", "isCorrect": false, "distractorReason": "O contrato não apresenta defeito jurídico; houve mudança de mercado." }
+      ],
+      "explanation": "Risco de mercado é a possibilidade de perda por oscilação de variáveis como juros, câmbio e preços. Ele também existe em renda fixa, especialmente em títulos prefixados.",
+      "commonTrap": "Supor que renda fixa não sofre risco de mercado ou chamar toda perda de risco de crédito.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Risco e relação risco-retorno", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/antes-de-investir/entenda-as-caracteristicas-dos-investimentos/risco-e-a-relacao-risco-x-retorno", "locator": "risco de mercado e oscilação das taxas de juros", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000002", "topicCode": "VII", "subtopicSlug": "administracao-risco-risco-credito", "contentNodeSlug": "tema-vii-risco-credito-inadimplencia",
+      "family": { "code": "AI-VII-CREDITO-INAD-001", "name": "Inadimplência do emissor", "angle": "distinguir crédito de mercado" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["risco de crédito", "emissor", "inadimplência"],
+      "statement": "Uma companhia deixa de pagar os juros e a amortização de uma debênture nas datas contratadas. O risco que se concretizou foi principalmente o de:",
+      "options": [
+        { "id": "opt_1", "text": "Crédito, pela incapacidade ou recusa do emissor em honrar sua obrigação.", "isCorrect": true },
+        { "id": "opt_2", "text": "Mercado, apenas porque o preço de qualquer ativo pode oscilar.", "isCorrect": false, "distractorReason": "O evento específico é o descumprimento da obrigação pelo devedor." },
+        { "id": "opt_3", "text": "Liquidez, porque obrigatoriamente não havia compradores no mercado.", "isCorrect": false, "distractorReason": "Ausência de compradores não foi informada; houve inadimplemento." },
+        { "id": "opt_4", "text": "Cambial, mesmo sem qualquer exposição a moeda estrangeira.", "isCorrect": false, "distractorReason": "Não existe fator cambial descrito no caso." }
+      ],
+      "explanation": "Risco de crédito é o risco de o emissor ou a contraparte não cumprir as condições pactuadas, como pagar juros ou principal. Inadimplência é sua manifestação direta.",
+      "commonTrap": "Classificar a consequência no preço como causa principal e ignorar o descumprimento do emissor.",
+      "estimatedSeconds": 70, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Risco e relação risco-retorno", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/antes-de-investir/entenda-as-caracteristicas-dos-investimentos/risco-e-a-relacao-risco-x-retorno", "locator": "risco de crédito e descumprimento da contraparte", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000003", "topicCode": "VII", "subtopicSlug": "administracao-risco-risco-liquidez", "contentNodeSlug": "tema-vii-risco-liquidez-spread",
+      "family": { "code": "AI-VII-LIQUIDEZ-SPREAD-001", "name": "Liquidez e spread", "angle": "analisar saída com impacto no preço" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["risco de liquidez", "spread", "preço justo"],
+      "statement": "Um ativo possui poucos compradores, baixo volume e grande diferença entre as melhores ofertas de compra e venda. Para vender rapidamente, o investidor provavelmente enfrentará:",
+      "options": [
+        { "id": "opt_1", "text": "Risco de liquidez, podendo aceitar preço significativamente inferior ao considerado justo.", "isCorrect": true },
+        { "id": "opt_2", "text": "Ausência total de risco, pois qualquer ativo listado tem recompra garantida.", "isCorrect": false, "distractorReason": "Listagem não garante contraparte nem preço justo para saída imediata." },
+        { "id": "opt_3", "text": "Somente risco de crédito do governo federal.", "isCorrect": false, "distractorReason": "O caso descreve dificuldade de negociação e spread, não crédito soberano." },
+        { "id": "opt_4", "text": "Valorização obrigatória causada pelo baixo volume.", "isCorrect": false, "distractorReason": "Baixa liquidez pode distorcer preços, sem direção obrigatória de valorização." }
+      ],
+      "explanation": "Baixa liquidez dificulta negociar rapidamente por preço justo. Pouco volume e spread amplo indicam maior custo de saída e possibilidade de impacto adverso no preço da venda.",
+      "commonTrap": "Equiparar possibilidade formal de negociar com capacidade efetiva de vender rapidamente a preço justo.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Liquidez", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/antes-de-investir/entenda-as-caracteristicas-dos-investimentos/liquidez", "locator": "pouca liquidez, negociação e distorção de preços", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000004", "topicCode": "VII", "subtopicSlug": "administracao-risco-risco-operacional", "contentNodeSlug": "tema-vii-risco-operacional-sistemas",
+      "family": { "code": "AI-VII-OPERACIONAL-SISTEMA-001", "name": "Falha de sistema e risco operacional", "angle": "classificar causa interna" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["risco operacional", "sistemas", "processos"],
+      "statement": "Uma falha no sistema de uma instituição duplica ordens de clientes e gera perdas antes da correção. Esse evento é exemplo de risco:",
+      "options": [
+        { "id": "opt_1", "text": "Operacional, associado a falha de sistema ou processo.", "isCorrect": true },
+        { "id": "opt_2", "text": "De mercado, causado necessariamente por alta dos juros.", "isCorrect": false, "distractorReason": "A origem do evento é falha operacional, não oscilação de variável de mercado." },
+        { "id": "opt_3", "text": "De crédito, pois todo erro de sistema equivale à inadimplência do emissor.", "isCorrect": false, "distractorReason": "Falha tecnológica não é descumprimento de obrigação por contraparte." },
+        { "id": "opt_4", "text": "Sistemático, porque qualquer problema interno atinge toda a economia.", "isCorrect": false, "distractorReason": "O evento descrito é específico da operação da instituição." }
+      ],
+      "explanation": "Risco operacional decorre de inadequação ou falha de processos, pessoas, sistemas ou eventos externos. A duplicação de ordens por falha tecnológica se enquadra diretamente nessa categoria.",
+      "commonTrap": "Classificar o risco apenas pelo prejuízo financeiro, ignorando a causa que originou a perda.",
+      "estimatedSeconds": 70, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Risco e relação risco-retorno", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/antes-de-investir/entenda-as-caracteristicas-dos-investimentos/risco-e-a-relacao-risco-x-retorno", "locator": "risco operacional e falhas humanas, de equipamentos e gestão", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000005", "topicCode": "VII", "subtopicSlug": "administracao-risco-risco-sistematico", "contentNodeSlug": "tema-vii-risco-sistematico-nao-diversificavel",
+      "family": { "code": "AI-VII-SISTEMATICO-DIVERSIF-001", "name": "Risco sistemático e específico", "angle": "distinguir parcela diversificável" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["risco sistemático", "risco específico", "diversificação"],
+      "statement": "Uma carteira com muitas ações de setores distintos ainda sofre forte queda após choque amplo que atinge todo o mercado. Isso evidencia que:",
+      "options": [
+        { "id": "opt_1", "text": "A diversificação reduz risco específico, mas não elimina o risco sistemático comum ao mercado.", "isCorrect": true },
+        { "id": "opt_2", "text": "A diversificação elimina todo risco quando há mais de dez ativos.", "isCorrect": false, "distractorReason": "Não existe quantidade que elimine o risco comum ao mercado." },
+        { "id": "opt_3", "text": "O choque de mercado é sempre risco não sistemático e totalmente diversificável.", "isCorrect": false, "distractorReason": "Choques amplos constituem justamente exemplo de risco sistemático." },
+        { "id": "opt_4", "text": "Concentrar todas as posições em uma única empresa reduziria a exposição ao choque.", "isCorrect": false, "distractorReason": "Concentração adicionaria risco específico sem eliminar o risco de mercado." }
+      ],
+      "explanation": "Diversificar emissores e setores pode reduzir eventos específicos de empresas, mas não elimina choques macroeconômicos e de mercado que atingem grande parte dos ativos simultaneamente.",
+      "commonTrap": "Transformar redução de risco específico em promessa de eliminação total do risco da carteira.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Evitando problemas", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/cuidados-ao-investir/evitando-problemas", "locator": "riscos de mercado, específicos e redução por diversificação", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000006", "topicCode": "VII", "subtopicSlug": "administracao-risco-duration", "contentNodeSlug": "tema-vii-duration-sensibilidade",
+      "family": { "code": "AI-VII-DURATION-SENSIB-001", "name": "Duration e sensibilidade", "angle": "comparar títulos diante de choque de juros" },
+      "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["duration", "juros", "sensibilidade"],
+      "statement": "Dois títulos prefixados apresentam o mesmo risco de crédito, mas o título A possui duration maior que o título B. Para uma mesma elevação das taxas, espera-se que:",
+      "options": [
+        { "id": "opt_1", "text": "O preço de A seja, em geral, mais sensível e sofra variação negativa maior que o de B.", "isCorrect": true },
+        { "id": "opt_2", "text": "O preço de A não varie, porque duration elimina o risco de juros.", "isCorrect": false, "distractorReason": "Duration mede sensibilidade; não elimina o risco de taxa." },
+        { "id": "opt_3", "text": "O título B sempre entre em inadimplência antes de A.", "isCorrect": false, "distractorReason": "Duration não determina inadimplência nem risco de crédito." },
+        { "id": "opt_4", "text": "Ambos tenham necessariamente a mesma variação percentual de preço.", "isCorrect": false, "distractorReason": "Durations diferentes indicam sensibilidades diferentes a juros." }
+      ],
+      "explanation": "Quanto maior a duration, maior tende a ser a sensibilidade do preço do título a variações na taxa de juros. Em uma alta de taxas, o título de maior duration tende a cair mais.",
+      "commonTrap": "Confundir prazo ou duration com garantia de retorno e ignorar a relação inversa entre taxa e preço.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Planejamento Financeiro Pessoal", "versionLabel": "Livro oficial consultado em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/educacional/publicacoes-educacionais/livros-cvm/livro-top-planejamento-financeiro-pessoal/", "locator": "duration e sensibilidade à oscilação da taxa de juros", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000007", "topicCode": "VII", "subtopicSlug": "administracao-risco-var", "contentNodeSlug": "tema-vii-var-limitacao",
+      "family": { "code": "AI-VII-VAR-LIMITE-001", "name": "Interpretação e limite do VaR", "angle": "evitar tratar estimativa como perda máxima" },
+      "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["VaR", "horizonte", "confiança", "limitação"],
+      "statement": "Uma carteira apresenta VaR diário de R$ 1 milhão ao nível de confiança de 99%. A interpretação correta é:",
+      "options": [
+        { "id": "opt_1", "text": "Segundo o modelo, há 1% de probabilidade de a perda diária exceder R$ 1 milhão; o VaR não é a perda máxima possível.", "isCorrect": true },
+        { "id": "opt_2", "text": "A carteira jamais poderá perder mais de R$ 1 milhão em um dia.", "isCorrect": false, "distractorReason": "O percentil estimado não limita as perdas nos eventos de cauda." },
+        { "id": "opt_3", "text": "A carteira certamente perderá R$ 1 milhão em 99 de cada 100 dias.", "isCorrect": false, "distractorReason": "O nível de confiança não representa frequência de perda exatamente igual ao VaR." },
+        { "id": "opt_4", "text": "O número mede apenas inadimplência do emissor e não risco de mercado.", "isCorrect": false, "distractorReason": "VaR é amplamente usado como medida estimada de risco de mercado." }
+      ],
+      "explanation": "VaR estima um limiar de perda para horizonte e confiança definidos. No exemplo, perdas superiores ao valor permanecem possíveis na cauda de 1%, e sua magnitude não é informada pelo VaR.",
+      "commonTrap": "Interpretar o VaR como teto absoluto de perda, ignorando eventos além do nível de confiança.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Comitê de Basileia (BIS)", "normNumber": "Minimum capital requirements for market risk", "versionLabel": "Padrão oficial consultado em 11/10/2026", "url": "https://www.bis.org/bcbs/publ/d457.pdf", "locator": "parágrafo 10.17 — definição de VaR, horizonte e nível de confiança", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-VII-000008", "topicCode": "VII", "subtopicSlug": "administracao-risco-clearing", "contentNodeSlug": "tema-vii-clearing-garantias",
+      "family": { "code": "AI-VII-CCP-GARANTIA-001", "name": "Contraparte central e garantias", "angle": "relacionar margem e inadimplência" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["clearing", "contraparte central", "margem", "garantia"],
+      "statement": "Em operações de derivativos compensadas por contraparte central, a exigência de margem de garantia busca principalmente:",
+      "options": [
+        { "id": "opt_1", "text": "Cobrir exposições potenciais e reduzir o impacto da inadimplência durante o encerramento de posições.", "isCorrect": true },
+        { "id": "opt_2", "text": "Assegurar lucro mínimo ao investidor, independentemente da posição assumida.", "isCorrect": false, "distractorReason": "Margem mitiga risco de crédito; não garante rentabilidade." },
+        { "id": "opt_3", "text": "Eliminar a oscilação dos preços dos contratos no mercado.", "isCorrect": false, "distractorReason": "Garantias não impedem variação dos preços de mercado." },
+        { "id": "opt_4", "text": "Substituir definitivamente todos os ajustes e mecanismos de risco da câmara.", "isCorrect": false, "distractorReason": "A margem integra um conjunto de salvaguardas e controles, não é mecanismo único." }
+      ],
+      "explanation": "A contraparte central exige garantias conforme o risco de encerramento da carteira. Se houver inadimplência, essas garantias podem absorver perdas e proteger o processo de liquidação.",
+      "commonTrap": "Confundir proteção da infraestrutura contra inadimplência com proteção do investidor contra perdas de mercado.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Administração de riscos — garantias", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.b3.com.br/pt_br/produtos-e-servicos/compensacao-e-liquidacao/clearing/administracao-de-riscos/garantias/garantias-no-exterior/", "locator": "contraparte central, margem e risco de encerramento do portfólio", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

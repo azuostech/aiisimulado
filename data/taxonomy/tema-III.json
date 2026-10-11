@@ -1,0 +1,26 @@
+{
+  "topicCode": "III",
+  "topicName": "PLD/FTP, Suitability e Cadastro",
+  "subtopicPrefix": "pld-suitability",
+  "version": "2026-10-10",
+  "source": "Lei 9.613/1998 e Resoluções CVM 30/2021, 50/2021 e 245/2026",
+  "branches": [
+    { "slug": "lavagem-dinheiro", "name": "Lavagem de dinheiro", "concepts": ["conceito", "ocultação", "dissimulação", "fases da lavagem", "exemplos práticos"] },
+    { "slug": "financiamento-terrorismo", "name": "Financiamento do terrorismo", "concepts": ["conceito", "distinção de lavagem", "sinais de alerta"] },
+    { "slug": "abordagem-baseada-risco", "name": "Abordagem baseada em risco", "concepts": ["classificação de risco", "clientes de alto risco", "operações de alto risco", "produtos de alto risco", "diligência reforçada"] },
+    { "slug": "politica-pld-ftp", "name": "Política de PLD/FTP", "concepts": ["governança", "procedimentos", "monitoramento", "controles internos"] },
+    { "slug": "cadastro", "name": "Cadastro", "concepts": ["identificação", "dados obrigatórios", "atualização cadastral", "inconsistências", "documentação"] },
+    { "slug": "beneficiario-final", "name": "Beneficiário final", "concepts": ["identificação", "controle societário", "estruturas complexas", "exceções"] },
+    { "slug": "pessoa-politicamente-exposta", "name": "Pessoa Politicamente Exposta", "concepts": ["conceito", "familiares", "estreitos colaboradores", "diligência reforçada", "monitoramento"] },
+    { "slug": "origem-recursos", "name": "Origem de recursos", "concepts": ["compatibilidade", "capacidade financeira", "patrimônio", "transações incompatíveis"] },
+    { "slug": "operacoes-suspeitas", "name": "Operações suspeitas", "concepts": ["comportamento atípico", "fragmentação", "incompatibilidade econômica", "movimentações complexas", "padrões incomuns"] },
+    { "slug": "comunicacao", "name": "Comunicação", "concepts": ["COAF", "sigilo", "obrigação de comunicação", "ausência de comunicação ao cliente", "registros"] },
+    { "slug": "investidor-nao-residente", "name": "Investidor não residente", "concepts": ["diligência", "jurisdição", "GAFI", "risco elevado", "monitoramento reforçado"] },
+    { "slug": "suitability-objetivos", "name": "Suitability — objetivos", "concepts": ["horizonte", "finalidade", "necessidade de liquidez", "tolerância a risco"] },
+    { "slug": "suitability-situacao-financeira", "name": "Suitability — situação financeira", "concepts": ["renda", "patrimônio", "despesas", "capacidade de perdas", "compromissos futuros"] },
+    { "slug": "suitability-conhecimento", "name": "Suitability — conhecimento", "concepts": ["experiência", "frequência de operações", "familiaridade com produtos", "complexidade"] },
+    { "slug": "perfil-investidor", "name": "Perfil do investidor", "concepts": ["conservador", "moderado", "agressivo", "metodologia"] },
+    { "slug": "desenquadramento", "name": "Desenquadramento", "concepts": ["produto inadequado", "alerta", "ciência do cliente", "procedimentos"] },
+    { "slug": "produto-complexo", "name": "Produto complexo", "concepts": ["identificação", "risco adicional", "dever de informação", "suitability reforçado"] }
+  ]
+}

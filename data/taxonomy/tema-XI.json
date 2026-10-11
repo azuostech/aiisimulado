@@ -1,0 +1,16 @@
+{
+  "topicCode": "XI",
+  "topicName": "Securitização de Recebíveis",
+  "subtopicPrefix": "securitizacao-recebiveis",
+  "version": "2026-10-11",
+  "source": "Resolução CVM 60 e Portal do Investidor",
+  "branches": [
+    { "slug": "conceito", "name": "Conceito", "concepts": ["transformação de recebíveis em títulos", "fluxo financeiro"] },
+    { "slug": "cedente", "name": "Cedente", "concepts": ["origem do crédito", "transferência"] },
+    { "slug": "devedor-sacado", "name": "Devedor ou sacado", "concepts": ["obrigação", "pagamento"] },
+    { "slug": "securitizadora", "name": "Securitizadora", "concepts": ["estrutura", "emissão"] },
+    { "slug": "lastro", "name": "Lastro", "concepts": ["recebíveis", "direitos creditórios"] },
+    { "slug": "risco", "name": "Risco", "concepts": ["crédito", "estrutura", "fluxo"] },
+    { "slug": "instrumentos", "name": "Instrumentos", "concepts": ["certificados", "valores mobiliários associados"] }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "batchId": "tema-XIII-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-XIII-000002", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-juros-simples", "contentNodeSlug": "tema-xiii-juros-simples-montante",
+      "family": { "code": "AI-XIII-JS-MONTANTE-001", "name": "Montante em juros simples", "angle": "calcular capitalização linear" },
+      "difficulty": 2, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["juros simples", "montante"],
+      "statement": "Um capital de R$ 10.000,00 é aplicado a juros simples de 2% ao mês por cinco meses. Qual será o montante ao final do período?",
+      "options": [
+        { "id": "opt_1", "text": "R$ 11.000,00.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 11.040,81.", "isCorrect": false, "distractorReason": "Aplica capitalização composta de 2% por cinco meses." },
+        { "id": "opt_3", "text": "R$ 10.200,00.", "isCorrect": false, "distractorReason": "Considera apenas um mês de juros." },
+        { "id": "opt_4", "text": "R$ 12.000,00.", "isCorrect": false, "distractorReason": "Aplica 2% diretamente como se fossem 20% no período." }
+      ],
+      "explanation": "Em juros simples, J = C × i × n = 10.000 × 0,02 × 5 = R$ 1.000,00. Logo, M = C + J = R$ 11.000,00.",
+      "commonTrap": "Elevar o fator de juros como se o regime fosse composto.",
+      "estimatedSeconds": 90, "requiresCalculation": true, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Caderno de Educação Financeira", "versionLabel": "Publicação oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/pre/pef/port/caderno_cidadania_financeira.pdf", "locator": "capítulo 4 — juros simples e compostos", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000003", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-juros-compostos", "contentNodeSlug": "tema-xiii-juros-compostos-montante",
+      "family": { "code": "AI-XIII-JC-MONTANTE-001", "name": "Montante em juros compostos", "angle": "calcular juros sobre juros" },
+      "difficulty": 2, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ARCHIVED", "tags": ["juros compostos", "valor futuro"],
+      "statement": "Um capital de R$ 10.000,00 rende 2% ao mês durante cinco meses sob capitalização composta. Arredondando para centavos, o valor futuro é:",
+      "options": [
+        { "id": "opt_1", "text": "R$ 11.040,81.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 11.000,00.", "isCorrect": false, "distractorReason": "Usa juros simples, sem juros sobre juros." },
+        { "id": "opt_3", "text": "R$ 10.200,00.", "isCorrect": false, "distractorReason": "Capitaliza apenas um período." },
+        { "id": "opt_4", "text": "R$ 12.000,00.", "isCorrect": false, "distractorReason": "Converte incorretamente 2% em 20%." }
+      ],
+      "explanation": "Em juros compostos, FV = PV × (1+i)^n. Assim, 10.000 × 1,02^5 = R$ 11.040,81, aproximadamente, pois os juros de cada período se incorporam ao capital.",
+      "commonTrap": "Multiplicar taxa por prazo e aplicar juros simples.",
+      "estimatedSeconds": 95, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Caderno do Estudante OLITEF", "versionLabel": "Publicação oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/content/config/aprendervalor/docs_aprender_valor/OLITEF_2024_CADERNO_ESTUDANTE_VFinal.pdf", "locator": "fórmula dos juros compostos — valor presente × (1+taxa)^tempo", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000004", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-valor-presente", "contentNodeSlug": "tema-xiii-valor-presente-desconto",
+      "family": { "code": "AI-XIII-VP-FLUXO-001", "name": "Valor presente de fluxo único", "angle": "descontar valor futuro composto" },
+      "difficulty": 3, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["valor presente", "desconto"],
+      "statement": "Quanto deve ser aplicado hoje, a 10% ao ano em juros compostos, para obter exatamente R$ 12.100,00 daqui a dois anos?",
+      "options": [
+        { "id": "opt_1", "text": "R$ 10.000,00.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 9.900,00.", "isCorrect": false, "distractorReason": "Subtrai juros simples diretamente do valor futuro." },
+        { "id": "opt_3", "text": "R$ 11.000,00.", "isCorrect": false, "distractorReason": "Desconta apenas um período." },
+        { "id": "opt_4", "text": "R$ 14.641,00.", "isCorrect": false, "distractorReason": "Capitaliza o valor futuro em vez de trazê-lo a valor presente." }
+      ],
+      "explanation": "PV = FV ÷ (1+i)^n = 12.100 ÷ 1,10² = 12.100 ÷ 1,21 = R$ 10.000,00. Valor presente é o equivalente hoje do fluxo futuro descontado pela taxa.",
+      "commonTrap": "Multiplicar o valor futuro pelo fator de capitalização em vez de dividi-lo.",
+      "estimatedSeconds": 100, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Calculadora do Cidadão", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/pec/calculo/calc_juros/Default.asp?frame=1", "locator": "Valor futuro de um capital — cálculo do capital atual", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000005", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-taxas", "contentNodeSlug": "tema-xiii-taxas-equivalente",
+      "family": { "code": "AI-XIII-TAXA-EQUIVALENTE-001", "name": "Taxa mensal equivalente anual", "angle": "distinguir equivalência de proporcionalidade" },
+      "difficulty": 3, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["taxa equivalente", "capitalização composta"],
+      "statement": "Em capitalização composta, a taxa efetiva anual equivalente a 1% ao mês é aproximadamente:",
+      "options": [
+        { "id": "opt_1", "text": "12,68% ao ano.", "isCorrect": true },
+        { "id": "opt_2", "text": "12,00% ao ano.", "isCorrect": false, "distractorReason": "Multiplica por 12 e obtém taxa proporcional, não equivalente composta." },
+        { "id": "opt_3", "text": "1,12% ao ano.", "isCorrect": false, "distractorReason": "Soma indevidamente 0,12 ao percentual mensal." },
+        { "id": "opt_4", "text": "21,00% ao ano.", "isCorrect": false, "distractorReason": "Interpreta 1% como 0,01 ponto e soma incorretamente." }
+      ],
+      "explanation": "A equivalência exige igual fator acumulado: (1+0,01)^12 − 1 = 0,126825..., ou cerca de 12,68% ao ano. A taxa de 12% é apenas proporcional.",
+      "commonTrap": "Multiplicar a taxa mensal por doze em regime composto.",
+      "estimatedSeconds": 105, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "Escola Nacional de Administração Pública", "normNumber": "Curso Matemática Financeira", "versionLabel": "Curso oficial consultado em 11/10/2026", "url": "https://www.escolavirtual.gov.br/curso/93", "locator": "módulo de equivalência e proporcionalidade de taxas", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000006", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-taxas", "contentNodeSlug": "tema-xiii-taxas-efetiva",
+      "family": { "code": "AI-XIII-NOMINAL-EFETIVA-001", "name": "Taxa nominal com capitalização mensal", "angle": "calcular taxa efetiva anual" },
+      "difficulty": 2, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["taxa nominal", "taxa efetiva"],
+      "statement": "Uma operação informa taxa nominal de 24% ao ano com capitalização mensal proporcional de 2% ao mês. A taxa efetiva anual correspondente é aproximadamente:",
+      "options": [
+        { "id": "opt_1", "text": "26,82% ao ano.", "isCorrect": true },
+        { "id": "opt_2", "text": "24,00% ao ano.", "isCorrect": false, "distractorReason": "Repete a taxa nominal sem considerar capitalização mensal." },
+        { "id": "opt_3", "text": "22,00% ao ano.", "isCorrect": false, "distractorReason": "Subtrai a taxa mensal da nominal sem fundamento." },
+        { "id": "opt_4", "text": "48,00% ao ano.", "isCorrect": false, "distractorReason": "Duplica a taxa nominal em vez de compor os períodos." }
+      ],
+      "explanation": "A taxa mensal proporcional é 24% ÷ 12 = 2%. A taxa efetiva anual resulta de (1,02)^12 − 1 = 26,824...%, refletindo a capitalização ao longo do ano.",
+      "commonTrap": "Apresentar a taxa nominal de 24% como se já fosse a taxa efetiva anual.",
+      "estimatedSeconds": 110, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "Escola Nacional de Administração Pública", "normNumber": "Curso Matemática Financeira", "versionLabel": "Curso oficial consultado em 11/10/2026", "url": "https://www.escolavirtual.gov.br/curso/93", "locator": "módulo de taxas nominal, efetiva e equivalente", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000007", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-desconto", "contentNodeSlug": "tema-xiii-desconto-comercial",
+      "family": { "code": "AI-XIII-DESCONTO-COMERCIAL-001", "name": "Desconto comercial simples", "angle": "calcular desconto sobre valor nominal" },
+      "difficulty": 1, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["desconto comercial", "valor nominal"],
+      "statement": "Um título de valor nominal R$ 10.000,00 é descontado comercialmente à taxa simples de 2% ao mês, três meses antes do vencimento. O desconto é:",
+      "options": [
+        { "id": "opt_1", "text": "R$ 600,00.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 566,04.", "isCorrect": false, "distractorReason": "Corresponde aproximadamente ao desconto racional simples." },
+        { "id": "opt_3", "text": "R$ 200,00.", "isCorrect": false, "distractorReason": "Considera apenas um mês." },
+        { "id": "opt_4", "text": "R$ 9.400,00.", "isCorrect": false, "distractorReason": "Esse é o valor líquido, não o desconto." }
+      ],
+      "explanation": "No desconto comercial simples, D = N × i × n. Portanto, D = 10.000 × 0,02 × 3 = R$ 600,00, e o valor líquido seria R$ 9.400,00.",
+      "commonTrap": "Responder o valor líquido ou usar a base do desconto racional.",
+      "estimatedSeconds": 100, "requiresCalculation": true, "calculatorAllowed": false,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira — UFBA", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf", "locator": "capítulo de descontos simples — desconto comercial", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000008", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-desconto", "contentNodeSlug": "tema-xiii-desconto-racional",
+      "family": { "code": "AI-XIII-DESCONTO-RACIONAL-001", "name": "Desconto racional simples", "angle": "calcular valor atual e desconto" },
+      "difficulty": 4, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["desconto racional", "valor atual"],
+      "statement": "Um título de R$ 10.000,00 sofre desconto racional simples de 2% ao mês, três meses antes do vencimento. O desconto racional é aproximadamente:",
+      "options": [
+        { "id": "opt_1", "text": "R$ 566,04.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 600,00.", "isCorrect": false, "distractorReason": "Aplica desconto comercial simples sobre o valor nominal." },
+        { "id": "opt_3", "text": "R$ 9.433,96.", "isCorrect": false, "distractorReason": "Esse é o valor atual racional, não o desconto." },
+        { "id": "opt_4", "text": "R$ 6.000,00.", "isCorrect": false, "distractorReason": "Erra a conversão percentual e o prazo." }
+      ],
+      "explanation": "No racional simples, A = N ÷ (1+in) = 10.000 ÷ 1,06 = R$ 9.433,96. Logo, D = N − A = aproximadamente R$ 566,04.",
+      "commonTrap": "Aplicar a taxa diretamente ao valor nominal como no desconto comercial.",
+      "estimatedSeconds": 115, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira — UFBA", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf", "locator": "capítulo de descontos simples — desconto racional", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000009", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-fluxo-caixa", "contentNodeSlug": "tema-xiii-fluxo-caixa-representacao",
+      "family": { "code": "AI-XIII-FLUXO-SINAIS-001", "name": "Sinais do fluxo de caixa", "angle": "representar investimento e recebimentos" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ARCHIVED", "tags": ["fluxo de caixa", "entradas", "saídas"],
+      "statement": "Do ponto de vista do investidor, um projeto exige aporte inicial de R$ 5.000 e gera três recebimentos futuros. A representação convencional é:",
+      "options": [
+        { "id": "opt_1", "text": "Saída negativa no tempo zero e entradas positivas nas datas dos recebimentos.", "isCorrect": true },
+        { "id": "opt_2", "text": "Entrada positiva no tempo zero e todas as receitas futuras negativas.", "isCorrect": false, "distractorReason": "Inverte a perspectiva financeira do investidor." },
+        { "id": "opt_3", "text": "Todos os fluxos positivos porque o projeto busca lucro.", "isCorrect": false, "distractorReason": "O desembolso inicial continua sendo saída de caixa." },
+        { "id": "opt_4", "text": "Todos os fluxos negativos até que a TIR seja calculada.", "isCorrect": false, "distractorReason": "O sinal decorre da direção do fluxo, não do cálculo posterior." }
+      ],
+      "explanation": "Na perspectiva do investidor, aportes e pagamentos são saídas negativas; recebimentos são entradas positivas. A convenção de sinais é essencial para calcular VPL, TIR e funções financeiras.",
+      "commonTrap": "Definir o sinal pelo resultado esperado do projeto, e não pela direção de cada fluxo.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Calculadora do Investidor", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/ferramentas/calculadora-do-investidor", "locator": "convenção universal de entrada e saída de fluxos de caixa", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000010", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-vpl", "contentNodeSlug": "tema-xiii-vpl-calculo",
+      "family": { "code": "AI-XIII-VPL-FLUXO-001", "name": "VPL de fluxo único", "angle": "descontar retorno e subtrair investimento" },
+      "difficulty": 3, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["VPL", "taxa de desconto"],
+      "statement": "Um projeto exige investimento imediato de R$ 1.000 e paga R$ 1.210 ao final de dois anos. Com taxa mínima de atratividade de 10% ao ano, seu VPL é:",
+      "options": [
+        { "id": "opt_1", "text": "R$ 0,00.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 210,00.", "isCorrect": false, "distractorReason": "Ignora o valor do dinheiro no tempo." },
+        { "id": "opt_3", "text": "R$ 100,00.", "isCorrect": false, "distractorReason": "Desconta apenas um período." },
+        { "id": "opt_4", "text": "–R$ 210,00.", "isCorrect": false, "distractorReason": "Subtrai o valor futuro nominal sem trazê-lo a valor presente." }
+      ],
+      "explanation": "O valor presente do recebimento é 1.210 ÷ 1,10² = R$ 1.000. Subtraindo o investimento inicial de R$ 1.000, o VPL é zero e o projeto remunera exatamente a taxa requerida.",
+      "commonTrap": "Calcular retorno nominal de R$ 210 sem descontar o fluxo futuro.",
+      "estimatedSeconds": 105, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira — UFBA", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf", "locator": "seção método do Valor Presente Líquido", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000011", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-vpl", "contentNodeSlug": "tema-xiii-vpl-decisao",
+      "family": { "code": "AI-XIII-VPL-DECISAO-001", "name": "Critério de decisão pelo VPL", "angle": "interpretar sinal positivo" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["VPL", "decisão"],
+      "statement": "Para um projeto convencional avaliado isoladamente, um VPL positivo à taxa mínima de atratividade indica que:",
+      "options": [
+        { "id": "opt_1", "text": "O valor presente das entradas supera o investimento e o projeto cria valor acima da remuneração mínima exigida.", "isCorrect": true },
+        { "id": "opt_2", "text": "O projeto necessariamente não recupera o capital inicial.", "isCorrect": false, "distractorReason": "VPL positivo indica justamente excedente após remunerar a taxa requerida." },
+        { "id": "opt_3", "text": "A TIR do projeto é obrigatoriamente zero.", "isCorrect": false, "distractorReason": "Para fluxo convencional, VPL positivo na taxa requerida sugere TIR superior a ela." },
+        { "id": "opt_4", "text": "Os fluxos futuros não precisam ser descontados.", "isCorrect": false, "distractorReason": "O desconto dos fluxos é a base do cálculo do VPL." }
+      ],
+      "explanation": "VPL positivo significa que, depois de descontar os fluxos pela taxa mínima exigida e recuperar o desembolso, ainda existe valor adicional. Para projeto isolado, isso sustenta sua aceitação.",
+      "commonTrap": "Interpretar o sinal positivo como mero lucro nominal sem considerar a taxa de desconto.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira — UFBA", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf", "locator": "seção método do VPL — decisão de investimento", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000012", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-tir", "contentNodeSlug": "tema-xiii-tir-conceito",
+      "family": { "code": "AI-XIII-TIR-CONCEITO-001", "name": "Definição da TIR", "angle": "identificar taxa que zera o VPL" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["TIR", "VPL"],
+      "statement": "A Taxa Interna de Retorno — TIR — de um fluxo de caixa é a taxa que:",
+      "options": [
+        { "id": "opt_1", "text": "Iguala o valor presente das entradas ao valor presente das saídas, tornando o VPL igual a zero.", "isCorrect": true },
+        { "id": "opt_2", "text": "Torna o valor futuro de todas as entradas igual a zero.", "isCorrect": false, "distractorReason": "A definição usa equivalência presente entre entradas e saídas." },
+        { "id": "opt_3", "text": "É sempre igual à taxa Selic vigente.", "isCorrect": false, "distractorReason": "A TIR decorre dos fluxos específicos do projeto." },
+        { "id": "opt_4", "text": "Corresponde ao maior recebimento nominal do projeto.", "isCorrect": false, "distractorReason": "TIR é taxa, não valor monetário de uma entrada." }
+      ],
+      "explanation": "A TIR é a taxa de desconto que produz VPL zero, tornando equivalentes os valores presentes de recebimentos e desembolsos. Ela é obtida a partir do próprio fluxo do projeto.",
+      "commonTrap": "Confundir TIR com taxa externa de mercado ou com retorno nominal acumulado.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira — UFBA", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf", "locator": "seção 3.1.2 — Taxa Interna de Retorno", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000013", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-tir", "contentNodeSlug": "tema-xiii-tir-comparacao",
+      "family": { "code": "AI-XIII-TIR-TMA-001", "name": "TIR versus taxa mínima", "angle": "decidir sobre projeto convencional" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["TIR", "TMA", "decisão"],
+      "statement": "Um projeto convencional possui TIR de 12% ao ano e a taxa mínima de atratividade é 10% ao ano. Avaliado isoladamente e sem outras restrições, o projeto deve ser:",
+      "options": [
+        { "id": "opt_1", "text": "Aceito, pois sua TIR supera a remuneração mínima exigida.", "isCorrect": true },
+        { "id": "opt_2", "text": "Rejeitado, pois a TIR deveria ser inferior à taxa mínima.", "isCorrect": false, "distractorReason": "Inverte o critério de decisão." },
+        { "id": "opt_3", "text": "Indiferente, porque qualquer TIR positiva produz VPL zero na taxa de 10%.", "isCorrect": false, "distractorReason": "O VPL zera na TIR de 12%, não necessariamente na taxa mínima de 10%." },
+        { "id": "opt_4", "text": "Aceito somente se a taxa Selic também for exatamente 12%.", "isCorrect": false, "distractorReason": "A decisão compara TIR com a taxa mínima definida para o projeto." }
+      ],
+      "explanation": "Para fluxo convencional e projeto isolado, TIR superior à taxa mínima indica retorno acima do exigido e VPL positivo quando descontado a 10%, sustentando a aceitação.",
+      "commonTrap": "Inverter a comparação entre a TIR e a taxa mínima de atratividade.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira e Análise de Investimentos", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/714987/2/4%20Matematica%20Financeira%20Miolo%20online%202ed.pdf", "locator": "métodos VPL e TIR — comparação com taxa de atratividade", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000014", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-hp12c", "contentNodeSlug": "tema-xiii-hp12c-pv",
+      "family": { "code": "AI-XIII-HP-SINAIS-001", "name": "Convenção de sinais na calculadora", "angle": "identificar fluxo de entrada e saída" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["HP 12C", "PV", "FV", "sinais"],
+      "statement": "Ao calcular quanto uma aplicação única crescerá, o investidor registra o aporte inicial como PV negativo. Para que a calculadora retorne o resgate como FV positivo, essa escolha representa:",
+      "options": [
+        { "id": "opt_1", "text": "A convenção de sinais: o aporte é saída de caixa e o resgate é entrada de caixa para o investidor.", "isCorrect": true },
+        { "id": "opt_2", "text": "Uma regra segundo a qual todo valor presente é economicamente negativo.", "isCorrect": false, "distractorReason": "O sinal depende da perspectiva e da direção do fluxo, não da variável PV." },
+        { "id": "opt_3", "text": "Um erro, pois PV e FV devem sempre ter o mesmo sinal.", "isCorrect": false, "distractorReason": "Em fluxo de aplicação e resgate, sinais opostos representam saída e entrada." },
+        { "id": "opt_4", "text": "A transformação automática de juros compostos em juros simples.", "isCorrect": false, "distractorReason": "A convenção de sinais não altera o regime de capitalização." }
+      ],
+      "explanation": "Calculadoras financeiras seguem a convenção de entradas e saídas. Para o investidor, aplicar é saída e resgatar é entrada; por isso PV e FV normalmente aparecem com sinais opostos nesse fluxo.",
+      "commonTrap": "Achar que o sinal pertence fixamente à tecla, e não à perspectiva do fluxo.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": true,
+      "sources": [{ "authority": "CVM", "normNumber": "Calculadora do Investidor", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/ferramentas/calculadora-do-investidor", "locator": "funções PV, FV, n, i e convenção universal de fluxos", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000015", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-hp12c", "contentNodeSlug": "tema-xiii-hp12c-i",
+      "family": { "code": "AI-XIII-HP-PERIODICIDADE-001", "name": "Consistência entre taxa e períodos", "angle": "evitar mistura de unidades" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["HP 12C", "i", "n", "periodicidade"],
+      "statement": "Para calcular na HP 12C o valor futuro de uma aplicação de 24 meses com taxa efetiva de 1% ao mês, os campos i e n devem receber, respectivamente:",
+      "options": [
+        { "id": "opt_1", "text": "1 e 24, mantendo taxa e número de períodos na mesma unidade mensal.", "isCorrect": true },
+        { "id": "opt_2", "text": "12 e 24, multiplicando a taxa mensal por doze sem mudar n.", "isCorrect": false, "distractorReason": "Mistura taxa anual proporcional com períodos mensais." },
+        { "id": "opt_3", "text": "1 e 2, usando taxa mensal com número de anos.", "isCorrect": false, "distractorReason": "As unidades de i e n ficam incompatíveis." },
+        { "id": "opt_4", "text": "24 e 1, invertendo taxa e prazo.", "isCorrect": false, "distractorReason": "Troca o significado das variáveis financeiras." }
+      ],
+      "explanation": "A taxa i deve corresponder ao mesmo período contado por n. Com taxa mensal e prazo de 24 meses, registra-se i = 1 e n = 24, sem converter apenas uma das variáveis.",
+      "commonTrap": "Anualizar a taxa e manter o prazo em meses, misturando unidades.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": true,
+      "sources": [{ "authority": "CVM", "normNumber": "Calculadora do Investidor", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/ferramentas/calculadora-do-investidor", "locator": "funções financeiras PV, FV, n e i", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000016", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-hp12c", "contentNodeSlug": "tema-xiii-hp12c-pmt",
+      "family": { "code": "AI-XIII-PMT-FLUXO-001", "name": "Função financeira PMT", "angle": "identificar prestação uniforme" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["HP 12C", "PMT", "prestações"],
+      "statement": "Em uma calculadora financeira, a variável PMT representa normalmente:",
+      "options": [
+        { "id": "opt_1", "text": "O pagamento ou recebimento periódico uniforme de uma série financeira.", "isCorrect": true },
+        { "id": "opt_2", "text": "A taxa de juros de cada período.", "isCorrect": false, "distractorReason": "A taxa periódica é registrada em i." },
+        { "id": "opt_3", "text": "A quantidade total de períodos.", "isCorrect": false, "distractorReason": "A quantidade de períodos é registrada em n." },
+        { "id": "opt_4", "text": "Exclusivamente o valor presente de um fluxo único.", "isCorrect": false, "distractorReason": "Valor presente é PV; PMT representa a parcela periódica." }
+      ],
+      "explanation": "PMT é o pagamento periódico de uma série uniforme, como prestação ou depósito recorrente. PV representa valor presente, FV valor futuro, i a taxa e n o número de períodos.",
+      "commonTrap": "Trocar PMT por PV ou interpretar a prestação como taxa.",
+      "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": true,
+      "sources": [{ "authority": "CVM", "normNumber": "Calculadora do Investidor", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/ferramentas/calculadora-do-investidor", "locator": "funções financeiras PMT, PV, FV, n e i", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIII-000017", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-tir", "contentNodeSlug": "tema-xiii-tir-interpretacao",
+      "family": { "code": "AI-XIII-TIR-UM-PERIODO-001", "name": "TIR de fluxo de um período", "angle": "calcular retorno implícito" },
+      "difficulty": 1, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["TIR", "fluxo de caixa"],
+      "statement": "Um investimento exige saída de R$ 1.000 hoje e gera única entrada de R$ 1.100 daqui a um ano. A TIR anual desse fluxo é:",
+      "options": [
+        { "id": "opt_1", "text": "10% ao ano.", "isCorrect": true },
+        { "id": "opt_2", "text": "9,09% ao ano.", "isCorrect": false, "distractorReason": "Divide o ganho pelo valor futuro, em vez de pelo capital investido." },
+        { "id": "opt_3", "text": "11% ao ano.", "isCorrect": false, "distractorReason": "Interpreta R$ 1.100 como 11% sem calcular a variação sobre R$ 1.000." },
+        { "id": "opt_4", "text": "100% ao ano.", "isCorrect": false, "distractorReason": "Confunde recuperação do principal com lucro integral." }
+      ],
+      "explanation": "A taxa que zera o VPL satisfaz 1.000 = 1.100 ÷ (1+i). Logo, 1+i = 1,10 e i = 10% ao ano. Nesse fluxo simples, coincide com o retorno sobre o capital.",
+      "commonTrap": "Dividir o ganho pelo recebimento futuro em vez do investimento inicial.",
+      "estimatedSeconds": 90, "requiresCalculation": true, "calculatorAllowed": false,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira — UFBA", "versionLabel": "Livro educacional oficial consultado em 11/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/430116/2/eBook_Matem%C3%A1tica_Financeira_UFBA.pdf", "locator": "seção 3.1.2 — definição e cálculo da TIR", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "topicCode": "X",
+  "topicName": "Fundos de Investimento — Anexos Normativos",
+  "subtopicPrefix": "fundos-anexos",
+  "version": "2026-10-11",
+  "source": "Resolução CVM 175 e respectivos anexos normativos",
+  "branches": [
+    { "slug": "etf", "name": "ETF", "concepts": ["índice", "gestão passiva", "negociação em bolsa", "cotas"] },
+    { "slug": "fii", "name": "FII", "concepts": ["imóveis", "rendimentos", "cotas", "negociação", "riscos"] },
+    { "slug": "fidc", "name": "FIDC", "concepts": ["direitos creditórios", "cedente", "sacado", "subclasses", "risco de crédito"] },
+    { "slug": "fip", "name": "FIP", "concepts": ["participações", "governança", "empresas investidas"] },
+    { "slug": "regras-anexos-cvm-175", "name": "Regras dos anexos da CVM 175", "concepts": ["enquadramento", "limites", "público-alvo", "particularidades"] }
+  ]
+}

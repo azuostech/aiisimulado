@@ -1,0 +1,20 @@
+{
+  "batchId": "tema-IV-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [{
+    "id": "AI-IV-000009", "topicCode": "IV", "subtopicSlug": "economia-relacoes-macroeconomicas", "contentNodeSlug": "tema-iv-relacoes-macroeconomicas-fiscal-x-curva-de-juros",
+    "family": { "code": "AI-IV-FISCAL-CURVA-001", "name": "Risco fiscal e curva de juros", "angle": "interpretar deterioração fiscal sem mudança imediata da Selic" },
+    "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["política fiscal", "dívida pública", "curva de juros"],
+    "statement": "O governo anuncia aumento permanente de despesas sem indicar receitas compensatórias. A Selic corrente não muda, mas o mercado revê para cima a trajetória da dívida e o prêmio exigido nos vencimentos longos. O movimento mais coerente é:",
+    "options": [
+      { "id": "opt_1", "text": "Queda das taxas longas, porque maior gasto público reduz a necessidade de financiamento futuro.", "isCorrect": false, "distractorReason": "Sem compensação, a necessidade esperada de financiamento e o risco fiscal tendem a aumentar." },
+      { "id": "opt_2", "text": "Alta das taxas longas relativamente às curtas, refletindo maior prêmio fiscal e incerteza sobre a dívida.", "isCorrect": true },
+      { "id": "opt_3", "text": "Estabilidade de toda a curva, pois a decisão do Copom seria o fator determinante dos juros de mercado.", "isCorrect": false, "distractorReason": "Taxas de mercado incorporam expectativas e prêmios de risco antes de decisões da autoridade monetária." },
+      { "id": "opt_4", "text": "Queda simultânea da dívida projetada e do prêmio de risco, ainda que não haja novas receitas.", "isCorrect": false, "distractorReason": "Essa conclusão contradiz a premissa de deterioração da trajetória fiscal." }
+    ],
+    "explanation": "A curva de juros incorpora expectativas futuras e prêmios de risco. Uma piora fiscal esperada pode elevar principalmente as taxas longas, mesmo sem alteração imediata da meta Selic.",
+    "commonTrap": "Tratar a Selic corrente como a única variável capaz de alterar toda a estrutura a termo das taxas de juros.",
+    "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+    "sources": [{ "authority": "Tesouro Nacional", "normNumber": "Política Fiscal e Riscos Fiscais", "versionLabel": "Conteúdo institucional consultado em 11/10/2026", "url": "https://www.gov.br/tesouronacional/pt-br/estatisticas-fiscais-e-planejamento/planejamento-fiscal/riscos-fiscais", "locator": "definição de riscos fiscais e impacto sobre as contas públicas", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+  }]
+}

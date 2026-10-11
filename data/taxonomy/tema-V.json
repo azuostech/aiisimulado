@@ -1,0 +1,18 @@
+{
+  "topicCode": "V",
+  "topicName": "Sistema Financeiro Nacional",
+  "subtopicPrefix": "sistema-financeiro-nacional",
+  "version": "2026-10-11",
+  "source": "Banco Central do Brasil, CVM, Tesouro Nacional e B3",
+  "branches": [
+    { "slug": "cmn", "name": "CMN", "concepts": ["função", "competência", "formulação de políticas"] },
+    { "slug": "banco-central", "name": "Banco Central", "concepts": ["execução da política monetária", "supervisão bancária", "autorização", "fiscalização"] },
+    { "slug": "cvm", "name": "CVM", "concepts": ["mercado de capitais", "fiscalização", "valores mobiliários", "participantes"] },
+    { "slug": "tesouro-nacional", "name": "Tesouro Nacional", "concepts": ["dívida pública", "títulos públicos", "política fiscal"] },
+    { "slug": "cnsp", "name": "CNSP", "concepts": ["seguros", "regulação"] },
+    { "slug": "cnpc", "name": "CNPC", "concepts": ["previdência complementar fechada", "competência"] },
+    { "slug": "b3", "name": "B3", "concepts": ["ambiente de negociação", "clearing", "registro", "infraestrutura"] },
+    { "slug": "bsm", "name": "BSM", "concepts": ["autorregulação", "supervisão", "fiscalização"] },
+    { "slug": "spb", "name": "SPB", "concepts": ["conceito", "liquidação", "segurança", "participantes"] }
+  ]
+}

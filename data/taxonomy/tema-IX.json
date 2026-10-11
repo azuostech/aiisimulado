@@ -1,0 +1,28 @@
+{
+  "topicCode": "IX",
+  "topicName": "Fundos de Investimento",
+  "subtopicPrefix": "fundos-investimento",
+  "version": "2026-10-11",
+  "source": "Resolução CVM 175 e Portal do Investidor",
+  "branches": [
+    { "slug": "estrutura", "name": "Estrutura", "concepts": ["fundo", "classe", "subclasse", "cotas"] },
+    { "slug": "cotistas", "name": "Cotistas", "concepts": ["direitos", "responsabilidades", "patrimônio separado"] },
+    { "slug": "administrador", "name": "Administrador", "concepts": ["função", "responsabilidades", "obrigações"] },
+    { "slug": "gestor", "name": "Gestor", "concepts": ["decisão de investimento", "política", "execução da estratégia"] },
+    { "slug": "custodiante", "name": "Custodiante", "concepts": ["guarda", "controle"] },
+    { "slug": "prestadores-essenciais", "name": "Prestadores essenciais", "concepts": ["administrador", "gestor"] },
+    { "slug": "fundo-aberto", "name": "Fundo aberto", "concepts": ["aplicação", "resgate", "liquidez"] },
+    { "slug": "fundo-fechado", "name": "Fundo fechado", "concepts": ["ausência de resgate", "mercado secundário", "prazo"] },
+    { "slug": "taxa-administracao", "name": "Taxa de administração", "concepts": ["conceito", "cobrança"] },
+    { "slug": "taxa-gestao", "name": "Taxa de gestão", "concepts": ["conceito", "responsabilidade"] },
+    { "slug": "taxa-performance", "name": "Taxa de performance", "concepts": ["benchmark", "linha d’água", "critérios"] },
+    { "slug": "aplicacao-resgate", "name": "Aplicação e resgate", "concepts": ["cotização", "conversão", "pagamento", "prazos"] },
+    { "slug": "gestao-ativa", "name": "Gestão ativa", "concepts": ["objetivo", "benchmark"] },
+    { "slug": "gestao-passiva", "name": "Gestão passiva", "concepts": ["replicação", "benchmark"] },
+    { "slug": "renda-fixa", "name": "Renda fixa", "concepts": ["características", "riscos"] },
+    { "slug": "acoes", "name": "Ações", "concepts": ["concentração", "volatilidade"] },
+    { "slug": "multimercado", "name": "Multimercado", "concepts": ["flexibilidade", "estratégias"] },
+    { "slug": "cambial", "name": "Cambial", "concepts": ["exposição cambial", "risco"] },
+    { "slug": "tributacao", "name": "Tributação", "concepts": ["IR", "come-cotas, se aplicável", "eventos tributários"] }
+  ]
+}

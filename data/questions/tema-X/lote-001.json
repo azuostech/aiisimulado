@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-X-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-X-000001", "topicCode": "X", "subtopicSlug": "fundos-anexos-etf", "contentNodeSlug": "tema-x-etf-indice",
+      "family": { "code": "AI-X-ETF-INDICE-001", "name": "ETF e índice de referência", "angle": "identificar objetivo indexado" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["ETF", "índice", "gestão passiva"],
+      "statement": "O objetivo característico de um fundo de índice — ETF — é:",
+      "options": [
+        { "id": "opt_1", "text": "Buscar refletir a composição e o desempenho de um índice de referência reconhecido.", "isCorrect": true },
+        { "id": "opt_2", "text": "Garantir rendimento superior ao índice em todos os pregões.", "isCorrect": false, "distractorReason": "A proposta indexada é acompanhar, não garantir superação diária." },
+        { "id": "opt_3", "text": "Conceder crédito direto sem manter carteira de ativos.", "isCorrect": false, "distractorReason": "ETF investe em carteira relacionada ao índice subjacente." },
+        { "id": "opt_4", "text": "Manter cotas sem possibilidade de negociação em mercado organizado.", "isCorrect": false, "distractorReason": "A negociação de cotas em mercado organizado é característica do ETF." }
+      ],
+      "explanation": "O ETF é estruturado para acompanhar um índice subjacente, ajustando sua carteira às recomposições da referência. Diferenças de custos e execução podem gerar erro de aderência.",
+      "commonTrap": "Confundir replicação de índice com garantia de superar o benchmark ou de acompanhá-lo perfeitamente.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Índice — ETFs", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/etfs", "locator": "conceito, carteira e índice subjacente", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000002", "topicCode": "X", "subtopicSlug": "fundos-anexos-fii", "contentNodeSlug": "tema-x-fii-rendimentos",
+      "family": { "code": "AI-X-FII-RENDA-001", "name": "Rendimentos e risco do FII", "angle": "evitar promessa de renda mensal" },
+      "difficulty": 3, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["FII", "rendimentos", "risco"],
+      "statement": "Um investidor considera os rendimentos mensais de um FII equivalentes a juros garantidos. A avaliação correta é:",
+      "options": [
+        { "id": "opt_1", "text": "Os rendimentos dependem dos resultados do fundo e podem variar; vacância, inadimplência e mercado também afetam cotas e distribuições.", "isCorrect": true },
+        { "id": "opt_2", "text": "Todo FII garante distribuição mensal fixa por obrigação legal.", "isCorrect": false, "distractorReason": "A obrigação de distribuição periódica não garante valor fixo nem periodicidade mensal." },
+        { "id": "opt_3", "text": "As cotas de FII não oscilam porque possuem imóveis como lastro econômico.", "isCorrect": false, "distractorReason": "FII é renda variável e suas cotas podem subir ou cair." },
+        { "id": "opt_4", "text": "O FGC cobre integralmente qualquer redução dos rendimentos.", "isCorrect": false, "distractorReason": "Cotas de FII não contam com essa cobertura." }
+      ],
+      "explanation": "FII distribui resultados conforme regras aplicáveis, mas receitas e preços variam. Vacância, inadimplência, juros, qualidade dos ativos e condições de mercado afetam o retorno do cotista.",
+      "commonTrap": "Transformar histórico de pagamentos mensais em promessa de renda fixa e ausência de oscilação.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "O que você ganha por ser cotista de FII", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fundos-de-investimentos-imobiliarios-fii/o-que-voce-ganha-por-ser-cotista", "locator": "distribuição de resultados, renda variável e riscos", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000003", "topicCode": "X", "subtopicSlug": "fundos-anexos-fidc", "contentNodeSlug": "tema-x-fidc-direitos-creditorios",
+      "family": { "code": "AI-X-FIDC-DIREITOS-001", "name": "Carteira de direitos creditórios", "angle": "identificar ativo central do FIDC" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["FIDC", "direitos creditórios", "recebíveis"],
+      "statement": "A característica que identifica um Fundo de Investimento em Direitos Creditórios — FIDC — é a aplicação relevante de seu patrimônio em:",
+      "options": [
+        { "id": "opt_1", "text": "Direitos creditórios originados de contas a receber e outras relações de crédito elegíveis.", "isCorrect": true },
+        { "id": "opt_2", "text": "Somente imóveis físicos destinados à locação.", "isCorrect": false, "distractorReason": "Essa carteira se aproxima de modalidades imobiliárias, não define o FIDC." },
+        { "id": "opt_3", "text": "Exclusivamente ações integrantes do Ibovespa.", "isCorrect": false, "distractorReason": "FIDC é veículo de recebíveis, não fundo de índice de ações." },
+        { "id": "opt_4", "text": "Moeda em espécie mantida fora do sistema financeiro.", "isCorrect": false, "distractorReason": "A carteira deve observar ativos e direitos elegíveis segundo a regulamentação." }
+      ],
+      "explanation": "O FIDC reúne recursos para adquirir direitos creditórios oriundos de relações comerciais, financeiras, industriais, imobiliárias ou de serviços, conforme os critérios de elegibilidade.",
+      "commonTrap": "Confundir FIDC com securitizadora ou com fundo que investe principalmente em ações e imóveis.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Investimento em Direitos Creditórios", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fidcs", "locator": "conceito e carteira de direitos creditórios", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000004", "topicCode": "X", "subtopicSlug": "fundos-anexos-fidc", "contentNodeSlug": "tema-x-fidc-cedente",
+      "family": { "code": "AI-X-FIDC-PARTES-001", "name": "Cedente e sacado no FIDC", "angle": "distinguir origem e pagamento do crédito" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["FIDC", "cedente", "sacado"],
+      "statement": "Uma empresa vende a prazo, cede ao FIDC os recebíveis de seus clientes e antecipa recursos. Nessa estrutura, a empresa e seus clientes devedores são, respectivamente:",
+      "options": [
+        { "id": "opt_1", "text": "Cedente e sacados.", "isCorrect": true },
+        { "id": "opt_2", "text": "Sacada e administradores fiduciários.", "isCorrect": false, "distractorReason": "A empresa transfere créditos e os clientes são obrigados ao pagamento." },
+        { "id": "opt_3", "text": "Gestora e cotistas seniores.", "isCorrect": false, "distractorReason": "As posições decorrem da relação creditória, não da prestação de serviços ao fundo." },
+        { "id": "opt_4", "text": "Custodiante e distribuidores.", "isCorrect": false, "distractorReason": "Custódia e distribuição são funções distintas das partes do crédito cedido." }
+      ],
+      "explanation": "O cedente é o titular original que transfere o direito creditório. O sacado ou devedor é quem deve cumprir a obrigação e realizar o pagamento correspondente ao recebível.",
+      "commonTrap": "Confundir participantes do crédito com prestadores de serviço ou investidores do fundo.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Composição do FIDC", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fidcs/composicao-do-fidc", "locator": "participantes — cedente, administrador, custodiante e cotistas", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000005", "topicCode": "X", "subtopicSlug": "fundos-anexos-fidc", "contentNodeSlug": "tema-x-fidc-subclasses",
+      "family": { "code": "AI-X-FIDC-SUBORD-001", "name": "Cotas seniores e subordinadas", "angle": "comparar prioridade e absorção de perdas" },
+      "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["FIDC", "sênior", "subordinada", "risco"],
+      "statement": "Em uma estrutura de FIDC com cotas seniores e subordinadas, a diferença essencial é que:",
+      "options": [
+        { "id": "opt_1", "text": "As seniores têm prioridade nos pagamentos, enquanto as subordinadas absorvem perdas antes e assumem maior risco.", "isCorrect": true },
+        { "id": "opt_2", "text": "As subordinadas têm garantia do Tesouro e sempre recebem antes das seniores.", "isCorrect": false, "distractorReason": "A prioridade é das seniores e não existe garantia automática do Tesouro." },
+        { "id": "opt_3", "text": "Não há diferença econômica entre elas, apenas mudança de nome.", "isCorrect": false, "distractorReason": "A ordem de subordinação altera prioridade e exposição a perdas." },
+        { "id": "opt_4", "text": "As seniores não estão expostas a risco de crédito dos recebíveis.", "isCorrect": false, "distractorReason": "A subordinação mitiga, mas não elimina o risco de crédito." }
+      ],
+      "explanation": "Cotas seniores possuem prioridade em amortização e resgate. As subordinadas funcionam como camada de absorção inicial de perdas, suportando maior risco em troca de retorno potencial maior.",
+      "commonTrap": "Interpretar prioridade como ausência total de risco para a cota sênior.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Tipos de cotas do FIDC", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fidcs/tipos-de-cotas-do-fidc", "locator": "cotas seniores, subordinadas, prioridade e risco", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000006", "topicCode": "X", "subtopicSlug": "fundos-anexos-fip", "contentNodeSlug": "tema-x-fip-governanca",
+      "family": { "code": "AI-X-FIP-GOVERNANCA-001", "name": "FIP e influência na investida", "angle": "identificar participação ativa" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["FIP", "governança", "empresa investida"],
+      "statement": "Uma característica distintiva do Fundo de Investimento em Participações — FIP — é:",
+      "options": [
+        { "id": "opt_1", "text": "Participar do processo decisório das sociedades investidas, exercendo influência efetiva em sua política e gestão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Limitar-se obrigatoriamente a replicar um índice de ações sem qualquer influência.", "isCorrect": false, "distractorReason": "Essa lógica é de fundo indexado e contraria a participação característica do FIP." },
+        { "id": "opt_3", "text": "Garantir liquidez diária e resgate imediato a todos os cotistas.", "isCorrect": false, "distractorReason": "FIP é tipicamente fechado e orientado ao longo prazo." },
+        { "id": "opt_4", "text": "Investir exclusivamente em títulos públicos pós-fixados.", "isCorrect": false, "distractorReason": "O FIP investe em participações e instrumentos relacionados às sociedades investidas." }
+      ],
+      "explanation": "O FIP investe em participações e deve exercer influência efetiva no processo decisório das investidas, por controle, acordo ou indicação de membros de órgãos de administração.",
+      "commonTrap": "Tratar FIP como simples carteira passiva de ações líquidas negociadas em bolsa.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Investimento em Participações", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fips", "locator": "participação no processo decisório e governança das investidas", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000007", "topicCode": "X", "subtopicSlug": "fundos-anexos-regras-anexos-cvm-175", "contentNodeSlug": "tema-x-regras-anexos-cvm-175-particularidades",
+      "family": { "code": "AI-X-ANEXOS-CORRESP-001", "name": "Correspondência dos anexos da CVM 175", "angle": "associar veículo e regra específica" },
+      "difficulty": 4, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ARCHIVED", "tags": ["CVM 175", "anexos normativos", "fundos"],
+      "statement": "Assinale a correspondência correta entre veículo e anexo normativo específico da Resolução CVM 175:",
+      "options": [
+        { "id": "opt_1", "text": "FIDC — Anexo II; FII — Anexo III; FIP — Anexo IV; fundo de índice — Anexo V.", "isCorrect": true },
+        { "id": "opt_2", "text": "FII — Anexo II; FIDC — Anexo III; ETF — Anexo IV; FIP — Anexo V.", "isCorrect": false, "distractorReason": "A alternativa desloca todos os anexos específicos desses veículos." },
+        { "id": "opt_3", "text": "Todos são disciplinados exclusivamente pela Parte Geral, sem anexos próprios.", "isCorrect": false, "distractorReason": "A Resolução 175 contém anexos normativos específicos para cada categoria." },
+        { "id": "opt_4", "text": "ETF e FIP utilizam o mesmo anexo e não possuem particularidades distintas.", "isCorrect": false, "distractorReason": "FIP e fundo de índice possuem anexos e regimes específicos diferentes." }
+      ],
+      "explanation": "A Resolução CVM 175 combina Parte Geral e anexos específicos: II para FIDC, III para FII, IV para FIP e V para fundos de índice, além dos demais anexos listados.",
+      "commonTrap": "Memorizar os produtos sem relacioná-los à organização normativa da resolução consolidada.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "índice dos Anexos Normativos II, III, IV e V", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-X-000008", "topicCode": "X", "subtopicSlug": "fundos-anexos-regras-anexos-cvm-175", "contentNodeSlug": "tema-x-regras-anexos-cvm-175-enquadramento",
+      "family": { "code": "AI-X-ANEXOS-ENQUADRA-001", "name": "Enquadramento por regra específica", "angle": "aplicar parte geral e anexo" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["CVM 175", "enquadramento", "limites"],
+      "statement": "Ao verificar se uma classe de FIDC respeita composição, público-alvo e limites, o profissional deve consultar:",
+      "options": [
+        { "id": "opt_1", "text": "A Parte Geral da Resolução CVM 175 em conjunto com o Anexo Normativo II e demais regras aplicáveis.", "isCorrect": true },
+        { "id": "opt_2", "text": "Somente o anexo de fundos imobiliários, porque todo recebível representa imóvel.", "isCorrect": false, "distractorReason": "FIDC possui anexo próprio e recebíveis podem ter diversas origens." },
+        { "id": "opt_3", "text": "Apenas o estatuto da companhia cedente, independentemente da regulação do fundo.", "isCorrect": false, "distractorReason": "Documentos da cedente não substituem o regime regulatório da classe." },
+        { "id": "opt_4", "text": "Exclusivamente as regras de clubes de investimento da Resolução CVM 11.", "isCorrect": false, "distractorReason": "Clube e FIDC são estruturas distintas e sujeitos a normas diferentes." }
+      ],
+      "explanation": "O enquadramento exige leitura integrada da Parte Geral e do anexo específico da categoria. O Anexo II contém particularidades aplicáveis às classes de FIDC.",
+      "commonTrap": "Aplicar isoladamente regras de outro veículo ou ignorar a combinação entre parte geral e anexo específico.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "Parte Geral e Anexo Normativo II — FIDC", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

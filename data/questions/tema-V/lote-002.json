@@ -1,0 +1,20 @@
+{
+  "batchId": "tema-V-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [{
+    "id": "AI-V-000009", "topicCode": "V", "subtopicSlug": "sistema-financeiro-nacional-cnsp", "contentNodeSlug": "tema-v-cnsp-regulacao",
+    "family": { "code": "AI-V-CNSP-SUSEP-001", "name": "CNSP e Susep", "angle": "distinguir formulação normativa de supervisão" },
+    "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["CNSP", "Susep", "seguros"],
+    "statement": "Uma nova diretriz geral para o mercado de seguros privados precisa ser fixada e, depois, aplicada na fiscalização das sociedades seguradoras. A divisão institucional correta é:",
+    "options": [
+      { "id": "opt_1", "text": "A Susep formula as diretrizes e normas gerais, e o CNSP executa a fiscalização individual das sociedades seguradoras.", "isCorrect": false, "distractorReason": "Inverte os papéis normativo e executivo das duas instituições." },
+      { "id": "opt_2", "text": "O CNPC formula a política de seguros, e a Previc fiscaliza as seguradoras abertas.", "isCorrect": false, "distractorReason": "CNPC e Previc atuam no segmento fechado de previdência complementar." },
+      { "id": "opt_3", "text": "O CMN executa a fiscalização, e a CVM edita as normas gerais de seguros privados.", "isCorrect": false, "distractorReason": "A regulação e supervisão descritas pertencem ao sistema de seguros privados." },
+      { "id": "opt_4", "text": "O CNSP fixa diretrizes e normas, e a Susep executa a política e fiscaliza o mercado supervisionado.", "isCorrect": true }
+    ],
+    "explanation": "O CNSP é o órgão normativo responsável pelas diretrizes da política de seguros privados. A Susep executa essa política e controla e fiscaliza seguros, previdência aberta, capitalização e resseguros.",
+    "commonTrap": "Confundir o órgão colegiado que formula normas com a autarquia que supervisiona e fiscaliza os participantes.",
+    "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+    "sources": [{ "authority": "Susep", "normNumber": "Competências do CNSP e da Susep", "versionLabel": "Página institucional atualizada em 31/03/2026", "url": "https://www.gov.br/susep/pt-br/acesso-a-informacao/institucional/sobre-a-susep", "locator": "Principais competências do CNSP e finalidades da Susep", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+  }]
+}

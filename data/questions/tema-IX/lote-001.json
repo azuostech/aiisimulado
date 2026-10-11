@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-IX-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-IX-000001", "topicCode": "IX", "subtopicSlug": "fundos-investimento-estrutura", "contentNodeSlug": "tema-ix-estrutura-classe",
+      "family": { "code": "AI-IX-CLASSE-PATRIMONIO-001", "name": "Classes e patrimônio segregado", "angle": "identificar unidade de investimento" },
+      "difficulty": 3, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["fundo", "classe", "patrimônio segregado"],
+      "statement": "Na estrutura introduzida pela Resolução CVM 175, um mesmo fundo pode possuir classes diferentes. Sobre essas classes, é correto afirmar que:",
+      "options": [
+        { "id": "opt_1", "text": "Cada classe possui patrimônio segregado e pode ter política de investimento e obrigações próprias.", "isCorrect": true },
+        { "id": "opt_2", "text": "Todas as classes necessariamente compartilham integralmente ativos e passivos.", "isCorrect": false, "distractorReason": "A segregação patrimonial impede a mistura automática de obrigações entre classes." },
+        { "id": "opt_3", "text": "Classe e subclasse são sempre sinônimos e não admitem condições distintas.", "isCorrect": false, "distractorReason": "A subclasse organiza condições dentro de uma classe e não substitui seu patrimônio." },
+        { "id": "opt_4", "text": "A criação de classes transforma o fundo em sociedade anônima.", "isCorrect": false, "distractorReason": "O fundo permanece condomínio de natureza especial, não companhia." }
+      ],
+      "explanation": "A classe concentra a carteira e possui patrimônio segregado das demais classes. Subclasses podem diferenciar condições comerciais e públicos sem constituir novo patrimônio separado.",
+      "commonTrap": "Confundir classe patrimonial com subclasse comercial ou presumir solidariedade automática entre classes.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "Parte Geral — classes, subclasses e patrimônio segregado", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000002", "topicCode": "IX", "subtopicSlug": "fundos-investimento-administrador", "contentNodeSlug": "tema-ix-administrador-funcao",
+      "family": { "code": "AI-IX-ADMIN-GESTOR-001", "name": "Administrador versus gestor", "angle": "separar responsabilidade legal e decisão de carteira" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["administrador", "gestor", "prestadores essenciais"],
+      "statement": "Em um fundo de investimento, a divisão correta das funções entre os prestadores essenciais é:",
+      "options": [
+        { "id": "opt_1", "text": "O administrador responde pela estrutura e obrigações administrativas; o gestor decide a alocação da carteira conforme a política.", "isCorrect": true },
+        { "id": "opt_2", "text": "O administrador escolhe todos os ativos e o gestor apenas calcula tributos pessoais dos cotistas.", "isCorrect": false, "distractorReason": "A decisão de investimento é função característica do gestor." },
+        { "id": "opt_3", "text": "Administrador e gestor são sempre a mesma pessoa e não podem ser contratados separadamente.", "isCorrect": false, "distractorReason": "São funções essenciais distintas, ainda que uma entidade possa acumular papéis quando permitido." },
+        { "id": "opt_4", "text": "O gestor garante a rentabilidade prometida e o administrador cobre qualquer perda.", "isCorrect": false, "distractorReason": "Os prestadores não garantem resultado nem eliminam os riscos da carteira." }
+      ],
+      "explanation": "O administrador fiduciário cuida da constituição, funcionamento, obrigações e controles do fundo. O gestor executa a estratégia e decide quais ativos comprar ou vender dentro da política.",
+      "commonTrap": "Usar administrador e gestor como sinônimos e atribuir garantia de rentabilidade a ambos.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Investimentos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fundos-de-investimentos/o-que-sao-fundos-de-investimentos", "locator": "prestadores essenciais — administrador e gestor", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000003", "topicCode": "IX", "subtopicSlug": "fundos-investimento-fundo-aberto", "contentNodeSlug": "tema-ix-fundo-aberto-resgate",
+      "family": { "code": "AI-IX-ABERTO-RESGATE-001", "name": "Resgate em classe aberta", "angle": "distinguir liquidez de negociação secundária" },
+      "difficulty": 2, "questionType": "comparison", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["fundo aberto", "resgate", "liquidez"],
+      "statement": "A principal diferença operacional entre uma classe aberta e uma classe fechada de fundo é que, na classe aberta:",
+      "options": [
+        { "id": "opt_1", "text": "O cotista pode solicitar resgate conforme os prazos do regulamento.", "isCorrect": true },
+        { "id": "opt_2", "text": "O cotista só pode sair vendendo obrigatoriamente sua cota em bolsa.", "isCorrect": false, "distractorReason": "Essa é uma forma típica de saída antes do prazo em classes fechadas negociadas." },
+        { "id": "opt_3", "text": "O patrimônio não sofre qualquer oscilação de mercado.", "isCorrect": false, "distractorReason": "A possibilidade de resgate não elimina os riscos dos ativos da carteira." },
+        { "id": "opt_4", "text": "As cotas são sempre cobertas pelo Fundo Garantidor de Créditos.", "isCorrect": false, "distractorReason": "Fundos de investimento não contam com garantia do FGC." }
+      ],
+      "explanation": "Classes abertas admitem novas aplicações e pedidos de resgate segundo as regras e prazos previstos. Em classes fechadas, o resgate ocorre normalmente no término ou liquidação da classe.",
+      "commonTrap": "Confundir resgate perante o fundo com venda da cota no mercado secundário.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Investimentos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fundos-de-investimentos/o-que-sao-fundos-de-investimentos", "locator": "classes abertas e fechadas — aplicação, resgate e mercado secundário", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000004", "topicCode": "IX", "subtopicSlug": "fundos-investimento-taxa-performance", "contentNodeSlug": "tema-ix-taxa-performance-linha-d-agua",
+      "family": { "code": "AI-IX-PERFORMANCE-LINHA-001", "name": "Taxa de performance e linha d’água", "angle": "evitar cobrança repetida sobre recuperação" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["taxa de performance", "benchmark", "linha d’água"],
+      "statement": "Um fundo que cobra taxa de performance sofre perda e, no período seguinte, apenas recupera o valor anteriormente alcançado. A linha d’água busca impedir que:",
+      "options": [
+        { "id": "opt_1", "text": "Se cobre novamente performance apenas pela recuperação de resultado que já havia servido de referência.", "isCorrect": true },
+        { "id": "opt_2", "text": "O valor da cota seja calculado diariamente pelo administrador.", "isCorrect": false, "distractorReason": "A linha d’água trata da base da taxa de performance, não da apuração ordinária da cota." },
+        { "id": "opt_3", "text": "O fundo supere seu benchmark em qualquer período.", "isCorrect": false, "distractorReason": "Superar o benchmark pode ser condição de cobrança, não algo proibido." },
+        { "id": "opt_4", "text": "O gestor adote qualquer política de investimento prevista no regulamento.", "isCorrect": false, "distractorReason": "O mecanismo não substitui nem restringe por si só a política da carteira." }
+      ],
+      "explanation": "A linha d’água preserva uma referência histórica para a cobrança de performance, evitando remunerar novamente o gestor pela simples recomposição de perdas após resultado já alcançado.",
+      "commonTrap": "Achar que qualquer rentabilidade positiva permite cobrar performance, ignorando benchmark e linha d’água.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175 — Anexo Normativo I", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "Anexo Normativo I — taxa de performance e linha d’água", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000005", "topicCode": "IX", "subtopicSlug": "fundos-investimento-aplicacao-resgate", "contentNodeSlug": "tema-ix-aplicacao-resgate-pagamento",
+      "family": { "code": "AI-IX-COTIZACAO-PAGAMENTO-001", "name": "Cotização versus pagamento", "angle": "distinguir cálculo da cota e crédito financeiro" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["resgate", "cotização", "pagamento"],
+      "statement": "Um regulamento prevê cotização do resgate em D+5 e pagamento em D+7. Isso significa que:",
+      "options": [
+        { "id": "opt_1", "text": "O valor da cota aplicável é apurado em D+5 e o dinheiro é disponibilizado ao cotista em D+7.", "isCorrect": true },
+        { "id": "opt_2", "text": "O dinheiro é pago em D+5 e a cota somente será conhecida dois dias depois.", "isCorrect": false, "distractorReason": "A alternativa inverte as datas de conversão e liquidação financeira." },
+        { "id": "opt_3", "text": "O fundo garante rentabilidade positiva entre D+5 e D+7.", "isCorrect": false, "distractorReason": "Os prazos não constituem garantia de retorno." },
+        { "id": "opt_4", "text": "A solicitação de resgate só pode ser feita em D+7.", "isCorrect": false, "distractorReason": "D+7 é o pagamento contado da solicitação, não a data para pedi-la." }
+      ],
+      "explanation": "Cotização ou conversão define a data do valor de cota utilizado para transformar cotas em dinheiro. Pagamento é a data posterior em que o valor financeiro chega ao cotista.",
+      "commonTrap": "Tratar cotização e pagamento como a mesma data ou inverter a ordem dos eventos.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Investimentos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fundos-de-investimentos/o-que-sao-fundos-de-investimentos", "locator": "conversão de cotas e data de pagamento do resgate", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000006", "topicCode": "IX", "subtopicSlug": "fundos-investimento-gestao-passiva", "contentNodeSlug": "tema-ix-gestao-passiva-replicacao",
+      "family": { "code": "AI-IX-ATIVA-PASSIVA-001", "name": "Gestão ativa versus passiva", "angle": "distinguir objetivo diante do benchmark" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["gestão ativa", "gestão passiva", "benchmark"],
+      "statement": "A diferença central entre estratégia ativa e passiva, em relação ao indicador de referência, é que:",
+      "options": [
+        { "id": "opt_1", "text": "A ativa busca superar o benchmark, enquanto a passiva procura acompanhar sua composição ou desempenho.", "isCorrect": true },
+        { "id": "opt_2", "text": "A passiva garante superar o benchmark e a ativa apenas o replica.", "isCorrect": false, "distractorReason": "Os objetivos foram invertidos." },
+        { "id": "opt_3", "text": "Ambas garantem resultado positivo independentemente do mercado.", "isCorrect": false, "distractorReason": "Nenhuma estratégia elimina risco ou garante rentabilidade." },
+        { "id": "opt_4", "text": "A gestão passiva dispensa gestor, controles e política de investimento.", "isCorrect": false, "distractorReason": "Replicar um índice também exige gestão, controles e regras de carteira." }
+      ],
+      "explanation": "Gestão ativa seleciona posições visando exceder uma referência, assumindo desvios deliberados. Gestão passiva busca reproduzir o benchmark, embora possa existir erro de aderência.",
+      "commonTrap": "Entender passiva como carteira sem gestão ou como garantia de reprodução perfeita do índice.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Índice — ETFs", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/etfs", "locator": "replicação de índice e gestão indexada", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000007", "topicCode": "IX", "subtopicSlug": "fundos-investimento-multimercado", "contentNodeSlug": "tema-ix-multimercado-flexibilidade",
+      "family": { "code": "AI-IX-MULTI-FLEX-001", "name": "Flexibilidade multimercado", "angle": "identificar combinação de fatores de risco" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["multimercado", "estratégias", "risco"],
+      "statement": "A classificação multimercado indica, de forma geral, que a política da classe pode combinar exposições a diferentes fatores de risco, como:",
+      "options": [
+        { "id": "opt_1", "text": "Juros, câmbio, ações e outras estratégias previstas no regulamento.", "isCorrect": true },
+        { "id": "opt_2", "text": "Exclusivamente imóveis físicos, sem qualquer ativo financeiro.", "isCorrect": false, "distractorReason": "Essa não é a característica definidora de um fundo multimercado." },
+        { "id": "opt_3", "text": "Somente ações que integrem o Ibovespa na mesma proporção do índice.", "isCorrect": false, "distractorReason": "Essa descrição se aproxima de uma estratégia indexada de ações." },
+        { "id": "opt_4", "text": "Apenas títulos públicos pós-fixados sem derivativos ou câmbio.", "isCorrect": false, "distractorReason": "Multimercado admite maior flexibilidade conforme sua política." }
+      ],
+      "explanation": "Fundos multimercado podem combinar vários fatores de risco e estratégias, respeitando seu regulamento. Flexibilidade não significa ausência de limites, controles ou suitability.",
+      "commonTrap": "Interpretar flexibilidade como liberdade irrestrita ou como garantia de diversificação eficiente.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175 — Anexo Normativo I", "versionLabel": "Texto consolidado consultado em 11/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "Anexo Normativo I — tipos de FIF e fundo multimercado", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IX-000008", "topicCode": "IX", "subtopicSlug": "fundos-investimento-cotistas", "contentNodeSlug": "tema-ix-cotistas-responsabilidades",
+      "family": { "code": "AI-IX-COTISTA-RISCO-001", "name": "Risco do cotista e ausência de FGC", "angle": "evitar garantia indevida" },
+      "difficulty": 2, "questionType": "conceptual_trap", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["cotista", "risco", "FGC"],
+      "statement": "Um cotista afirma que seu fundo de renda fixa não pode apresentar perdas porque alguns ativos da carteira seriam elegíveis ao FGC. Essa afirmação é:",
+      "options": [
+        { "id": "opt_1", "text": "Incorreta, pois cotas de fundos não têm cobertura do FGC e seu valor varia com os ativos e riscos da carteira.", "isCorrect": true },
+        { "id": "opt_2", "text": "Correta, porque o FGC garante diretamente todas as cotas de qualquer fundo.", "isCorrect": false, "distractorReason": "O mecanismo não cobre cotas de fundos de investimento." },
+        { "id": "opt_3", "text": "Correta apenas se o fundo for aberto, pois abertura elimina risco de mercado.", "isCorrect": false, "distractorReason": "Estrutura aberta não elimina oscilação de preço ou risco de crédito." },
+        { "id": "opt_4", "text": "Correta porque renda fixa significa rentabilidade fixa em qualquer data de resgate.", "isCorrect": false, "distractorReason": "Renda fixa descreve regras de remuneração dos ativos, não ausência de perdas." }
+      ],
+      "explanation": "O cotista possui fração do patrimônio do fundo, cuja cota oscila conforme a carteira. Fundos não são cobertos pelo FGC, mesmo quando investem em ativos que, detidos diretamente, poderiam ser elegíveis.",
+      "commonTrap": "Transferir para a cota do fundo uma garantia que poderia existir apenas na titularidade direta de certos ativos.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM — Portal do Investidor", "normNumber": "Fundos de Investimentos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.gov.br/investidor/pt-br/investir/tipos-de-investimentos/fundos-de-investimentos/o-que-sao-fundos-de-investimentos", "locator": "riscos, oscilação das cotas e ausência de garantia do FGC", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

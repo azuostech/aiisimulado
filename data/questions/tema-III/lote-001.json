@@ -1,0 +1,198 @@
+{
+  "batchId": "tema-III-lote-001",
+  "reviewedAt": "2026-10-10",
+  "questions": [
+    {
+      "id": "AI-III-000002", "topicCode": "III", "subtopicSlug": "pld-suitability-lavagem-dinheiro", "contentNodeSlug": "tema-iii-lavagem-dinheiro-conceito",
+      "family": { "code": "AI-III-LD-CONCEITO-001", "name": "Conceito legal de lavagem", "angle": "identificar o núcleo da conduta" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["lavagem de dinheiro", "ocultação", "dissimulação"],
+      "statement": "Segundo a Lei nº 9.613/1998, caracteriza o núcleo do crime de lavagem de dinheiro:",
+      "options": [
+        { "id": "opt_1", "text": "Realizar qualquer operação em espécie acima do limite cadastral do cliente.", "isCorrect": false, "distractorReason": "Operação em espécie pode ser sinal de alerta, mas não define por si só o crime." },
+        { "id": "opt_2", "text": "Ocultar ou dissimular a natureza, origem, localização, disposição, movimentação ou propriedade de bens, direitos ou valores provenientes de infração penal.", "isCorrect": true },
+        { "id": "opt_3", "text": "Deixar de atualizar o cadastro do investidor dentro do prazo definido pela instituição.", "isCorrect": false, "distractorReason": "A falha cadastral é descumprimento de controle, não o núcleo legal do crime." },
+        { "id": "opt_4", "text": "Investir recursos lícitos em produto incompatível com o perfil de risco declarado.", "isCorrect": false, "distractorReason": "Isso envolve suitability, não lavagem de dinheiro." }
+      ],
+      "explanation": "A lei define lavagem pela ocultação ou dissimulação de características relevantes de bens, direitos ou valores que sejam provenientes, direta ou indiretamente, de infração penal.",
+      "commonTrap": "Confundir um sinal de alerta ou uma falha de controle com a definição completa do crime.",
+      "estimatedSeconds": 80, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 9.613/1998", "versionLabel": "Texto compilado vigente em 10/10/2026", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9613compilado.htm", "locator": "art. 1º, caput", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000003", "topicCode": "III", "subtopicSlug": "pld-suitability-abordagem-baseada-risco", "contentNodeSlug": "tema-iii-abordagem-baseada-risco-classificacao-de-risco",
+      "family": { "code": "AI-III-ABR-CLASSIFICACAO-001", "name": "Classificação na abordagem baseada em risco", "angle": "identificar objetos e níveis mínimos" },
+      "difficulty": 3, "questionType": "multiple_statements", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["ABR", "classificação de risco"],
+      "statement": "Na abordagem baseada em risco da Resolução CVM 50, a política de PLD/FTP deve classificar, no mínimo:",
+      "options": [
+        { "id": "opt_1", "text": "Somente clientes, sempre nas categorias conservador, moderado e agressivo.", "isCorrect": false, "distractorReason": "Essas categorias são de suitability e a classificação de PLD/FTP alcança também outros objetos." },
+        { "id": "opt_2", "text": "Produtos, serviços, canais de distribuição e ambientes de negociação, além de clientes, ao menos em baixo, médio e alto risco.", "isCorrect": true },
+        { "id": "opt_3", "text": "Apenas operações já comunicadas ao COAF, em risco provável ou confirmado.", "isCorrect": false, "distractorReason": "A abordagem é preventiva e não se restringe ao que já foi comunicado." },
+        { "id": "opt_4", "text": "Somente jurisdições estrangeiras e pessoas politicamente expostas.", "isCorrect": false, "distractorReason": "Jurisdições e PEPs são fatores relevantes, mas não esgotam a classificação exigida." }
+      ],
+      "explanation": "A política deve classificar os riscos dos produtos, serviços, canais de distribuição e ambientes de negociação, bem como os clientes, prevendo ao menos as categorias de baixo, médio e alto risco.",
+      "commonTrap": "Transportar as categorias de perfil de investimento para a classificação de risco de PLD/FTP.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Consolidada com Resolução CVM 245/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "art. 5º, I e II", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000004", "topicCode": "III", "subtopicSlug": "pld-suitability-abordagem-baseada-risco", "contentNodeSlug": "tema-iii-abordagem-baseada-risco-diligencia-reforcada",
+      "family": { "code": "AI-III-ABR-DILIGENCIA-001", "name": "Medidas proporcionais ao risco", "angle": "distinguir risco alto de recusa automática" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["alto risco", "diligência reforçada"],
+      "statement": "Após classificar determinado relacionamento como de alto risco de PLD/FTP, uma instituição conclui que deve recusá-lo automaticamente. Essa conclusão é:",
+      "options": [
+        { "id": "opt_1", "text": "Correta, porque a classificação de alto risco equivale à comprovação de ilícito.", "isCorrect": false, "distractorReason": "Risco elevado não equivale à comprovação de crime ou irregularidade." },
+        { "id": "opt_2", "text": "Correta, mas somente se o cliente for pessoa politicamente exposta.", "isCorrect": false, "distractorReason": "A condição de PEP também não impõe recusa automática." },
+        { "id": "opt_3", "text": "Incorreta, pois a instituição deve adotar controles e diligências proporcionais ao risco e decidir de forma fundamentada sobre iniciar ou manter a relação.", "isCorrect": true },
+        { "id": "opt_4", "text": "Incorreta, porque todos os clientes devem receber exatamente os mesmos controles.", "isCorrect": false, "distractorReason": "A abordagem baseada em risco exige diferenciação proporcional dos controles." }
+      ],
+      "explanation": "A classificação orienta a intensidade dos controles. Alto risco exige medidas reforçadas e decisão fundamentada, mas não significa ilícito comprovado nem determina, isoladamente, recusa automática do relacionamento.",
+      "commonTrap": "Tratar classificação de risco como juízo de culpa ou como decisão automática de encerramento.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Consolidada com Resolução CVM 245/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "arts. 5º, § 1º, e 17, II e III", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000005", "topicCode": "III", "subtopicSlug": "pld-suitability-cadastro", "contentNodeSlug": "tema-iii-cadastro-atualizacao-cadastral",
+      "family": { "code": "AI-III-CADASTRO-DESATUALIZADO-001", "name": "Cadastro desatualizado", "angle": "aplicar exceções à vedação de novas ordens" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["cadastro", "ordens"],
+      "statement": "Um cliente com cadastro desatualizado envia ordem para comprar um novo ativo e, no dia seguinte, pede o resgate integral de um fundo para encerrar sua conta. A instituição deve:",
+      "options": [
+        { "id": "opt_1", "text": "Executar ambas as ordens, pois foram iniciativa do cliente.", "isCorrect": false, "distractorReason": "A iniciativa do cliente não autoriza novas operações com cadastro desatualizado." },
+        { "id": "opt_2", "text": "Recusar ambas as ordens até a completa atualização cadastral.", "isCorrect": false, "distractorReason": "A norma admite operações destinadas a encerrar a conta e vender ou resgatar ativos." },
+        { "id": "opt_3", "text": "Recusar a compra e admitir o resgate destinado ao encerramento da posição ou da conta.", "isCorrect": true },
+        { "id": "opt_4", "text": "Executar a compra e recusar o resgate, por ser a movimentação financeiramente mais relevante.", "isCorrect": false, "distractorReason": "Inverte a regra e suas exceções expressas." }
+      ],
+      "explanation": "Com cadastro desatualizado, não devem ser aceitas novas ordens. Permanecem admitidas as operações necessárias ao encerramento da conta e à alienação ou ao resgate de ativos, conforme a exceção normativa.",
+      "commonTrap": "Supor que qualquer ordem espontânea do cliente afasta a restrição cadastral.",
+      "estimatedSeconds": 115, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Consolidada com Resolução CVM 245/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "art. 11, § 3º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000006", "topicCode": "III", "subtopicSlug": "pld-suitability-beneficiario-final", "contentNodeSlug": "tema-iii-beneficiario-final-identificacao",
+      "family": { "code": "AI-III-BF-LIMITE-001", "name": "Identificação do beneficiário final", "angle": "reconhecer o teto do parâmetro societário" },
+      "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["beneficiário final", "participação societária"],
+      "statement": "Na definição interna do valor mínimo de referência para identificar beneficiário final com base em participação societária, a instituição deve observar que esse parâmetro:",
+      "options": [
+        { "id": "opt_1", "text": "Pode ser livremente fixado acima de 50%, se aprovado pela diretoria.", "isCorrect": false, "distractorReason": "A norma estabelece limite máximo para o valor de referência." },
+        { "id": "opt_2", "text": "Deve ser exatamente 10% para todo tipo de cliente e estrutura.", "isCorrect": false, "distractorReason": "A norma não impõe um percentual único de 10% para todos os casos." },
+        { "id": "opt_3", "text": "Deve considerar o risco e não pode superar 25% da participação societária.", "isCorrect": true },
+        { "id": "opt_4", "text": "Só é aplicável a companhias abertas brasileiras.", "isCorrect": false, "distractorReason": "A identificação alcança estruturas sujeitas ao procedimento, ressalvadas as exceções normativas." }
+      ],
+      "explanation": "O parâmetro deve ser estabelecido na política segundo o risco e não pode ser superior a 25% da participação societária. Esse teto não transforma 25% em percentual obrigatório para todos os clientes.",
+      "commonTrap": "Interpretar o teto de 25% como percentual fixo e universal de identificação.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Consolidada com Resolução CVM 245/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "art. 13, caput e § 1º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000007", "topicCode": "III", "subtopicSlug": "pld-suitability-beneficiario-final", "contentNodeSlug": "tema-iii-beneficiario-final-estruturas-complexas",
+      "family": { "code": "AI-III-BF-NAO-IDENTIFICADO-001", "name": "Beneficiário final não identificado", "angle": "aplicar a alteração da Resolução CVM 245" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["beneficiário final", "monitoramento reforçado", "CVM 245"],
+      "statement": "Mesmo após diligências, uma instituição não consegue identificar o beneficiário final de uma estrutura complexa. Pela regra vigente após a Resolução CVM 245, deve:",
+      "options": [
+        { "id": "opt_1", "text": "Arquivar o caso se a classificação original do cliente for de baixo risco.", "isCorrect": false, "distractorReason": "O monitoramento reforçado independe da classificação de risco atribuída." },
+        { "id": "opt_2", "text": "Manter monitoramento reforçado contínuo, analisar com maior rigor e submeter ao diretor a avaliação sobre iniciar ou manter a relação.", "isCorrect": true },
+        { "id": "opt_3", "text": "Comunicar automaticamente ao COAF, sem análise da operação ou da situação.", "isCorrect": false, "distractorReason": "A comunicação exige análise fundamentada; a dificuldade de identificação não a torna automática." },
+        { "id": "opt_4", "text": "Presumir como beneficiário final o representante legal que apresentou o cadastro.", "isCorrect": false, "distractorReason": "Representação formal não substitui a identificação da pessoa natural beneficiária final." }
+      ],
+      "explanation": "Quando a identificação do beneficiário final ou a diligência não se completa, a norma exige monitoramento reforçado contínuo, análise mais criteriosa e avaliação do diretor sobre o início ou a manutenção do relacionamento.",
+      "commonTrap": "Achar que baixo risco original dispensa as medidas especiais para beneficiário final não identificado.",
+      "estimatedSeconds": 120, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 245/2026", "versionLabel": "Texto oficial vigente desde 15/07/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/legislacao/resolucoes/anexos/200/resol245.htm", "locator": "art. 1º, alteração do art. 16, § 1º, da Resolução CVM 50", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-III-000008", "topicCode": "III", "subtopicSlug": "pld-suitability-pessoa-politicamente-exposta", "contentNodeSlug": "tema-iii-pessoa-politicamente-exposta-conceito",
+      "family": { "code": "AI-III-PEP-PRAZO-001", "name": "Persistência da condição de PEP", "angle": "identificar o período após o cargo" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["PEP", "prazo"],
+      "statement": "A condição de pessoa exposta politicamente deve continuar sendo aplicada, após a pessoa deixar de se enquadrar no cargo ou função relevante, pelo prazo de:",
+      "options": [
+        { "id": "opt_1", "text": "1 ano.", "isCorrect": false, "distractorReason": "Prazo inferior ao previsto no Anexo A." },
+        { "id": "opt_2", "text": "2 anos.", "isCorrect": false, "distractorReason": "Prazo inferior ao previsto no Anexo A." },
+        { "id": "opt_3", "text": "5 anos.", "isCorrect": true },
+        { "id": "opt_4", "text": "10 anos.", "isCorrect": false, "distractorReason": "Prazo superior ao período definido pela norma." }
+      ],
+      "explanation": "O Anexo A determina que a condição de pessoa exposta politicamente continue a ser aplicada durante cinco anos contados da data em que a pessoa deixou de se enquadrar nas categorias previstas.",
+      "commonTrap": "Usar prazos cadastrais ou de guarda de documentos como se fossem o período de persistência da condição de PEP.",
+      "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Consolidada com Resolução CVM 245/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "Anexo A, art. 5º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000009", "topicCode": "III", "subtopicSlug": "pld-suitability-operacoes-suspeitas", "contentNodeSlug": "tema-iii-operacoes-suspeitas-incompatibilidade-economica",
+      "family": { "code": "AI-III-ATIPICIDADE-FLUXO-001", "name": "Tratamento de operação atípica", "angle": "ordenar monitoramento, análise e comunicação" },
+      "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["operação atípica", "COAF", "análise"],
+      "statement": "O monitoramento detecta movimentações incompatíveis com a renda e o patrimônio declarados por um cliente. Qual sequência melhor representa o procedimento regulatório?",
+      "options": [
+        { "id": "opt_1", "text": "Comunicar toda atipicidade automaticamente e somente depois analisar seus fundamentos.", "isCorrect": false, "distractorReason": "A comunicação decorre de análise fundamentada, não de automatismo." },
+        { "id": "opt_2", "text": "Alertar o cliente, aguardar sua autorização e então decidir se comunica.", "isCorrect": false, "distractorReason": "A comunicação não depende de autorização nem deve ser revelada ao cliente." },
+        { "id": "opt_3", "text": "Monitorar, analisar tempestivamente a situação e, havendo sérios indícios após análise fundamentada, comunicar ao COAF.", "isCorrect": true },
+        { "id": "opt_4", "text": "Encerrar a conta imediatamente, dispensando análise e eventual comunicação.", "isCorrect": false, "distractorReason": "Encerramento não substitui os deveres de análise e comunicação quando cabível." }
+      ],
+      "explanation": "A norma separa monitoramento, análise e comunicação. A atipicidade deve ser analisada tempestivamente; a comunicação ao COAF ocorre quando a análise fundamentada conclui pela existência de sérios indícios.",
+      "commonTrap": "Tratar toda atipicidade como comunicação automática ou como prova definitiva de ilícito.",
+      "estimatedSeconds": 110, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Consolidada com Resolução CVM 245/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "arts. 20, 21 e 22", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000010", "topicCode": "III", "subtopicSlug": "pld-suitability-investidor-nao-residente", "contentNodeSlug": "tema-iii-investidor-nao-residente-gafi",
+      "family": { "code": "AI-III-INR-GAFI-001", "name": "Diligência reforçada para jurisdição GAFI", "angle": "aplicar a Resolução CVM 245 a não residente" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["investidor não residente", "GAFI", "CVM 245"],
+      "statement": "Um investidor não residente está ligado a jurisdição apontada pelo GAFI por deficiências estratégicas de PLD/FTP. Entre as medidas compatíveis com a regra vigente está:",
+      "options": [
+        { "id": "opt_1", "text": "Aplicar diligência reforçada, exigir comprovações adicionais e limitar, postergar ou recusar operações com ativos de maior risco, conforme o caso.", "isCorrect": true },
+        { "id": "opt_2", "text": "Dispensar a identificação do beneficiário final se houver custodiante no exterior.", "isCorrect": false, "distractorReason": "A intermediação estrangeira não cria dispensa geral de identificação e diligência." },
+        { "id": "opt_3", "text": "Aceitar automaticamente as operações por respeito à classificação feita no país de origem.", "isCorrect": false, "distractorReason": "A instituição brasileira mantém seus deveres de diligência e gestão do risco." },
+        { "id": "opt_4", "text": "Comunicar ao COAF todas as operações, independentemente de análise ou indício.", "isCorrect": false, "distractorReason": "A jurisdição de risco reforça controles, mas não elimina a análise fundamentada da comunicação." }
+      ],
+      "explanation": "O art. 17-A introduz diligência reforçada para vínculos com jurisdições listadas pelo GAFI, incluindo condições adicionais, comprovação complementar e restrições proporcionais a operações de maior risco.",
+      "commonTrap": "Confundir diligência reforçada obrigatória com comunicação automática de toda operação.",
+      "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 245/2026", "versionLabel": "Texto oficial vigente desde 15/07/2026", "url": "https://conteudo.cvm.gov.br/cvm_institucional/legislacao/resolucoes/anexos/200/resol245.htm", "locator": "art. 1º, inclusão do art. 17-A na Resolução CVM 50", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-III-000011", "topicCode": "III", "subtopicSlug": "pld-suitability-suitability-objetivos", "contentNodeSlug": "tema-iii-suitability-objetivos-horizonte",
+      "family": { "code": "AI-III-SUIT-OBJETIVOS-001", "name": "Objetivos de investimento", "angle": "selecionar fatores regulamentares" },
+      "difficulty": 2, "questionType": "multiple_statements", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["suitability", "objetivos"],
+      "statement": "Para verificar os objetivos de investimento do cliente, a Resolução CVM 30 determina considerar, no mínimo:",
+      "options": [
+        { "id": "opt_1", "text": "Período pelo qual deseja manter o investimento, preferências quanto à assunção de riscos e finalidades do investimento.", "isCorrect": true },
+        { "id": "opt_2", "text": "Apenas idade, profissão e estado civil do cliente.", "isCorrect": false, "distractorReason": "Esses dados não substituem os fatores mínimos relativos aos objetivos." },
+        { "id": "opt_3", "text": "Somente patrimônio, renda regular e necessidade futura de recursos.", "isCorrect": false, "distractorReason": "Esses fatores pertencem à avaliação da situação financeira." },
+        { "id": "opt_4", "text": "Formação acadêmica, experiência profissional e frequência de operações.", "isCorrect": false, "distractorReason": "Esses elementos se relacionam à avaliação do conhecimento do cliente." }
+      ],
+      "explanation": "A dimensão objetivos reúne horizonte de manutenção, preferências de risco e finalidades. Renda, patrimônio e necessidades futuras compõem situação financeira; experiência e frequência integram conhecimento.",
+      "commonTrap": "Misturar os três blocos regulamentares de suitability: objetivos, situação financeira e conhecimento.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 30/2021", "versionLabel": "Texto consolidado vigente em 10/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf", "locator": "art. 3º, § 1º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000012", "topicCode": "III", "subtopicSlug": "pld-suitability-desenquadramento", "contentNodeSlug": "tema-iii-desenquadramento-procedimentos",
+      "family": { "code": "AI-III-SUIT-DESENQUADRAMENTO-001", "name": "Ordem em produto inadequado", "angle": "aplicar alerta e declaração expressa" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["produto inadequado", "alerta", "ciência"],
+      "statement": "Um cliente, por iniciativa própria, ordena aplicação em categoria de produto inadequada ao seu perfil. Antes da primeira operação nessa categoria, o intermediário deve:",
+      "options": [
+        { "id": "opt_1", "text": "Executar sem formalidade, porque a iniciativa foi do cliente.", "isCorrect": false, "distractorReason": "A iniciativa não elimina os procedimentos previstos para produto inadequado." },
+        { "id": "opt_2", "text": "Recusar definitivamente a ordem, sem possibilidade de execução.", "isCorrect": false, "distractorReason": "A norma prevê procedimento de alerta e declaração, não proibição absoluta em todos os casos." },
+        { "id": "opt_3", "text": "Alertar sobre a inadequação, indicando suas causas, e obter declaração expressa de ciência antes de executar.", "isCorrect": true },
+        { "id": "opt_4", "text": "Alterar unilateralmente o perfil para agressivo e então executar a ordem.", "isCorrect": false, "distractorReason": "O perfil não pode ser alterado artificialmente para legitimar a operação." }
+      ],
+      "explanation": "Quando o cliente ordena produto inadequado, a instituição deve alertá-lo sobre a inadequação e explicar suas causas, obtendo declaração expressa de ciência antes da primeira operação naquela categoria.",
+      "commonTrap": "Achar que ordem por iniciativa do cliente elimina o dever de alerta e registro de ciência.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 30/2021", "versionLabel": "Texto consolidado vigente em 10/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf", "locator": "arts. 6º e 7º", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    },
+    {
+      "id": "AI-III-000013", "topicCode": "III", "subtopicSlug": "pld-suitability-produto-complexo", "contentNodeSlug": "tema-iii-produto-complexo-risco-adicional",
+      "family": { "code": "AI-III-SUIT-COMPLEXO-001", "name": "Produto complexo", "angle": "reconhecer fatores de complexidade" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["produto complexo", "liquidez", "valoração"],
+      "statement": "Ao elaborar políticas específicas para recomendar produtos complexos, qual fator deve receber destaque segundo a Resolução CVM 30?",
+      "options": [
+        { "id": "opt_1", "text": "Apenas a existência de garantia do FGC, que elimina os demais riscos estruturais.", "isCorrect": false, "distractorReason": "Garantia eventualmente existente não elimina todos os riscos nem define isoladamente a complexidade." },
+        { "id": "opt_2", "text": "Os riscos da estrutura em comparação com produtos tradicionais e a dificuldade de determinar valor, inclusive por baixa liquidez.", "isCorrect": true },
+        { "id": "opt_3", "text": "Somente a rentabilidade histórica superior ao benchmark nos últimos doze meses.", "isCorrect": false, "distractorReason": "Desempenho passado não substitui a análise da estrutura e da valoração." },
+        { "id": "opt_4", "text": "Exclusivamente o valor mínimo de aplicação e a classificação tributária do investidor.", "isCorrect": false, "distractorReason": "Esses elementos não esgotam os riscos adicionais que justificam tratamento específico." }
+      ],
+      "explanation": "As políticas para produtos complexos devem ressaltar seus riscos estruturais frente a produtos tradicionais e a dificuldade de determinar valor, inclusive quando a baixa liquidez dificulta a formação de preço.",
+      "commonTrap": "Associar complexidade apenas a valor mínimo, tributação ou retorno passado.",
+      "estimatedSeconds": 100, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 30/2021", "versionLabel": "Texto consolidado vigente em 10/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf", "locator": "art. 8º, caput e parágrafo único", "confidence": "OFFICIAL", "checkedAt": "2026-10-10" }]
+    }
+  ]
+}

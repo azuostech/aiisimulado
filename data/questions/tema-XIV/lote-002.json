@@ -1,0 +1,38 @@
+{
+  "batchId": "tema-XIV-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-XIV-000017", "topicCode": "XIV", "subtopicSlug": "renda-fixa-cambio", "contentNodeSlug": "tema-xiv-cambio-liquidacao",
+      "family": { "code": "AI-XIV-CAMBIO-LIQUIDACAO-001", "name": "Liquidação da operação de câmbio", "angle": "classificar operação pronta pelo prazo" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["câmbio", "liquidação pronta", "D+2"],
+      "statement": "Uma empresa contrata hoje compra de moeda estrangeira, com entrega das duas moedas prevista para o segundo dia útil após a contratação. Pela regra geral, essa operação é classificada como:",
+      "options": [
+        { "id": "opt_1", "text": "Liquidação futura, porque as moedas não são entregues no mesmo dia da contratação.", "isCorrect": false, "distractorReason": "A liquidação pronta pode ocorrer em até dois dias úteis." },
+        { "id": "opt_2", "text": "Liquidação a termo interbancária, ainda que uma das partes seja cliente não financeiro.", "isCorrect": false, "distractorReason": "O caso não descreve operação interbancária a termo." },
+        { "id": "opt_3", "text": "Liquidação pronta, pois ocorre em até dois dias úteis contados da contratação.", "isCorrect": true },
+        { "id": "opt_4", "text": "Liquidação vencida, porque o prazo máximo permitido é o primeiro dia útil seguinte.", "isCorrect": false, "distractorReason": "O limite geral da operação pronta é de até dois dias úteis." }
+      ],
+      "explanation": "A Resolução BCB 277 define como pronta a liquidação da operação de câmbio realizada em até dois dias úteis da contratação, ressalvadas regras específicas para determinadas modalidades.",
+      "commonTrap": "Presumir que somente a entrega no mesmo dia pode ser chamada de liquidação pronta.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Resolução BCB 277/2022", "versionLabel": "Texto oficial vigente consultado em 11/10/2026", "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=277&tipo=Resolu%C3%A7%C3%A3o+BCB", "locator": "art. 38, caput e inciso I", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-XIV-000018", "topicCode": "XIV", "subtopicSlug": "renda-fixa-lc", "contentNodeSlug": "tema-xiv-lc-emissor",
+      "family": { "code": "AI-XIV-LC-EMISSOR-001", "name": "Emissor da Letra de Câmbio", "angle": "distinguir o título de renda fixa da operação cambial" },
+      "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["Letra de Câmbio", "financeira", "emissor"],
+      "statement": "Um cliente associa a Letra de Câmbio — LC — à compra de moeda estrangeira por causa do nome do produto. Qual esclarecimento é tecnicamente adequado?",
+      "options": [
+        { "id": "opt_1", "text": "A LC é contrato de troca de moedas emitido por corretoras de câmbio para liquidação futura.", "isCorrect": false, "distractorReason": "O título não representa uma operação de troca de moedas." },
+        { "id": "opt_2", "text": "A LC é valor mobiliário emitido por companhia aberta para financiar exportações e liquidar obrigações comerciais denominadas em moeda estrangeira.", "isCorrect": false, "distractorReason": "Essa descrição não corresponde ao instrumento de captação das financeiras." },
+        { "id": "opt_3", "text": "A LC é título público cambial e seu pagamento depende da cotação oficial do dólar.", "isCorrect": false, "distractorReason": "A LC não é título do Tesouro nem possui indexação cambial necessária." },
+        { "id": "opt_4", "text": "A LC é instrumento de captação associado às sociedades de crédito, financiamento e investimento, sem exigir exposição a moeda estrangeira.", "isCorrect": true }
+      ],
+      "explanation": "A Letra de Câmbio é instrumento de captação utilizado por sociedades de crédito, financiamento e investimento. Seu nome histórico não significa que o investidor esteja contratando câmbio ou assumindo exposição obrigatória a moeda estrangeira.",
+      "commonTrap": "Interpretar a expressão Letra de Câmbio literalmente como compra e venda de moeda estrangeira.",
+      "estimatedSeconds": 105, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Resolução CMN 4.812/2020", "versionLabel": "Texto oficial consolidado consultado em 11/10/2026", "url": "https://normativos.bcb.gov.br/Lists/Normativos/Attachments/51022/Res_4812_v2_L.pdf", "locator": "art. 1º, inciso III", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

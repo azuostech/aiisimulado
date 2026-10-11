@@ -1,0 +1,20 @@
+{
+  "batchId": "tema-III-lote-002-correcoes-auditoria",
+  "reviewedAt": "2026-10-11",
+  "questions": [{
+    "id": "AI-III-000014", "topicCode": "III", "subtopicSlug": "pld-suitability-comunicacao", "contentNodeSlug": "tema-iii-comunicacao-ausencia-de-comunicacao-ao-cliente",
+    "family": { "code": "AI-III-COAF-SIGILO-001", "name": "Sigilo da comunicação ao COAF", "angle": "decidir como responder ao cliente comunicado" },
+    "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["COAF", "sigilo", "comunicação"],
+    "statement": "Após concluir análise fundamentada, uma instituição comunica ao COAF uma operação suspeita. O cliente percebe controles adicionais e pergunta formalmente se foi comunicado. Qual conduta combina os deveres aplicáveis?",
+    "options": [
+      { "id": "opt_1", "text": "Confirmar a comunicação, omitir os fundamentos utilizados e manter reservados os registros internos da decisão durante o prazo regulamentar aplicável.", "isCorrect": false, "distractorReason": "O sigilo alcança o próprio ato de comunicar, e não somente seus fundamentos." },
+      { "id": "opt_2", "text": "Cancelar a comunicação se o cliente apresentar explicação econômica depois do envio ao COAF.", "isCorrect": false, "distractorReason": "A explicação posterior não autoriza cancelar automaticamente comunicação já fundamentada." },
+      { "id": "opt_3", "text": "Preservar o sigilo sobre a comunicação, mantendo registros da análise e dos elementos que a fundamentaram.", "isCorrect": true },
+      { "id": "opt_4", "text": "Entregar ao cliente o relato enviado, desde que ele assine compromisso de confidencialidade.", "isCorrect": false, "distractorReason": "Compromisso privado não afasta o dever normativo de não dar ciência da comunicação." }
+    ],
+    "explanation": "A comunicação decorre de análise fundamentada e deve permanecer sigilosa inclusive perante a pessoa a que se refere. A instituição também deve conservar os registros e elementos que sustentaram sua decisão.",
+    "commonTrap": "Confundir transparência no relacionamento comercial com autorização para revelar uma comunicação de operação suspeita.",
+    "estimatedSeconds": 120, "requiresCalculation": false, "calculatorAllowed": false,
+    "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 50/2021", "versionLabel": "Texto consolidado vigente em 11/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol050consolid.pdf", "locator": "art. 22, caput e §§ 1º a 3º", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+  }]
+}

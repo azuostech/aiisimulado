@@ -1,0 +1,134 @@
+{
+  "batchId": "tema-IV-lote-001",
+  "reviewedAt": "2026-10-11",
+  "questions": [
+    {
+      "id": "AI-IV-000001", "topicCode": "IV", "subtopicSlug": "economia-pib", "contentNodeSlug": "tema-iv-pib-conceito",
+      "family": { "code": "AI-IV-PIB-CONCEITO-001", "name": "PIB e produção final", "angle": "identificar o que o indicador mede" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["PIB", "produção"],
+      "statement": "Ao afirmar que o PIB mede a atividade econômica de um país em determinado período, considera-se, de forma adequada:",
+      "options": [
+        { "id": "opt_1", "text": "O valor dos bens e serviços finais produzidos, evitando dupla contagem dos insumos intermediários.", "isCorrect": true },
+        { "id": "opt_2", "text": "Somente o valor das ações negociadas em bolsa durante o período.", "isCorrect": false, "distractorReason": "Negociação de ações não corresponde à produção agregada de bens e serviços." },
+        { "id": "opt_3", "text": "Todo o patrimônio acumulado pelos residentes desde a criação do país.", "isCorrect": false, "distractorReason": "PIB é fluxo de produção em um período, não estoque histórico de riqueza." },
+        { "id": "opt_4", "text": "Apenas a produção realizada diretamente pelo governo.", "isCorrect": false, "distractorReason": "O indicador abrange a produção final dos diferentes setores da economia." }
+      ],
+      "explanation": "O PIB sintetiza o valor dos bens e serviços finais produzidos em certo território e período. Contar apenas produtos finais evita somar novamente os insumos incorporados à produção.",
+      "commonTrap": "Confundir fluxo de produção com estoque de patrimônio ou volume negociado no mercado financeiro.",
+      "estimatedSeconds": 75, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "IBGE", "normNumber": "Explica — PIB", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.ibge.gov.br/explica/pib.php", "locator": "definição do Produto Interno Bruto e prevenção de dupla contagem", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000002", "topicCode": "IV", "subtopicSlug": "economia-inflacao", "contentNodeSlug": "tema-iv-inflacao-ipca",
+      "family": { "code": "AI-IV-IPCA-META-001", "name": "IPCA e meta de inflação", "angle": "identificar o índice de referência" },
+      "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["IPCA", "inflação"],
+      "statement": "No regime brasileiro de metas para a inflação, o índice de preços utilizado como referência para verificar o cumprimento da meta é o:",
+      "options": [
+        { "id": "opt_1", "text": "IPCA, calculado pelo IBGE.", "isCorrect": true },
+        { "id": "opt_2", "text": "Ibovespa, calculado pela B3.", "isCorrect": false, "distractorReason": "Ibovespa é índice do mercado acionário, não índice oficial de inflação." },
+        { "id": "opt_3", "text": "CDI, apurado a partir de operações interfinanceiras.", "isCorrect": false, "distractorReason": "CDI é referência de juros, não medida de preços ao consumidor." },
+        { "id": "opt_4", "text": "PIB nominal, calculado pelo Banco Central.", "isCorrect": false, "distractorReason": "PIB mede produção e o cálculo oficial é do IBGE; não é o índice da meta." }
+      ],
+      "explanation": "A meta de inflação definida pelo CMN é aferida pela variação do IPCA, calculado pelo IBGE. O Banco Central conduz a política monetária buscando manter a inflação ao redor dessa meta.",
+      "commonTrap": "Confundir índices de mercado ou taxas de juros com o índice oficial de preços da meta.",
+      "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Política monetária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/controleinflacao/indexcontroleinflacao", "locator": "meta para a inflação e papel do IPCA", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000003", "topicCode": "IV", "subtopicSlug": "economia-taxa-selic", "contentNodeSlug": "tema-iv-taxa-selic-impacto-sobre-credito",
+      "family": { "code": "AI-IV-SELIC-CREDITO-001", "name": "Selic e custo do crédito", "angle": "aplicar transmissão de alta dos juros" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["Selic", "crédito", "inflação"],
+      "statement": "Diante de pressões inflacionárias persistentes, o Copom eleva a taxa Selic. Mantidas as demais condições, o efeito esperado pelo canal do crédito é:",
+      "options": [
+        { "id": "opt_1", "text": "Encarecimento do crédito, menor estímulo ao consumo e ao investimento e redução da pressão sobre os preços.", "isCorrect": true },
+        { "id": "opt_2", "text": "Barateamento imediato de todos os empréstimos e forte expansão da demanda.", "isCorrect": false, "distractorReason": "Inverte o sentido usual da transmissão de uma alta da taxa básica." },
+        { "id": "opt_3", "text": "Eliminação automática da inflação, sem defasagem ou outros canais.", "isCorrect": false, "distractorReason": "A transmissão ocorre com defasagens e não produz resultado automático." },
+        { "id": "opt_4", "text": "Aumento obrigatório do gasto público no mesmo montante.", "isCorrect": false, "distractorReason": "A decisão monetária não determina mecanicamente o nível do gasto fiscal." }
+      ],
+      "explanation": "A Selic influencia outras taxas da economia. Quando sobe, tende a tornar crédito e financiamento mais caros, moderando consumo e investimento e, com defasagem, as pressões inflacionárias.",
+      "commonTrap": "Tratar a política monetária como efeito instantâneo ou inverter a relação entre juros e demanda.",
+      "estimatedSeconds": 90, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Mecanismos de transmissão da política monetária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/controleinflacao/transmissaopoliticamonetaria", "locator": "canal das taxas de juros, consumo, investimento e inflação", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000004", "topicCode": "IV", "subtopicSlug": "economia-politica-monetaria", "contentNodeSlug": "tema-iv-politica-monetaria-operacoes-de-mercado-aberto",
+      "family": { "code": "AI-IV-MONETARIA-EXPANSAO-001", "name": "Operação de mercado aberto expansionista", "angle": "identificar compra de títulos e liquidez" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["política monetária", "open market", "liquidez"],
+      "statement": "Em uma operação de mercado aberto com finalidade expansionista, o Banco Central tende a comprar títulos no mercado. O efeito operacional direto é:",
+      "options": [
+        { "id": "opt_1", "text": "Injetar liquidez no sistema, pois entrega recursos em troca dos títulos adquiridos.", "isCorrect": true },
+        { "id": "opt_2", "text": "Retirar liquidez, porque recebe dinheiro dos vendedores dos títulos.", "isCorrect": false, "distractorReason": "Na compra, é o Banco Central que paga pelos títulos e injeta recursos." },
+        { "id": "opt_3", "text": "Elevar diretamente todos os impostos federais.", "isCorrect": false, "distractorReason": "Tributação é instrumento fiscal, não efeito direto de open market." },
+        { "id": "opt_4", "text": "Reduzir contabilmente o PIB no mesmo valor da operação.", "isCorrect": false, "distractorReason": "A troca de títulos por reservas não reduz mecanicamente o PIB." }
+      ],
+      "explanation": "Ao comprar títulos, o Banco Central credita recursos aos participantes e aumenta a liquidez. A venda de títulos produz o movimento oposto, retirando recursos do sistema.",
+      "commonTrap": "Analisar a operação pela posição do vendedor e concluir que a compra do BC retira dinheiro.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Política monetária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/controleinflacao/indexcontroleinflacao", "locator": "ações do BC sobre custo do dinheiro e condições de liquidez", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000005", "topicCode": "IV", "subtopicSlug": "economia-politica-fiscal", "contentNodeSlug": "tema-iv-politica-fiscal-deficit",
+      "family": { "code": "AI-IV-FISCAL-DEFICIT-001", "name": "Déficit e dívida pública", "angle": "relacionar desequilíbrio fiscal e financiamento" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["política fiscal", "déficit", "dívida"],
+      "statement": "Se as despesas primárias do governo superam persistentemente suas receitas primárias, sem medidas compensatórias, é correto esperar:",
+      "options": [
+        { "id": "opt_1", "text": "Necessidade de financiamento do déficit, com possível aumento da dívida pública e do prêmio exigido pelos investidores.", "isCorrect": true },
+        { "id": "opt_2", "text": "Redução automática da dívida, pois todo déficit gera superávit financeiro.", "isCorrect": false, "distractorReason": "Déficit representa insuficiência de receitas diante das despesas, não superávit." },
+        { "id": "opt_3", "text": "Queda obrigatória de todas as taxas de juros de longo prazo.", "isCorrect": false, "distractorReason": "Maior percepção de risco fiscal pode elevar, não reduzir obrigatoriamente, prêmios longos." },
+        { "id": "opt_4", "text": "Nenhuma consequência de financiamento, porque política fiscal não afeta a dívida.", "isCorrect": false, "distractorReason": "Déficits e seu financiamento estão diretamente relacionados à dinâmica da dívida." }
+      ],
+      "explanation": "Déficits precisam ser financiados por disponibilidades, emissão de dívida ou outras fontes. Persistência e perda de credibilidade podem aumentar dívida e prêmio de risco na curva de juros.",
+      "commonTrap": "Supor que desequilíbrio fiscal não se transmite às necessidades de financiamento e às taxas longas.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Tesouro Nacional", "normNumber": "Dívida Pública Federal — conceitos", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.tesourotransparente.gov.br/temas/divida-publica-federal", "locator": "necessidade de financiamento e gestão da dívida pública", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000006", "topicCode": "IV", "subtopicSlug": "economia-politica-cambial", "contentNodeSlug": "tema-iv-politica-cambial-desvalorizacao",
+      "family": { "code": "AI-IV-CAMBIO-DESVALORIZACAO-001", "name": "Desvalorização cambial e preços", "angle": "analisar repasse para inflação" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["câmbio", "desvalorização", "inflação"],
+      "statement": "O real se desvaloriza de forma relevante frente ao dólar. Mantidas as demais condições, qual efeito tende a pressionar a inflação doméstica?",
+      "options": [
+        { "id": "opt_1", "text": "O encarecimento, em reais, de importados e de insumos cotados em moeda estrangeira.", "isCorrect": true },
+        { "id": "opt_2", "text": "A queda automática do preço em reais de todos os produtos importados.", "isCorrect": false, "distractorReason": "A desvalorização torna a moeda estrangeira mais cara em reais." },
+        { "id": "opt_3", "text": "A eliminação do custo de matérias-primas importadas.", "isCorrect": false, "distractorReason": "Esses custos tendem a aumentar quando convertidos para reais." },
+        { "id": "opt_4", "text": "A proibição imediata de exportações brasileiras.", "isCorrect": false, "distractorReason": "Variação cambial não implica proibição automática de exportar." }
+      ],
+      "explanation": "Com o dólar mais caro em reais, bens importados e insumos com preços externos tendem a custar mais. Parte desse aumento pode ser repassada aos preços internos, conforme o contexto econômico.",
+      "commonTrap": "Inverter valorização e desvalorização da moeda doméstica ao converter preços externos.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Mecanismos de transmissão da política monetária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/controleinflacao/transmissaopoliticamonetaria", "locator": "canal da taxa de câmbio e preços de bens comercializáveis", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000007", "topicCode": "IV", "subtopicSlug": "economia-relacoes-macroeconomicas", "contentNodeSlug": "tema-iv-relacoes-macroeconomicas-atividade-x-juros",
+      "family": { "code": "AI-IV-ATIVIDADE-JUROS-001", "name": "Atividade econômica e juros", "angle": "interpretar política contracionista" },
+      "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ARCHIVED", "tags": ["atividade", "juros", "política contracionista"],
+      "statement": "Em um cenário de demanda agregada aquecida e inflação acima da meta, uma elevação dos juros busca, entre outros efeitos:",
+      "options": [
+        { "id": "opt_1", "text": "Moderar consumo e investimento, reduzindo o ritmo da atividade e as pressões de demanda.", "isCorrect": true },
+        { "id": "opt_2", "text": "Estimular imediatamente o crédito e acelerar ainda mais o consumo.", "isCorrect": false, "distractorReason": "Esse seria um efeito associado a condições monetárias mais expansionistas." },
+        { "id": "opt_3", "text": "Aumentar a quantidade física de bens sem alterar decisões financeiras.", "isCorrect": false, "distractorReason": "A transmissão atua sobre condições financeiras, expectativas, crédito e demanda." },
+        { "id": "opt_4", "text": "Fixar administrativamente todos os preços da economia.", "isCorrect": false, "distractorReason": "Política de juros não corresponde a controle direto de preços." }
+      ],
+      "explanation": "Juros reais mais altos tendem a desestimular decisões financiadas de consumo e investimento. A moderação da demanda ajuda a reduzir pressões inflacionárias, normalmente com defasagem.",
+      "commonTrap": "Confundir aperto monetário com estímulo expansionista à atividade e ao crédito.",
+      "estimatedSeconds": 85, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Mecanismos de transmissão da política monetária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/controleinflacao/transmissaopoliticamonetaria", "locator": "juros reais, consumo, investimento e atividade", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    },
+    {
+      "id": "AI-IV-000008", "topicCode": "IV", "subtopicSlug": "economia-relacoes-macroeconomicas", "contentNodeSlug": "tema-iv-relacoes-macroeconomicas-juros-x-inflacao",
+      "family": { "code": "AI-IV-JUROS-INFLACAO-DEFASAGEM-001", "name": "Juros, inflação e defasagem", "angle": "evitar causalidade instantânea" },
+      "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["juros", "inflação", "defasagem"],
+      "statement": "Sobre a relação entre uma decisão de elevar a Selic e a inflação observada, a interpretação tecnicamente mais adequada é:",
+      "options": [
+        { "id": "opt_1", "text": "A decisão atua por vários canais e com defasagens; seu efeito depende também de expectativas e demais condições econômicas.", "isCorrect": true },
+        { "id": "opt_2", "text": "A inflação deve cair integralmente no mesmo instante da divulgação da decisão.", "isCorrect": false, "distractorReason": "Os mecanismos de transmissão não são instantâneos." },
+        { "id": "opt_3", "text": "A Selic afeta somente títulos públicos, sem alcançar crédito, câmbio ou ativos.", "isCorrect": false, "distractorReason": "A política opera por diversos canais na economia." },
+        { "id": "opt_4", "text": "Elevar juros sempre aumenta a demanda agregada no curto e no longo prazo.", "isCorrect": false, "distractorReason": "Em geral, juros maiores moderam demanda, embora o processo seja complexo." }
+      ],
+      "explanation": "A transmissão monetária passa por juros, crédito, câmbio, preços de ativos e expectativas. Esses canais operam com defasagens, razão pela qual a inflação não reage de modo mecânico e imediato.",
+      "commonTrap": "Exigir relação contemporânea de um para um entre decisão do Copom e inflação corrente.",
+      "estimatedSeconds": 95, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Banco Central do Brasil", "normNumber": "Mecanismos de transmissão da política monetária", "versionLabel": "Página oficial consultada em 11/10/2026", "url": "https://www.bcb.gov.br/controleinflacao/transmissaopoliticamonetaria", "locator": "canais e defasagens da política monetária", "confidence": "OFFICIAL", "checkedAt": "2026-10-11" }]
+    }
+  ]
+}

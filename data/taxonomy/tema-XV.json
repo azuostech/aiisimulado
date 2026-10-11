@@ -1,0 +1,28 @@
+{
+  "topicCode": "XV",
+  "topicName": "Mercados Derivativos",
+  "subtopicPrefix": "derivativos",
+  "version": "2026-10-11",
+  "source": "Especificações, manuais e material institucional da B3 vigentes",
+  "branches": [
+    { "slug": "conceito", "name": "Conceito de derivativo", "concepts": ["ativo subjacente", "hedge", "especulação", "arbitragem"] },
+    { "slug": "mercado-futuro", "name": "Mercado futuro", "concepts": ["contrato padronizado", "posição comprada", "posição vendida", "ajuste diário", "margem", "garantia", "liquidação"] },
+    { "slug": "mercado-termo", "name": "Mercado a termo", "concepts": ["contrato", "prazo", "ausência de ajuste diário", "liquidação"] },
+    { "slug": "opcoes-call", "name": "Opções — Call", "concepts": ["titular", "lançador", "direito de comprar", "obrigação de vender", "prêmio", "strike", "exercício", "resultado"] },
+    { "slug": "opcoes-put", "name": "Opções — Put", "concepts": ["titular", "lançador", "direito de vender", "obrigação de comprar", "prêmio", "strike", "exercício", "resultado"] },
+    { "slug": "moneyness", "name": "Moneyness", "concepts": ["ITM", "ATM", "OTM"] },
+    { "slug": "valor-opcao", "name": "Valor da opção", "concepts": ["valor intrínseco", "valor temporal"] },
+    { "slug": "estrategias-opcoes", "name": "Estratégias com opções", "concepts": ["compra de call", "venda de call", "compra de put", "venda de put", "proteção"] },
+    { "slug": "swap", "name": "Swap", "concepts": ["troca de indexadores", "ponta ativa", "ponta passiva", "hedge"] },
+    { "slug": "futuro-di", "name": "Futuro de DI", "concepts": ["taxa", "juros", "posição", "hedge"] },
+    { "slug": "futuro-dolar", "name": "Futuro de dólar", "concepts": ["comprado", "vendido", "exportador", "importador"] },
+    { "slug": "futuro-indice", "name": "Futuro de índice", "concepts": ["exposição ao mercado", "hedge"] },
+    { "slug": "commodities", "name": "Commodities", "concepts": ["produtor", "comprador", "hedge de preço", "risco"] },
+    { "slug": "hedge-produtor", "name": "Hedge de produtor", "concepts": ["proteção contra queda", "posição vendida"] },
+    { "slug": "hedge-importador", "name": "Hedge de importador", "concepts": ["obrigação em moeda estrangeira", "proteção contra alta do câmbio"] },
+    { "slug": "hedge-exportador", "name": "Hedge de exportador", "concepts": ["recebível em moeda estrangeira", "proteção contra queda do câmbio"] },
+    { "slug": "margem-garantia", "name": "Margem de garantia", "concepts": ["finalidade", "chamada de margem", "ativos aceitos"] },
+    { "slug": "ajuste-diario", "name": "Ajuste diário", "concepts": ["crédito", "débito", "efeito na posição"] },
+    { "slug": "liquidacao", "name": "Liquidação", "concepts": ["financeira", "física", "vencimento"] }
+  ]
+}

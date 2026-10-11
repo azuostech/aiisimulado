@@ -1,0 +1,379 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum QuestionStatus {
+  DRAFT
+  REVIEWED
+  VALIDATED
+  ACTIVE
+  NEEDS_REVIEW
+  ARCHIVED
+}
+
+enum SourceConfidence {
+  OFFICIAL
+  SECONDARY
+  COMMUNITY
+}
+
+enum SessionStatus {
+  IN_PROGRESS
+  SUBMITTED
+  EXPIRED
+}
+
+enum ExamMode {
+  REAL
+  BLINDAGEM
+  TOPIC
+  ERROR_NOTEBOOK
+  QUICK_REVIEW
+  WEAKNESSES
+  FAVORITES
+  SPACED_REVIEW
+}
+
+model User {
+  id            String        @id @default(cuid())
+  email         String        @unique
+  emailVerified Boolean       @default(false)
+  name          String        @default("")
+  image         String?
+  examDate      DateTime?
+  sessions      ExamSession[]
+  answers       UserAnswer[]
+  bookmarks     Bookmark[]
+  questionReviews UserQuestionReview[]
+  questionExposures QuestionExposure[]
+  authSessions  AuthSession[]
+  authAccounts  AuthAccount[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+}
+
+model AuthSession {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model AuthAccount {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  user                   User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@unique([providerId, accountId])
+}
+
+model AuthVerification {
+  id         String    @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime? @default(now())
+  updatedAt  DateTime? @updatedAt
+
+  @@index([identifier])
+}
+
+model Topic {
+  id        String     @id
+  code      String     @unique
+  name      String
+  subtopics Subtopic[]
+  questions Question[]
+  contentNodes ContentNode[]
+}
+
+model Subtopic {
+  id        String     @id @default(cuid())
+  slug      String     @unique
+  name      String
+  topicId   String
+  topic     Topic      @relation(fields: [topicId], references: [id])
+  questions Question[]
+  families QuestionFamily[]
+}
+
+model ContentNode {
+  id        String        @id
+  slug      String        @unique
+  name      String
+  topicId   String
+  parentId  String?
+  depth     Int
+  terminal  Boolean       @default(false)
+  sortOrder Int           @default(0)
+  topic     Topic         @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  parent    ContentNode?  @relation("ContentNodeTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children  ContentNode[] @relation("ContentNodeTree")
+  families QuestionFamily[]
+  questions Question[]
+
+  @@index([topicId, parentId, sortOrder])
+  @@index([topicId, terminal])
+}
+
+model QuestionFamily {
+  id            String       @id
+  code          String       @unique
+  name          String
+  angle         String
+  subtopicId    String
+  contentNodeId String?
+  subtopic      Subtopic     @relation(fields: [subtopicId], references: [id], onDelete: Restrict)
+  contentNode   ContentNode? @relation(fields: [contentNodeId], references: [id], onDelete: Restrict)
+  questions     Question[]
+
+  @@index([subtopicId])
+  @@index([contentNodeId])
+}
+
+model Question {
+  id                   String                @id
+  version              Int                   @default(1)
+  status               QuestionStatus        @default(DRAFT)
+  topicId              String
+  subtopicId           String
+  familyId             String
+  familyAngle          String                @default("legacy")
+  contentNodeId        String?
+  difficulty           Int
+  questionType         String
+  cognitiveSkill       String                @default("APPLICATION")
+  tags                 String[]              @default([])
+  statement            String
+  explanation          String
+  commonTrap           String?
+  estimatedTimeSeconds Int                   @default(100)
+  calculationRequired  Boolean               @default(false)
+  calculatorAllowed    Boolean               @default(false)
+  sourceConfidence     SourceConfidence      @default(OFFICIAL)
+  qualityScore         Decimal?              @db.Decimal(4, 3)
+  regulationVersion    String
+  lastReviewedAt       DateTime?
+  topic                Topic                 @relation(fields: [topicId], references: [id])
+  subtopic             Subtopic              @relation(fields: [subtopicId], references: [id])
+  family               QuestionFamily        @relation(fields: [familyId], references: [id], onDelete: Restrict)
+  contentNode           ContentNode?          @relation(fields: [contentNodeId], references: [id], onDelete: Restrict)
+  options              QuestionOption[]
+  sources              QuestionSource[]
+  bookmarks            Bookmark[]
+  sessionItems         ExamSessionQuestion[]
+  userAnswers          UserAnswer[]
+  userReviews          UserQuestionReview[]
+  editorialReviews     QuestionReview[]
+  exposures            QuestionExposure[]
+  createdAt            DateTime              @default(now())
+  updatedAt            DateTime              @updatedAt
+
+  @@index([status, topicId, difficulty])
+  @@index([familyId])
+  @@index([contentNodeId])
+}
+
+model QuestionOption {
+  id               String   @id @default(cuid())
+  stableKey        String
+  text             String
+  isCorrect        Boolean  @default(false)
+  distractorReason String?
+  questionId       String
+  question         Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, stableKey])
+}
+
+model RegulationVersion {
+  id           String           @id @default(cuid())
+  authority    String
+  normNumber   String
+  versionLabel String
+  officialUrl  String
+  publishedAt  DateTime?
+  effectiveAt  DateTime?
+  effectiveUntil DateTime?
+  checkedAt    DateTime
+  contentHash  String?
+  sources      QuestionSource[]
+
+  @@unique([authority, normNumber, versionLabel])
+}
+
+model QuestionSource {
+  id                  String            @id @default(cuid())
+  questionId          String
+  regulationVersionId String
+  locator             String
+  checkedAt           DateTime
+  question            Question          @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  regulationVersion   RegulationVersion @relation(fields: [regulationVersionId], references: [id])
+}
+
+model ExamBlueprint {
+  id                String           @id @default(cuid())
+  version           String           @unique
+  questionCount     Int
+  durationMinutes   Int
+  passingPercentage Int
+  effectiveFrom     DateTime
+  effectiveUntil    DateTime?
+  officialSourceUrl String
+  reviewedAt        DateTime
+  topics            BlueprintTopic[]
+  sessions          ExamSession[]
+}
+
+model BlueprintTopic {
+  id             String        @id @default(cuid())
+  blueprintId    String
+  topicCode      String
+  questionCount  Int
+  minimumCorrect Int?
+  blueprint      ExamBlueprint @relation(fields: [blueprintId], references: [id], onDelete: Cascade)
+
+  @@unique([blueprintId, topicCode])
+}
+
+model ExamSession {
+  id          String                @id @default(cuid())
+  userId      String
+  blueprintId String
+  mode        ExamMode
+  status      SessionStatus         @default(IN_PROGRESS)
+  randomSeed  String
+  durationMinutes Int
+  startedAt   DateTime              @default(now())
+  submittedAt DateTime?
+  user        User                  @relation(fields: [userId], references: [id])
+  blueprint   ExamBlueprint         @relation(fields: [blueprintId], references: [id])
+  items       ExamSessionQuestion[]
+  answers     UserAnswer[]
+  exposures   QuestionExposure[]
+}
+
+model ExamSessionQuestion {
+  id               String      @id @default(cuid())
+  sessionId        String
+  position         Int
+  questionId       String
+  questionVersion  Int
+  questionSnapshot Json
+  optionOrder      Json
+  session          ExamSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question         Question    @relation(fields: [questionId], references: [id], onDelete: Restrict)
+
+  @@unique([sessionId, position])
+  @@unique([sessionId, questionId])
+}
+
+model UserAnswer {
+  id               String      @id @default(cuid())
+  userId           String
+  sessionId        String
+  questionId       String
+  selectedOptionId String?
+  isCorrect        Boolean?
+  flagged          Boolean     @default(false)
+  elapsedSeconds   Int
+  answerChanges    Int         @default(0)
+  user             User        @relation(fields: [userId], references: [id])
+  session          ExamSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question         Question    @relation(fields: [questionId], references: [id], onDelete: Restrict)
+
+  @@unique([sessionId, questionId])
+}
+
+model Bookmark {
+  userId     String
+  questionId String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@id([userId, questionId])
+}
+
+model UserQuestionReview {
+  userId         String
+  questionId     String
+  repetitions    Int      @default(0)
+  intervalDays   Int      @default(1)
+  easeFactor     Float    @default(2.5)
+  dueAt          DateTime
+  lastReviewedAt DateTime
+  lastCorrect    Boolean
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question       Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([userId, questionId])
+  @@index([userId, dueAt])
+}
+
+model QuestionReview {
+  id         String   @id @default(cuid())
+  questionId String
+  reviewer   String
+  verdict    String
+  checklist  Json
+  notes      String?
+  reviewedAt DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId, reviewedAt])
+}
+
+model QuestionExposure {
+  id         String      @id @default(cuid())
+  userId     String
+  questionId String
+  sessionId  String
+  position   Int
+  seenAt     DateTime    @default(now())
+  user       User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question    @relation(fields: [questionId], references: [id], onDelete: Restrict)
+  session    ExamSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+
+  @@unique([sessionId, questionId])
+  @@index([userId, seenAt])
+  @@index([userId, questionId, seenAt])
+}
+
+model CandidateConfusion {
+  id             String           @id @default(cuid())
+  topicCode      String
+  subtopicSlug   String?
+  description    String
+  frequency      String
+  priority       String           @default("MEDIUM")
+  sourceType     SourceConfidence @default(COMMUNITY)
+  sourceUrl      String?
+  observedAt     DateTime
+  editorialNotes String?
+}
