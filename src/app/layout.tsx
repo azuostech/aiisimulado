@@ -5,7 +5,7 @@ import { AccountShortcut } from "@/components/account-shortcut";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clareza AI | Preparação ANCORD",
+  title: "Simulado AI | Preparação ANCORD",
   description: "Simulados e treinamento adaptativo para a certificação de Assessor de Investimentos.",
 };
 

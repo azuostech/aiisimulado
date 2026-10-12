@@ -1,4 +1,4 @@
-# Clareza AI — Simulado ANCORD
+# Simulado AI — Preparação ANCORD
 
 Aplicação de preparação para o Exame de Certificação de Assessores de Investimentos, construída com Next.js, TypeScript, PostgreSQL e Prisma ORM.
 

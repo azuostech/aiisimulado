@@ -8,7 +8,7 @@ import { getDb } from "@/lib/db";
 
 function createAuth() {
   return betterAuth({
-    appName: "Clareza AI",
+    appName: "Simulado AI",
     database: prismaAdapter(getDb(), { provider: "postgresql" }),
     emailAndPassword: {
       enabled: true,

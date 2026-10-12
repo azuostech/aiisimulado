@@ -43,7 +43,7 @@ export default function LoginPage() {
   return <main className="auth-page">
     <Link className="auth-back" href="/">← Voltar</Link>
     <section className="auth-card">
-      <p className="overline">CLAREZA AI</p>
+      <p className="overline">SIMULADO AI</p>
       <h1>{mode === "login" ? "Entre na sua conta" : "Crie sua conta"}</h1>
       <p>Salve seus simulados, respostas e evolução com segurança.</p>
       <div className="auth-tabs" role="tablist">
