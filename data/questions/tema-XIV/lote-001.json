@@ -1,6 +1,6 @@
 {
   "batchId": "tema-XIV-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-12",
   "questions": [
     {
       "id": "AI-XIV-000001", "topicCode": "XIV", "subtopicSlug": "renda-fixa-titulos-publicos", "contentNodeSlug": "tema-xiv-titulos-publicos-tesouro-prefixado",
@@ -9,9 +9,9 @@
       "statement": "Um investidor compra Tesouro Prefixado e pretende receber a taxa contratada no momento da aquisição. Para reduzir a incerteza provocada pela marcação a mercado, ele deve:",
       "options": [
         { "id": "opt_1", "text": "Manter o título até o vencimento, quando a rentabilidade contratada se concretiza conforme as condições da compra.", "isCorrect": true },
-        { "id": "opt_2", "text": "Vender obrigatoriamente no primeiro dia em que as taxas de mercado subirem.", "isCorrect": false, "distractorReason": "A alta das taxas tende a reduzir o preço e pode materializar perda na venda antecipada." },
-        { "id": "opt_3", "text": "Converter o título em CDB para eliminar qualquer risco de mercado.", "isCorrect": false, "distractorReason": "Não existe conversão automática e CDB possui riscos próprios." },
-        { "id": "opt_4", "text": "Solicitar ao FGC o pagamento da taxa prefixada.", "isCorrect": false, "distractorReason": "Títulos públicos não são garantidos pelo FGC." }
+        { "id": "opt_2", "text": "Vender quando a taxa de mercado cair e reinvestir em Tesouro Selic, usando o ganho de preço para preservar a taxa original.", "isCorrect": false, "distractorReason": "A venda e o reinvestimento introduzem novos preços e taxas, sem assegurar a remuneração contratada na compra." },
+        { "id": "opt_3", "text": "Solicitar que a custódia registre o título pela curva de aquisição, impedindo que seu valor de venda reflita taxas correntes.", "isCorrect": false, "distractorReason": "A forma de visualização ou custódia não altera o preço disponível para venda antecipada." },
+        { "id": "opt_4", "text": "Vender assim que o preço superar o valor aplicado, pois retorno nominal positivo equivale ao recebimento da taxa contratada.", "isCorrect": false, "distractorReason": "Ganho nominal na venda não significa obtenção da taxa contratada para o prazo até o vencimento." }
       ],
       "explanation": "A taxa indicada na compra é a rentabilidade bruta esperada quando o título é mantido até o vencimento. Na venda antecipada, o Tesouro recompra pelo preço vigente de mercado.",
       "commonTrap": "Tratar a taxa contratada como retorno garantido também para qualquer data de venda antecipada.",
@@ -41,9 +41,9 @@
       "statement": "Para uma reserva que pode precisar de venda antecipada, o Tesouro Selic costuma ser indicado em comparação com títulos longos prefixados porque:",
       "options": [
         { "id": "opt_1", "text": "Sua rentabilidade é vinculada à Selic e ele tende a sofrer menos com oscilações de mercado na venda antecipada.", "isCorrect": true },
-        { "id": "opt_2", "text": "Seu preço nunca pode apresentar qualquer variação negativa.", "isCorrect": false, "distractorReason": "Menor sensibilidade não significa impossibilidade absoluta de oscilação." },
-        { "id": "opt_3", "text": "Ele é coberto pelo FGC até R$ 250 mil.", "isCorrect": false, "distractorReason": "Títulos do Tesouro não integram a garantia ordinária do FGC." },
-        { "id": "opt_4", "text": "Ele garante rendimento fixo independente da Selic.", "isCorrect": false, "distractorReason": "O título é pós-fixado e atrelado à taxa Selic." }
+        { "id": "opt_2", "text": "O Tesouro assegura recompra diária pela curva de aquisição, de modo que a venda antecipada não reflita preços de mercado.", "isCorrect": false, "distractorReason": "A recompra ocorre a preço de mercado; menor volatilidade não significa preço fixado pela curva." },
+        { "id": "opt_3", "text": "A cobertura ordinária do FGC reduz a perda na venda antecipada, enquanto títulos prefixados longos não contam com essa proteção.", "isCorrect": false, "distractorReason": "Títulos públicos não integram a garantia ordinária do FGC." },
+        { "id": "opt_4", "text": "A remuneração é fixada na compra e permanece constante quando a Selic muda, reduzindo assim a sensibilidade do preço.", "isCorrect": false, "distractorReason": "O Tesouro Selic é pós-fixado; sua remuneração acompanha o indexador, embora também tenha marcação a mercado." }
       ],
       "explanation": "O Tesouro Selic é pós-fixado e apresenta menor risco de oscilação em venda antecipada que títulos longos mais sensíveis às taxas. Isso não significa preço absolutamente invariável.",
       "commonTrap": "Transformar menor volatilidade em garantia de ausência total de oscilação.",
@@ -57,9 +57,9 @@
       "statement": "A remuneração contratada de um Tesouro IPCA+ mantido até o vencimento é formada, em termos gerais, por:",
       "options": [
         { "id": "opt_1", "text": "Variação do IPCA acrescida de uma taxa prefixada.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente a variação do dólar comercial.", "isCorrect": false, "distractorReason": "O indexador do título é o IPCA, não o câmbio." },
-        { "id": "opt_3", "text": "Percentual fixo do CDI sem componente inflacionário.", "isCorrect": false, "distractorReason": "Essa não é a estrutura de remuneração do IPCA+." },
-        { "id": "opt_4", "text": "Dividendos distribuídos pelo Tesouro Nacional.", "isCorrect": false, "distractorReason": "Títulos públicos pagam remuneração contratual, não dividendos societários." }
+        { "id": "opt_2", "text": "Variação acumulada do CDI acrescida da diferença entre a meta de inflação e o IPCA observado no período.", "isCorrect": false, "distractorReason": "O título não combina CDI com diferença para a meta de inflação." },
+        { "id": "opt_3", "text": "Variação do IPCA limitada pela Selic, sem preservação da taxa real contratada quando a inflação supera os juros.", "isCorrect": false, "distractorReason": "A remuneração contratual não possui esse limitador pela Selic." },
+        { "id": "opt_4", "text": "Variação cambial do período acrescida de cupom definido pelo Tesouro, com conversão posterior do resultado para reais.", "isCorrect": false, "distractorReason": "O indexador é o IPCA, não moeda estrangeira." }
       ],
       "explanation": "O Tesouro IPCA+ combina a variação do índice oficial de inflação com taxa prefixada contratada. Mantido ao vencimento, busca preservar poder de compra e entregar retorno real.",
       "commonTrap": "Confundir título indexado à inflação com título atrelado ao CDI ou ao dólar.",
@@ -73,9 +73,9 @@
       "statement": "Ao aplicar em CDB emitido por um banco, o investidor está economicamente:",
       "options": [
         { "id": "opt_1", "text": "Realizando depósito a prazo e assumindo risco de crédito da instituição emissora, sujeito às condições de eventual cobertura do FGC.", "isCorrect": true },
-        { "id": "opt_2", "text": "Comprando participação acionária com direito de voto no banco.", "isCorrect": false, "distractorReason": "CDB é título representativo de depósito a prazo, não ação." },
-        { "id": "opt_3", "text": "Emprestando diretamente ao Tesouro Nacional.", "isCorrect": false, "distractorReason": "O emissor e devedor é a instituição financeira." },
-        { "id": "opt_4", "text": "Adquirindo cota de fundo sem risco do emissor.", "isCorrect": false, "distractorReason": "CDB não é cota de fundo e possui risco de crédito do banco." }
+        { "id": "opt_2", "text": "Adquirindo participação no patrimônio do banco, com retorno condicionado ao lucro e preferência econômica sobre os acionistas ordinários.", "isCorrect": false, "distractorReason": "CDB representa depósito a prazo e não participação societária." },
+        { "id": "opt_3", "text": "Financiando o Tesouro Nacional por intermédio do banco, que atua como distribuidor e transfere ao governo a obrigação de pagamento.", "isCorrect": false, "distractorReason": "A instituição financeira emissora é a devedora do CDB." },
+        { "id": "opt_4", "text": "Aplicando em patrimônio separado administrado pelo banco, no qual o desempenho dos ativos substitui o risco de crédito do emissor.", "isCorrect": false, "distractorReason": "CDB não é fundo nem possui patrimônio separado; há risco de crédito do banco." }
       ],
       "explanation": "CDB é título privado representativo de depósito a prazo. A instituição financeira emissora é a devedora, e a cobertura do FGC depende de elegibilidade e dos limites aplicáveis.",
       "commonTrap": "Confundir distribuição por uma plataforma com emissão ou garantia pela própria plataforma.",
@@ -89,9 +89,9 @@
       "statement": "Uma diferença relevante entre RDB e CDB é que o RDB:",
       "options": [
         { "id": "opt_1", "text": "É nominativo e intransferível, não sendo admitida sua negociação no mercado secundário.", "isCorrect": true },
-        { "id": "opt_2", "text": "É título público emitido exclusivamente pelo Tesouro Nacional.", "isCorrect": false, "distractorReason": "RDB é produto de captação de instituição financeira." },
-        { "id": "opt_3", "text": "É sempre isento de imposto de renda para pessoa física.", "isCorrect": false, "distractorReason": "RDB não possui a isenção típica de LCI e LCA para pessoa física." },
-        { "id": "opt_4", "text": "Não possui vencimento nem remuneração definidos na emissão.", "isCorrect": false, "distractorReason": "O RDB possui vencimento predefinido e remuneração pré ou pós-fixada." }
+        { "id": "opt_2", "text": "Pode ser transferido a outro investidor quando não houver resgate antecipado, enquanto o CDB permanece vinculado ao titular inicial.", "isCorrect": false, "distractorReason": "A característica do RDB é justamente ser nominativo e intransferível." },
+        { "id": "opt_3", "text": "Tem remuneração prefixada por definição, ao passo que o CDB precisa acompanhar CDI, Selic ou outro indexador financeiro.", "isCorrect": false, "distractorReason": "RDB e CDB podem adotar diferentes formas de remuneração; essa não é a distinção essencial." },
+        { "id": "opt_4", "text": "Recebe tratamento tributário de letra de crédito, enquanto o CDB segue a tabela regressiva aplicável às aplicações bancárias tributáveis.", "isCorrect": false, "distractorReason": "RDB não possui a isenção típica das letras de crédito para pessoa física." }
       ],
       "explanation": "O RDB é título nominativo e intransferível, sem negociação em mercado secundário. Pode haver resgate junto ao emissor antes do vencimento se as condições e o prazo mínimo permitirem.",
       "commonTrap": "Tratar CDB e RDB como idênticos também quanto à transferibilidade.",
@@ -105,9 +105,9 @@
       "statement": "Para uma pessoa física, uma LCI elegível apresenta, segundo as regras gerais vigentes, qual combinação de características?",
       "options": [
         { "id": "opt_1", "text": "Rendimento isento de IR para a pessoa física e possibilidade de cobertura ordinária do FGC dentro dos limites.", "isCorrect": true },
-        { "id": "opt_2", "text": "Tributação regressiva obrigatória e ausência de cobertura do FGC.", "isCorrect": false, "distractorReason": "Inverte as características gerais atribuídas à LCI elegível." },
-        { "id": "opt_3", "text": "Garantia integral e ilimitada do Tesouro Nacional.", "isCorrect": false, "distractorReason": "LCI é emitida por instituição financeira e o FGC possui limites." },
-        { "id": "opt_4", "text": "Rendimento sempre superior ao de qualquer CDB, independentemente da taxa ofertada.", "isCorrect": false, "distractorReason": "O retorno depende das taxas, prazos, risco e efeito tributário de cada produto." }
+        { "id": "opt_2", "text": "Tributação regressiva no resgate e cobertura do FGC condicionada à destinação efetiva do crédito para empreendimento imobiliário específico.", "isCorrect": false, "distractorReason": "A LCI elegível é, em regra, isenta para pessoa física, e a cobertura não depende dessa comprovação pelo investidor." },
+        { "id": "opt_3", "text": "Isenção de IR e garantia do lastro imobiliário sobre o valor aplicado, mesmo na parcela que ultrapassar os limites do FGC.", "isCorrect": false, "distractorReason": "O lastro não equivale a garantia integral do investimento nem amplia os limites do FGC." },
+        { "id": "opt_4", "text": "Cobertura ordinária do FGC e retorno líquido superior ao CDB do mesmo emissor, ainda que as taxas e os prazos sejam diferentes.", "isCorrect": false, "distractorReason": "A comparação de retorno depende das taxas, dos prazos e do efeito tributário de cada produto." }
       ],
       "explanation": "A LCI possui lastro imobiliário e, para pessoa física, rendimento geralmente isento de IR nas regras vigentes. É produto coberto pelo FGC, mas somente dentro dos requisitos e limites da garantia.",
       "commonTrap": "Transformar isenção tributária e cobertura limitada em garantia de melhor retorno ou risco zero.",
@@ -140,9 +140,9 @@
       "statement": "Um investidor compara uma Letra Financeira — LF — com um CDB elegível do mesmo emissor e presume que ambos têm a mesma proteção do FGC. Essa presunção é:",
       "options": [
         { "id": "opt_1", "text": "Incorreta, pois a LF não integra a garantia ordinária do FGC, ao contrário do CDB elegível dentro dos limites.", "isCorrect": true },
-        { "id": "opt_2", "text": "Correta, porque todo título emitido por banco é coberto pelo FGC.", "isCorrect": false, "distractorReason": "A cobertura depende do tipo de produto, não apenas do emissor ser banco." },
-        { "id": "opt_3", "text": "Correta apenas se a LF tiver prazo superior a dois anos.", "isCorrect": false, "distractorReason": "O prazo não torna a LF produto da garantia ordinária." },
-        { "id": "opt_4", "text": "Incorreta porque nenhum dos dois produtos pode ter cobertura.", "isCorrect": false, "distractorReason": "CDB está entre os produtos garantidos, observados os limites." }
+        { "id": "opt_2", "text": "Correta, pois a cobertura decorre da natureza bancária do emissor e alcança seus instrumentos de captação, respeitado o limite por conglomerado.", "isCorrect": false, "distractorReason": "A elegibilidade depende do produto; a LF não é coberta pela garantia ordinária." },
+        { "id": "opt_3", "text": "Correta quando a LF observar o prazo mínimo regulatório, porque a menor liquidez substitui o requisito de elegibilidade do produto.", "isCorrect": false, "distractorReason": "Prazo e liquidez da LF não a incluem entre os produtos da garantia ordinária." },
+        { "id": "opt_4", "text": "Incorreta, pois a LF recebe cobertura por seu prazo mais longo, enquanto o CDB perde a proteção quando oferece liquidez diária.", "isCorrect": false, "distractorReason": "Inverte a regra: CDB elegível pode ser coberto, enquanto LF não integra a garantia ordinária." }
       ],
       "explanation": "O FGC lista CDB e RDB entre os produtos garantidos, mas exclui expressamente a Letra Financeira. Assim, o investidor deve avaliar diretamente o risco de crédito do emissor da LF.",
       "commonTrap": "Acreditar que a cobertura decorre automaticamente de o título ser emitido por instituição financeira.",
@@ -155,10 +155,10 @@
       "difficulty": 2, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["FGC", "limite", "conglomerado"],
       "statement": "Uma pessoa possui R$ 180 mil em CDB e R$ 120 mil em LCI, ambos elegíveis e emitidos por instituições do mesmo conglomerado financeiro. Desconsiderando créditos anteriores e atualização, o limite ordinário de cobertura para esse conjunto é:",
       "options": [
-        { "id": "opt_1", "text": "R$ 250 mil, pois o limite é por CPF ou CNPJ por instituição ou conglomerado.", "isCorrect": true },
-        { "id": "opt_2", "text": "R$ 300 mil, porque cada produto possui limite independente.", "isCorrect": false, "distractorReason": "Produtos elegíveis do mesmo conglomerado são agregados para o limite." },
-        { "id": "opt_3", "text": "R$ 500 mil, sendo R$ 250 mil para cada produto.", "isCorrect": false, "distractorReason": "O limite não é multiplicado pela quantidade de produtos." },
-        { "id": "opt_4", "text": "Zero, porque LCI e CDB não são cobertos.", "isCorrect": false, "distractorReason": "Ambos estão entre os produtos cobertos, quando elegíveis." }
+        { "id": "opt_1", "text": "R$ 250 mil, pois os créditos elegíveis são agregados por CPF ou CNPJ dentro da instituição ou do conglomerado.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 300 mil, pois CDB e LCI conservam coberturas separadas mesmo quando emitidos por instituições do mesmo conglomerado financeiro.", "isCorrect": false, "distractorReason": "Produtos elegíveis do mesmo conglomerado são somados para aplicação do limite." },
+        { "id": "opt_3", "text": "R$ 500 mil, correspondentes a um limite de R$ 250 mil para cada espécie de produto mantida pelo investidor.", "isCorrect": false, "distractorReason": "O limite não é multiplicado pela quantidade ou espécie dos produtos." },
+        { "id": "opt_4", "text": "R$ 180 mil, pois a cobertura alcança o CDB, enquanto a LCI depende da realização prévia dos créditos imobiliários que a lastreiam.", "isCorrect": false, "distractorReason": "LCI elegível também integra a garantia ordinária, independentemente da realização prévia do lastro pelo investidor." }
       ],
       "explanation": "O FGC cobre até R$ 250 mil por CPF ou CNPJ contra a mesma instituição ou conglomerado, agregando principal e rendimentos elegíveis. Os R$ 50 mil excedentes ficam fora desse limite.",
       "commonTrap": "Multiplicar o limite de R$ 250 mil por produto dentro do mesmo conglomerado.",
@@ -172,9 +172,9 @@
       "statement": "Após receber garantias relativas à liquidação de diferentes instituições associadas, uma pessoa atinge R$ 1 milhão em pagamentos do FGC dentro de quatro anos. Nesse período, o efeito geral é:",
       "options": [
         { "id": "opt_1", "text": "O total de pagamentos fica limitado a R$ 1 milhão, sem alterar o limite individual de R$ 250 mil por instituição ou conglomerado.", "isCorrect": true },
-        { "id": "opt_2", "text": "Cada novo produto reinicia imediatamente a contagem e permite mais R$ 1 milhão.", "isCorrect": false, "distractorReason": "O teto considera pagamentos dentro da janela de quatro anos, não cada produto." },
-        { "id": "opt_3", "text": "O limite por instituição aumenta automaticamente para R$ 1 milhão.", "isCorrect": false, "distractorReason": "O teto global não substitui o limite de R$ 250 mil por conglomerado." },
-        { "id": "opt_4", "text": "A regra só se aplica a pessoas jurídicas e nunca a pessoas físicas.", "isCorrect": false, "distractorReason": "A limitação alcança CPF ou CNPJ conforme as regras do fundo." }
+        { "id": "opt_2", "text": "A janela de quatro anos reinicia em cada liquidação, permitindo novo teto de R$ 1 milhão para créditos constituídos posteriormente.", "isCorrect": false, "distractorReason": "O teto considera os pagamentos recebidos na janela móvel aplicável, não reinicia por produto ou liquidação." },
+        { "id": "opt_3", "text": "O teto global substitui o limite por conglomerado, permitindo concentrar até R$ 1 milhão em créditos cobertos de uma instituição.", "isCorrect": false, "distractorReason": "O limite de R$ 250 mil por instituição ou conglomerado continua aplicável." },
+        { "id": "opt_4", "text": "Os pagamentos excedentes são rateados entre as instituições liquidadas, elevando ou reduzindo o limite individual aplicável conforme o número e o valor dos eventos.", "isCorrect": false, "distractorReason": "O teto global não cria rateio nem altera o limite individual por instituição ou conglomerado." }
       ],
       "explanation": "A garantia mantém o teto de R$ 250 mil por CPF/CNPJ por instituição ou conglomerado e acrescenta limite total de R$ 1 milhão para pagamentos decorrentes de liquidações em quatro anos.",
       "commonTrap": "Confundir o teto agregado de quatro anos com o limite por instituição.",
@@ -188,9 +188,9 @@
       "statement": "Qual conjunto contém apenas investimentos que não participam da garantia ordinária do FGC?",
       "options": [
         { "id": "opt_1", "text": "Tesouro Direto, debêntures, fundos de renda fixa e Letra Financeira.", "isCorrect": true },
-        { "id": "opt_2", "text": "CDB, RDB, LCI e LCA.", "isCorrect": false, "distractorReason": "Todos esses produtos aparecem na lista de créditos garantidos, dentro dos limites." },
-        { "id": "opt_3", "text": "Poupança, conta corrente, LC e LH.", "isCorrect": false, "distractorReason": "Esses créditos estão entre os produtos garantidos." },
-        { "id": "opt_4", "text": "CDB, Tesouro Direto, LCI e debêntures.", "isCorrect": false, "distractorReason": "CDB e LCI são cobertos quando elegíveis, embora Tesouro e debêntures não sejam." }
+        { "id": "opt_2", "text": "CDB, RDB, LCI e LCA emitidos por instituições associadas e mantidos dentro das condições gerais de elegibilidade.", "isCorrect": false, "distractorReason": "Esses produtos podem integrar a garantia ordinária, observados os limites e condições." },
+        { "id": "opt_3", "text": "Depósitos de poupança, saldos elegíveis em conta, Letra de Câmbio e Letra Hipotecária emitidos por instituições associadas.", "isCorrect": false, "distractorReason": "Esses créditos aparecem entre os produtos cobertos, observadas as regras aplicáveis." },
+        { "id": "opt_4", "text": "CDB e LCI de um banco associado, juntamente com Tesouro Direto e debêntures adquiridos pela mesma pessoa.", "isCorrect": false, "distractorReason": "O conjunto mistura produtos elegíveis, como CDB e LCI, com investimentos não cobertos." }
       ],
       "explanation": "Títulos públicos, debêntures, cotas de fundos e Letras Financeiras não integram a garantia ordinária. CDB, RDB, LCI, LCA, LC e LH estão entre os produtos elegíveis.",
       "commonTrap": "Supor que fundo de renda fixa herda cobertura dos CDBs eventualmente existentes na carteira.",
@@ -220,9 +220,9 @@
       "statement": "Em aplicação de renda fixa sujeita ao IOF regressivo, um resgate realizado no 20º dia pode sofrer IOF porque:",
       "options": [
         { "id": "opt_1", "text": "O tributo alcança resgates em prazo inferior a 30 dias, segundo percentual regressivo limitado ao rendimento.", "isCorrect": true },
-        { "id": "opt_2", "text": "O IOF incide somente depois de completar 720 dias.", "isCorrect": false, "distractorReason": "Confunde IOF de curto prazo com a faixa final do IR regressivo." },
-        { "id": "opt_3", "text": "A alíquota é sempre 100% do principal aplicado.", "isCorrect": false, "distractorReason": "A incidência é limitada ao rendimento conforme a tabela regressiva." },
-        { "id": "opt_4", "text": "Todo resgate de renda fixa sofre o mesmo IOF, independentemente do prazo.", "isCorrect": false, "distractorReason": "A incidência regressiva se extingue após o período inicial previsto." }
+        { "id": "opt_2", "text": "O IOF incide quando o resgate ocorre antes do vencimento contratado, ainda que a aplicação já tenha ultrapassado 30 dias.", "isCorrect": false, "distractorReason": "O marco relevante para essa incidência regressiva é o prazo inferior a 30 dias, não o vencimento contratual." },
+        { "id": "opt_3", "text": "O tributo recai sobre o principal conforme a tabela do IR, enquanto o rendimento permanece sujeito a uma alíquota fixa.", "isCorrect": false, "distractorReason": "O IOF regressivo fica limitado ao rendimento e não utiliza a tabela do IR para tributar o principal." },
+        { "id": "opt_4", "text": "A incidência continua depois do 30º dia, mas seu percentual diminui conforme aumenta o prazo da aplicação.", "isCorrect": false, "distractorReason": "A tabela regressiva do IOF aplicável ao caso se encerra após o período inicial de 30 dias." }
       ],
       "explanation": "Em geral, o IOF sobre aplicações de renda fixa incide nos resgates, cessões ou repactuações em prazo inferior a 30 dias, com percentual regressivo limitado ao rendimento da operação.",
       "commonTrap": "Misturar as faixas de prazo do IR com a tabela curta do IOF.",
@@ -236,9 +236,9 @@
       "statement": "Um CDB de banco sólido não permite resgate antes do vencimento e não possui mercado secundário acessível. Nesse caso, é correto afirmar que:",
       "options": [
         { "id": "opt_1", "text": "Pode haver baixo risco de crédito percebido, mas existe risco de liquidez para quem precisar dos recursos antes do vencimento.", "isCorrect": true },
-        { "id": "opt_2", "text": "Boa qualidade de crédito garante liquidez diária ao título.", "isCorrect": false, "distractorReason": "Solvência do emissor e possibilidade de saída antecipada são dimensões distintas." },
-        { "id": "opt_3", "text": "A ausência de liquidez elimina o risco de crédito.", "isCorrect": false, "distractorReason": "O emissor continua responsável pelo pagamento no vencimento." },
-        { "id": "opt_4", "text": "Todo título sem resgate antecipado passa a ser coberto integralmente pelo FGC.", "isCorrect": false, "distractorReason": "Cobertura depende do produto e possui limites, não da falta de liquidez." }
+        { "id": "opt_2", "text": "A solidez do emissor assegura recompra pelo valor atualizado, mesmo quando o contrato não prevê resgate e inexiste mercado secundário.", "isCorrect": false, "distractorReason": "Qualidade de crédito não cria obrigação de recompra nem contraparte para uma saída antecipada." },
+        { "id": "opt_3", "text": "A falta de mercado transfere o risco ao emissor, fazendo a qualidade de crédito substituir a necessidade de liquidez do investidor.", "isCorrect": false, "distractorReason": "Risco de crédito e risco de liquidez permanecem dimensões distintas e podem coexistir." },
+        { "id": "opt_4", "text": "A restrição ao resgate torna o título elegível ao FGC, pois o vencimento definido funciona como condição suficiente de cobertura.", "isCorrect": false, "distractorReason": "A elegibilidade ao FGC depende do produto e do emissor, além de estar sujeita a limites de cobertura." }
       ],
       "explanation": "Risco de crédito trata da capacidade do emissor pagar; risco de liquidez trata da conversão do título em dinheiro no prazo desejado. Um produto pode ter crédito forte e liquidez inadequada.",
       "commonTrap": "Usar segurança do emissor como sinônimo de disponibilidade imediata dos recursos.",
@@ -252,9 +252,9 @@
       "statement": "Dois títulos bancários têm prazo e liquidez semelhantes, mas o emissor de maior risco oferece remuneração muito superior. A diferença de taxa pode ser interpretada principalmente como:",
       "options": [
         { "id": "opt_1", "text": "Prêmio ou spread adicional exigido pelo mercado para assumir maior risco de crédito, sem garantia de que o retorno maior compensará eventual inadimplência.", "isCorrect": true },
-        { "id": "opt_2", "text": "Prova de que o título de maior taxa é necessariamente mais seguro.", "isCorrect": false, "distractorReason": "Taxa maior frequentemente remunera risco adicional, não segurança superior." },
-        { "id": "opt_3", "text": "Eliminação do risco do emissor por força da remuneração prometida.", "isCorrect": false, "distractorReason": "Promessa de taxa não elimina a possibilidade de inadimplência." },
-        { "id": "opt_4", "text": "Cobertura automática e ilimitada do FGC sobre qualquer valor.", "isCorrect": false, "distractorReason": "A garantia possui produtos elegíveis e limites definidos." }
+        { "id": "opt_2", "text": "Compensação pelo prazo do título, pois ativos com o mesmo risco de crédito oferecem taxas diferentes quando um deles vence mais tarde.", "isCorrect": false, "distractorReason": "O enunciado iguala os prazos e diferencia expressamente o risco dos emissores." },
+        { "id": "opt_3", "text": "Sinal de maior segurança, pois a capacidade de prometer remuneração elevada demonstra que o emissor dispõe de mais recursos para honrar o título.", "isCorrect": false, "distractorReason": "A taxa prometida não demonstra solvência; pode justamente refletir maior risco percebido." },
+        { "id": "opt_4", "text": "Parcela coberta pelo FGC acima do limite ordinário, incorporada à taxa para remunerar valores que excedam a proteção disponível.", "isCorrect": false, "distractorReason": "O FGC não remunera exposições excedentes nem converte seu limite de cobertura em taxa adicional." }
       ],
       "explanation": "O spread de crédito é remuneração adicional exigida para compensar maior probabilidade ou severidade de perda. Retorno prometido maior não elimina risco nem assegura melhor resultado realizado.",
       "commonTrap": "Escolher a maior taxa sem relacioná-la ao risco de crédito do emissor.",

@@ -1,6 +1,6 @@
 {
   "batchId": "tema-VII-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-12",
   "questions": [
     {
       "id": "AI-VII-000001", "topicCode": "VII", "subtopicSlug": "administracao-risco-risco-mercado", "contentNodeSlug": "tema-vii-risco-mercado-juros",
@@ -25,9 +25,9 @@
       "statement": "Uma companhia deixa de pagar os juros e a amortização de uma debênture nas datas contratadas. O risco que se concretizou foi principalmente o de:",
       "options": [
         { "id": "opt_1", "text": "Crédito, pela incapacidade ou recusa do emissor em honrar sua obrigação.", "isCorrect": true },
-        { "id": "opt_2", "text": "Mercado, apenas porque o preço de qualquer ativo pode oscilar.", "isCorrect": false, "distractorReason": "O evento específico é o descumprimento da obrigação pelo devedor." },
-        { "id": "opt_3", "text": "Liquidez, porque obrigatoriamente não havia compradores no mercado.", "isCorrect": false, "distractorReason": "Ausência de compradores não foi informada; houve inadimplemento." },
-        { "id": "opt_4", "text": "Cambial, mesmo sem qualquer exposição a moeda estrangeira.", "isCorrect": false, "distractorReason": "Não existe fator cambial descrito no caso." }
+        { "id": "opt_2", "text": "Mercado, pois a falta de pagamento reduz o preço da debênture e transforma a oscilação em causa principal da perda.", "isCorrect": false, "distractorReason": "A queda de preço pode ser consequência, mas o evento descrito é o descumprimento da obrigação pelo emissor." },
+        { "id": "opt_3", "text": "Liquidez, pois o investidor deixou de receber nas datas previstas e pode ter dificuldade para vender o título após o evento.", "isCorrect": false, "distractorReason": "A dificuldade de venda pode surgir depois, porém o não pagamento caracteriza diretamente risco de crédito." },
+        { "id": "opt_4", "text": "Operacional, caso o pagamento tenha sido processado por instituição diferente daquela que realizou a emissão da debênture.", "isCorrect": false, "distractorReason": "O enunciado atribui o não pagamento à companhia, sem indicar falha de processo ou de sistema." }
       ],
       "explanation": "Risco de crédito é o risco de o emissor ou a contraparte não cumprir as condições pactuadas, como pagar juros ou principal. Inadimplência é sua manifestação direta.",
       "commonTrap": "Classificar a consequência no preço como causa principal e ignorar o descumprimento do emissor.",
@@ -41,9 +41,9 @@
       "statement": "Um ativo possui poucos compradores, baixo volume e grande diferença entre as melhores ofertas de compra e venda. Para vender rapidamente, o investidor provavelmente enfrentará:",
       "options": [
         { "id": "opt_1", "text": "Risco de liquidez, podendo aceitar preço significativamente inferior ao considerado justo.", "isCorrect": true },
-        { "id": "opt_2", "text": "Ausência total de risco, pois qualquer ativo listado tem recompra garantida.", "isCorrect": false, "distractorReason": "Listagem não garante contraparte nem preço justo para saída imediata." },
-        { "id": "opt_3", "text": "Somente risco de crédito do governo federal.", "isCorrect": false, "distractorReason": "O caso descreve dificuldade de negociação e spread, não crédito soberano." },
-        { "id": "opt_4", "text": "Valorização obrigatória causada pelo baixo volume.", "isCorrect": false, "distractorReason": "Baixa liquidez pode distorcer preços, sem direção obrigatória de valorização." }
+        { "id": "opt_2", "text": "Risco de mercado, pois o spread elevado decorre da volatilidade do preço, mesmo que existam poucas contrapartes para negociar.", "isCorrect": false, "distractorReason": "Volatilidade pode coexistir, mas poucos compradores e custo de saída caracterizam primordialmente risco de liquidez." },
+        { "id": "opt_3", "text": "Risco de crédito, pois a escassez de compradores demonstra que o emissor provavelmente deixará de cumprir suas obrigações.", "isCorrect": false, "distractorReason": "Baixo volume de negociação não demonstra incapacidade de pagamento do emissor." },
+        { "id": "opt_4", "text": "Risco operacional, pois a demora para encontrar contraparte indica falha do sistema responsável por executar e liquidar ordens.", "isCorrect": false, "distractorReason": "Não há falha de sistema ou processo; a dificuldade decorre das condições de negociação do ativo." }
       ],
       "explanation": "Baixa liquidez dificulta negociar rapidamente por preço justo. Pouco volume e spread amplo indicam maior custo de saída e possibilidade de impacto adverso no preço da venda.",
       "commonTrap": "Equiparar possibilidade formal de negociar com capacidade efetiva de vender rapidamente a preço justo.",
@@ -57,9 +57,9 @@
       "statement": "Uma falha no sistema de uma instituição duplica ordens de clientes e gera perdas antes da correção. Esse evento é exemplo de risco:",
       "options": [
         { "id": "opt_1", "text": "Operacional, associado a falha de sistema ou processo.", "isCorrect": true },
-        { "id": "opt_2", "text": "De mercado, causado necessariamente por alta dos juros.", "isCorrect": false, "distractorReason": "A origem do evento é falha operacional, não oscilação de variável de mercado." },
-        { "id": "opt_3", "text": "De crédito, pois todo erro de sistema equivale à inadimplência do emissor.", "isCorrect": false, "distractorReason": "Falha tecnológica não é descumprimento de obrigação por contraparte." },
-        { "id": "opt_4", "text": "Sistemático, porque qualquer problema interno atinge toda a economia.", "isCorrect": false, "distractorReason": "O evento descrito é específico da operação da instituição." }
+        { "id": "opt_2", "text": "De mercado, causado nesse caso por uma elevação das taxas de juros.", "isCorrect": false, "distractorReason": "A origem do evento é falha operacional, não oscilação de variável de mercado." },
+        { "id": "opt_3", "text": "De crédito, pois o erro de sistema equivale à inadimplência do emissor.", "isCorrect": false, "distractorReason": "Falha tecnológica não é descumprimento de obrigação por contraparte." },
+        { "id": "opt_4", "text": "Sistemático, porque um problema interno pode atingir o funcionamento da economia.", "isCorrect": false, "distractorReason": "O evento descrito é específico da operação da instituição." }
       ],
       "explanation": "Risco operacional decorre de inadequação ou falha de processos, pessoas, sistemas ou eventos externos. A duplicação de ordens por falha tecnológica se enquadra diretamente nessa categoria.",
       "commonTrap": "Classificar o risco apenas pelo prejuízo financeiro, ignorando a causa que originou a perda.",
@@ -73,9 +73,9 @@
       "statement": "Uma carteira com muitas ações de setores distintos ainda sofre forte queda após choque amplo que atinge todo o mercado. Isso evidencia que:",
       "options": [
         { "id": "opt_1", "text": "A diversificação reduz risco específico, mas não elimina o risco sistemático comum ao mercado.", "isCorrect": true },
-        { "id": "opt_2", "text": "A diversificação elimina todo risco quando há mais de dez ativos.", "isCorrect": false, "distractorReason": "Não existe quantidade que elimine o risco comum ao mercado." },
-        { "id": "opt_3", "text": "O choque de mercado é sempre risco não sistemático e totalmente diversificável.", "isCorrect": false, "distractorReason": "Choques amplos constituem justamente exemplo de risco sistemático." },
-        { "id": "opt_4", "text": "Concentrar todas as posições em uma única empresa reduziria a exposição ao choque.", "isCorrect": false, "distractorReason": "Concentração adicionaria risco específico sem eliminar o risco de mercado." }
+        { "id": "opt_2", "text": "A quantidade de setores elimina o componente sistemático quando as correlações históricas entre as ações são inferiores a um.", "isCorrect": false, "distractorReason": "Correlações imperfeitas reduzem risco específico, mas não eliminam a exposição comum a um choque amplo." },
+        { "id": "opt_3", "text": "O choque se torna não sistemático porque afeta empresas com intensidades diferentes, permitindo neutralização pela seleção de ativos.", "isCorrect": false, "distractorReason": "Diferenças de intensidade não retiram o caráter sistemático de um evento que alcança o mercado inteiro." },
+        { "id": "opt_4", "text": "A concentração em empresa defensiva reduziria simultaneamente o risco específico e a exposição ao movimento amplo do mercado.", "isCorrect": false, "distractorReason": "Concentrar aumenta o risco específico e não elimina a exposição ao fator comum de mercado." }
       ],
       "explanation": "Diversificar emissores e setores pode reduzir eventos específicos de empresas, mas não elimina choques macroeconômicos e de mercado que atingem grande parte dos ativos simultaneamente.",
       "commonTrap": "Transformar redução de risco específico em promessa de eliminação total do risco da carteira.",
@@ -89,9 +89,9 @@
       "statement": "Dois títulos prefixados apresentam o mesmo risco de crédito, mas o título A possui duration maior que o título B. Para uma mesma elevação das taxas, espera-se que:",
       "options": [
         { "id": "opt_1", "text": "O preço de A seja, em geral, mais sensível e sofra variação negativa maior que o de B.", "isCorrect": true },
-        { "id": "opt_2", "text": "O preço de A não varie, porque duration elimina o risco de juros.", "isCorrect": false, "distractorReason": "Duration mede sensibilidade; não elimina o risco de taxa." },
-        { "id": "opt_3", "text": "O título B sempre entre em inadimplência antes de A.", "isCorrect": false, "distractorReason": "Duration não determina inadimplência nem risco de crédito." },
-        { "id": "opt_4", "text": "Ambos tenham necessariamente a mesma variação percentual de preço.", "isCorrect": false, "distractorReason": "Durations diferentes indicam sensibilidades diferentes a juros." }
+        { "id": "opt_2", "text": "O preço de A varie menos, pois duration maior indica que seus fluxos estão mais protegidos contra alterações da taxa de desconto.", "isCorrect": false, "distractorReason": "Duration maior representa sensibilidade maior, e não proteção adicional contra juros." },
+        { "id": "opt_3", "text": "O preço de B caia mais, pois duration menor concentra os fluxos próximos e amplia o efeito imediato da nova taxa.", "isCorrect": false, "distractorReason": "Mantidos os demais fatores, a menor duration implica menor sensibilidade à mesma variação de taxa." },
+        { "id": "opt_4", "text": "Os dois preços variem na mesma proporção, pois risco de crédito equivalente neutraliza a diferença de duration.", "isCorrect": false, "distractorReason": "Igual risco de crédito não neutraliza sensibilidades distintas às taxas de juros." }
       ],
       "explanation": "Quanto maior a duration, maior tende a ser a sensibilidade do preço do título a variações na taxa de juros. Em uma alta de taxas, o título de maior duration tende a cair mais.",
       "commonTrap": "Confundir prazo ou duration com garantia de retorno e ignorar a relação inversa entre taxa e preço.",
@@ -105,9 +105,9 @@
       "statement": "Uma carteira apresenta VaR diário de R$ 1 milhão ao nível de confiança de 99%. A interpretação correta é:",
       "options": [
         { "id": "opt_1", "text": "Segundo o modelo, há 1% de probabilidade de a perda diária exceder R$ 1 milhão; o VaR não é a perda máxima possível.", "isCorrect": true },
-        { "id": "opt_2", "text": "A carteira jamais poderá perder mais de R$ 1 milhão em um dia.", "isCorrect": false, "distractorReason": "O percentil estimado não limita as perdas nos eventos de cauda." },
-        { "id": "opt_3", "text": "A carteira certamente perderá R$ 1 milhão em 99 de cada 100 dias.", "isCorrect": false, "distractorReason": "O nível de confiança não representa frequência de perda exatamente igual ao VaR." },
-        { "id": "opt_4", "text": "O número mede apenas inadimplência do emissor e não risco de mercado.", "isCorrect": false, "distractorReason": "VaR é amplamente usado como medida estimada de risco de mercado." }
+        { "id": "opt_2", "text": "O modelo limita a perda diária a R$ 1 milhão nos cenários cobertos, admitindo excesso quando houver falha nos parâmetros empregados no cálculo.", "isCorrect": false, "distractorReason": "Perdas além do VaR pertencem à cauda do modelo e podem ocorrer mesmo com parâmetros adequados." },
+        { "id": "opt_3", "text": "A carteira deverá perder R$ 1 milhão em 1% dos dias e valores menores nos demais 99% do período observado.", "isCorrect": false, "distractorReason": "O VaR é um quantil estimado e não prevê perda exata nem frequência observada dessa forma." },
+        { "id": "opt_4", "text": "A medida estima a perda média dos eventos que ultrapassam R$ 1 milhão, representando diretamente a severidade esperada das perdas situadas na cauda da distribuição.", "isCorrect": false, "distractorReason": "Essa descrição se aproxima do Expected Shortfall; o VaR informa o limiar, não a perda média além dele." }
       ],
       "explanation": "VaR estima um limiar de perda para horizonte e confiança definidos. No exemplo, perdas superiores ao valor permanecem possíveis na cauda de 1%, e sua magnitude não é informada pelo VaR.",
       "commonTrap": "Interpretar o VaR como teto absoluto de perda, ignorando eventos além do nível de confiança.",
@@ -121,9 +121,9 @@
       "statement": "Em operações de derivativos compensadas por contraparte central, a exigência de margem de garantia busca principalmente:",
       "options": [
         { "id": "opt_1", "text": "Cobrir exposições potenciais e reduzir o impacto da inadimplência durante o encerramento de posições.", "isCorrect": true },
-        { "id": "opt_2", "text": "Assegurar lucro mínimo ao investidor, independentemente da posição assumida.", "isCorrect": false, "distractorReason": "Margem mitiga risco de crédito; não garante rentabilidade." },
-        { "id": "opt_3", "text": "Eliminar a oscilação dos preços dos contratos no mercado.", "isCorrect": false, "distractorReason": "Garantias não impedem variação dos preços de mercado." },
-        { "id": "opt_4", "text": "Substituir definitivamente todos os ajustes e mecanismos de risco da câmara.", "isCorrect": false, "distractorReason": "A margem integra um conjunto de salvaguardas e controles, não é mecanismo único." }
+        { "id": "opt_2", "text": "Assegurar recursos para cumprir resultados favoráveis ao investidor, funcionando como piso de rentabilidade enquanto a posição permanecer aberta.", "isCorrect": false, "distractorReason": "A garantia protege a clearing contra exposição de crédito, mas não assegura retorno ao participante." },
+        { "id": "opt_3", "text": "Estabilizar os preços dos contratos ao restringir perdas diárias à parcela depositada como garantia pelo participante.", "isCorrect": false, "distractorReason": "A margem não limita a perda econômica nem impede a oscilação dos contratos." },
+        { "id": "opt_4", "text": "Substituir os ajustes diários e o fundo de liquidação, concentrando na margem a proteção financeira da contraparte central.", "isCorrect": false, "distractorReason": "A margem integra uma estrutura de salvaguardas e não substitui os demais mecanismos da clearing." }
       ],
       "explanation": "A contraparte central exige garantias conforme o risco de encerramento da carteira. Se houver inadimplência, essas garantias podem absorver perdas e proteger o processo de liquidação.",
       "commonTrap": "Confundir proteção da infraestrutura contra inadimplência com proteção do investidor contra perdas de mercado.",

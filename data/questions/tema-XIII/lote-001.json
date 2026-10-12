@@ -1,6 +1,6 @@
 {
   "batchId": "tema-XIII-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-12",
   "questions": [
     {
       "id": "AI-XIII-000002", "topicCode": "XIII", "subtopicSlug": "matematica-financeira-juros-simples", "contentNodeSlug": "tema-xiii-juros-simples-montante",
@@ -153,9 +153,9 @@
       "statement": "Para um projeto convencional avaliado isoladamente, um VPL positivo à taxa mínima de atratividade indica que:",
       "options": [
         { "id": "opt_1", "text": "O valor presente das entradas supera o investimento e o projeto cria valor acima da remuneração mínima exigida.", "isCorrect": true },
-        { "id": "opt_2", "text": "O projeto necessariamente não recupera o capital inicial.", "isCorrect": false, "distractorReason": "VPL positivo indica justamente excedente após remunerar a taxa requerida." },
-        { "id": "opt_3", "text": "A TIR do projeto é obrigatoriamente zero.", "isCorrect": false, "distractorReason": "Para fluxo convencional, VPL positivo na taxa requerida sugere TIR superior a ela." },
-        { "id": "opt_4", "text": "Os fluxos futuros não precisam ser descontados.", "isCorrect": false, "distractorReason": "O desconto dos fluxos é a base do cálculo do VPL." }
+        { "id": "opt_2", "text": "A soma nominal das entradas supera o investimento, ainda que o valor presente calculado à taxa mínima permaneça inferior ao desembolso.", "isCorrect": false, "distractorReason": "Essa situação produziria VPL negativo, pois entradas nominais maiores não bastam depois do desconto." },
+        { "id": "opt_3", "text": "A TIR coincide com a taxa mínima de atratividade, pois ambas produzem o mesmo excedente positivo no valor presente.", "isCorrect": false, "distractorReason": "Quando a TIR coincide com a taxa de desconto, o VPL é zero, e não positivo." },
+        { "id": "opt_4", "text": "O capital inicial será recuperado antes do primeiro recebimento, pois o VPL positivo antecipa financeiramente as entradas futuras.", "isCorrect": false, "distractorReason": "O VPL mede criação de valor, mas não antecipa fluxos nem informa sozinho o prazo de recuperação." }
       ],
       "explanation": "VPL positivo significa que, depois de descontar os fluxos pela taxa mínima exigida e recuperar o desembolso, ainda existe valor adicional. Para projeto isolado, isso sustenta sua aceitação.",
       "commonTrap": "Interpretar o sinal positivo como mero lucro nominal sem considerar a taxa de desconto.",
@@ -169,9 +169,9 @@
       "statement": "A Taxa Interna de Retorno — TIR — de um fluxo de caixa é a taxa que:",
       "options": [
         { "id": "opt_1", "text": "Iguala o valor presente das entradas ao valor presente das saídas, tornando o VPL igual a zero.", "isCorrect": true },
-        { "id": "opt_2", "text": "Torna o valor futuro de todas as entradas igual a zero.", "isCorrect": false, "distractorReason": "A definição usa equivalência presente entre entradas e saídas." },
-        { "id": "opt_3", "text": "É sempre igual à taxa Selic vigente.", "isCorrect": false, "distractorReason": "A TIR decorre dos fluxos específicos do projeto." },
-        { "id": "opt_4", "text": "Corresponde ao maior recebimento nominal do projeto.", "isCorrect": false, "distractorReason": "TIR é taxa, não valor monetário de uma entrada." }
+        { "id": "opt_2", "text": "Iguala o valor futuro das entradas ao desembolso nominal, sem considerar o momento em que cada fluxo de caixa ocorre.", "isCorrect": false, "distractorReason": "A TIR considera o valor do dinheiro no tempo e zera o VPL na data de referência." },
+        { "id": "opt_3", "text": "Corresponde à taxa mínima definida pelo investidor, usada para decidir se o projeto atende à remuneração desejada.", "isCorrect": false, "distractorReason": "Essa é a taxa mínima de atratividade; a TIR é determinada pelos fluxos do próprio projeto." },
+        { "id": "opt_4", "text": "Maximiza a diferença nominal entre recebimentos e pagamentos, independentemente do prazo e da ordem dos fluxos.", "isCorrect": false, "distractorReason": "A TIR não maximiza um saldo nominal e depende das datas e dos sinais dos fluxos." }
       ],
       "explanation": "A TIR é a taxa de desconto que produz VPL zero, tornando equivalentes os valores presentes de recebimentos e desembolsos. Ela é obtida a partir do próprio fluxo do projeto.",
       "commonTrap": "Confundir TIR com taxa externa de mercado ou com retorno nominal acumulado.",
@@ -186,8 +186,8 @@
       "options": [
         { "id": "opt_1", "text": "Aceito, pois sua TIR supera a remuneração mínima exigida.", "isCorrect": true },
         { "id": "opt_2", "text": "Rejeitado, pois a TIR deveria ser inferior à taxa mínima.", "isCorrect": false, "distractorReason": "Inverte o critério de decisão." },
-        { "id": "opt_3", "text": "Indiferente, porque qualquer TIR positiva produz VPL zero na taxa de 10%.", "isCorrect": false, "distractorReason": "O VPL zera na TIR de 12%, não necessariamente na taxa mínima de 10%." },
-        { "id": "opt_4", "text": "Aceito somente se a taxa Selic também for exatamente 12%.", "isCorrect": false, "distractorReason": "A decisão compara TIR com a taxa mínima definida para o projeto." }
+        { "id": "opt_3", "text": "Indiferente, porque uma TIR positiva produz VPL zero na taxa de 10%.", "isCorrect": false, "distractorReason": "O VPL zera na TIR de 12%, não necessariamente na taxa mínima de 10%." },
+        { "id": "opt_4", "text": "Aceito se a taxa Selic também estiver no patamar de 12%.", "isCorrect": false, "distractorReason": "A decisão compara TIR com a taxa mínima definida para o projeto." }
       ],
       "explanation": "Para fluxo convencional e projeto isolado, TIR superior à taxa mínima indica retorno acima do exigido e VPL positivo quando descontado a 10%, sustentando a aceitação.",
       "commonTrap": "Inverter a comparação entre a TIR e a taxa mínima de atratividade.",
@@ -201,9 +201,9 @@
       "statement": "Ao calcular quanto uma aplicação única crescerá, o investidor registra o aporte inicial como PV negativo. Para que a calculadora retorne o resgate como FV positivo, essa escolha representa:",
       "options": [
         { "id": "opt_1", "text": "A convenção de sinais: o aporte é saída de caixa e o resgate é entrada de caixa para o investidor.", "isCorrect": true },
-        { "id": "opt_2", "text": "Uma regra segundo a qual todo valor presente é economicamente negativo.", "isCorrect": false, "distractorReason": "O sinal depende da perspectiva e da direção do fluxo, não da variável PV." },
-        { "id": "opt_3", "text": "Um erro, pois PV e FV devem sempre ter o mesmo sinal.", "isCorrect": false, "distractorReason": "Em fluxo de aplicação e resgate, sinais opostos representam saída e entrada." },
-        { "id": "opt_4", "text": "A transformação automática de juros compostos em juros simples.", "isCorrect": false, "distractorReason": "A convenção de sinais não altera o regime de capitalização." }
+        { "id": "opt_2", "text": "Uma propriedade do PV: valores presentes são registrados como negativos, enquanto valores futuros recebem sinal positivo na calculadora.", "isCorrect": false, "distractorReason": "Os sinais dependem da direção dos fluxos e da perspectiva adotada, não das teclas PV e FV." },
+        { "id": "opt_3", "text": "Um artifício dispensável: PV e FV poderiam ter o mesmo sinal sem produzir erro ou alterar o resultado financeiro calculado.", "isCorrect": false, "distractorReason": "Em uma aplicação com um desembolso e um recebimento, a calculadora requer sinais opostos para representar o fluxo." },
+        { "id": "opt_4", "text": "Uma configuração que converte a capitalização composta em simples ao separar desembolso e recebimento por sinais opostos.", "isCorrect": false, "distractorReason": "A convenção de sinais não modifica o regime de capitalização informado no cálculo." }
       ],
       "explanation": "Calculadoras financeiras seguem a convenção de entradas e saídas. Para o investidor, aplicar é saída e resgatar é entrada; por isso PV e FV normalmente aparecem com sinais opostos nesse fluxo.",
       "commonTrap": "Achar que o sinal pertence fixamente à tecla, e não à perspectiva do fluxo.",
@@ -217,9 +217,9 @@
       "statement": "Para calcular na HP 12C o valor futuro de uma aplicação de 24 meses com taxa efetiva de 1% ao mês, os campos i e n devem receber, respectivamente:",
       "options": [
         { "id": "opt_1", "text": "1 e 24, mantendo taxa e número de períodos na mesma unidade mensal.", "isCorrect": true },
-        { "id": "opt_2", "text": "12 e 24, multiplicando a taxa mensal por doze sem mudar n.", "isCorrect": false, "distractorReason": "Mistura taxa anual proporcional com períodos mensais." },
-        { "id": "opt_3", "text": "1 e 2, usando taxa mensal com número de anos.", "isCorrect": false, "distractorReason": "As unidades de i e n ficam incompatíveis." },
-        { "id": "opt_4", "text": "24 e 1, invertendo taxa e prazo.", "isCorrect": false, "distractorReason": "Troca o significado das variáveis financeiras." }
+        { "id": "opt_2", "text": "12 e 24, convertendo a taxa mensal em taxa anual proporcional e mantendo o número total de períodos mensais.", "isCorrect": false, "distractorReason": "A alternativa mistura uma taxa anual com períodos mensais." },
+        { "id": "opt_3", "text": "1 e 2, preservando a taxa mensal e convertendo o prazo de 24 meses em dois anos.", "isCorrect": false, "distractorReason": "A taxa mensal exige que n também seja expresso em meses." },
+        { "id": "opt_4", "text": "24 e 1, tratando a quantidade de meses como taxa e a taxa mensal como quantidade de períodos.", "isCorrect": false, "distractorReason": "A alternativa inverte o significado financeiro dos campos i e n." }
       ],
       "explanation": "A taxa i deve corresponder ao mesmo período contado por n. Com taxa mensal e prazo de 24 meses, registra-se i = 1 e n = 24, sem converter apenas uma das variáveis.",
       "commonTrap": "Anualizar a taxa e manter o prazo em meses, misturando unidades.",
@@ -233,9 +233,9 @@
       "statement": "Em uma calculadora financeira, a variável PMT representa normalmente:",
       "options": [
         { "id": "opt_1", "text": "O pagamento ou recebimento periódico uniforme de uma série financeira.", "isCorrect": true },
-        { "id": "opt_2", "text": "A taxa de juros de cada período.", "isCorrect": false, "distractorReason": "A taxa periódica é registrada em i." },
-        { "id": "opt_3", "text": "A quantidade total de períodos.", "isCorrect": false, "distractorReason": "A quantidade de períodos é registrada em n." },
-        { "id": "opt_4", "text": "Exclusivamente o valor presente de um fluxo único.", "isCorrect": false, "distractorReason": "Valor presente é PV; PMT representa a parcela periódica." }
+        { "id": "opt_2", "text": "A taxa de juros aplicada em cada intervalo entre os pagamentos ou recebimentos previstos no fluxo financeiro.", "isCorrect": false, "distractorReason": "A taxa por período é informada em i; PMT registra o valor da parcela recorrente." },
+        { "id": "opt_3", "text": "A quantidade de intervalos existentes entre a data presente e o valor futuro informado na operação.", "isCorrect": false, "distractorReason": "A quantidade de períodos é informada em n, não em PMT." },
+        { "id": "opt_4", "text": "O valor presente de um fluxo concentrado na data inicial, sem pagamentos distribuídos ao longo dos períodos.", "isCorrect": false, "distractorReason": "O valor presente é registrado em PV; PMT corresponde aos pagamentos periódicos." }
       ],
       "explanation": "PMT é o pagamento periódico de uma série uniforme, como prestação ou depósito recorrente. PV representa valor presente, FV valor futuro, i a taxa e n o número de períodos.",
       "commonTrap": "Trocar PMT por PV ou interpretar a prestação como taxa.",
