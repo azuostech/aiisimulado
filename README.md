@@ -94,7 +94,7 @@ Configure também o ambiente Preview se os deploys de preview precisarem acessar
 - `npm run db:studio` — abre a interface local do Prisma Studio
 - `npm run questions:validate` — executa o gate estrutural dos lotes JSON
 - `npm run questions:test` — testa rejeição de gabarito ambíguo e fonte ausente
-- `npm run questions:seed` — carrega taxonomia, famílias, questões, opções, fontes e revisões de forma idempotente
+- `npm run questions:seed` — carrega taxonomia, famílias, questões, opções, fontes e revisões de forma idempotente; aceita atualização seletiva, como `npm run questions:seed -- --topic=I --topic=III`
 - `npm run questions:audit` — apresenta cobertura, dificuldade e inconsistências do banco persistido
 
 ## Banco de dados

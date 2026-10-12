@@ -1,6 +1,6 @@
 {
   "batchId": "tema-III-lote-001",
-  "reviewedAt": "2026-10-10",
+  "reviewedAt": "2026-10-12",
   "questions": [
     {
       "id": "AI-III-000002", "topicCode": "III", "subtopicSlug": "pld-suitability-lavagem-dinheiro", "contentNodeSlug": "tema-iii-lavagem-dinheiro-conceito",
@@ -8,10 +8,10 @@
       "difficulty": 2, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["lavagem de dinheiro", "ocultação", "dissimulação"],
       "statement": "Segundo a Lei nº 9.613/1998, caracteriza o núcleo do crime de lavagem de dinheiro:",
       "options": [
-        { "id": "opt_1", "text": "Realizar qualquer operação em espécie acima do limite cadastral do cliente.", "isCorrect": false, "distractorReason": "Operação em espécie pode ser sinal de alerta, mas não define por si só o crime." },
-        { "id": "opt_2", "text": "Ocultar ou dissimular a natureza, origem, localização, disposição, movimentação ou propriedade de bens, direitos ou valores provenientes de infração penal.", "isCorrect": true },
-        { "id": "opt_3", "text": "Deixar de atualizar o cadastro do investidor dentro do prazo definido pela instituição.", "isCorrect": false, "distractorReason": "A falha cadastral é descumprimento de controle, não o núcleo legal do crime." },
-        { "id": "opt_4", "text": "Investir recursos lícitos em produto incompatível com o perfil de risco declarado.", "isCorrect": false, "distractorReason": "Isso envolve suitability, não lavagem de dinheiro." }
+        { "id": "opt_1", "text": "Fracionar operações em espécie acima do parâmetro de monitoramento, ainda que os recursos tenham origem lícita e declarada.", "isCorrect": false, "distractorReason": "O fracionamento pode ser sinal de alerta, mas sem origem ilícita não completa o núcleo descrito na lei." },
+        { "id": "opt_2", "text": "Ocultar ou dissimular características de bens, direitos ou valores provenientes, direta ou indiretamente, de infração penal.", "isCorrect": true },
+        { "id": "opt_3", "text": "Omitir informação cadastral relevante para obter classificação de risco mais favorável perante uma instituição do mercado financeiro.", "isCorrect": false, "distractorReason": "A omissão cadastral pode gerar outras consequências, mas não define o núcleo legal da lavagem." },
+        { "id": "opt_4", "text": "Movimentar recursos entre instituições para diversificar investimentos, mantendo documentadas a origem lícita e a titularidade dos valores.", "isCorrect": false, "distractorReason": "Movimentação entre instituições, com origem lícita documentada, não constitui por si a conduta tipificada." }
       ],
       "explanation": "A lei define lavagem pela ocultação ou dissimulação de características relevantes de bens, direitos ou valores que sejam provenientes, direta ou indiretamente, de infração penal.",
       "commonTrap": "Confundir um sinal de alerta ou uma falha de controle com a definição completa do crime.",
@@ -24,10 +24,10 @@
       "difficulty": 3, "questionType": "multiple_statements", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["ABR", "classificação de risco"],
       "statement": "Na abordagem baseada em risco da Resolução CVM 50, a política de PLD/FTP deve classificar, no mínimo:",
       "options": [
-        { "id": "opt_1", "text": "Somente clientes, sempre nas categorias conservador, moderado e agressivo.", "isCorrect": false, "distractorReason": "Essas categorias são de suitability e a classificação de PLD/FTP alcança também outros objetos." },
-        { "id": "opt_2", "text": "Produtos, serviços, canais de distribuição e ambientes de negociação, além de clientes, ao menos em baixo, médio e alto risco.", "isCorrect": true },
-        { "id": "opt_3", "text": "Apenas operações já comunicadas ao COAF, em risco provável ou confirmado.", "isCorrect": false, "distractorReason": "A abordagem é preventiva e não se restringe ao que já foi comunicado." },
-        { "id": "opt_4", "text": "Somente jurisdições estrangeiras e pessoas politicamente expostas.", "isCorrect": false, "distractorReason": "Jurisdições e PEPs são fatores relevantes, mas não esgotam a classificação exigida." }
+        { "id": "opt_1", "text": "Clientes e beneficiários finais conforme o perfil de investimento, usando as categorias conservador, moderado e agressivo adotadas no suitability.", "isCorrect": false, "distractorReason": "Categorias de perfil de investimento não substituem a classificação de risco de PLD/FTP nem cobrem seus demais objetos." },
+        { "id": "opt_2", "text": "Produtos, serviços, canais de distribuição, ambientes de negociação e clientes, contemplando categorias de risco baixo, médio e alto.", "isCorrect": true },
+        { "id": "opt_3", "text": "Produtos, serviços e canais de distribuição por nível de risco, deixando clientes para classificação quando surgir alerta de monitoramento.", "isCorrect": false, "distractorReason": "Os clientes também devem integrar a classificação preventiva da abordagem baseada em risco." },
+        { "id": "opt_4", "text": "Clientes, instituições parceiras e jurisdições estrangeiras, enquanto ambientes de negociação ficam sujeitos à classificação feita pela entidade administradora.", "isCorrect": false, "distractorReason": "A política da instituição deve contemplar também os ambientes de negociação e os demais objetos previstos." }
       ],
       "explanation": "A política deve classificar os riscos dos produtos, serviços, canais de distribuição e ambientes de negociação, bem como os clientes, prevendo ao menos as categorias de baixo, médio e alto risco.",
       "commonTrap": "Transportar as categorias de perfil de investimento para a classificação de risco de PLD/FTP.",
@@ -40,10 +40,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["alto risco", "diligência reforçada"],
       "statement": "Após classificar determinado relacionamento como de alto risco de PLD/FTP, uma instituição conclui que deve recusá-lo automaticamente. Essa conclusão é:",
       "options": [
-        { "id": "opt_1", "text": "Correta, porque a classificação de alto risco equivale à comprovação de ilícito.", "isCorrect": false, "distractorReason": "Risco elevado não equivale à comprovação de crime ou irregularidade." },
-        { "id": "opt_2", "text": "Correta, mas somente se o cliente for pessoa politicamente exposta.", "isCorrect": false, "distractorReason": "A condição de PEP também não impõe recusa automática." },
-        { "id": "opt_3", "text": "Incorreta, pois a instituição deve adotar controles e diligências proporcionais ao risco e decidir de forma fundamentada sobre iniciar ou manter a relação.", "isCorrect": true },
-        { "id": "opt_4", "text": "Incorreta, porque todos os clientes devem receber exatamente os mesmos controles.", "isCorrect": false, "distractorReason": "A abordagem baseada em risco exige diferenciação proporcional dos controles." }
+        { "id": "opt_1", "text": "Correta se dois fatores de risco elevado estiverem presentes e a recusa for ratificada pelo diretor responsável pela política.", "isCorrect": false, "distractorReason": "A norma não transforma a combinação de fatores em recusa obrigatória; exige avaliação proporcional e fundamentada." },
+        { "id": "opt_2", "text": "Correta quando o alto risco decorrer da condição de pessoa exposta politicamente, ainda que a origem dos recursos esteja comprovada.", "isCorrect": false, "distractorReason": "A condição de PEP demanda diligência reforçada, mas não determina recusa por si." },
+        { "id": "opt_3", "text": "Incorreta, pois o risco elevado exige controles proporcionais e decisão fundamentada sobre iniciar ou manter o relacionamento.", "isCorrect": true },
+        { "id": "opt_4", "text": "Incorreta porque, concluída a diligência reforçada sem alerta adicional, a instituição deve reclassificar o relacionamento como risco médio.", "isCorrect": false, "distractorReason": "A ausência de novo alerta não impõe reclassificação nem elimina os fatores que sustentam o alto risco." }
       ],
       "explanation": "A classificação orienta a intensidade dos controles. Alto risco exige medidas reforçadas e decisão fundamentada, mas não significa ilícito comprovado nem determina, isoladamente, recusa automática do relacionamento.",
       "commonTrap": "Tratar classificação de risco como juízo de culpa ou como decisão automática de encerramento.",
@@ -56,10 +56,10 @@
       "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["cadastro", "ordens"],
       "statement": "Um cliente com cadastro desatualizado envia ordem para comprar um novo ativo e, no dia seguinte, pede o resgate integral de um fundo para encerrar sua conta. A instituição deve:",
       "options": [
-        { "id": "opt_1", "text": "Executar ambas as ordens, pois foram iniciativa do cliente.", "isCorrect": false, "distractorReason": "A iniciativa do cliente não autoriza novas operações com cadastro desatualizado." },
-        { "id": "opt_2", "text": "Recusar ambas as ordens até a completa atualização cadastral.", "isCorrect": false, "distractorReason": "A norma admite operações destinadas a encerrar a conta e vender ou resgatar ativos." },
+        { "id": "opt_1", "text": "Executar a compra por ter sido ordenada antes do pedido de encerramento e condicionar o resgate à atualização cadastral.", "isCorrect": false, "distractorReason": "A ordem cronológica não autoriza nova aplicação nem impede o resgate voltado ao encerramento." },
+        { "id": "opt_2", "text": "Suspender a compra e o resgate até a atualização, pois a restrição cadastral alcança entradas e saídas de recursos.", "isCorrect": false, "distractorReason": "A norma admite alienação ou resgate de ativos e operações necessárias ao encerramento." },
         { "id": "opt_3", "text": "Recusar a compra e admitir o resgate destinado ao encerramento da posição ou da conta.", "isCorrect": true },
-        { "id": "opt_4", "text": "Executar a compra e recusar o resgate, por ser a movimentação financeiramente mais relevante.", "isCorrect": false, "distractorReason": "Inverte a regra e suas exceções expressas." }
+        { "id": "opt_4", "text": "Executar as duas ordens e exigir a atualização dentro do prazo interno, já que ambas partiram do próprio cliente.", "isCorrect": false, "distractorReason": "A iniciativa do cliente não libera nova operação com cadastro desatualizado." }
       ],
       "explanation": "Com cadastro desatualizado, não devem ser aceitas novas ordens. Permanecem admitidas as operações necessárias ao encerramento da conta e à alienação ou ao resgate de ativos, conforme a exceção normativa.",
       "commonTrap": "Supor que qualquer ordem espontânea do cliente afasta a restrição cadastral.",
@@ -72,10 +72,10 @@
       "difficulty": 3, "questionType": "direct_application", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["beneficiário final", "participação societária"],
       "statement": "Na definição interna do valor mínimo de referência para identificar beneficiário final com base em participação societária, a instituição deve observar que esse parâmetro:",
       "options": [
-        { "id": "opt_1", "text": "Pode ser livremente fixado acima de 50%, se aprovado pela diretoria.", "isCorrect": false, "distractorReason": "A norma estabelece limite máximo para o valor de referência." },
-        { "id": "opt_2", "text": "Deve ser exatamente 10% para todo tipo de cliente e estrutura.", "isCorrect": false, "distractorReason": "A norma não impõe um percentual único de 10% para todos os casos." },
-        { "id": "opt_3", "text": "Deve considerar o risco e não pode superar 25% da participação societária.", "isCorrect": true },
-        { "id": "opt_4", "text": "Só é aplicável a companhias abertas brasileiras.", "isCorrect": false, "distractorReason": "A identificação alcança estruturas sujeitas ao procedimento, ressalvadas as exceções normativas." }
+        { "id": "opt_1", "text": "Pode superar 25% quando a estrutura tiver baixo risco e a decisão estiver documentada na política aprovada pela administração.", "isCorrect": false, "distractorReason": "A avaliação de risco orienta o parâmetro, mas não permite ultrapassar o teto normativo." },
+        { "id": "opt_2", "text": "Deve adotar 10% como percentual uniforme, cabendo à abordagem baseada em risco definir a intensidade da diligência posterior.", "isCorrect": false, "distractorReason": "A norma não fixa 10% nem exige parâmetro uniforme para estruturas de riscos distintos." },
+        { "id": "opt_3", "text": "Deve refletir o risco definido na política e não pode superar 25% da participação societária.", "isCorrect": true },
+        { "id": "opt_4", "text": "Pode alcançar 50% quando houver intermediário estrangeiro regulado que confirme a cadeia de participação e a identidade dos representantes.", "isCorrect": false, "distractorReason": "A confirmação por terceiro não amplia o teto do parâmetro societário." }
       ],
       "explanation": "O parâmetro deve ser estabelecido na política segundo o risco e não pode ser superior a 25% da participação societária. Esse teto não transforma 25% em percentual obrigatório para todos os clientes.",
       "commonTrap": "Interpretar o teto de 25% como percentual fixo e universal de identificação.",
@@ -88,10 +88,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["beneficiário final", "monitoramento reforçado", "CVM 245"],
       "statement": "Mesmo após diligências, uma instituição não consegue identificar o beneficiário final de uma estrutura complexa. Pela regra vigente após a Resolução CVM 245, deve:",
       "options": [
-        { "id": "opt_1", "text": "Arquivar o caso se a classificação original do cliente for de baixo risco.", "isCorrect": false, "distractorReason": "O monitoramento reforçado independe da classificação de risco atribuída." },
-        { "id": "opt_2", "text": "Manter monitoramento reforçado contínuo, analisar com maior rigor e submeter ao diretor a avaliação sobre iniciar ou manter a relação.", "isCorrect": true },
-        { "id": "opt_3", "text": "Comunicar automaticamente ao COAF, sem análise da operação ou da situação.", "isCorrect": false, "distractorReason": "A comunicação exige análise fundamentada; a dificuldade de identificação não a torna automática." },
-        { "id": "opt_4", "text": "Presumir como beneficiário final o representante legal que apresentou o cadastro.", "isCorrect": false, "distractorReason": "Representação formal não substitui a identificação da pessoa natural beneficiária final." }
+        { "id": "opt_1", "text": "Manter o tratamento de baixo risco se a documentação formal estiver completa, registrando a impossibilidade material de identificar o beneficiário final.", "isCorrect": false, "distractorReason": "A identificação não concluída exige medidas reforçadas, ainda que a classificação original fosse baixa." },
+        { "id": "opt_2", "text": "Aplicar monitoramento reforçado contínuo, aprofundar a análise e submeter ao diretor a decisão sobre iniciar ou manter a relação.", "isCorrect": true },
+        { "id": "opt_3", "text": "Classificar a estrutura como operação suspeita e comunicar o COAF antes da decisão do diretor sobre a continuidade do relacionamento.", "isCorrect": false, "distractorReason": "A falta de identificação demanda controles reforçados, mas a comunicação depende de análise fundamentada de indícios." },
+        { "id": "opt_4", "text": "Registrar provisoriamente o representante legal como beneficiário final e aplicar monitoramento ordinário até a próxima atualização cadastral.", "isCorrect": false, "distractorReason": "Representação formal não substitui a identificação da pessoa natural beneficiária final." }
       ],
       "explanation": "Quando a identificação do beneficiário final ou a diligência não se completa, a norma exige monitoramento reforçado contínuo, análise mais criteriosa e avaliação do diretor sobre o início ou a manutenção do relacionamento.",
       "commonTrap": "Achar que baixo risco original dispensa as medidas especiais para beneficiário final não identificado.",
@@ -120,10 +120,10 @@
       "difficulty": 2, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["operação atípica", "COAF", "análise"],
       "statement": "O monitoramento detecta movimentações incompatíveis com a renda e o patrimônio declarados por um cliente. Qual sequência melhor representa o procedimento regulatório?",
       "options": [
-        { "id": "opt_1", "text": "Comunicar toda atipicidade automaticamente e somente depois analisar seus fundamentos.", "isCorrect": false, "distractorReason": "A comunicação decorre de análise fundamentada, não de automatismo." },
-        { "id": "opt_2", "text": "Alertar o cliente, aguardar sua autorização e então decidir se comunica.", "isCorrect": false, "distractorReason": "A comunicação não depende de autorização nem deve ser revelada ao cliente." },
-        { "id": "opt_3", "text": "Monitorar, analisar tempestivamente a situação e, havendo sérios indícios após análise fundamentada, comunicar ao COAF.", "isCorrect": true },
-        { "id": "opt_4", "text": "Encerrar a conta imediatamente, dispensando análise e eventual comunicação.", "isCorrect": false, "distractorReason": "Encerramento não substitui os deveres de análise e comunicação quando cabível." }
+        { "id": "opt_1", "text": "Bloquear preventivamente a movimentação, solicitar justificativa econômica ao cliente e comunicar se ele não comprovar a origem dos recursos.", "isCorrect": false, "distractorReason": "A norma exige monitoramento e análise; bloqueio e contato com o cliente não formam uma sequência automática de comunicação." },
+        { "id": "opt_2", "text": "Comunicar quando o sistema detectar a incompatibilidade e, após o envio, validar se os elementos do alerta eram suficientes.", "isCorrect": false, "distractorReason": "A comunicação deve resultar de análise fundamentada anterior, não precedê-la." },
+        { "id": "opt_3", "text": "Analisar tempestivamente a situação detectada e, se a avaliação fundamentada apontar sérios indícios, comunicar ao COAF.", "isCorrect": true },
+        { "id": "opt_4", "text": "Documentar o alerta e aguardar novas operações, pois uma incompatibilidade isolada não pode fundamentar comunicação ao COAF.", "isCorrect": false, "distractorReason": "Uma situação deve ser analisada pelos seus elementos; a norma não exige repetição para admitir comunicação fundamentada." }
       ],
       "explanation": "A norma separa monitoramento, análise e comunicação. A atipicidade deve ser analisada tempestivamente; a comunicação ao COAF ocorre quando a análise fundamentada conclui pela existência de sérios indícios.",
       "commonTrap": "Tratar toda atipicidade como comunicação automática ou como prova definitiva de ilícito.",
@@ -136,10 +136,10 @@
       "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["investidor não residente", "GAFI", "CVM 245"],
       "statement": "Um investidor não residente está ligado a jurisdição apontada pelo GAFI por deficiências estratégicas de PLD/FTP. Entre as medidas compatíveis com a regra vigente está:",
       "options": [
-        { "id": "opt_1", "text": "Aplicar diligência reforçada, exigir comprovações adicionais e limitar, postergar ou recusar operações com ativos de maior risco, conforme o caso.", "isCorrect": true },
-        { "id": "opt_2", "text": "Dispensar a identificação do beneficiário final se houver custodiante no exterior.", "isCorrect": false, "distractorReason": "A intermediação estrangeira não cria dispensa geral de identificação e diligência." },
-        { "id": "opt_3", "text": "Aceitar automaticamente as operações por respeito à classificação feita no país de origem.", "isCorrect": false, "distractorReason": "A instituição brasileira mantém seus deveres de diligência e gestão do risco." },
-        { "id": "opt_4", "text": "Comunicar ao COAF todas as operações, independentemente de análise ou indício.", "isCorrect": false, "distractorReason": "A jurisdição de risco reforça controles, mas não elimina a análise fundamentada da comunicação." }
+        { "id": "opt_1", "text": "Aplicar diligência reforçada, pedir comprovação adicional e, conforme o risco, limitar, postergar ou recusar operações com determinados ativos.", "isCorrect": true },
+        { "id": "opt_2", "text": "Aplicar os controles usuais se um custodiante estrangeiro regulado confirmar o cadastro e a origem dos recursos do investidor.", "isCorrect": false, "distractorReason": "A confirmação de terceiro não afasta as medidas reforçadas associadas à jurisdição indicada pelo GAFI." },
+        { "id": "opt_3", "text": "Adotar diligência reforçada, mas executar as operações solicitadas enquanto não houver determinação do COAF para restringir os ativos.", "isCorrect": false, "distractorReason": "A instituição pode impor condições ou restrições proporcionais sem depender de ordem prévia do COAF." },
+        { "id": "opt_4", "text": "Recusar o relacionamento em razão da jurisdição, dispensando avaliação dos ativos, das operações pretendidas e dos demais fatores de risco.", "isCorrect": false, "distractorReason": "A regra exige medidas proporcionais e análise baseada em risco, não recusa meramente automática." }
       ],
       "explanation": "O art. 17-A introduz diligência reforçada para vínculos com jurisdições listadas pelo GAFI, incluindo condições adicionais, comprovação complementar e restrições proporcionais a operações de maior risco.",
       "commonTrap": "Confundir diligência reforçada obrigatória com comunicação automática de toda operação.",
@@ -152,10 +152,10 @@
       "difficulty": 2, "questionType": "multiple_statements", "cognitiveSkill": "UNDERSTANDING", "status": "ACTIVE", "tags": ["suitability", "objetivos"],
       "statement": "Para verificar os objetivos de investimento do cliente, a Resolução CVM 30 determina considerar, no mínimo:",
       "options": [
-        { "id": "opt_1", "text": "Período pelo qual deseja manter o investimento, preferências quanto à assunção de riscos e finalidades do investimento.", "isCorrect": true },
-        { "id": "opt_2", "text": "Apenas idade, profissão e estado civil do cliente.", "isCorrect": false, "distractorReason": "Esses dados não substituem os fatores mínimos relativos aos objetivos." },
-        { "id": "opt_3", "text": "Somente patrimônio, renda regular e necessidade futura de recursos.", "isCorrect": false, "distractorReason": "Esses fatores pertencem à avaliação da situação financeira." },
-        { "id": "opt_4", "text": "Formação acadêmica, experiência profissional e frequência de operações.", "isCorrect": false, "distractorReason": "Esses elementos se relacionam à avaliação do conhecimento do cliente." }
+        { "id": "opt_1", "text": "Horizonte de manutenção, preferências quanto à assunção de riscos e finalidades pretendidas para os recursos investidos.", "isCorrect": true },
+        { "id": "opt_2", "text": "Horizonte de manutenção, valor da renda regular e parcela do patrimônio disponível para novas aplicações financeiras.", "isCorrect": false, "distractorReason": "Renda e patrimônio pertencem à avaliação da situação financeira, não completam o bloco de objetivos." },
+        { "id": "opt_3", "text": "Preferências de risco, formação acadêmica e frequência com que o cliente realizou operações no mercado de valores mobiliários.", "isCorrect": false, "distractorReason": "Formação e frequência de operações integram a avaliação de conhecimento e experiência." },
+        { "id": "opt_4", "text": "Finalidade dos recursos, despesas recorrentes declaradas e compromissos financeiros previstos para os próximos períodos pelo cliente.", "isCorrect": false, "distractorReason": "Despesas e compromissos futuros pertencem à dimensão de situação financeira." }
       ],
       "explanation": "A dimensão objetivos reúne horizonte de manutenção, preferências de risco e finalidades. Renda, patrimônio e necessidades futuras compõem situação financeira; experiência e frequência integram conhecimento.",
       "commonTrap": "Misturar os três blocos regulamentares de suitability: objetivos, situação financeira e conhecimento.",
@@ -168,10 +168,10 @@
       "difficulty": 3, "questionType": "case_based", "cognitiveSkill": "APPLICATION", "status": "ACTIVE", "tags": ["produto inadequado", "alerta", "ciência"],
       "statement": "Um cliente, por iniciativa própria, ordena aplicação em categoria de produto inadequada ao seu perfil. Antes da primeira operação nessa categoria, o intermediário deve:",
       "options": [
-        { "id": "opt_1", "text": "Executar sem formalidade, porque a iniciativa foi do cliente.", "isCorrect": false, "distractorReason": "A iniciativa não elimina os procedimentos previstos para produto inadequado." },
-        { "id": "opt_2", "text": "Recusar definitivamente a ordem, sem possibilidade de execução.", "isCorrect": false, "distractorReason": "A norma prevê procedimento de alerta e declaração, não proibição absoluta em todos os casos." },
-        { "id": "opt_3", "text": "Alertar sobre a inadequação, indicando suas causas, e obter declaração expressa de ciência antes de executar.", "isCorrect": true },
-        { "id": "opt_4", "text": "Alterar unilateralmente o perfil para agressivo e então executar a ordem.", "isCorrect": false, "distractorReason": "O perfil não pode ser alterado artificialmente para legitimar a operação." }
+        { "id": "opt_1", "text": "Executar a ordem e colher a declaração de ciência depois, desde que o registro seja concluído antes da liquidação financeira.", "isCorrect": false, "distractorReason": "O alerta e a declaração devem anteceder a primeira operação na categoria inadequada." },
+        { "id": "opt_2", "text": "Recusar a operação até que nova avaliação altere o perfil, ainda que o cliente mantenha sua decisão após ser informado.", "isCorrect": false, "distractorReason": "A norma admite execução mediante alerta específico e declaração expressa; não exige reenquadramento artificial." },
+        { "id": "opt_3", "text": "Alertar sobre a inadequação e suas causas e obter declaração expressa de ciência antes da primeira operação na categoria.", "isCorrect": true },
+        { "id": "opt_4", "text": "Apresentar alerta genérico sobre riscos e registrar a concordância oral do cliente na gravação usada para receber a ordem.", "isCorrect": false, "distractorReason": "O alerta deve indicar as causas da inadequação e a ciência deve ser formalizada conforme a regra." }
       ],
       "explanation": "Quando o cliente ordena produto inadequado, a instituição deve alertá-lo sobre a inadequação e explicar suas causas, obtendo declaração expressa de ciência antes da primeira operação naquela categoria.",
       "commonTrap": "Achar que ordem por iniciativa do cliente elimina o dever de alerta e registro de ciência.",
@@ -184,10 +184,10 @@
       "difficulty": 3, "questionType": "comparison", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["produto complexo", "liquidez", "valoração"],
       "statement": "Ao elaborar políticas específicas para recomendar produtos complexos, qual fator deve receber destaque segundo a Resolução CVM 30?",
       "options": [
-        { "id": "opt_1", "text": "Apenas a existência de garantia do FGC, que elimina os demais riscos estruturais.", "isCorrect": false, "distractorReason": "Garantia eventualmente existente não elimina todos os riscos nem define isoladamente a complexidade." },
-        { "id": "opt_2", "text": "Os riscos da estrutura em comparação com produtos tradicionais e a dificuldade de determinar valor, inclusive por baixa liquidez.", "isCorrect": true },
-        { "id": "opt_3", "text": "Somente a rentabilidade histórica superior ao benchmark nos últimos doze meses.", "isCorrect": false, "distractorReason": "Desempenho passado não substitui a análise da estrutura e da valoração." },
-        { "id": "opt_4", "text": "Exclusivamente o valor mínimo de aplicação e a classificação tributária do investidor.", "isCorrect": false, "distractorReason": "Esses elementos não esgotam os riscos adicionais que justificam tratamento específico." }
+        { "id": "opt_1", "text": "A volatilidade histórica frente ao benchmark e o valor mínimo de aplicação exigido no canal de distribuição utilizado.", "isCorrect": false, "distractorReason": "Esses elementos não substituem a avaliação dos riscos estruturais e da dificuldade de valoração." },
+        { "id": "opt_2", "text": "Os riscos da estrutura comparados aos de produtos tradicionais e a dificuldade de determinar valor, inclusive por baixa liquidez.", "isCorrect": true },
+        { "id": "opt_3", "text": "O risco de crédito do emissor e o regime tributário, presumindo preço confiável quando houver demonstração periódica da carteira.", "isCorrect": false, "distractorReason": "Crédito e tributação podem importar, mas não esgotam os fatores específicos de complexidade e valoração." },
+        { "id": "opt_4", "text": "A disponibilidade de cotação diária e de material padronizado, elementos que afastam a necessidade de comparar a estrutura com produtos tradicionais.", "isCorrect": false, "distractorReason": "Cotação e material informativo não eliminam riscos estruturais nem dificuldades de formação de preço." }
       ],
       "explanation": "As políticas para produtos complexos devem ressaltar seus riscos estruturais frente a produtos tradicionais e a dificuldade de determinar valor, inclusive quando a baixa liquidez dificulta a formação de preço.",
       "commonTrap": "Associar complexidade apenas a valor mínimo, tributação ou retorno passado.",

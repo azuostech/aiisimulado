@@ -28,11 +28,12 @@ Data de referência: 11/10/2026.
 - Detector compartilhado de pistas de gabarito por extensão, proporção e uso assimétrico de absolutos.
 - Penalidade editorial dominante no seletor: uma dificuldade declarada maior não compensa uma resposta que denuncia o gabarito.
 - Reescrita integral dos bancos ativos dos Temas IV, VIII e XV, com alternativas equilibradas e distratores tecnicamente plausíveis.
+- Reescrita do primeiro lote de 20 questões dos Temas I e III que apresentavam penalidade editorial severa; após o gate, esses temas ficaram sem correta destacada por extensão, absolutos assimétricos ou penalidade editorial.
 
 ## Próximo lote editorial
 
-- Reescrever as 77 questões ainda sinalizadas, em lotes de 20 a 30.
-- Priorizar agora Temas I e III e questões em que a correta é isoladamente a mais longa.
+- Reescrever as 57 questões ainda sinalizadas, em lotes de 20 a 30.
+- Priorizar os demais temas e questões em que a correta é isoladamente a mais longa.
 - Reduzir absolutos usados apenas nos distratores.
 - Produzir famílias com três a seis ângulos para nós de maior peso.
 - Criar questões de nível 5 suficientes para tornar viáveis as matrizes Real e Blindagem.

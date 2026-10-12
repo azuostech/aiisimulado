@@ -8,13 +8,19 @@ dotenv.config({ path: ".env.local" });
 dotenv.config();
 if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL não configurada.");
 
+const requestedTopics = new Set(process.argv.slice(2)
+  .filter((argument) => argument.startsWith("--topic="))
+  .map((argument) => argument.slice("--topic=".length).trim().toUpperCase())
+  .filter(Boolean));
+const isFilteredRun = requestedTopics.size > 0;
+
 const client = new pg.Client({ connectionString: process.env.DATABASE_URL });
 await client.connect();
 
 try {
   await client.query("BEGIN");
   const taxonomyFiles = (await readdir(path.resolve("data/taxonomy"))).filter((file) => file.endsWith(".json"));
-  for (const file of taxonomyFiles) {
+  for (const file of isFilteredRun ? [] : taxonomyFiles) {
     const taxonomy = JSON.parse(await readFile(path.resolve("data/taxonomy", file), "utf8"));
     const topic = await client.query('SELECT "id" FROM "Topic" WHERE "code" = $1', [taxonomy.topicCode]);
     if (topic.rowCount !== 1) throw new Error(`Tema ${taxonomy.topicCode} não encontrado. Execute o seed base primeiro.`);
@@ -52,6 +58,7 @@ try {
   for (const file of questionFiles) {
     const batch = JSON.parse(await readFile(path.resolve("data/questions", file), "utf8"));
     for (const question of batch.questions ?? []) {
+      if (isFilteredRun && !requestedTopics.has(question.topicCode)) continue;
       const errors = validateQuestion(question);
       if (errors.length) throw new Error(`${question.id}: ${errors.join("; ")}`);
       const topic = await client.query('SELECT "id" FROM "Topic" WHERE "code" = $1', [question.topicCode]);
@@ -109,8 +116,14 @@ try {
       seeded += 1;
     }
   }
+  if (isFilteredRun && seeded === 0) throw new Error(`Nenhuma questão encontrada para os temas: ${[...requestedTopics].join(", ")}`);
   await client.query("COMMIT");
-  console.log(JSON.stringify({ taxonomyFiles: taxonomyFiles.length, questionFiles: questionFiles.length, seeded }, null, 2));
+  console.log(JSON.stringify({
+    taxonomyFiles: isFilteredRun ? 0 : taxonomyFiles.length,
+    questionFiles: questionFiles.length,
+    topics: isFilteredRun ? [...requestedTopics] : "all",
+    seeded,
+  }, null, 2));
 } catch (error) {
   await client.query("ROLLBACK");
   throw error;
