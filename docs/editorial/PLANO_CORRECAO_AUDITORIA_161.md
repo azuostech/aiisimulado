@@ -30,10 +30,11 @@ Data de referência: 12/10/2026.
 - Reescrita integral dos bancos ativos dos Temas IV, VIII e XV, com alternativas equilibradas e distratores tecnicamente plausíveis.
 - Reescrita do primeiro lote de 20 questões dos Temas I e III que apresentavam penalidade editorial severa; após o gate, esses temas ficaram sem correta destacada por extensão, absolutos assimétricos ou penalidade editorial.
 - Reescrita do segundo lote de 24 questões dos Temas VII, XIII e XIV; os três temas ficaram com penalidade editorial zero em todas as questões ativas.
+- Início do terceiro lote com a revisão das oito questões ativas do Tema IX; o tema também ficou com penalidade editorial zero.
 
 ## Próximo lote editorial
 
-- Reescrever as 33 questões ainda sinalizadas, em lotes de 20 a 30.
+- Reescrever as 27 questões ainda sinalizadas, concluindo o terceiro lote pelos Temas X, XI e XII.
 - Priorizar os demais temas e questões em que a correta é isoladamente a mais longa.
 - Reduzir absolutos usados apenas nos distratores.
 - Produzir famílias com três a seis ângulos para nós de maior peso.

@@ -1,6 +1,6 @@
 {
   "batchId": "tema-IX-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-12",
   "questions": [
     {
       "id": "AI-IX-000001", "topicCode": "IX", "subtopicSlug": "fundos-investimento-estrutura", "contentNodeSlug": "tema-ix-estrutura-classe",
@@ -9,9 +9,9 @@
       "statement": "Na estrutura introduzida pela Resolução CVM 175, um mesmo fundo pode possuir classes diferentes. Sobre essas classes, é correto afirmar que:",
       "options": [
         { "id": "opt_1", "text": "Cada classe possui patrimônio segregado e pode ter política de investimento e obrigações próprias.", "isCorrect": true },
-        { "id": "opt_2", "text": "Todas as classes necessariamente compartilham integralmente ativos e passivos.", "isCorrect": false, "distractorReason": "A segregação patrimonial impede a mistura automática de obrigações entre classes." },
-        { "id": "opt_3", "text": "Classe e subclasse são sempre sinônimos e não admitem condições distintas.", "isCorrect": false, "distractorReason": "A subclasse organiza condições dentro de uma classe e não substitui seu patrimônio." },
-        { "id": "opt_4", "text": "A criação de classes transforma o fundo em sociedade anônima.", "isCorrect": false, "distractorReason": "O fundo permanece condomínio de natureza especial, não companhia." }
+        { "id": "opt_2", "text": "As classes compartilham os passivos do fundo, embora possam manter carteiras de ativos e políticas de investimento distintas.", "isCorrect": false, "distractorReason": "A segregação abrange o patrimônio e as obrigações de cada classe." },
+        { "id": "opt_3", "text": "Cada subclasse constitui patrimônio segregado, enquanto as classes diferenciam condições comerciais dentro da mesma carteira.", "isCorrect": false, "distractorReason": "A alternativa inverte os papéis: a classe possui patrimônio segregado; subclasses diferenciam condições." },
+        { "id": "opt_4", "text": "A existência de classes converte o fundo em companhia, atribuindo personalidade jurídica própria a cada carteira constituída.", "isCorrect": false, "distractorReason": "A estrutura de classes não transforma o fundo ou suas classes em sociedades anônimas." }
       ],
       "explanation": "A classe concentra a carteira e possui patrimônio segregado das demais classes. Subclasses podem diferenciar condições comerciais e públicos sem constituir novo patrimônio separado.",
       "commonTrap": "Confundir classe patrimonial com subclasse comercial ou presumir solidariedade automática entre classes.",
@@ -25,9 +25,9 @@
       "statement": "Em um fundo de investimento, a divisão correta das funções entre os prestadores essenciais é:",
       "options": [
         { "id": "opt_1", "text": "O administrador responde pela estrutura e obrigações administrativas; o gestor decide a alocação da carteira conforme a política.", "isCorrect": true },
-        { "id": "opt_2", "text": "O administrador escolhe todos os ativos e o gestor apenas calcula tributos pessoais dos cotistas.", "isCorrect": false, "distractorReason": "A decisão de investimento é função característica do gestor." },
-        { "id": "opt_3", "text": "Administrador e gestor são sempre a mesma pessoa e não podem ser contratados separadamente.", "isCorrect": false, "distractorReason": "São funções essenciais distintas, ainda que uma entidade possa acumular papéis quando permitido." },
-        { "id": "opt_4", "text": "O gestor garante a rentabilidade prometida e o administrador cobre qualquer perda.", "isCorrect": false, "distractorReason": "Os prestadores não garantem resultado nem eliminam os riscos da carteira." }
+        { "id": "opt_2", "text": "O administrador seleciona e negocia os ativos da carteira; o gestor responde pela escrituração das cotas e pelas informações regulatórias.", "isCorrect": false, "distractorReason": "A alternativa troca a gestão da carteira pelas atribuições administrativas do fundo." },
+        { "id": "opt_3", "text": "O administrador e o gestor formam uma função indivisível, de modo que a contratação de prestadores distintos depende de autorização dos cotistas.", "isCorrect": false, "distractorReason": "A regulamentação distingue os dois prestadores essenciais e suas respectivas responsabilidades." },
+        { "id": "opt_4", "text": "O gestor responde pelas perdas decorrentes dos ativos escolhidos; o administrador assegura ao cotista a remuneração prevista no regulamento.", "isCorrect": false, "distractorReason": "Os prestadores devem cumprir seus deveres, mas não garantem rentabilidade nem cobrem o risco regular da carteira." }
       ],
       "explanation": "O administrador fiduciário cuida da constituição, funcionamento, obrigações e controles do fundo. O gestor executa a estratégia e decide quais ativos comprar ou vender dentro da política.",
       "commonTrap": "Usar administrador e gestor como sinônimos e atribuir garantia de rentabilidade a ambos.",
@@ -41,9 +41,9 @@
       "statement": "A principal diferença operacional entre uma classe aberta e uma classe fechada de fundo é que, na classe aberta:",
       "options": [
         { "id": "opt_1", "text": "O cotista pode solicitar resgate conforme os prazos do regulamento.", "isCorrect": true },
-        { "id": "opt_2", "text": "O cotista só pode sair vendendo obrigatoriamente sua cota em bolsa.", "isCorrect": false, "distractorReason": "Essa é uma forma típica de saída antes do prazo em classes fechadas negociadas." },
-        { "id": "opt_3", "text": "O patrimônio não sofre qualquer oscilação de mercado.", "isCorrect": false, "distractorReason": "A possibilidade de resgate não elimina os riscos dos ativos da carteira." },
-        { "id": "opt_4", "text": "As cotas são sempre cobertas pelo Fundo Garantidor de Créditos.", "isCorrect": false, "distractorReason": "Fundos de investimento não contam com garantia do FGC." }
+        { "id": "opt_2", "text": "A saída do cotista ocorre por venda da cota em mercado secundário, observadas as condições de negociação existentes.", "isCorrect": false, "distractorReason": "Essa é uma forma de saída típica de classe fechada, não a característica central da classe aberta." },
+        { "id": "opt_3", "text": "O patrimônio mantém valor estável durante o prazo de resgate, ainda que os ativos da carteira oscilem no mercado.", "isCorrect": false, "distractorReason": "A abertura da classe não elimina a variação patrimonial provocada pelos ativos." },
+        { "id": "opt_4", "text": "As cotas recebem proteção do Fundo Garantidor de Créditos quando o regulamento estabelece prazo para conversão e pagamento.", "isCorrect": false, "distractorReason": "Cotas de fundos não são cobertas pelo FGC, independentemente dos prazos de resgate." }
       ],
       "explanation": "Classes abertas admitem novas aplicações e pedidos de resgate segundo as regras e prazos previstos. Em classes fechadas, o resgate ocorre normalmente no término ou liquidação da classe.",
       "commonTrap": "Confundir resgate perante o fundo com venda da cota no mercado secundário.",
@@ -57,9 +57,9 @@
       "statement": "Um fundo que cobra taxa de performance sofre perda e, no período seguinte, apenas recupera o valor anteriormente alcançado. A linha d’água busca impedir que:",
       "options": [
         { "id": "opt_1", "text": "Se cobre novamente performance apenas pela recuperação de resultado que já havia servido de referência.", "isCorrect": true },
-        { "id": "opt_2", "text": "O valor da cota seja calculado diariamente pelo administrador.", "isCorrect": false, "distractorReason": "A linha d’água trata da base da taxa de performance, não da apuração ordinária da cota." },
-        { "id": "opt_3", "text": "O fundo supere seu benchmark em qualquer período.", "isCorrect": false, "distractorReason": "Superar o benchmark pode ser condição de cobrança, não algo proibido." },
-        { "id": "opt_4", "text": "O gestor adote qualquer política de investimento prevista no regulamento.", "isCorrect": false, "distractorReason": "O mecanismo não substitui nem restringe por si só a política da carteira." }
+        { "id": "opt_2", "text": "A taxa seja apurada sobre o resultado que exceder o benchmark no período, ainda que o valor da cota permaneça abaixo da referência histórica.", "isCorrect": false, "distractorReason": "É justamente a cobrança sobre mera recuperação que a linha d’água busca evitar." },
+        { "id": "opt_3", "text": "O fundo acompanhe diariamente o benchmark previsto no regulamento antes de apurar o desempenho acumulado da carteira.", "isCorrect": false, "distractorReason": "A linha d’água não impede a apuração ou a comparação diária do desempenho." },
+        { "id": "opt_4", "text": "O gestor altere a alocação da carteira depois de um período de perda para tentar superar novamente o indicador de referência.", "isCorrect": false, "distractorReason": "O mecanismo disciplina a base de cobrança, não a execução da política de investimento." }
       ],
       "explanation": "A linha d’água preserva uma referência histórica para a cobrança de performance, evitando remunerar novamente o gestor pela simples recomposição de perdas após resultado já alcançado.",
       "commonTrap": "Achar que qualquer rentabilidade positiva permite cobrar performance, ignorando benchmark e linha d’água.",
@@ -73,9 +73,9 @@
       "statement": "Um regulamento prevê cotização do resgate em D+5 e pagamento em D+7. Isso significa que:",
       "options": [
         { "id": "opt_1", "text": "O valor da cota aplicável é apurado em D+5 e o dinheiro é disponibilizado ao cotista em D+7.", "isCorrect": true },
-        { "id": "opt_2", "text": "O dinheiro é pago em D+5 e a cota somente será conhecida dois dias depois.", "isCorrect": false, "distractorReason": "A alternativa inverte as datas de conversão e liquidação financeira." },
-        { "id": "opt_3", "text": "O fundo garante rentabilidade positiva entre D+5 e D+7.", "isCorrect": false, "distractorReason": "Os prazos não constituem garantia de retorno." },
-        { "id": "opt_4", "text": "A solicitação de resgate só pode ser feita em D+7.", "isCorrect": false, "distractorReason": "D+7 é o pagamento contado da solicitação, não a data para pedi-la." }
+        { "id": "opt_2", "text": "O dinheiro é disponibilizado em D+5, enquanto a quantidade de cotas canceladas é definida em D+7 pelo valor então apurado.", "isCorrect": false, "distractorReason": "A alternativa inverte cotização e pagamento, além de colocar o crédito antes da definição financeira." },
+        { "id": "opt_3", "text": "A cota fica congelada entre D+5 e D+7, assegurando que a diferença de dois dias seja creditada como rendimento ao cotista.", "isCorrect": false, "distractorReason": "Os prazos de cotização e pagamento não criam garantia de retorno nesse intervalo." },
+        { "id": "opt_4", "text": "O pedido é registrado em D+5 e convertido em D+7, data em que se inicia outro prazo para disponibilização do dinheiro.", "isCorrect": false, "distractorReason": "D+5 e D+7 são contados da solicitação como datas de cotização e pagamento, respectivamente." }
       ],
       "explanation": "Cotização ou conversão define a data do valor de cota utilizado para transformar cotas em dinheiro. Pagamento é a data posterior em que o valor financeiro chega ao cotista.",
       "commonTrap": "Tratar cotização e pagamento como a mesma data ou inverter a ordem dos eventos.",
@@ -89,9 +89,9 @@
       "statement": "A diferença central entre estratégia ativa e passiva, em relação ao indicador de referência, é que:",
       "options": [
         { "id": "opt_1", "text": "A ativa busca superar o benchmark, enquanto a passiva procura acompanhar sua composição ou desempenho.", "isCorrect": true },
-        { "id": "opt_2", "text": "A passiva garante superar o benchmark e a ativa apenas o replica.", "isCorrect": false, "distractorReason": "Os objetivos foram invertidos." },
-        { "id": "opt_3", "text": "Ambas garantem resultado positivo independentemente do mercado.", "isCorrect": false, "distractorReason": "Nenhuma estratégia elimina risco ou garante rentabilidade." },
-        { "id": "opt_4", "text": "A gestão passiva dispensa gestor, controles e política de investimento.", "isCorrect": false, "distractorReason": "Replicar um índice também exige gestão, controles e regras de carteira." }
+        { "id": "opt_2", "text": "A passiva procura superar o benchmark por seleção de ativos, enquanto a ativa replica sua composição para reduzir o erro de aderência.", "isCorrect": false, "distractorReason": "A alternativa inverte os objetivos característicos das duas estratégias." },
+        { "id": "opt_3", "text": "A ativa preserva retorno positivo em mercados adversos, enquanto a passiva mantém a rentabilidade no mesmo nível do indicador.", "isCorrect": false, "distractorReason": "Nenhuma das estratégias garante retorno positivo ou reprodução perfeita do benchmark." },
+        { "id": "opt_4", "text": "A passiva elimina decisões de gestão e controles de carteira, pois a divulgação do índice determina diretamente cada operação do fundo.", "isCorrect": false, "distractorReason": "A replicação também demanda gestão, execução, controles e tratamento de eventos da carteira." }
       ],
       "explanation": "Gestão ativa seleciona posições visando exceder uma referência, assumindo desvios deliberados. Gestão passiva busca reproduzir o benchmark, embora possa existir erro de aderência.",
       "commonTrap": "Entender passiva como carteira sem gestão ou como garantia de reprodução perfeita do índice.",
@@ -105,9 +105,9 @@
       "statement": "A classificação multimercado indica, de forma geral, que a política da classe pode combinar exposições a diferentes fatores de risco, como:",
       "options": [
         { "id": "opt_1", "text": "Juros, câmbio, ações e outras estratégias previstas no regulamento.", "isCorrect": true },
-        { "id": "opt_2", "text": "Exclusivamente imóveis físicos, sem qualquer ativo financeiro.", "isCorrect": false, "distractorReason": "Essa não é a característica definidora de um fundo multimercado." },
-        { "id": "opt_3", "text": "Somente ações que integrem o Ibovespa na mesma proporção do índice.", "isCorrect": false, "distractorReason": "Essa descrição se aproxima de uma estratégia indexada de ações." },
-        { "id": "opt_4", "text": "Apenas títulos públicos pós-fixados sem derivativos ou câmbio.", "isCorrect": false, "distractorReason": "Multimercado admite maior flexibilidade conforme sua política." }
+        { "id": "opt_2", "text": "Imóveis destinados à locação e certificados de recebíveis ligados ao setor imobiliário.", "isCorrect": false, "distractorReason": "Essa combinação se relaciona a estratégias imobiliárias e não define a classe multimercado." },
+        { "id": "opt_3", "text": "Ações integrantes do Ibovespa mantidas nas mesmas proporções divulgadas pelo provedor do índice.", "isCorrect": false, "distractorReason": "Essa descrição se aproxima de uma estratégia passiva de ações." },
+        { "id": "opt_4", "text": "Títulos públicos pós-fixados mantidos até o vencimento, sem exposição prevista a outros fatores de risco.", "isCorrect": false, "distractorReason": "Uma carteira restrita a esse fator não expressa a flexibilidade característica de multimercado." }
       ],
       "explanation": "Fundos multimercado podem combinar vários fatores de risco e estratégias, respeitando seu regulamento. Flexibilidade não significa ausência de limites, controles ou suitability.",
       "commonTrap": "Interpretar flexibilidade como liberdade irrestrita ou como garantia de diversificação eficiente.",
@@ -121,9 +121,9 @@
       "statement": "Um cotista afirma que seu fundo de renda fixa não pode apresentar perdas porque alguns ativos da carteira seriam elegíveis ao FGC. Essa afirmação é:",
       "options": [
         { "id": "opt_1", "text": "Incorreta, pois cotas de fundos não têm cobertura do FGC e seu valor varia com os ativos e riscos da carteira.", "isCorrect": true },
-        { "id": "opt_2", "text": "Correta, porque o FGC garante diretamente todas as cotas de qualquer fundo.", "isCorrect": false, "distractorReason": "O mecanismo não cobre cotas de fundos de investimento." },
-        { "id": "opt_3", "text": "Correta apenas se o fundo for aberto, pois abertura elimina risco de mercado.", "isCorrect": false, "distractorReason": "Estrutura aberta não elimina oscilação de preço ou risco de crédito." },
-        { "id": "opt_4", "text": "Correta porque renda fixa significa rentabilidade fixa em qualquer data de resgate.", "isCorrect": false, "distractorReason": "Renda fixa descreve regras de remuneração dos ativos, não ausência de perdas." }
+        { "id": "opt_2", "text": "Correta, porque a elegibilidade de ativos da carteira transfere ao cotista a cobertura do FGC na proporção de sua participação.", "isCorrect": false, "distractorReason": "A cobertura de um ativo detido diretamente não é transferida para a cota do fundo." },
+        { "id": "opt_3", "text": "Correta se a classe for aberta, pois a possibilidade de resgate impede que oscilações dos ativos sejam refletidas no valor da cota.", "isCorrect": false, "distractorReason": "O resgate não elimina risco de mercado, crédito ou variação patrimonial." },
+        { "id": "opt_4", "text": "Correta quando a carteira mantém ativos até o vencimento, pois a classificação renda fixa assegura a remuneração indicada na aplicação.", "isCorrect": false, "distractorReason": "Renda fixa define regras de remuneração, mas não garante resultado da cota nem ausência de perdas." }
       ],
       "explanation": "O cotista possui fração do patrimônio do fundo, cuja cota oscila conforme a carteira. Fundos não são cobertos pelo FGC, mesmo quando investem em ativos que, detidos diretamente, poderiam ser elegíveis.",
       "commonTrap": "Transferir para a cota do fundo uma garantia que poderia existir apenas na titularidade direta de certos ativos.",
