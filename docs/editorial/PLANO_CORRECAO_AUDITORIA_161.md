@@ -31,14 +31,14 @@ Data de referência: 12/10/2026.
 - Reescrita do primeiro lote de 20 questões dos Temas I e III que apresentavam penalidade editorial severa; após o gate, esses temas ficaram sem correta destacada por extensão, absolutos assimétricos ou penalidade editorial.
 - Reescrita do segundo lote de 24 questões dos Temas VII, XIII e XIV; os três temas ficaram com penalidade editorial zero em todas as questões ativas.
 - Início do terceiro lote com a revisão das oito questões ativas do Tema IX; o tema também ficou com penalidade editorial zero.
+- Conclusão do terceiro lote com a revisão de 19 questões sinalizadas dos Temas X, XI e XII; os três temas ficaram sem correta destacada por extensão, absolutos assimétricos ou penalidade editorial.
+- Encerramento das correções de pistas formais nos Temas V e VI; o banco ativo ficou sem correta isoladamente mais longa, absolutos apenas nos distratores ou penalidade editorial severa.
+- Início da expansão de famílias prioritárias com dez novos ângulos de nível 5 nos Temas I e VIII; dez famílias passaram a ter duas variações e o banco chegou a doze famílias distintas com itens de nível 5.
 
 ## Próximo lote editorial
 
-- Reescrever as 27 questões ainda sinalizadas, concluindo o terceiro lote pelos Temas X, XI e XII.
-- Priorizar os demais temas e questões em que a correta é isoladamente a mais longa.
-- Reduzir absolutos usados apenas nos distratores.
-- Produzir famílias com três a seis ângulos para nós de maior peso.
-- Criar questões de nível 5 suficientes para tornar viáveis as matrizes Real e Blindagem.
+- Completar o terceiro ângulo das dez famílias iniciadas e expandir quatro famílias prioritárias do Tema XV.
+- Criar quatro questões adicionais de nível 5, em famílias distintas, para tornar viável a meta de 16 itens da matriz Blindagem.
 - Auditar um simulado completo de 80 questões antes da expansão definitiva até 340.
 
 ## Critérios para liberar a expansão

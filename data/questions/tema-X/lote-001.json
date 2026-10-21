@@ -1,6 +1,6 @@
 {
   "batchId": "tema-X-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-15",
   "questions": [
     {
       "id": "AI-X-000001", "topicCode": "X", "subtopicSlug": "fundos-anexos-etf", "contentNodeSlug": "tema-x-etf-indice",
@@ -9,9 +9,9 @@
       "statement": "O objetivo característico de um fundo de índice — ETF — é:",
       "options": [
         { "id": "opt_1", "text": "Buscar refletir a composição e o desempenho de um índice de referência reconhecido.", "isCorrect": true },
-        { "id": "opt_2", "text": "Garantir rendimento superior ao índice em todos os pregões.", "isCorrect": false, "distractorReason": "A proposta indexada é acompanhar, não garantir superação diária." },
-        { "id": "opt_3", "text": "Conceder crédito direto sem manter carteira de ativos.", "isCorrect": false, "distractorReason": "ETF investe em carteira relacionada ao índice subjacente." },
-        { "id": "opt_4", "text": "Manter cotas sem possibilidade de negociação em mercado organizado.", "isCorrect": false, "distractorReason": "A negociação de cotas em mercado organizado é característica do ETF." }
+        { "id": "opt_2", "text": "Superar o índice de referência mediante seleção discricionária de ativos e mudanças frequentes na estratégia da carteira.", "isCorrect": false, "distractorReason": "Esse é um objetivo de gestão ativa, enquanto o ETF de índice busca acompanhar a referência." },
+        { "id": "opt_3", "text": "Financiar diretamente as companhias do índice por meio da concessão de crédito com recursos captados dos cotistas.", "isCorrect": false, "distractorReason": "A exposição à carteira do índice não transforma o ETF em concedente direto de crédito." },
+        { "id": "opt_4", "text": "Preservar o valor nominal das cotas mediante negociação restrita entre investidores previamente admitidos pelo administrador.", "isCorrect": false, "distractorReason": "As cotas são negociadas em mercado organizado e seu preço pode oscilar." }
       ],
       "explanation": "O ETF é estruturado para acompanhar um índice subjacente, ajustando sua carteira às recomposições da referência. Diferenças de custos e execução podem gerar erro de aderência.",
       "commonTrap": "Confundir replicação de índice com garantia de superar o benchmark ou de acompanhá-lo perfeitamente.",
@@ -25,9 +25,9 @@
       "statement": "Um investidor considera os rendimentos mensais de um FII equivalentes a juros garantidos. A avaliação correta é:",
       "options": [
         { "id": "opt_1", "text": "Os rendimentos dependem dos resultados do fundo e podem variar; vacância, inadimplência e mercado também afetam cotas e distribuições.", "isCorrect": true },
-        { "id": "opt_2", "text": "Todo FII garante distribuição mensal fixa por obrigação legal.", "isCorrect": false, "distractorReason": "A obrigação de distribuição periódica não garante valor fixo nem periodicidade mensal." },
-        { "id": "opt_3", "text": "As cotas de FII não oscilam porque possuem imóveis como lastro econômico.", "isCorrect": false, "distractorReason": "FII é renda variável e suas cotas podem subir ou cair." },
-        { "id": "opt_4", "text": "O FGC cobre integralmente qualquer redução dos rendimentos.", "isCorrect": false, "distractorReason": "Cotas de FII não contam com essa cobertura." }
+        { "id": "opt_2", "text": "A distribuição periódica converte o resultado do fundo em obrigação de valor fixo, ainda que as receitas dos imóveis diminuam.", "isCorrect": false, "distractorReason": "A regra de distribuição não fixa o valor nem neutraliza a variação dos resultados." },
+        { "id": "opt_3", "text": "A presença de imóveis na carteira estabiliza o preço das cotas, embora os rendimentos possam variar conforme a ocupação dos ativos.", "isCorrect": false, "distractorReason": "Tanto as distribuições quanto o preço de mercado das cotas podem oscilar." },
+        { "id": "opt_4", "text": "A negociação em bolsa protege o principal investido, mas deixa a parcela dos rendimentos sujeita à vacância e à inadimplência.", "isCorrect": false, "distractorReason": "A negociação em bolsa não protege o principal nem cria cobertura contra perdas." }
       ],
       "explanation": "FII distribui resultados conforme regras aplicáveis, mas receitas e preços variam. Vacância, inadimplência, juros, qualidade dos ativos e condições de mercado afetam o retorno do cotista.",
       "commonTrap": "Transformar histórico de pagamentos mensais em promessa de renda fixa e ausência de oscilação.",
@@ -41,9 +41,9 @@
       "statement": "A característica que identifica um Fundo de Investimento em Direitos Creditórios — FIDC — é a aplicação relevante de seu patrimônio em:",
       "options": [
         { "id": "opt_1", "text": "Direitos creditórios originados de contas a receber e outras relações de crédito elegíveis.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente imóveis físicos destinados à locação.", "isCorrect": false, "distractorReason": "Essa carteira se aproxima de modalidades imobiliárias, não define o FIDC." },
-        { "id": "opt_3", "text": "Exclusivamente ações integrantes do Ibovespa.", "isCorrect": false, "distractorReason": "FIDC é veículo de recebíveis, não fundo de índice de ações." },
-        { "id": "opt_4", "text": "Moeda em espécie mantida fora do sistema financeiro.", "isCorrect": false, "distractorReason": "A carteira deve observar ativos e direitos elegíveis segundo a regulamentação." }
+        { "id": "opt_2", "text": "Imóveis destinados à locação e participações em empreendimentos imobiliários mantidos para geração de renda.", "isCorrect": false, "distractorReason": "Essa carteira caracteriza estratégias imobiliárias e não o investimento central de um FIDC." },
+        { "id": "opt_3", "text": "Ações que reproduzem a composição de um índice reconhecido e são rebalanceadas quando a referência se altera.", "isCorrect": false, "distractorReason": "Essa descrição corresponde à lógica de um fundo de índice, não à de recebíveis." },
+        { "id": "opt_4", "text": "Participações societárias acompanhadas de influência efetiva nas decisões e na gestão das companhias investidas.", "isCorrect": false, "distractorReason": "Essa é uma característica de FIP, enquanto o FIDC concentra-se em direitos creditórios." }
       ],
       "explanation": "O FIDC reúne recursos para adquirir direitos creditórios oriundos de relações comerciais, financeiras, industriais, imobiliárias ou de serviços, conforme os critérios de elegibilidade.",
       "commonTrap": "Confundir FIDC com securitizadora ou com fundo que investe principalmente em ações e imóveis.",
@@ -73,9 +73,9 @@
       "statement": "Em uma estrutura de FIDC com cotas seniores e subordinadas, a diferença essencial é que:",
       "options": [
         { "id": "opt_1", "text": "As seniores têm prioridade nos pagamentos, enquanto as subordinadas absorvem perdas antes e assumem maior risco.", "isCorrect": true },
-        { "id": "opt_2", "text": "As subordinadas têm garantia do Tesouro e sempre recebem antes das seniores.", "isCorrect": false, "distractorReason": "A prioridade é das seniores e não existe garantia automática do Tesouro." },
-        { "id": "opt_3", "text": "Não há diferença econômica entre elas, apenas mudança de nome.", "isCorrect": false, "distractorReason": "A ordem de subordinação altera prioridade e exposição a perdas." },
-        { "id": "opt_4", "text": "As seniores não estão expostas a risco de crédito dos recebíveis.", "isCorrect": false, "distractorReason": "A subordinação mitiga, mas não elimina o risco de crédito." }
+        { "id": "opt_2", "text": "As subordinadas recebem primeiro nas amortizações, enquanto as seniores são remuneradas pelo saldo remanescente da carteira.", "isCorrect": false, "distractorReason": "A alternativa inverte a prioridade econômica típica da estrutura." },
+        { "id": "opt_3", "text": "As duas categorias suportam perdas na mesma proporção, mas as subordinadas possuem prazo de vencimento mais curto.", "isCorrect": false, "distractorReason": "A subordinação altera a ordem de absorção de perdas e não se resume ao prazo." },
+        { "id": "opt_4", "text": "As seniores ficam protegidas contra perdas enquanto houver patrimônio no fundo, mesmo depois de esgotada a camada subordinada.", "isCorrect": false, "distractorReason": "A proteção subordinada é limitada e não elimina o risco de crédito da cota sênior." }
       ],
       "explanation": "Cotas seniores possuem prioridade em amortização e resgate. As subordinadas funcionam como camada de absorção inicial de perdas, suportando maior risco em troca de retorno potencial maior.",
       "commonTrap": "Interpretar prioridade como ausência total de risco para a cota sênior.",
@@ -89,9 +89,9 @@
       "statement": "Uma característica distintiva do Fundo de Investimento em Participações — FIP — é:",
       "options": [
         { "id": "opt_1", "text": "Participar do processo decisório das sociedades investidas, exercendo influência efetiva em sua política e gestão.", "isCorrect": true },
-        { "id": "opt_2", "text": "Limitar-se obrigatoriamente a replicar um índice de ações sem qualquer influência.", "isCorrect": false, "distractorReason": "Essa lógica é de fundo indexado e contraria a participação característica do FIP." },
-        { "id": "opt_3", "text": "Garantir liquidez diária e resgate imediato a todos os cotistas.", "isCorrect": false, "distractorReason": "FIP é tipicamente fechado e orientado ao longo prazo." },
-        { "id": "opt_4", "text": "Investir exclusivamente em títulos públicos pós-fixados.", "isCorrect": false, "distractorReason": "O FIP investe em participações e instrumentos relacionados às sociedades investidas." }
+        { "id": "opt_2", "text": "Replicar um índice de ações por meio de carteira ajustada às recomposições divulgadas pelo provedor da referência.", "isCorrect": false, "distractorReason": "Essa é a lógica de um fundo de índice, não a participação ativa esperada do FIP." },
+        { "id": "opt_3", "text": "Oferecer liquidez diária aos cotistas mediante resgates pagos com a venda recorrente das participações mantidas na carteira.", "isCorrect": false, "distractorReason": "O FIP é estruturado como classe fechada e orientado a investimentos de prazo mais longo." },
+        { "id": "opt_4", "text": "Concentrar a carteira em títulos públicos pós-fixados para preservar capital durante o ciclo das empresas investidas.", "isCorrect": false, "distractorReason": "O núcleo da carteira do FIP são participações e instrumentos ligados às sociedades investidas." }
       ],
       "explanation": "O FIP investe em participações e deve exercer influência efetiva no processo decisório das investidas, por controle, acordo ou indicação de membros de órgãos de administração.",
       "commonTrap": "Tratar FIP como simples carteira passiva de ações líquidas negociadas em bolsa.",
@@ -121,9 +121,9 @@
       "statement": "Ao verificar se uma classe de FIDC respeita composição, público-alvo e limites, o profissional deve consultar:",
       "options": [
         { "id": "opt_1", "text": "A Parte Geral da Resolução CVM 175 em conjunto com o Anexo Normativo II e demais regras aplicáveis.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente o anexo de fundos imobiliários, porque todo recebível representa imóvel.", "isCorrect": false, "distractorReason": "FIDC possui anexo próprio e recebíveis podem ter diversas origens." },
-        { "id": "opt_3", "text": "Apenas o estatuto da companhia cedente, independentemente da regulação do fundo.", "isCorrect": false, "distractorReason": "Documentos da cedente não substituem o regime regulatório da classe." },
-        { "id": "opt_4", "text": "Exclusivamente as regras de clubes de investimento da Resolução CVM 11.", "isCorrect": false, "distractorReason": "Clube e FIDC são estruturas distintas e sujeitos a normas diferentes." }
+        { "id": "opt_2", "text": "A Parte Geral da Resolução CVM 175 em conjunto com o Anexo Normativo III, destinado às classes imobiliárias.", "isCorrect": false, "distractorReason": "O Anexo III rege FII; as particularidades do FIDC estão no Anexo II." },
+        { "id": "opt_3", "text": "O estatuto da companhia cedente e os contratos dos recebíveis, pois esses documentos substituem os limites regulatórios da classe.", "isCorrect": false, "distractorReason": "Os documentos do lastro não afastam nem substituem o regime regulatório do FIDC." },
+        { "id": "opt_4", "text": "A Resolução CVM 11 em conjunto com as regras do mercado organizado, aplicando ao FIDC o regime dos clubes de investimento.", "isCorrect": false, "distractorReason": "Clubes e FIDC são veículos distintos, submetidos a regimes próprios." }
       ],
       "explanation": "O enquadramento exige leitura integrada da Parte Geral e do anexo específico da categoria. O Anexo II contém particularidades aplicáveis às classes de FIDC.",
       "commonTrap": "Aplicar isoladamente regras de outro veículo ou ignorar a combinação entre parte geral e anexo específico.",

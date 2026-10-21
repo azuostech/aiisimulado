@@ -1,0 +1,66 @@
+{
+  "batchId": "tema-I-lote-002",
+  "reviewedAt": "2026-10-20",
+  "questions": [
+    {
+      "id": "AI-I-000014", "topicCode": "I", "subtopicSlug": "atividade-assessor-conceito-enquadramento", "contentNodeSlug": "tema-i-conceito-enquadramento-atuacao-como-preposto",
+      "family": { "code": "AI-I-PREPOSTO-ESCOPO-001", "name": "Atuação como preposto", "angle": "avaliar responsabilidade no atendimento compartilhado" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["preposto", "intermediário", "responsabilidade"],
+      "statement": "Um assessor vinculado a dois intermediários atende um investidor e apresenta produtos distribuídos por ambos. Para preservar o enquadramento de sua atuação como preposto, a conduta adequada é:",
+      "options": [
+        { "id": "opt_1", "text": "Identificar o intermediário em nome do qual atua em cada oferta e observar as instruções e controles correspondentes.", "isCorrect": true },
+        { "id": "opt_2", "text": "Consolidar as ofertas sob sua própria marca e assumir diretamente a responsabilidade pela execução das ordens recebidas.", "isCorrect": false, "distractorReason": "O assessor atua como preposto e não substitui o intermediário na execução ou na responsabilidade regulatória." },
+        { "id": "opt_3", "text": "Apresentar os produtos sem associá-los aos intermediários, desde que informe ao investidor que possui mais de um vínculo contratual.", "isCorrect": false, "distractorReason": "A identificação genérica dos vínculos não esclarece por qual intermediário o assessor atua em cada oferta." },
+        { "id": "opt_4", "text": "Escolher um intermediário depois da decisão do cliente e transferir a ele o registro integral do atendimento já realizado.", "isCorrect": false, "distractorReason": "O vínculo aplicável precisa estar claro durante a atuação, não ser definido retrospectivamente." }
+      ],
+      "explanation": "A atuação do assessor ocorre como preposto do intermediário. Em uma relação com múltiplos vínculos, o investidor deve conseguir identificar em nome de qual instituição a oferta e o atendimento são realizados.",
+      "commonTrap": "Tratar a pluralidade de vínculos como autorização para o assessor atuar em nome próprio.", "estimatedSeconds": 130, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 2º, I, 3º, §§ 1º e 2º, e 4º", "confidence": "OFFICIAL", "checkedAt": "2026-10-20" }]
+    },
+    {
+      "id": "AI-I-000015", "topicCode": "I", "subtopicSlug": "atividade-assessor-atividades-permitidas", "contentNodeSlug": "tema-i-atividades-permitidas-prestacao-de-informacoes",
+      "family": { "code": "AI-I-ESCOPO-INFORMACOES-001", "name": "Prestação de informações", "angle": "separar informação comercial de consultoria independente" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["informações", "consultoria", "escopo"],
+      "statement": "Durante o atendimento, um cliente pede ao assessor um plano personalizado que compare toda a carteira, inclusive ativos fora dos intermediários aos quais ele está vinculado. Nesse caso, o assessor deve:",
+      "options": [
+        { "id": "opt_1", "text": "Limitar-se às informações e orientações inerentes à relação comercial, sem se apresentar como consultor independente de toda a carteira.", "isCorrect": true },
+        { "id": "opt_2", "text": "Elaborar o plano completo, desde que não cobre honorários separados pela análise dos ativos mantidos em outras instituições.", "isCorrect": false, "distractorReason": "A gratuidade não transforma consultoria independente em atividade permitida ao assessor." },
+        { "id": "opt_3", "text": "Elaborar o plano completo e registrar que as recomendações externas não vinculam os intermediários com os quais mantém contrato.", "isCorrect": false, "distractorReason": "Uma ressalva documental não elimina o conflito entre os escopos profissionais." },
+        { "id": "opt_4", "text": "Delegar a análise a outro assessor do escritório e comunicar ao cliente que a recomendação representa uma opinião coletiva da equipe.", "isCorrect": false, "distractorReason": "A execução por outro assessor não altera os limites regulatórios da atividade." }
+      ],
+      "explanation": "O assessor pode prestar informações sobre produtos e serviços no contexto de sua atividade comercial, mas não deve converter esse atendimento em consultoria independente e abrangente sobre a carteira do investidor.",
+      "commonTrap": "Supor que a ausência de cobrança permite exercer atividade reservada à consultoria de valores mobiliários.", "estimatedSeconds": 135, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 3º, III e § 3º; art. 7º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-20" }]
+    },
+    {
+      "id": "AI-I-000016", "topicCode": "I", "subtopicSlug": "atividade-assessor-relacao-intermediarios", "contentNodeSlug": "tema-i-relacao-intermediarios-multiplos-vinculos",
+      "family": { "code": "AI-I-MULTIPLOS-VINCULOS-001", "name": "Múltiplos vínculos", "angle": "tratar produtos concorrentes no mesmo atendimento" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["múltiplos vínculos", "transparência", "oferta"],
+      "statement": "Um assessor possui vínculos regulares com dois intermediários que distribuem produtos concorrentes. Ao comparar as alternativas para um investidor, qual procedimento é compatível com esse arranjo?",
+      "options": [
+        { "id": "opt_1", "text": "Informar os vínculos relevantes e deixar claro qual intermediário distribui cada produto apresentado no atendimento.", "isCorrect": true },
+        { "id": "opt_2", "text": "Omitir a instituição distribuidora durante a comparação e revelá-la depois que o investidor escolher a alternativa preferida.", "isCorrect": false, "distractorReason": "A identificação posterior impede transparência adequada durante a formação da decisão." },
+        { "id": "opt_3", "text": "Apresentar como próprios os produtos das duas instituições e repartir internamente a remuneração após a execução da operação.", "isCorrect": false, "distractorReason": "O assessor não atua em nome próprio e deve identificar o intermediário representado." },
+        { "id": "opt_4", "text": "Direcionar cada cliente a uma única instituição por prazo indeterminado, ainda que outro vínculo ofereça produto mais pertinente.", "isCorrect": false, "distractorReason": "A existência de múltiplos vínculos exige transparência, mas não cria essa segmentação permanente de clientes." }
+      ],
+      "explanation": "A pluralidade de vínculos é compatível com a atividade quando o cliente recebe informação clara sobre os intermediários representados e consegue associar cada oferta à instituição responsável.",
+      "commonTrap": "Confundir vínculo não exclusivo com atuação autônoma desvinculada dos intermediários.", "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 3º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-20" }]
+    },
+    {
+      "id": "AI-I-000017", "topicCode": "I", "subtopicSlug": "atividade-assessor-assessor-consultor", "contentNodeSlug": "tema-i-assessor-consultor-independencia",
+      "family": { "code": "AI-I-CONFLITO-CONSULTORIA-001", "name": "Assessor versus consultor", "angle": "avaliar segregação meramente formal de funções" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["consultoria", "conflito", "segregação"],
+      "statement": "Um assessor propõe oferecer consultoria de valores mobiliários aos mesmos clientes por meio de outra pessoa jurídica, mantendo a mesma equipe e o mesmo atendimento. A análise regulatória correta é:",
+      "options": [
+        { "id": "opt_1", "text": "A separação societária, por si só, não resolve a incompatibilidade quando as atividades e o atendimento permanecem materialmente integrados.", "isCorrect": true },
+        { "id": "opt_2", "text": "A constituição de outra pessoa jurídica resolve o conflito desde que cada serviço seja faturado em documento fiscal diferente.", "isCorrect": false, "distractorReason": "A forma de faturamento não afasta a avaliação material das atividades conflitantes." },
+        { "id": "opt_3", "text": "A estrutura é compatível quando o cliente assina contratos distintos, ainda que receba as duas orientações da mesma pessoa.", "isCorrect": false, "distractorReason": "Contratos separados não tornam compatíveis funções materialmente exercidas de modo conjunto." },
+        { "id": "opt_4", "text": "A estrutura é compatível se a remuneração da assessoria superar a receita da consultoria ao final de cada exercício social.", "isCorrect": false, "distractorReason": "A proporção das receitas não é o critério que elimina a incompatibilidade." }
+      ],
+      "explanation": "A incompatibilidade deve ser examinada pela realidade da prestação dos serviços. Uma separação apenas formal não afasta o conflito quando equipe, clientes e decisões continuam integrados.",
+      "commonTrap": "Considerar que contratos ou pessoas jurídicas diferentes eliminam automaticamente um conflito material.", "estimatedSeconds": 140, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 7º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-20" }]
+    }
+  ]
+}

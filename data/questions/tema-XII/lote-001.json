@@ -1,6 +1,6 @@
 {
   "batchId": "tema-XII-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-15",
   "questions": [
     {
       "id": "AI-XII-000001", "topicCode": "XII", "subtopicSlug": "clubes-investimento-conceito", "contentNodeSlug": "tema-xii-conceito-finalidade",
@@ -9,9 +9,9 @@
       "statement": "Um clube de investimento pode ser adequadamente descrito como:",
       "options": [
         { "id": "opt_1", "text": "Uma comunhão de recursos de pessoas que investem coletivamente em carteira de valores mobiliários segundo estatuto próprio.", "isCorrect": true },
-        { "id": "opt_2", "text": "Uma companhia aberta que emite ações para financiar sua atividade industrial.", "isCorrect": false, "distractorReason": "O clube é veículo coletivo de investimento, não sociedade operacional emissora." },
-        { "id": "opt_3", "text": "Um órgão público responsável por supervisionar corretoras.", "isCorrect": false, "distractorReason": "Clube não exerce função regulatória ou de fiscalização." },
-        { "id": "opt_4", "text": "Uma conta individual sem patrimônio ou regras compartilhadas.", "isCorrect": false, "distractorReason": "A essência do clube é a comunhão coletiva de recursos e regras comuns." }
+        { "id": "opt_2", "text": "Uma sociedade por ações que capta recursos dos acionistas para financiar diretamente sua própria atividade empresarial.", "isCorrect": false, "distractorReason": "O clube é veículo coletivo de investimento, não sociedade operacional emissora." },
+        { "id": "opt_3", "text": "Uma carteira administrada individualmente em nome de cada participante, sem comunhão patrimonial entre os investidores.", "isCorrect": false, "distractorReason": "No clube, os recursos dos cotistas formam uma comunhão destinada ao investimento coletivo." },
+        { "id": "opt_4", "text": "Uma associação de investidores que fiscaliza intermediários e autoriza a negociação pública dos valores mantidos em carteira.", "isCorrect": false, "distractorReason": "O clube não exerce competência regulatória ou de supervisão do mercado." }
       ],
       "explanation": "O clube reúne recursos de cotistas para aplicação coletiva em valores mobiliários. Sua constituição, administração, carteira e funcionamento seguem o estatuto e a regulamentação da CVM.",
       "commonTrap": "Confundir clube com empresa emissora, fundo garantido ou carteira individual de um único cliente.",
@@ -57,9 +57,9 @@
       "statement": "Quando a gestão da carteira é exercida por um ou mais cotistas eleitos pela assembleia, a regulamentação estabelece que esse gestor cotista:",
       "options": [
         { "id": "opt_1", "text": "Não pode gerir mais de um clube nem receber remuneração ou benefício pelos serviços de gestão.", "isCorrect": true },
-        { "id": "opt_2", "text": "Pode gerir número ilimitado de clubes e cobrar livremente taxa de performance pessoal.", "isCorrect": false, "distractorReason": "A norma impõe limites e veda remuneração ao cotista gestor." },
-        { "id": "opt_3", "text": "Passa automaticamente a ser servidor da CVM.", "isCorrect": false, "distractorReason": "Eleição pelo clube não cria vínculo funcional com o regulador." },
-        { "id": "opt_4", "text": "Fica dispensado de observar o estatuto e os deveres de diligência.", "isCorrect": false, "distractorReason": "A gestão continua submetida à norma, ao estatuto e aos deveres aplicáveis." }
+        { "id": "opt_2", "text": "Pode gerir outros clubes e receber taxa de performance, desde que a assembleia aprove previamente as condições comerciais.", "isCorrect": false, "distractorReason": "A deliberação dos cotistas não afasta os limites e a vedação de remuneração previstos na norma." },
+        { "id": "opt_3", "text": "Pode receber remuneração do administrador, desde que não haja pagamento direto com recursos pertencentes ao clube.", "isCorrect": false, "distractorReason": "A vedação alcança benefício direto ou indireto pelos serviços de gestão." },
+        { "id": "opt_4", "text": "Pode administrar outro clube, desde que as duas carteiras adotem políticas de investimento e prestadores de serviço distintos.", "isCorrect": false, "distractorReason": "O cotista eleito para a gestão só pode exercer essa função em um clube." }
       ],
       "explanation": "A gestão pode ser confiada a cotista eleito, mas ele só pode gerir um clube e não pode receber remuneração ou benefício, direto ou indireto, por esse serviço.",
       "commonTrap": "Aplicar ao cotista gestor as mesmas condições comerciais de um gestor profissional contratado.",
@@ -75,7 +75,7 @@
         { "id": "opt_1", "text": "R$ 670.000.", "isCorrect": true },
         { "id": "opt_2", "text": "R$ 400.000.", "isCorrect": false, "distractorReason": "Confunde composição da carteira com o teto de 40% por cotista." },
         { "id": "opt_3", "text": "R$ 500.000.", "isCorrect": false, "distractorReason": "Aplica percentual de 50%, inferior ao mínimo exigido." },
-        { "id": "opt_4", "text": "R$ 1.000.000, pois todos os ativos devem ser ações à vista.", "isCorrect": false, "distractorReason": "A norma exige mínimo de 67% em conjunto de ativos elegíveis, não 100% somente em ações." }
+        { "id": "opt_4", "text": "R$ 1.000.000, pois a parcela elegível deve corresponder à totalidade do patrimônio líquido.", "isCorrect": false, "distractorReason": "A norma exige mínimo de 67% no conjunto de ativos elegíveis, não a totalidade do patrimônio." }
       ],
       "explanation": "O mínimo corresponde a R$ 1.000.000 × 0,67 = R$ 670.000. O conjunto elegível inclui ações e outros instrumentos expressamente previstos na regulamentação.",
       "commonTrap": "Trocar o percentual mínimo de carteira pelo limite máximo de titularidade individual.",
@@ -105,9 +105,9 @@
       "statement": "O administrador direciona operações do clube apenas para gerar corretagem a parte relacionada, sem benefício para os cotistas. Essa conduta:",
       "options": [
         { "id": "opt_1", "text": "Viola deveres de boa-fé, diligência e lealdade na atuação em favor do clube e dos cotistas.", "isCorrect": true },
-        { "id": "opt_2", "text": "É sempre permitida porque o administrador decide sem qualquer limite de interesse.", "isCorrect": false, "distractorReason": "A discricionariedade não afasta deveres fiduciários e conflitos." },
-        { "id": "opt_3", "text": "Torna o FGC responsável por reembolsar toda a corretagem.", "isCorrect": false, "distractorReason": "O FGC não cobre esse tipo de conduta em clubes." },
-        { "id": "opt_4", "text": "É irrelevante se o estatuto não mencionar expressamente cada operação.", "isCorrect": false, "distractorReason": "Os deveres normativos aplicam-se independentemente de repetição literal no estatuto." }
+        { "id": "opt_2", "text": "É admitida se a corretagem cobrada estiver dentro dos valores praticados pelo mercado, ainda que falte benefício ao clube.", "isCorrect": false, "distractorReason": "Preço de mercado não sana o conflito nem dispensa a atuação leal no interesse dos cotistas." },
+        { "id": "opt_3", "text": "É regular quando a parte relacionada presta informações sobre as operações ao administrador antes da execução das ordens.", "isCorrect": false, "distractorReason": "Transparência isolada não legitima operações orientadas a gerar receita sem benefício para o clube." },
+        { "id": "opt_4", "text": "É válida quando o estatuto não proíbe nominalmente a corretora escolhida nem fixa limite para os custos de negociação.", "isCorrect": false, "distractorReason": "Os deveres normativos aplicam-se mesmo sem proibição literal de cada operação no estatuto." }
       ],
       "explanation": "Administrador e gestor devem atuar com boa-fé, transparência, diligência e lealdade. Gerar corretagem predominante sem interesse do clube configura conflito e violação desses deveres.",
       "commonTrap": "Entender poder de gestão como autorização para privilegiar remuneração de parte relacionada.",
@@ -121,9 +121,9 @@
       "statement": "Segundo a regulamentação tributária geral aplicável, aos clubes de investimento são aplicadas:",
       "options": [
         { "id": "opt_1", "text": "As normas de imposto de renda fixadas para fundos de investimento conforme sua classificação, cabendo ao administrador as responsabilidades previstas.", "isCorrect": true },
-        { "id": "opt_2", "text": "Isenção total e permanente de qualquer imposto para todos os cotistas.", "isCorrect": false, "distractorReason": "A forma coletiva não cria isenção universal." },
-        { "id": "opt_3", "text": "Exatamente o mesmo regime de salário recebido por pessoa física, sem considerar a carteira.", "isCorrect": false, "distractorReason": "A tributação segue regras de aplicações e classificação do veículo." },
-        { "id": "opt_4", "text": "Tributação definida livremente pela assembleia, independentemente da legislação.", "isCorrect": false, "distractorReason": "A assembleia não pode afastar a legislação tributária." }
+        { "id": "opt_2", "text": "As regras de ganho líquido das operações individuais de cada cotista, desconsiderando a classificação tributária da carteira coletiva mantida pelo clube.", "isCorrect": false, "distractorReason": "A tributação do veículo remete às regras de fundos conforme sua classificação." },
+        { "id": "opt_3", "text": "O regime aplicável aos rendimentos do trabalho da pessoa física, cabendo ao próprio cotista recolher mensalmente o imposto devido.", "isCorrect": false, "distractorReason": "O tratamento não equipara o resultado do clube a salário e atribui responsabilidades ao administrador." },
+        { "id": "opt_4", "text": "As alíquotas aprovadas em assembleia e registradas no estatuto, desde que divulgadas antes do ingresso de novos cotistas.", "isCorrect": false, "distractorReason": "A assembleia e o estatuto não podem substituir as normas tributárias aplicáveis." }
       ],
       "explanation": "A norma tributária remete clubes, carteiras administradas e formas coletivas às regras de fundos conforme a classificação. O administrador responde pela retenção e recolhimento quando aplicável.",
       "commonTrap": "Presumir que o clube cria isenção própria ou que seus cotistas escolhem livremente o regime fiscal.",

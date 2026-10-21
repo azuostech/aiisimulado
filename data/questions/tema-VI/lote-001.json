@@ -1,6 +1,6 @@
 {
   "batchId": "tema-VI-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-15",
   "questions": [
     {
       "id": "AI-VI-000001", "topicCode": "VI", "subtopicSlug": "instituicoes-intermediadores-banco-comercial", "contentNodeSlug": "tema-vi-banco-comercial-depositos",
@@ -9,9 +9,9 @@
       "statement": "A atividade típica de um banco comercial pode ser corretamente resumida como:",
       "options": [
         { "id": "opt_1", "text": "Captar depósitos, inclusive à vista, e conceder crédito, intermediando recursos entre poupadores e tomadores.", "isCorrect": true },
-        { "id": "opt_2", "text": "Administrar exclusivamente fundos de previdência complementar fechada.", "isCorrect": false, "distractorReason": "Essa não é a atividade característica de um banco comercial." },
-        { "id": "opt_3", "text": "Fiscalizar as ofertas públicas de ações realizadas no país.", "isCorrect": false, "distractorReason": "Fiscalização do mercado de valores mobiliários cabe à CVM." },
-        { "id": "opt_4", "text": "Definir a meta de inflação e a taxa Selic por conta própria.", "isCorrect": false, "distractorReason": "Bancos comerciais não formulam nem decidem a política monetária." }
+        { "id": "opt_2", "text": "Captar recursos por meio de planos previdenciários e administrar os benefícios de entidades fechadas patrocinadas por empresas.", "isCorrect": false, "distractorReason": "Essa atividade pertence ao segmento de previdência complementar, não caracteriza banco comercial." },
+        { "id": "opt_3", "text": "Registrar ofertas públicas e fiscalizar emissores, intermediários e negociações realizadas no mercado de valores mobiliários.", "isCorrect": false, "distractorReason": "Essas atribuições pertencem ao campo de atuação da CVM." },
+        { "id": "opt_4", "text": "Definir as metas da política monetária e decidir a taxa básica de juros aplicada ao sistema financeiro.", "isCorrect": false, "distractorReason": "Bancos comerciais operam sob a política monetária, mas não a formulam nem decidem." }
       ],
       "explanation": "Bancos realizam intermediação financeira, captando recursos de poupadores e oferecendo empréstimos e financiamentos. O banco comercial também se caracteriza pela captação de depósitos à vista.",
       "commonTrap": "Confundir a instituição operadora com órgãos normativos ou supervisores do sistema.",
@@ -41,9 +41,9 @@
       "statement": "Segundo a regulamentação, para ser constituída como banco múltiplo, uma instituição deve possuir:",
       "options": [
         { "id": "opt_1", "text": "No mínimo duas carteiras, sendo uma delas obrigatoriamente comercial ou de investimento.", "isCorrect": true },
-        { "id": "opt_2", "text": "Exatamente uma carteira, necessariamente de câmbio.", "isCorrect": false, "distractorReason": "Banco múltiplo pressupõe pluralidade mínima de carteiras." },
-        { "id": "opt_3", "text": "Somente carteiras de seguros e previdência fechada.", "isCorrect": false, "distractorReason": "Esses segmentos não satisfazem a composição bancária exigida." },
-        { "id": "opt_4", "text": "Todas as carteiras existentes no Sistema Financeiro Nacional.", "isCorrect": false, "distractorReason": "A norma exige mínimo de duas, não a totalidade das carteiras possíveis." }
+        { "id": "opt_2", "text": "Duas carteiras de livre escolha, ainda que nenhuma delas seja comercial ou de investimento.", "isCorrect": false, "distractorReason": "Uma das carteiras deve ser comercial ou de investimento." },
+        { "id": "opt_3", "text": "Uma carteira comercial combinada com autorização para distribuir seguros, sem necessidade de outra carteira bancária.", "isCorrect": false, "distractorReason": "A constituição exige ao menos duas carteiras autorizadas da estrutura de banco múltiplo." },
+        { "id": "opt_4", "text": "O conjunto completo das carteiras previstas na regulamentação, incluindo comercial, investimento, crédito imobiliário e arrendamento mercantil.", "isCorrect": false, "distractorReason": "A norma exige o mínimo de duas carteiras, não a adoção do conjunto completo." }
       ],
       "explanation": "Banco múltiplo é constituído com pelo menos duas carteiras autorizadas, sendo uma obrigatoriamente comercial ou de investimento. A instituição opera sob uma única personalidade jurídica.",
       "commonTrap": "Imaginar que a denominação múltiplo exige todas as carteiras ou apenas mais de um produto.",
@@ -57,9 +57,9 @@
       "statement": "Uma característica que diferencia institucionalmente a Caixa Econômica Federal é sua atuação como:",
       "options": [
         { "id": "opt_1", "text": "Empresa pública e importante agente de políticas públicas, com presença em habitação, FGTS e programas sociais.", "isCorrect": true },
-        { "id": "opt_2", "text": "Autarquia responsável por fiscalizar todas as companhias abertas.", "isCorrect": false, "distractorReason": "Essa descrição corresponde à CVM, não à Caixa." },
-        { "id": "opt_3", "text": "Órgão normativo máximo dos seguros privados.", "isCorrect": false, "distractorReason": "Essa função pertence ao CNSP." },
-        { "id": "opt_4", "text": "Entidade privada sem atuação bancária ou social.", "isCorrect": false, "distractorReason": "A Caixa é empresa pública, instituição financeira e agente de políticas públicas." }
+        { "id": "opt_2", "text": "Autarquia federal responsável por fiscalizar companhias abertas, ofertas públicas e participantes do mercado de valores mobiliários.", "isCorrect": false, "distractorReason": "Essa descrição corresponde à CVM, não à Caixa." },
+        { "id": "opt_3", "text": "Órgão normativo do segmento de seguros privados, com competência para fixar diretrizes aplicadas pela entidade supervisora.", "isCorrect": false, "distractorReason": "Essa função pertence ao CNSP." },
+        { "id": "opt_4", "text": "Banco privado voltado ao financiamento empresarial, sem participação na execução de programas sociais ou habitacionais do governo.", "isCorrect": false, "distractorReason": "A Caixa é empresa pública e agente relevante de políticas públicas." }
       ],
       "explanation": "A Caixa é empresa pública que exerce atividades bancárias e atua como agente relevante do Governo Federal na execução de políticas públicas, inclusive habitação e administração do FGTS.",
       "commonTrap": "Tratar a Caixa como órgão regulador por causa de seu vínculo com o poder público.",
@@ -89,9 +89,9 @@
       "statement": "A característica central da cooperativa de crédito, em comparação com um banco comercial tradicional, é que ela:",
       "options": [
         { "id": "opt_1", "text": "É formada pela associação de pessoas e presta serviços financeiros principalmente aos respectivos associados.", "isCorrect": true },
-        { "id": "opt_2", "text": "Não é instituição financeira e não pode conceder crédito.", "isCorrect": false, "distractorReason": "Cooperativa de crédito é instituição financeira e pode conceder crédito conforme as regras." },
-        { "id": "opt_3", "text": "Emite moeda e define a política cambial brasileira.", "isCorrect": false, "distractorReason": "Essas são funções de autoridade monetária, não da cooperativa." },
-        { "id": "opt_4", "text": "Presta serviços exclusivamente a companhias abertas listadas em bolsa.", "isCorrect": false, "distractorReason": "Seu vínculo característico é com associados, não com emissores listados." }
+        { "id": "opt_2", "text": "Funciona como associação sem natureza financeira, utilizando contribuições dos membros sem poder captar depósitos ou conceder crédito.", "isCorrect": false, "distractorReason": "Cooperativa de crédito é instituição financeira e pode realizar essas operações conforme as regras." },
+        { "id": "opt_3", "text": "Atua como autoridade monetária regional, emitindo moeda e definindo condições cambiais para as operações de seus associados.", "isCorrect": false, "distractorReason": "Cooperativas não exercem funções de autoridade monetária." },
+        { "id": "opt_4", "text": "Direciona seus serviços a emissores listados em bolsa, admitindo outras empresas conforme autorização do mercado organizado.", "isCorrect": false, "distractorReason": "O vínculo característico é com os associados, não com emissores listados." }
       ],
       "explanation": "Cooperativas de crédito são instituições financeiras constituídas pela associação de pessoas. Podem captar depósitos e conceder crédito aos associados, além de outras operações autorizadas.",
       "commonTrap": "Confundir forma cooperativa com ausência de natureza financeira ou de supervisão pelo BCB.",
@@ -105,9 +105,9 @@
       "statement": "Uma Sociedade de Crédito, Financiamento e Investimento — financeira — caracteriza-se por:",
       "options": [
         { "id": "opt_1", "text": "Fornecer empréstimos e financiamentos para bens, serviços e capital de giro, sem oferecer conta corrente típica.", "isCorrect": true },
-        { "id": "opt_2", "text": "Emitir ações de terceiros e fiscalizar as bolsas de valores.", "isCorrect": false, "distractorReason": "A descrição mistura intermediação de valores mobiliários e fiscalização." },
-        { "id": "opt_3", "text": "Receber depósitos à vista em conta corrente como atividade obrigatória.", "isCorrect": false, "distractorReason": "O Banco Central esclarece que não se abre conta corrente em SCFI." },
-        { "id": "opt_4", "text": "Administrar exclusivamente a dívida pública federal.", "isCorrect": false, "distractorReason": "Essa função pertence ao Tesouro Nacional." }
+        { "id": "opt_2", "text": "Estruturar emissões de ações de terceiros e supervisionar as bolsas nas quais esses valores mobiliários são negociados.", "isCorrect": false, "distractorReason": "A alternativa mistura atividades de intermediação com competência de fiscalização." },
+        { "id": "opt_3", "text": "Captar depósitos à vista em conta corrente e utilizar esses recursos como fonte obrigatória de seus financiamentos.", "isCorrect": false, "distractorReason": "O Banco Central esclarece que não se abre conta corrente em SCFI." },
+        { "id": "opt_4", "text": "Planejar as emissões de títulos públicos e administrar os recursos destinados ao pagamento da dívida federal.", "isCorrect": false, "distractorReason": "Essa função pertence ao Tesouro Nacional." }
       ],
       "explanation": "As SCFIs, conhecidas como financeiras, concedem empréstimos e financiamentos, frequentemente ligados ao consumo e capital de giro. Não oferecem conta corrente como um banco comercial.",
       "commonTrap": "Presumir que toda instituição que concede crédito também pode captar depósitos à vista.",
@@ -121,9 +121,9 @@
       "statement": "Sobre corretoras e distribuidoras de títulos e valores mobiliários, é correto afirmar que:",
       "options": [
         { "id": "opt_1", "text": "Após a autorização para distribuidoras operarem diretamente em mercados organizados, a principal diferença operacional foi eliminada e ambas podem realizar praticamente as mesmas operações.", "isCorrect": true },
-        { "id": "opt_2", "text": "Somente corretoras podem intermediar qualquer valor mobiliário e distribuidoras não podem atuar em bolsa.", "isCorrect": false, "distractorReason": "Essa distinção histórica deixou de representar a regra atual." },
-        { "id": "opt_3", "text": "Distribuidoras são órgãos públicos que fiscalizam corretoras privadas.", "isCorrect": false, "distractorReason": "Ambas são instituições intermediárias, não relação de regulador e regulado." },
-        { "id": "opt_4", "text": "Corretoras e distribuidoras não estão sujeitas à supervisão do BCB ou da CVM.", "isCorrect": false, "distractorReason": "A supervisão é compartilhada conforme as atividades exercidas." }
+        { "id": "opt_2", "text": "Corretoras podem intermediar valores mobiliários em mercados organizados, enquanto distribuidoras permanecem restritas à colocação fora desses ambientes e à distribuição por conta de emissores.", "isCorrect": false, "distractorReason": "Essa distinção histórica deixou de representar a regra atual." },
+        { "id": "opt_3", "text": "Distribuidoras exercem autorregulação sobre as corretoras, fiscalizando suas operações, aplicando sanções e autorizando previamente os negócios realizados nos ambientes administrados pela B3.", "isCorrect": false, "distractorReason": "Ambas são instituições intermediárias e não mantêm entre si relação de regulador e regulado." },
+        { "id": "opt_4", "text": "Corretoras são supervisionadas pela CVM e distribuidoras pelo BCB, sem sobreposição decorrente das atividades realizadas por cada instituição ou do mercado em que atuem.", "isCorrect": false, "distractorReason": "A supervisão pode envolver BCB e CVM conforme as atividades exercidas." }
       ],
       "explanation": "CTVMs e DTVMs intermedeiam operações nos mercados financeiro, cambial e de capitais. Desde a Decisão Conjunta 17/2009, podem realizar praticamente as mesmas operações.",
       "commonTrap": "Reproduzir a antiga separação que impedia distribuidoras de operar diretamente em bolsa.",

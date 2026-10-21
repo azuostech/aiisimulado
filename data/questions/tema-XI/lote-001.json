@@ -1,6 +1,6 @@
 {
   "batchId": "tema-XI-lote-001",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-15",
   "questions": [
     {
       "id": "AI-XI-000001", "topicCode": "XI", "subtopicSlug": "securitizacao-recebiveis-conceito", "contentNodeSlug": "tema-xi-conceito-transformacao-de-recebiveis-em-titulos",
@@ -9,9 +9,9 @@
       "statement": "Em uma operação de securitização, a função econômica central consiste em:",
       "options": [
         { "id": "opt_1", "text": "Adquirir direitos creditórios e utilizá-los como lastro para emitir títulos cujo pagamento depende primordialmente desses fluxos.", "isCorrect": true },
-        { "id": "opt_2", "text": "Converter obrigatoriamente todas as dívidas em ações da companhia devedora.", "isCorrect": false, "distractorReason": "Securitização não exige conversão do crédito em participação societária." },
-        { "id": "opt_3", "text": "Eliminar juridicamente a obrigação dos devedores originais.", "isCorrect": false, "distractorReason": "A obrigação de pagamento continua compondo o fluxo do lastro." },
-        { "id": "opt_4", "text": "Garantir pelo FGC qualquer título emitido contra os recebíveis.", "isCorrect": false, "distractorReason": "Títulos de securitização não recebem automaticamente garantia do FGC." }
+        { "id": "opt_2", "text": "Converter os recebíveis em participação societária da securitizadora, transferindo aos devedores a condição de acionistas da emissão.", "isCorrect": false, "distractorReason": "A securitização não pressupõe conversão do crédito em ações nem altera o devedor para acionista." },
+        { "id": "opt_3", "text": "Reunir as obrigações dos devedores em um novo contrato bancário, extinguindo os créditos que originaram a operação.", "isCorrect": false, "distractorReason": "Os recebíveis permanecem como lastro econômico e suas obrigações não são extintas pela cessão." },
+        { "id": "opt_4", "text": "Transferir ao mecanismo garantidor os riscos da carteira, fazendo a emissão depender da cobertura concedida aos investidores.", "isCorrect": false, "distractorReason": "Títulos de securitização não recebem cobertura ordinária do FGC." }
       ],
       "explanation": "A securitização conecta uma carteira de recebíveis a uma emissão para investidores. O pagamento dos títulos é condicionado primordialmente aos recursos produzidos pelos direitos creditórios e garantias.",
       "commonTrap": "Interpretar a transformação financeira como extinção do crédito ou garantia pública automática.",
@@ -25,9 +25,9 @@
       "statement": "Uma incorporadora vende unidades a prazo e transfere os créditos desses contratos para uma securitizadora. Nessa operação, a incorporadora é:",
       "options": [
         { "id": "opt_1", "text": "A cedente, por originar ou deter os créditos e transferi-los para a estrutura.", "isCorrect": true },
-        { "id": "opt_2", "text": "A investidora titular dos certificados apenas por ter realizado as vendas.", "isCorrect": false, "distractorReason": "Originar o crédito não significa subscrever os títulos emitidos." },
-        { "id": "opt_3", "text": "A devedora de todos os contratos vendidos, independentemente de suas condições.", "isCorrect": false, "distractorReason": "Os compradores são normalmente os devedores dos créditos imobiliários." },
-        { "id": "opt_4", "text": "A entidade autorreguladora responsável por fiscalizar a emissão.", "isCorrect": false, "distractorReason": "A cedente é parte econômica do crédito, não órgão de supervisão." }
+        { "id": "opt_2", "text": "A investidora dos certificados, pois a realização das vendas transfere à originadora a titularidade dos títulos emitidos.", "isCorrect": false, "distractorReason": "A origem dos créditos não torna a incorporadora investidora dos certificados." },
+        { "id": "opt_3", "text": "A devedora dos recebíveis, pois a cessão converte as obrigações dos compradores em dívida da empresa vendedora.", "isCorrect": false, "distractorReason": "Os compradores permanecem devedores dos contratos, ressalvadas obrigações específicas assumidas pela incorporadora." },
+        { "id": "opt_4", "text": "A agente fiduciária da emissão, pois responde pela fiscalização dos pagamentos feitos pelos compradores das unidades.", "isCorrect": false, "distractorReason": "A cedente não assume o papel regulatório ou representativo do agente fiduciário." }
       ],
       "explanation": "Cedente é quem transfere os direitos creditórios para a operação. Pode ser a originadora ou titular dos recebíveis, enquanto os devedores continuam responsáveis pelos pagamentos.",
       "commonTrap": "Confundir quem transfere o crédito com quem deve pagá-lo ou com quem compra o título emitido.",
@@ -57,7 +57,7 @@
       "statement": "Nos termos gerais da Lei 14.430, os Certificados de Recebíveis são emitidos exclusivamente por:",
       "options": [
         { "id": "opt_1", "text": "Companhia securitizadora.", "isCorrect": true },
-        { "id": "opt_2", "text": "Qualquer pessoa física que detenha uma conta a receber.", "isCorrect": false, "distractorReason": "A emissão do certificado é reservada à companhia securitizadora." },
+        { "id": "opt_2", "text": "Pessoa física titular dos recebíveis cedidos à operação.", "isCorrect": false, "distractorReason": "A titularidade original do crédito não confere competência para emitir Certificados de Recebíveis." },
         { "id": "opt_3", "text": "Clube de investimento registrado na B3.", "isCorrect": false, "distractorReason": "Clube não é emissor de Certificados de Recebíveis." },
         { "id": "opt_4", "text": "Fundo Garantidor de Créditos.", "isCorrect": false, "distractorReason": "O FGC não exerce essa função de emissão." }
       ],
@@ -73,9 +73,9 @@
       "statement": "Em uma emissão lastreada por contratos de financiamento, o desempenho do pagamento aos investidores depende principalmente:",
       "options": [
         { "id": "opt_1", "text": "Do fluxo gerado pelos direitos creditórios, pelos demais bens e pelas garantias vinculadas à emissão.", "isCorrect": true },
-        { "id": "opt_2", "text": "Da valorização obrigatória das ações da companhia securitizadora.", "isCorrect": false, "distractorReason": "O pagamento é vinculado ao lastro e à estrutura, não à alta obrigatória das ações." },
-        { "id": "opt_3", "text": "De cobertura automática e ilimitada do FGC.", "isCorrect": false, "distractorReason": "Títulos de securitização não possuem essa garantia automática." },
-        { "id": "opt_4", "text": "Da taxa Selic permanecer constante até o vencimento em qualquer emissão.", "isCorrect": false, "distractorReason": "O fluxo depende dos créditos e condições contratuais, não dessa exigência geral." }
+        { "id": "opt_2", "text": "Da valorização das ações da companhia securitizadora, usadas como fonte ordinária para pagar juros e principal da emissão.", "isCorrect": false, "distractorReason": "O pagamento se vincula ao lastro e às garantias, não ao preço das ações da securitizadora." },
+        { "id": "opt_3", "text": "Da cobertura contratada junto ao FGC, que recompõe os recebíveis inadimplidos antes da distribuição aos investidores.", "isCorrect": false, "distractorReason": "Esses títulos não contam com cobertura ordinária do FGC." },
+        { "id": "opt_4", "text": "Da manutenção da taxa Selic no nível vigente na emissão, mesmo quando os contratos possuem outro indexador.", "isCorrect": false, "distractorReason": "A remuneração e o risco dependem dos termos da emissão e do fluxo do lastro." }
       ],
       "explanation": "O lastro é a base econômica do título: os pagamentos dos devedores e as garantias vinculadas geram recursos para amortização e remuneração conforme o termo de securitização.",
       "commonTrap": "Tratar lastro como simples referência nominal sem relação com o fluxo de pagamento da emissão.",
@@ -89,9 +89,9 @@
       "statement": "Uma emissão apresenta aumento expressivo da inadimplência entre os devedores dos recebíveis e não possui proteção suficiente. O risco diretamente materializado é:",
       "options": [
         { "id": "opt_1", "text": "Risco de crédito do lastro, que pode reduzir os fluxos disponíveis aos investidores.", "isCorrect": true },
-        { "id": "opt_2", "text": "Apenas risco cambial, ainda que os contratos estejam integralmente em reais.", "isCorrect": false, "distractorReason": "O evento decorre do não pagamento dos créditos, não de moeda estrangeira." },
-        { "id": "opt_3", "text": "Nenhum risco, pois a securitização elimina inadimplência dos devedores.", "isCorrect": false, "distractorReason": "A estrutura transfere e organiza riscos, mas não extingue a possibilidade de default." },
-        { "id": "opt_4", "text": "Risco exclusivo do cedente, sem qualquer efeito potencial sobre os títulos.", "isCorrect": false, "distractorReason": "Dependendo da estrutura, a perda do fluxo do lastro afeta os investidores." }
+        { "id": "opt_2", "text": "Risco cambial da emissão, pois a inadimplência transforma os contratos denominados em reais em obrigações expostas à moeda estrangeira.", "isCorrect": false, "distractorReason": "A inadimplência não cria exposição cambial; ela materializa risco de crédito." },
+        { "id": "opt_3", "text": "Risco operacional da securitizadora, pois a cessão retira dos devedores a possibilidade econômica de deixar de pagar.", "isCorrect": false, "distractorReason": "A cessão não elimina a inadimplência dos devedores nem converte esse evento em mero risco operacional." },
+        { "id": "opt_4", "text": "Risco do cedente, pois a deterioração dos recebíveis reduz seu resultado, mas não alcança o fluxo destinado aos títulos.", "isCorrect": false, "distractorReason": "A piora do lastro pode reduzir diretamente os recursos disponíveis para a emissão." }
       ],
       "explanation": "Os pagamentos dos devedores sustentam a emissão. Se a inadimplência supera proteções, subordinação ou garantias, o caixa disponível pode não bastar para cumprir integralmente os títulos.",
       "commonTrap": "Supor que transferir recebíveis também transfere para fora da estrutura toda possibilidade de perda.",
@@ -105,9 +105,9 @@
       "statement": "Quando uma emissão adota regime fiduciário, os direitos creditórios e bens vinculados constituem patrimônio separado. Isso significa que:",
       "options": [
         { "id": "opt_1", "text": "O lastro fica afetado à emissão e separado do patrimônio comum e de outros patrimônios separados da securitizadora.", "isCorrect": true },
-        { "id": "opt_2", "text": "Todos os devedores passam a ter garantia integral do Tesouro Nacional.", "isCorrect": false, "distractorReason": "Segregação patrimonial não cria garantia soberana." },
-        { "id": "opt_3", "text": "A inadimplência do lastro deixa de ser possível.", "isCorrect": false, "distractorReason": "O regime protege a afetação dos ativos, mas não elimina o risco de crédito." },
-        { "id": "opt_4", "text": "Os ativos podem ser usados livremente para pagar qualquer dívida comum da securitizadora.", "isCorrect": false, "distractorReason": "Isso contraria a afetação exclusiva e a separação patrimonial." }
+        { "id": "opt_2", "text": "O lastro passa a integrar o patrimônio comum da securitizadora, com preferência sobre os demais credores em caso de insolvência.", "isCorrect": false, "distractorReason": "O regime fiduciário separa o lastro do patrimônio comum em vez de integrá-lo a ele." },
+        { "id": "opt_3", "text": "Os devedores deixam de responder pelos recebíveis, pois a segregação transfere à securitizadora a obrigação de pagar a emissão.", "isCorrect": false, "distractorReason": "A segregação patrimonial não extingue as obrigações nem elimina o risco do lastro." },
+        { "id": "opt_4", "text": "Os ativos vinculados podem atender dívidas comuns da securitizadora depois de pagos os juros correntes da emissão.", "isCorrect": false, "distractorReason": "A afetação restringe o patrimônio separado às obrigações da emissão correspondente." }
       ],
       "explanation": "O regime fiduciário afeta os ativos à emissão e cria patrimônio separado, protegendo sua destinação. A medida reduz risco estrutural, mas não garante adimplência ou rentabilidade.",
       "commonTrap": "Transformar segregação patrimonial em garantia absoluta contra todos os riscos da operação.",
@@ -121,9 +121,9 @@
       "statement": "Um Certificado de Recebíveis passa a ser considerado valor mobiliário quando:",
       "options": [
         { "id": "opt_1", "text": "É ofertado publicamente ou admitido à negociação em mercado regulamentado de valores mobiliários.", "isCorrect": true },
-        { "id": "opt_2", "text": "Qualquer devedor realiza a primeira parcela do contrato de origem.", "isCorrect": false, "distractorReason": "O pagamento do devedor não define, sozinho, a natureza regulatória do certificado." },
-        { "id": "opt_3", "text": "A cedente decide chamá-lo informalmente de ação.", "isCorrect": false, "distractorReason": "A denominação privada não substitui as condições legais." },
-        { "id": "opt_4", "text": "O título recebe cobertura ordinária do FGC.", "isCorrect": false, "distractorReason": "Cobertura do FGC não é requisito e não se aplica automaticamente." }
+        { "id": "opt_2", "text": "O primeiro devedor paga uma parcela do contrato de origem, iniciando o fluxo financeiro destinado à emissão.", "isCorrect": false, "distractorReason": "O pagamento do lastro não define o enquadramento do certificado como valor mobiliário." },
+        { "id": "opt_3", "text": "A cedente registra os recebíveis em seu balanço como ativos disponíveis para negociação com investidores profissionais.", "isCorrect": false, "distractorReason": "O registro contábil da cedente não substitui as hipóteses legais de enquadramento." },
+        { "id": "opt_4", "text": "A companhia securitizadora contrata proteção para parte das perdas da carteira junto a uma instituição financeira.", "isCorrect": false, "distractorReason": "Uma proteção contratual não determina a natureza mobiliária do certificado." }
       ],
       "explanation": "A Lei 14.430 estabelece que Certificados de Recebíveis ofertados publicamente ou admitidos em mercado regulamentado são valores mobiliários, sujeitos ao regime aplicável.",
       "commonTrap": "Confundir a existência do crédito ou do certificado com a condição regulatória de valor mobiliário.",

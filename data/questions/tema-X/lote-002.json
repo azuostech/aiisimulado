@@ -1,6 +1,6 @@
 {
   "batchId": "tema-X-lote-002-correcoes-auditoria",
-  "reviewedAt": "2026-10-11",
+  "reviewedAt": "2026-10-15",
   "questions": [{
     "id": "AI-X-000009", "topicCode": "X", "subtopicSlug": "fundos-anexos-fidc", "contentNodeSlug": "tema-x-fidc-subclasses",
     "family": { "code": "AI-X-FIDC-SUBORDINACAO-001", "name": "Subordinação em FIDC", "angle": "identificar prioridade econômica entre subclasses" },
@@ -9,8 +9,8 @@
     "options": [
       { "id": "opt_1", "text": "A cota sênior não se subordina às demais, enquanto a júnior absorve perdas antes dela até o limite econômico previsto.", "isCorrect": true },
       { "id": "opt_2", "text": "A cota sênior garante restituição integral do capital mesmo quando as perdas superam a proteção subordinada e o patrimônio disponível da classe.", "isCorrect": false, "distractorReason": "Prioridade não equivale a garantia incondicional nem elimina o risco de crédito da carteira." },
-      { "id": "opt_3", "text": "A subclasse júnior tem prioridade de amortização apenas por assumir maior risco de perda.", "isCorrect": false, "distractorReason": "Maior risco subordinado não cria automaticamente prioridade de amortização." },
-      { "id": "opt_4", "text": "Todas as subclasses devem suportar cada perda simultaneamente e na mesma proporção patrimonial.", "isCorrect": false, "distractorReason": "A subordinação permite uma ordem econômica diferente para absorção de perdas." }
+      { "id": "opt_3", "text": "A subclasse júnior recebe prioridade de amortização como contrapartida por assumir a primeira faixa de perdas da carteira.", "isCorrect": false, "distractorReason": "Maior exposição a perdas não cria, por si, prioridade de amortização sobre a cota sênior." },
+      { "id": "opt_4", "text": "As subclasses suportam as perdas proporcionalmente aos respectivos patrimônios, ficando a subordinação restrita à ordem de remuneração.", "isCorrect": false, "distractorReason": "A estrutura pode estabelecer ordem distinta de absorção de perdas, e não só de remuneração." }
     ],
     "explanation": "A cota sênior é definida por não se subordinar a outra subclasse. A subclasse subordinada pode funcionar como proteção econômica inicial, mas essa prioridade não transforma a cota sênior em investimento garantido.",
     "commonTrap": "Converter prioridade relativa entre subclasses em promessa de ausência de perda para o cotista sênior.",
