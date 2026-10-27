@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-I-lote-004",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-I-000022", "topicCode": "I", "subtopicSlug": "atividade-assessor-atividades-permitidas", "contentNodeSlug": "tema-i-atividades-permitidas-prospeccao",
+      "family": { "code": "AI-I-PROSPECCAO-CAPTACAO-001", "name": "Prospecção e captação de clientes", "angle": "reconhecer atividade expressamente permitida" },
+      "difficulty": 1, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["prospecção", "captação", "atividade permitida"],
+      "statement": "Qual atividade está expressamente incluída no escopo regulamentar do assessor de investimento quando exercida em nome do intermediário representado?",
+      "options": [
+        { "id": "opt_1", "text": "Realizar a prospecção e a captação de clientes para o intermediário integrante do sistema de distribuição.", "isCorrect": true },
+        { "id": "opt_2", "text": "Administrar discricionariamente a carteira do cliente e decidir o momento adequado para cada operação financeira.", "isCorrect": false, "distractorReason": "A administração discricionária de carteira não integra as atividades permitidas ao assessor." },
+        { "id": "opt_3", "text": "Produzir relatório de análise independente e divulgar ao mercado recomendação pública sobre valores mobiliários por ele acompanhados.", "isCorrect": false, "distractorReason": "A análise profissional independente constitui atividade sujeita a disciplina própria." },
+        { "id": "opt_4", "text": "Manter ativos e recursos financeiros do cliente sob custódia direta durante a execução das ordens.", "isCorrect": false, "distractorReason": "O assessor não recebe nem mantém recursos ou ativos do cliente sob sua custódia." }
+      ],
+      "explanation": "A Resolução CVM 178 inclui expressamente a prospecção e a captação de clientes entre as atividades do assessor, que atua sob responsabilidade e como preposto do intermediário representado.",
+      "commonTrap": "Confundir apoio comercial e captação com atividades privativas de administração, análise ou custódia.", "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 2º, I, e 3º, I", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

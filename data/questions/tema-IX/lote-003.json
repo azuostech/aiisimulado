@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-IX-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-IX-000010", "topicCode": "IX", "subtopicSlug": "estrutura", "contentNodeSlug": "tema-ix-estrutura-fundo",
+      "family": { "code": "AI-IX-FUNDO-CONDOMINIO-001", "name": "Natureza do fundo de investimento", "angle": "reconhecer comunhão de recursos" },
+      "difficulty": 1, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["fundo", "condomínio", "comunhão de recursos"],
+      "statement": "Segundo a regra geral da Resolução CVM 175, um fundo de investimento é constituído como:",
+      "options": [
+        { "id": "opt_1", "text": "Comunhão de recursos em condomínio especial, destinada à aplicação em ativos financeiros, bens e direitos.", "isCorrect": true },
+        { "id": "opt_2", "text": "Depósito bancário coletivo protegido pelo FGC e destinado à concessão direta de crédito aos participantes.", "isCorrect": false, "distractorReason": "Fundo não é depósito bancário, e suas cotas não contam com a garantia ordinária do FGC." },
+        { "id": "opt_3", "text": "Sociedade empresária com capital dividido em ações e administrada diretamente pelos investidores reunidos em assembleia.", "isCorrect": false, "distractorReason": "A natureza geral do fundo é condominial, e não sociedade por ações." },
+        { "id": "opt_4", "text": "Carteira individual administrada por instituição financeira em nome e benefício exclusivo de um único investidor.", "isCorrect": false, "distractorReason": "O fundo reúne recursos em estrutura coletiva, diferentemente de uma carteira individual administrada." }
+      ],
+      "explanation": "A Resolução CVM 175 define o fundo como comunhão de recursos constituída sob a forma de condomínio de natureza especial e destinada à aplicação em ativos financeiros, bens e direitos.",
+      "commonTrap": "Confundir fundo de investimento com depósito bancário, sociedade por ações ou carteira administrada individual.", "estimatedSeconds": 65, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175", "versionLabel": "Texto consolidado consultado em 27/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "Parte Geral, art. 4º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

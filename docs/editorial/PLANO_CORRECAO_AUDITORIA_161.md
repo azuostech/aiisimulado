@@ -39,12 +39,14 @@ Data de referência: 12/10/2026.
 - Inclusão de quatro novas famílias de nível 5 nos Temas VII, IX, XIII e XIV; o banco passou a ter 20 questões de nível 5 distribuídas por 16 famílias distintas, tornando alcançável a cota-base da matriz Blindagem sem repetição de família.
 - Novo gate completo com 194 questões aceitas, 185 ativas e nenhuma pista formal de gabarito por extensão ou absolutos assimétricos.
 - Teste automático de dez seleções de 80 questões sem escassez, repetição de família ou desvio das cotas rígidas por tema; a distribuição otimizada selecionou de 10 a 13 itens de nível 5 conforme a semente.
+- Calibração do seletor com alocação global da melhor distribuição factível, preservando questões recentes e itens com penalidade editorial fora da otimização rígida; em dez novas seleções, a Blindagem passou a escolher 16 itens de nível 5 e ficou a apenas dois itens de distância total da matriz ideal.
+- Inclusão de três novas famílias de nível 1 nos Temas I, III e IX, elevando a cobertura a 158 nós terminais e eliminando a última lacuna quantitativa da matriz Real.
+- Nova simulação de dez provas por modo com distribuição exata de dificuldade, 80 famílias únicas e cotas temáticas integrais tanto no Real quanto na Blindagem.
 
 ## Próximo lote editorial
 
 - Auditar editorialmente um simulado completo de 80 questões antes da expansão definitiva até 340.
-- Calibrar a otimização global de dificuldade para aproximar a seleção efetiva da meta de 16 itens de nível 5 da Blindagem, preservando cotas rígidas por tema e famílias únicas.
-- Criar três novas famílias de nível 1 para eliminar a lacuna da matriz Real sem reduzir a cobertura dos demais níveis.
+- Produzir o próximo lote de famílias para ampliar a janela antirrepetição, priorizando os nós ainda descobertos dos Temas I, III, VIII e XV.
 
 ## Critérios para liberar a expansão
 

@@ -107,3 +107,41 @@ test("não sacrifica equilíbrio editorial para perseguir uma dificuldade declar
 
   assert.equal(result.questions[0].id, "moderada-equilibrada");
 });
+
+test("cumpre a distribuição de dificuldade quando existe solução sem repetir famílias", () => {
+  const candidates = [];
+  for (let index = 0; index < 10; index += 1) {
+    const difficulty = index < 1 ? 1 : index < 2 ? 2 : index < 5 ? 3 : index < 8 ? 4 : 5;
+    candidates.push(question(`q-${index}`, "I", `family-${index}`, difficulty, `subtopic-${index % 8}`));
+  }
+  candidates.push(question("extra-moderada", "I", "family-extra", 3));
+
+  const result = selectExamQuestions({
+    candidates,
+    topicQuotas: new Map([["I", 10]]),
+    seed: "exact-difficulty",
+    recentQuestionIds: new Set(),
+    mode: "BLINDAGEM",
+  });
+
+  assert.equal(result.shortageTopic, null);
+  assert.deepEqual(Object.fromEntries([1, 2, 3, 4, 5].map((difficulty) => [
+    difficulty,
+    result.questions.filter((item) => item.difficulty === difficulty).length,
+  ])), { 1: 1, 2: 1, 3: 3, 4: 3, 5: 2 });
+});
+
+test("não reutiliza questão recente para forçar a distribuição de dificuldade", () => {
+  const result = selectExamQuestions({
+    candidates: [
+      question("recente-dificil", "I", "family-a", 5),
+      question("nova-moderada", "I", "family-b", 3),
+    ],
+    topicQuotas: new Map([["I", 1]]),
+    seed: "recent-over-target",
+    recentQuestionIds: new Set(["recente-dificil"]),
+    mode: "BLINDAGEM",
+  });
+
+  assert.equal(result.questions[0].id, "nova-moderada");
+});

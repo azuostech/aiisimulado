@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-III-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-III-000015", "topicCode": "III", "subtopicSlug": "pld-suitability-situacao-financeira", "contentNodeSlug": "tema-iii-suitability-situacao-financeira-renda",
+      "family": { "code": "AI-III-SUIT-SITUACAO-FINANCEIRA-001", "name": "Situação financeira no suitability", "angle": "identificar informação sobre capacidade financeira" },
+      "difficulty": 1, "questionType": "direct_application", "cognitiveSkill": "RECALL", "status": "ACTIVE", "tags": ["suitability", "renda", "patrimônio"],
+      "statement": "Na análise de suitability, qual conjunto de informações pertence à avaliação da situação financeira do cliente?",
+      "options": [
+        { "id": "opt_1", "text": "Renda regular declarada, valor do patrimônio e necessidade futura de utilizar os recursos investidos.", "isCorrect": true },
+        { "id": "opt_2", "text": "Horizonte do investimento, finalidade dos recursos e preferência declarada quanto à assunção de riscos.", "isCorrect": false, "distractorReason": "Esses elementos pertencem à avaliação dos objetivos de investimento do cliente." },
+        { "id": "opt_3", "text": "Formação acadêmica, experiência profissional e frequência anterior de operações no mercado de valores mobiliários.", "isCorrect": false, "distractorReason": "Esses dados integram a avaliação de conhecimento e experiência do cliente." },
+        { "id": "opt_4", "text": "Rentabilidade desejada, produto indicado pelo assessor e desempenho histórico da instituição intermediária escolhida.", "isCorrect": false, "distractorReason": "O conjunto não corresponde aos elementos regulamentares da situação financeira." }
+      ],
+      "explanation": "A situação financeira considera renda regular, patrimônio e necessidade futura de recursos. Objetivos de investimento e conhecimento do cliente formam dimensões separadas da análise de adequação.",
+      "commonTrap": "Misturar situação financeira com objetivos de investimento ou conhecimento sobre produtos financeiros.", "estimatedSeconds": 70, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 30/2021", "versionLabel": "Texto consolidado consultado em 27/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/001/resol030consolid.pdf", "locator": "art. 3º, § 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}
