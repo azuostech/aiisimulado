@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-VII-lote-002",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-VII-000009", "topicCode": "VII", "subtopicSlug": "var", "contentNodeSlug": "tema-vii-var-limitacao",
+      "family": { "code": "AI-VII-VAR-EXCECAO-001", "name": "Exceções além do VaR", "angle": "interpretar perda acima do quantil estimado" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["VaR", "confiança", "exceção"],
+      "statement": "Um modelo estima VaR diário de R$ 2 milhões com 99% de confiança. Em determinado pregão, a carteira perde R$ 2,6 milhões. Sem outras evidências, esse resultado significa que:",
+      "options": [
+        { "id": "opt_1", "text": "Ocorreu uma perda além do quantil estimado, evento possível no nível de confiança adotado e relevante para validar o modelo.", "isCorrect": true },
+        { "id": "opt_2", "text": "O modelo provou que a perda máxima diária era R$ 2 milhões e, por isso, o valor excedente decorre de erro contábil.", "isCorrect": false, "distractorReason": "VaR não estabelece perda máxima; excedências podem ocorrer na cauda da distribuição." },
+        { "id": "opt_3", "text": "A confiança de 99% garante que o limite será respeitado em cada sequência contínua de cem pregões observados.", "isCorrect": false, "distractorReason": "O nível de confiança é uma propriedade probabilística, não uma agenda fixa de exceções." },
+        { "id": "opt_4", "text": "O VaR deve ser somado à perda observada, produzindo exposição total de R$ 4,6 milhões para o pregão.", "isCorrect": false, "distractorReason": "O VaR é uma estimativa de quantil e não um fluxo financeiro somado à perda realizada." }
+      ],
+      "explanation": "O VaR a 99% estima um quantil da distribuição de perdas para o horizonte definido; não representa perda máxima. Uma perda maior pode ocorrer e constitui exceção que deve integrar o backtesting e a avaliação do modelo.",
+      "commonTrap": "Interpretar o VaR como teto garantido ou distribuir mecanicamente uma exceção a cada cem observações.", "estimatedSeconds": 145, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Comitê de Basileia (BIS)", "normNumber": "Minimum capital requirements for market risk", "versionLabel": "Padrão oficial consultado em 27/10/2026", "url": "https://www.bis.org/bcbs/publ/d457.pdf", "locator": "parágrafos 10.17 e 10.18 — VaR, horizonte, confiança e perdas além do quantil", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-XIII-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-XIII-000020", "topicCode": "XIII", "subtopicSlug": "vpl", "contentNodeSlug": "tema-xiii-vpl-decisao",
+      "family": { "code": "AI-XIII-VPL-TIR-CONFLITO-001", "name": "Conflito entre VPL e TIR", "angle": "escolher entre projetos mutuamente excludentes" },
+      "difficulty": 5, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["VPL", "TIR", "projetos excludentes"],
+      "statement": "Dois projetos convencionais e mutuamente excludentes têm risco comparável. À taxa mínima de atratividade, o projeto A apresenta TIR maior, mas o projeto B apresenta VPL maior. Se o objetivo é maximizar o valor criado, deve-se:",
+      "options": [
+        { "id": "opt_1", "text": "Preferir o projeto B, pois o VPL mede o valor incremental à taxa de desconto relevante para a decisão.", "isCorrect": true },
+        { "id": "opt_2", "text": "Preferir o projeto A, pois a maior TIR domina o VPL quando os projetos não podem ser realizados simultaneamente.", "isCorrect": false, "distractorReason": "Em conflito de ordenação, a maior taxa percentual não implica maior valor criado." },
+        { "id": "opt_3", "text": "Aceitar os dois projetos, pois TIR e VPL positivos eliminam a restrição de escolha entre alternativas excludentes.", "isCorrect": false, "distractorReason": "A exclusão mútua impede executar ambos e exige escolher segundo o objetivo definido." },
+        { "id": "opt_4", "text": "Rejeitar os dois projetos, pois resultados divergentes entre TIR e VPL tornam os critérios financeiramente inconclusivos.", "isCorrect": false, "distractorReason": "A divergência de ranking não invalida os fluxos; o VPL atende ao objetivo de maximizar valor." }
+      ],
+      "explanation": "Em projetos mutuamente excludentes, escalas e distribuições temporais distintas podem gerar conflito entre os rankings da TIR e do VPL. Para maximizar valor à taxa mínima relevante, seleciona-se o maior VPL.",
+      "commonTrap": "Escolher mecanicamente a maior TIR sem considerar escala, reinvestimento e valor monetário criado.", "estimatedSeconds": 145, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CAPES", "normNumber": "Matemática Financeira e Análise de Investimentos", "versionLabel": "Livro educacional oficial consultado em 27/10/2026", "url": "https://educapes.capes.gov.br/bitstream/capes/714987/2/4%20Matematica%20Financeira%20Miolo%20online%202ed.pdf", "locator": "métodos VPL e TIR — comparação e decisão de investimentos", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

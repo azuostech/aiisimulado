@@ -1,0 +1,96 @@
+{
+  "batchId": "tema-VIII-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-VIII-000028", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-mercado-secundario", "contentNodeSlug": "tema-viii-mercado-secundario-transferencia-entre-investidores",
+      "family": { "code": "AI-VIII-SECUNDARIO-FLUXO-001", "name": "Fluxo no mercado secundário", "angle": "separar valorização de ingresso de caixa no emissor" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["mercado secundário", "preço", "emissor"],
+      "statement": "Após uma oferta primária, as ações de uma companhia passam a ser negociadas por preço 30% maior no mercado secundário. Sem nova emissão ou venda de ações pela companhia, essa valorização:",
+      "options": [
+        { "id": "opt_1", "text": "Altera o preço das transferências entre investidores, mas não gera por si só novo ingresso de caixa para a companhia.", "isCorrect": true },
+        { "id": "opt_2", "text": "Obriga os compradores a pagar à companhia a diferença entre o preço atual e o preço praticado na oferta primária anterior.", "isCorrect": false, "distractorReason": "A negociação secundária ocorre entre investidores e não complementa o preço da emissão anterior." },
+        { "id": "opt_3", "text": "Eleva o capital social pelo valor agregado às ações que permanecem em circulação e são negociadas no mercado secundário.", "isCorrect": false, "distractorReason": "A cotação de mercado não altera automaticamente o capital social registrado." },
+        { "id": "opt_4", "text": "Converte as negociações secundárias em lotes de emissão primária destinados a financiar novos investimentos escolhidos pela companhia emissora.", "isCorrect": false, "distractorReason": "Negócios secundários não se convertem em captação primária sem uma nova operação do emissor." }
+      ],
+      "explanation": "A oferta primária capta recursos para o emissor; a negociação secundária transfere valores mobiliários e recursos entre investidores. A valorização pode ter efeitos econômicos para acionistas, mas não constitui novo caixa para a companhia.",
+      "commonTrap": "Confundir aumento da cotação e do valor de mercado com aumento automático de caixa ou de capital social.", "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 160/2022", "versionLabel": "Texto consolidado consultado em 27/10/2026", "url": "https://conteudo.cvm.gov.br/export/sites/cvm/legislacao/resolucoes/anexos/100/resol160consolid.pdf", "locator": "art. 2º, XIV, alíneas a e b", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-VIII-000029", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-acoes", "contentNodeSlug": "tema-viii-acoes-ordinarias",
+      "family": { "code": "AI-VIII-ACOES-ON-001", "name": "Direito essencial da ação ordinária", "angle": "conciliar voto ordinário e voto plural autorizado" },
+      "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["ações ordinárias", "voto plural", "estatuto"],
+      "statement": "Uma companhia pretende criar classe de ações ordinárias com voto plural, observando os limites e o procedimento previstos na Lei das S.A. Essa estrutura:",
+      "options": [
+        { "id": "opt_1", "text": "Pode ser admitida como exceção legal ao voto unitário, desde que cumpra as condições aplicáveis ao voto plural.", "isCorrect": true },
+        { "id": "opt_2", "text": "É vedada porque a ação ordinária precisa conferir exatamente um voto, sem exceções previstas na legislação societária.", "isCorrect": false, "distractorReason": "A lei passou a admitir voto plural para classes de ações ordinárias sob condições específicas." },
+        { "id": "opt_3", "text": "Pode ser criada livremente pelo conselho de administração, sem previsão estatutária ou deliberação dos acionistas da companhia.", "isCorrect": false, "distractorReason": "A criação do voto plural está sujeita a requisitos legais e societários próprios." },
+        { "id": "opt_4", "text": "Transforma as ações da classe em preferenciais, pois mais de um voto é incompatível com a espécie ordinária.", "isCorrect": false, "distractorReason": "O voto plural admitido pela lei não muda a espécie da ação ordinária." }
+      ],
+      "explanation": "A regra geral associa voto à ação ordinária, mas a Lei das S.A. admite classes de ações ordinárias com voto plural dentro de requisitos, limites e hipóteses definidos. A exceção não converte a ação em preferencial.",
+      "commonTrap": "Aplicar a regra de um voto por ação sem considerar a disciplina legal específica do voto plural.", "estimatedSeconds": 135, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado consultado em 27/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "arts. 110, caput, e 110-A", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-VIII-000030", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-eventos-societarios", "contentNodeSlug": "tema-viii-eventos-societarios-desdobramento",
+      "family": { "code": "AI-VIII-EVENTO-DESDOBRAMENTO-001", "name": "Efeito do desdobramento", "angle": "inferir a proporção a partir da posição ajustada" },
+      "difficulty": 4, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["desdobramento", "proporção", "preço"],
+      "statement": "Após um desdobramento, um investidor passou de 750 para 3.000 ações, sem alterar sua participação. Se o preço teórico anterior era R$ 28,00, qual foi a proporção e o preço teórico posterior?",
+      "options": [
+        { "id": "opt_1", "text": "Quatro novas para cada ação anterior e preço teórico de R$ 7,00 por ação.", "isCorrect": true },
+        { "id": "opt_2", "text": "Três novas para cada ação anterior e preço teórico de R$ 9,33 por ação.", "isCorrect": false, "distractorReason": "A quantidade total foi multiplicada por quatro, e não por três." },
+        { "id": "opt_3", "text": "Uma nova para cada quatro ações anteriores e preço teórico de R$ 112,00 por ação.", "isCorrect": false, "distractorReason": "Essa relação reduz a quantidade e descreve a lógica de um grupamento." },
+        { "id": "opt_4", "text": "Quatro novas para cada ação anterior e preço teórico mantido em R$ 28,00 por ação.", "isCorrect": false, "distractorReason": "Manter o preço após quadruplicar a quantidade criaria valor sem fundamento no evento." }
+      ],
+      "explanation": "A quantidade passou de 750 para 3.000, multiplicação por quatro. No efeito mecânico do desdobramento, o preço teórico é dividido pelo mesmo fator: R$ 28,00 dividido por quatro resulta em R$ 7,00.",
+      "commonTrap": "Interpretar 'uma para quatro' como redução da quantidade ou esquecer o ajuste inverso do preço.", "estimatedSeconds": 135, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado consultado em 27/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 12", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-VIII-000031", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-proventos", "contentNodeSlug": "tema-viii-proventos-direitos-de-subscricao",
+      "family": { "code": "AI-VIII-SUBSCRICAO-PREFERENCIA-001", "name": "Direito de preferência na subscrição", "angle": "calcular diluição após exercício parcial" },
+      "difficulty": 4, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["subscrição", "preferência", "diluição"],
+      "statement": "Uma companhia com 1.000.000 de ações emitirá outras 250.000. Um acionista possui 50.000 ações e subscreve apenas 5.000 das 12.500 a que teria direito proporcional. Sua participação após a emissão será:",
+      "options": [
+        { "id": "opt_1", "text": "4,4%, pois terá 55.000 ações em um total de 1.250.000 ações depois da emissão.", "isCorrect": true },
+        { "id": "opt_2", "text": "5,0%, pois o exercício parcial preserva a participação originalmente detida antes do aumento de capital.", "isCorrect": false, "distractorReason": "Para manter 5%, seria necessário subscrever as 12.500 ações proporcionais." },
+        { "id": "opt_3", "text": "4,0%, pois as 5.000 ações subscritas representam exatamente esse percentual da nova emissão realizada.", "isCorrect": false, "distractorReason": "Cinco mil representam 2% da emissão, e a participação final considera também as ações antigas." },
+        { "id": "opt_4", "text": "5,5%, pois a quantidade final de 55.000 ações deve ser dividida pelo capital anterior à emissão.", "isCorrect": false, "distractorReason": "O denominador após o aumento é o novo total de 1.250.000 ações." }
+      ],
+      "explanation": "Depois da subscrição parcial, o acionista terá 55.000 ações. O capital será composto por 1.250.000 ações; portanto, 55.000 dividido por 1.250.000 equivale a 4,4%, evidenciando a diluição parcial.",
+      "commonTrap": "Usar o capital anterior como denominador ou presumir que qualquer exercício do direito preserva a participação.", "estimatedSeconds": 155, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado consultado em 27/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "art. 171, caput", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-VIII-000032", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-debentures", "contentNodeSlug": "tema-viii-debentures-emissor",
+      "family": { "code": "AI-VIII-DEBENTURE-CREDITO-001", "name": "Natureza da debênture", "angle": "comparar subordinação e posição do acionista" },
+      "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["debênture subordinada", "crédito", "acionista"],
+      "statement": "Uma escritura prevê debêntures subordinadas aos credores quirografários. Em eventual liquidação da companhia, essa cláusula significa que os debenturistas da emissão:",
+      "options": [
+        { "id": "opt_1", "text": "Continuam credores e têm preferência apenas sobre os acionistas quanto ao ativo remanescente, conforme a subordinação pactuada.", "isCorrect": true },
+        { "id": "opt_2", "text": "Passam a integrar a classe de acionistas preferenciais e participam do saldo conforme o capital investido na emissão.", "isCorrect": false, "distractorReason": "A subordinação não converte o direito de crédito em participação acionária." },
+        { "id": "opt_3", "text": "Recebem antes dos credores com garantia real porque a remuneração contratada compensa o maior risco assumido.", "isCorrect": false, "distractorReason": "A remuneração não altera a ordem de preferência estabelecida para a garantia e a subordinação." },
+        { "id": "opt_4", "text": "Perdem a condição de credores e concorrem em igualdade com os acionistas ordinários pelo patrimônio residual.", "isCorrect": false, "distractorReason": "Mesmo subordinada, a debênture conserva natureza creditícia e precede os acionistas na hipótese legal." }
+      ],
+      "explanation": "A debênture confere direito de crédito. Quando a escritura contém cláusula de subordinação, a emissão fica abaixo dos credores quirografários, mas ainda prefere aos acionistas no ativo remanescente da liquidação.",
+      "commonTrap": "Confundir subordinação do crédito com transformação do debenturista em acionista.", "estimatedSeconds": 140, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "Presidência da República", "normNumber": "Lei 6.404/1976", "versionLabel": "Texto compilado consultado em 27/10/2026", "url": "https://planalto.gov.br/ccivil_03/leis/l6404compilada.htm", "locator": "arts. 52 e 58, § 4º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-VIII-000033", "topicCode": "VIII", "subtopicSlug": "mercado-capitais-tipos-ordem", "contentNodeSlug": "tema-viii-tipos-ordem-stop",
+      "family": { "code": "AI-VIII-ORDEM-STOP-001", "name": "Gatilho da ordem stop", "angle": "distinguir disparo e limite de execução" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["ordem stop", "preço limite", "execução"],
+      "statement": "Uma ordem stop de venda tem preço de disparo de R$ 30,00 e limite de R$ 29,50. Após o disparo, as melhores ofertas de compra estão a R$ 29,20. Nesse momento, a ordem:",
+      "options": [
+        { "id": "opt_1", "text": "Pode permanecer sem execução, porque as ofertas disponíveis estão abaixo do limite mínimo definido para a venda.", "isCorrect": true },
+        { "id": "opt_2", "text": "Deve ser executada a R$ 30,00, pois o disparo fixa o preço financeiro da operação registrada no livro de ofertas.", "isCorrect": false, "distractorReason": "O preço de disparo ativa a oferta, mas não garante execução naquele valor." },
+        { "id": "opt_3", "text": "Deve ser executada a R$ 29,20, pois o disparo elimina o limite informado anteriormente pelo investidor para aquela venda.", "isCorrect": false, "distractorReason": "O limite continua condicionando o preço aceitável após o disparo." },
+        { "id": "opt_4", "text": "É cancelada no disparo, porque uma ordem stop não pode conter preço limite diferente do gatilho cadastrado pelo investidor.", "isCorrect": false, "distractorReason": "A oferta stop pode observar faixa entre preço de disparo e preço limite." }
+      ],
+      "explanation": "O atingimento do preço de disparo registra a oferta stop no livro, mas a execução deve respeitar seu preço limite. Sem compra a R$ 29,50 ou melhor, a venda pode não ocorrer naquele momento.",
+      "commonTrap": "Presumir que o disparo garante execução ou apaga o limite de preço associado à ordem.", "estimatedSeconds": 140, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Manual de Procedimentos Operacionais de Negociação", "versionLabel": "Versão 01/07/2026", "url": "https://www.b3.com.br/pt_br/regulacao/estrutura-normativa/regulamentos-e-manuais/negociacao.htm", "locator": "item 4.3.1, III — oferta stop", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-IX-lote-002",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-IX-000009", "topicCode": "IX", "subtopicSlug": "estrutura", "contentNodeSlug": "tema-ix-estrutura-classe",
+      "family": { "code": "AI-IX-SEGREGACAO-PASSIVOS-001", "name": "Segregação patrimonial entre classes", "angle": "alocar obrigação à classe que a originou" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["classes", "patrimônio segregado", "obrigações"],
+      "statement": "Um fundo possui classes A e B com patrimônios segregados. Uma obrigação foi regularmente contraída em benefício da classe A e não se relaciona à classe B. Em regra, essa obrigação deve ser atribuída:",
+      "options": [
+        { "id": "opt_1", "text": "Ao patrimônio da classe A, preservada a segregação dos direitos e das obrigações vinculados a cada classe.", "isCorrect": true },
+        { "id": "opt_2", "text": "Ao patrimônio geral do fundo, com rateio proporcional entre A e B conforme o número de cotistas existentes.", "isCorrect": false, "distractorReason": "A estrutura de classes com patrimônio segregado afasta o rateio geral de obrigação específica." },
+        { "id": "opt_3", "text": "Ao administrador fiduciário, porque obrigações assumidas por uma classe não podem afetar seu patrimônio segregado.", "isCorrect": false, "distractorReason": "A segregação identifica o patrimônio responsável e não transfere automaticamente a obrigação ao administrador." },
+        { "id": "opt_4", "text": "À classe B, quando seu patrimônio líquido for superior e oferecer maior capacidade financeira para o pagamento.", "isCorrect": false, "distractorReason": "A capacidade financeira de outra classe não desloca uma obrigação vinculada à classe A." }
+      ],
+      "explanation": "Na estrutura de classes, cada classe tem patrimônio segregado, com direitos e obrigações próprios. Uma obrigação vinculada à classe A deve recair sobre seu patrimônio, sem usar a classe B como fonte de pagamento por mera conveniência financeira.",
+      "commonTrap": "Tratar o fundo como patrimônio único e ignorar que direitos e obrigações são segregados por classe.", "estimatedSeconds": 140, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 175", "versionLabel": "Texto consolidado consultado em 27/10/2026", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol175.html", "locator": "Parte Geral — constituição de classes e patrimônio segregado", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

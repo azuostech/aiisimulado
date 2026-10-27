@@ -34,12 +34,17 @@ Data de referência: 12/10/2026.
 - Conclusão do terceiro lote com a revisão de 19 questões sinalizadas dos Temas X, XI e XII; os três temas ficaram sem correta destacada por extensão, absolutos assimétricos ou penalidade editorial.
 - Encerramento das correções de pistas formais nos Temas V e VI; o banco ativo ficou sem correta isoladamente mais longa, absolutos apenas nos distratores ou penalidade editorial severa.
 - Início da expansão de famílias prioritárias com dez novos ângulos de nível 5 nos Temas I e VIII; dez famílias passaram a ter duas variações e o banco chegou a doze famílias distintas com itens de nível 5.
+- Conclusão do terceiro ângulo das dez famílias prioritárias dos Temas I e VIII.
+- Expansão de quatro famílias avançadas do Tema XV, cobrindo call descoberta, swap, futuro de DI e margem de garantia.
+- Inclusão de quatro novas famílias de nível 5 nos Temas VII, IX, XIII e XIV; o banco passou a ter 20 questões de nível 5 distribuídas por 16 famílias distintas, tornando alcançável a cota-base da matriz Blindagem sem repetição de família.
+- Novo gate completo com 194 questões aceitas, 185 ativas e nenhuma pista formal de gabarito por extensão ou absolutos assimétricos.
+- Teste automático de dez seleções de 80 questões sem escassez, repetição de família ou desvio das cotas rígidas por tema; a distribuição otimizada selecionou de 10 a 13 itens de nível 5 conforme a semente.
 
 ## Próximo lote editorial
 
-- Completar o terceiro ângulo das dez famílias iniciadas e expandir quatro famílias prioritárias do Tema XV.
-- Criar quatro questões adicionais de nível 5, em famílias distintas, para tornar viável a meta de 16 itens da matriz Blindagem.
-- Auditar um simulado completo de 80 questões antes da expansão definitiva até 340.
+- Auditar editorialmente um simulado completo de 80 questões antes da expansão definitiva até 340.
+- Calibrar a otimização global de dificuldade para aproximar a seleção efetiva da meta de 16 itens de nível 5 da Blindagem, preservando cotas rígidas por tema e famílias únicas.
+- Criar três novas famílias de nível 1 para eliminar a lacuna da matriz Real sem reduzir a cobertura dos demais níveis.
 
 ## Critérios para liberar a expansão
 

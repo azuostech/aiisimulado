@@ -1,0 +1,21 @@
+{
+  "batchId": "tema-XIV-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-XIV-000019", "topicCode": "XIV", "subtopicSlug": "fgc", "contentNodeSlug": "tema-xiv-fgc-limites",
+      "family": { "code": "AI-XIV-FGC-LIMITES-COMBINADOS-001", "name": "Limites combinado e global do FGC", "angle": "combinar teto por conglomerado e janela de quatro anos" },
+      "difficulty": 5, "questionType": "calculation", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["FGC", "conglomerado", "teto global"],
+      "statement": "Uma pessoa já recebeu R$ 800 mil do FGC por liquidações ocorridas nos últimos quatro anos. Agora possui R$ 300 mil em créditos elegíveis contra instituições do mesmo conglomerado liquidado. Desconsiderando atualização, a cobertura adicional máxima é:",
+      "options": [
+        { "id": "opt_1", "text": "R$ 200 mil, saldo restante do teto global de quatro anos, menor que o limite aplicável ao conglomerado.", "isCorrect": true },
+        { "id": "opt_2", "text": "R$ 250 mil, pois o limite por conglomerado prevalece sobre pagamentos recebidos em liquidações anteriores no período.", "isCorrect": false, "distractorReason": "A cobertura também respeita o teto global de R$ 1 milhão dentro de quatro anos." },
+        { "id": "opt_3", "text": "R$ 300 mil, pois créditos distribuídos entre instituições do conglomerado recebem limites individuais de cobertura ordinária.", "isCorrect": false, "distractorReason": "Instituições do mesmo conglomerado compartilham o limite aplicável por CPF ou CNPJ." },
+        { "id": "opt_4", "text": "R$ 50 mil, pois o pagamento anterior deve ser abatido diretamente do limite de R$ 250 mil do conglomerado atual.", "isCorrect": false, "distractorReason": "Os R$ 800 mil reduzem o teto global, deixando R$ 200 mil, e não R$ 50 mil." }
+      ],
+      "explanation": "O crédito enfrenta simultaneamente o limite de R$ 250 mil por CPF ou CNPJ e por instituição ou conglomerado e o teto global de R$ 1 milhão em quatro anos. Como já foram recebidos R$ 800 mil, restam R$ 200 mil.",
+      "commonTrap": "Aplicar um dos limites isoladamente ou tratar instituições do mesmo conglomerado como coberturas independentes.", "estimatedSeconds": 155, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "FGC", "normNumber": "Garantia Ordinária", "versionLabel": "Página oficial consultada em 27/10/2026", "url": "https://www.fgc.org.br/sobre-garantia-fgc", "locator": "limite por instituição ou conglomerado e teto de R$ 1 milhão em quatro anos", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

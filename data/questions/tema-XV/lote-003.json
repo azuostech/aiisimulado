@@ -1,0 +1,66 @@
+{
+  "batchId": "tema-XV-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-XV-000019", "topicCode": "XV", "subtopicSlug": "derivativos-estrategias-opcoes", "contentNodeSlug": "tema-xv-estrategias-opcoes-venda-de-call",
+      "family": { "code": "AI-XV-CALL-LANCADA-RISCO-001", "name": "Risco da call descoberta", "angle": "calcular resultado do lançador no vencimento" },
+      "difficulty": 5, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["call descoberta", "lançador", "resultado"],
+      "statement": "Um investidor lança, sem possuir o ativo, uma call com strike de R$ 50,00 e recebe prêmio de R$ 2,00 por ação. No vencimento, a ação vale R$ 68,00. Desconsiderando custos, seu resultado por ação é:",
+      "options": [
+        { "id": "opt_1", "text": "Prejuízo de R$ 16,00, pois a perda de R$ 18,00 no exercício é reduzida pelo prêmio recebido.", "isCorrect": true },
+        { "id": "opt_2", "text": "Prejuízo de R$ 18,00, pois o prêmio recebido na abertura não integra o resultado econômico final do lançador.", "isCorrect": false, "distractorReason": "O prêmio recebido reduz o prejuízo líquido da posição lançada." },
+        { "id": "opt_3", "text": "Lucro de R$ 16,00, pois o lançador vende pelo strike um ativo negociado acima desse preço no vencimento.", "isCorrect": false, "distractorReason": "Sem possuir o ativo, o lançador sofre com a alta necessária para cumprir a obrigação." },
+        { "id": "opt_4", "text": "Lucro de R$ 2,00, pois o resultado do lançador fica limitado ao prêmio recebido na abertura da posição.", "isCorrect": false, "distractorReason": "O prêmio limita o ganho, mas a perda da call descoberta cresce acima do strike." }
+      ],
+      "explanation": "No exercício, o lançador perde R$ 18,00 por ação pela diferença entre R$ 68,00 e R$ 50,00. Como recebeu R$ 2,00 de prêmio, o prejuízo líquido é de R$ 16,00 por ação.",
+      "commonTrap": "Ignorar o prêmio no resultado líquido ou tratar o prêmio como limite para a perda do lançador descoberto.", "estimatedSeconds": 145, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "B3", "normNumber": "Guia Básico de Opções", "versionLabel": "Página oficial consultada em 27/10/2026", "url": "https://borainvestir.b3.com.br/tipos-de-investimentos/renda-variavel/acoes/opcoes-de-acoes-guia-basico-para-entender-antes-de-comecar-a-investir/", "locator": "seções Quem é o lançador, prêmio e riscos das opções", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-XV-000020", "topicCode": "XV", "subtopicSlug": "derivativos-swap", "contentNodeSlug": "tema-xv-swap-troca-de-indexadores",
+      "family": { "code": "AI-XV-SWAP-FLUXOS-001", "name": "Resultado entre pontas do swap", "angle": "calcular liquidação pelo diferencial entre pontas" },
+      "difficulty": 5, "questionType": "calculation", "cognitiveSkill": "CALCULATION", "status": "ACTIVE", "tags": ["swap", "indexadores", "liquidação"],
+      "statement": "Em um swap sobre valor-base de R$ 5.000.000, uma empresa está ativa em CDI e passiva em taxa prefixada. No período, os fatores acumulados equivalem a 12% e 10%, respectivamente. Sem custos e outros ajustes, a empresa:",
+      "options": [
+        { "id": "opt_1", "text": "Recebe R$ 100.000, correspondentes ao diferencial positivo de 2% sobre o valor-base contratado.", "isCorrect": true },
+        { "id": "opt_2", "text": "Paga R$ 100.000, porque o retorno da ponta ativa superior ao da ponta passiva gera obrigação.", "isCorrect": false, "distractorReason": "A ponta ativa superior gera recebimento do diferencial para a empresa." },
+        { "id": "opt_3", "text": "Recebe R$ 1.100.000, correspondentes à soma dos retornos das duas pontas sobre o valor-base.", "isCorrect": false, "distractorReason": "A liquidação considera a compensação entre as pontas, e não a soma de seus retornos." },
+        { "id": "opt_4", "text": "Paga R$ 500.000, correspondentes à taxa prefixada integral aplicada sobre o valor-base do contrato.", "isCorrect": false, "distractorReason": "O fluxo líquido decorre do diferencial entre os indexadores contratados." }
+      ],
+      "explanation": "A empresa recebe CDI e paga a taxa prefixada. O diferencial é de 2 pontos percentuais; aplicado a R$ 5.000.000, resulta em recebimento líquido de R$ 100.000 antes de custos e ajustes contratuais.",
+      "commonTrap": "Somar as duas pontas, inverter ativo e passivo ou liquidar apenas a ponta passiva.", "estimatedSeconds": 150, "requiresCalculation": true, "calculatorAllowed": true,
+      "sources": [{ "authority": "B3", "normNumber": "Swap", "versionLabel": "Página oficial consultada em 27/10/2026", "url": "https://b3.com.br/pt_br/produtos-e-servicos/registro/derivativos-de-balcao/swap.htm", "locator": "seções O produto, rentabilidade das posições e indexadores", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-XV-000021", "topicCode": "XV", "subtopicSlug": "derivativos-futuro-di", "contentNodeSlug": "tema-xv-futuro-di-taxa",
+      "family": { "code": "AI-XV-DI-TAXA-PU-001", "name": "Relação taxa e PU no DI", "angle": "relacionar posição em PU e choque de taxa" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["DI futuro", "PU", "posição vendida"],
+      "statement": "Um participante mantém posição vendida em PU de contrato futuro de DI. Logo depois, a taxa negociada para o vencimento sobe, sem mudança nas demais variáveis. O efeito direcional esperado é:",
+      "options": [
+        { "id": "opt_1", "text": "Queda do PU, favorecendo a posição vendida em PU pela relação inversa entre preço e taxa.", "isCorrect": true },
+        { "id": "opt_2", "text": "Alta do PU, favorecendo a posição vendida porque preço e taxa variam no mesmo sentido no DI futuro.", "isCorrect": false, "distractorReason": "No DI futuro, a taxa sobe quando o PU cai; uma posição vendida em PU se beneficia dessa queda." },
+        { "id": "opt_3", "text": "Queda do PU, prejudicando a posição vendida porque o ajuste considera a taxa acumulada naquele dia de negociação.", "isCorrect": false, "distractorReason": "A queda de preço favorece, em termos direcionais, quem está vendido em PU." },
+        { "id": "opt_4", "text": "Estabilidade do PU, pois a variação da taxa só produz efeito financeiro na data de vencimento do contrato.", "isCorrect": false, "distractorReason": "A mudança da taxa negociada altera o PU e afeta a marcação e os ajustes antes do vencimento." }
+      ],
+      "explanation": "O PU corresponde ao valor de vencimento descontado pela taxa negociada. Quando a taxa sobe, o PU cai. Assim, uma posição vendida em PU tende a se beneficiar do movimento, observadas as regras de ajuste do contrato.",
+      "commonTrap": "Memorizar que a taxa sobe sem traduzir esse movimento para o PU e para o lado da posição.", "estimatedSeconds": 145, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Guia Por Dentro da B3 — Futuro de DI", "versionLabel": "Edição oficial consultada em 27/10/2026", "url": "https://edu.b3.com.br/documents/d/guest/guia_por_dentro_da_b3_2024_final-min-1", "locator": "Contrato futuro de taxa DI — cotação, PU e relação inversa com a taxa", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-XV-000022", "topicCode": "XV", "subtopicSlug": "derivativos-margem-garantia", "contentNodeSlug": "tema-xv-margem-garantia-chamada-de-margem",
+      "family": { "code": "AI-XV-MARGEM-REFORCO-001", "name": "Finalidade e reforço de margem", "angle": "separar ajuste diário e recomposição de garantia" },
+      "difficulty": 5, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["margem", "ajuste diário", "garantia"],
+      "statement": "Após uma perda em contrato futuro, o ajuste diário é debitado da conta do investidor e, adicionalmente, a corretora solicita reforço de margem. A leitura correta dos dois fluxos é:",
+      "options": [
+        { "id": "opt_1", "text": "O débito liquida a perda diária, enquanto o reforço recompõe a garantia exigida para o risco da posição mantida.", "isCorrect": true },
+        { "id": "opt_2", "text": "O débito e o reforço liquidam a mesma perda, de modo que um dos valores deverá ser devolvido no encerramento.", "isCorrect": false, "distractorReason": "Ajuste financeiro e garantia cumprem funções distintas no gerenciamento da posição." },
+        { "id": "opt_3", "text": "O reforço substitui os ajustes futuros e limita a ele as perdas que ainda possam surgir na operação.", "isCorrect": false, "distractorReason": "A margem não limita perdas nem elimina novos ajustes diários." },
+        { "id": "opt_4", "text": "O débito antecipa o valor nocional do contrato, enquanto o reforço compra o ativo subjacente para entrega física.", "isCorrect": false, "distractorReason": "Nem o ajuste diário nem a margem têm essas funções na mecânica descrita." }
+      ],
+      "explanation": "O ajuste diário transfere financeiramente o ganho ou a perda do período. A margem é garantia calibrada ao risco futuro da posição; depois de perdas ou mudanças de risco, pode ser necessária sua recomposição sem duplicar o ajuste.",
+      "commonTrap": "Tratar margem como pagamento da perda ou imaginar que seu depósito estabelece perda máxima.", "estimatedSeconds": 145, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "B3", "normNumber": "Manual de Administração de Risco da Câmara B3", "versionLabel": "Versão oficial consultada em 27/10/2026", "url": "https://www.b3.com.br/data/files/9C/75/18/9E/CF4099100A29E189AC094EA8/Manual%20de%20Administracao%20de%20Risco%20da%20Camara%20B3%20-%20Com%20marcas.pdf", "locator": "seções 6.2 e 6.3 — valorização, risco e limites de garantias", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "batchId": "tema-I-lote-003",
+  "reviewedAt": "2026-10-27",
+  "questions": [
+    {
+      "id": "AI-I-000018", "topicCode": "I", "subtopicSlug": "atividade-assessor-conceito-enquadramento", "contentNodeSlug": "tema-i-conceito-enquadramento-atuacao-como-preposto",
+      "family": { "code": "AI-I-PREPOSTO-ESCOPO-001", "name": "Atuação como preposto", "angle": "delimitar o encaminhamento de ordem entre intermediários" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["preposto", "ordem", "intermediário"],
+      "statement": "Durante atendimento em que apresentou produtos de dois intermediários, um assessor recebe ordem relativa a produto distribuído por apenas um deles. Para manter a atuação no papel de preposto, ele deve:",
+      "options": [
+        { "id": "opt_1", "text": "Identificar o intermediário responsável pela oferta e transmitir a ordem pelos sistemas e controles aplicáveis àquela instituição.", "isCorrect": true },
+        { "id": "opt_2", "text": "Registrar a ordem em sistema próprio do escritório e escolher o intermediário depois de comparar os custos de execução disponíveis.", "isCorrect": false, "distractorReason": "O assessor recebe e transmite a ordem como preposto do intermediário identificado, e não em estrutura própria independente." },
+        { "id": "opt_3", "text": "Encaminhar a ordem aos dois intermediários e conservar a execução que apresentar o melhor preço para o cliente atendido.", "isCorrect": false, "distractorReason": "A mesma ordem não deve ser distribuída entre vínculos para seleção posterior da execução." },
+        { "id": "opt_4", "text": "Receber os recursos do cliente no escritório e repassá-los ao intermediário que confirmar primeiro a disponibilidade do produto.", "isCorrect": false, "distractorReason": "A atuação como preposto não autoriza o assessor a receber recursos do cliente em nome próprio." }
+      ],
+      "explanation": "A recepção e a transmissão de ordens integram a atividade do assessor quando realizadas em nome de intermediário identificado e conforme seus procedimentos. O assessor não cria uma camada independente de execução entre cliente e instituição.",
+      "commonTrap": "Tratar os múltiplos vínculos como autorização para o assessor centralizar ordens e escolher a instituição depois do recebimento.", "estimatedSeconds": 135, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "arts. 2º, I, 3º, II e §§ 1º e 2º, e 4º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-I-000019", "topicCode": "I", "subtopicSlug": "atividade-assessor-atividades-permitidas", "contentNodeSlug": "tema-i-atividades-permitidas-prestacao-de-informacoes",
+      "family": { "code": "AI-I-ESCOPO-INFORMACOES-001", "name": "Prestação de informações", "angle": "avaliar produto fora da oferta representada" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["informações", "oferta", "limites"],
+      "statement": "Um cliente pede ao assessor uma análise específica de um valor mobiliário que não integra a oferta dos intermediários em nome dos quais ele atua. No âmbito da atividade de assessoria, a resposta adequada é:",
+      "options": [
+        { "id": "opt_1", "text": "Esclarecer o limite de sua atuação e não apresentar a análise como informação ou recomendação vinculada aos intermediários representados.", "isCorrect": true },
+        { "id": "opt_2", "text": "Emitir a recomendação em caráter pessoal, desde que o documento deixe de utilizar as marcas comerciais dos intermediários representados.", "isCorrect": false, "distractorReason": "A apresentação como opinião pessoal não amplia o escopo regulatório da atividade exercida pelo assessor." },
+        { "id": "opt_3", "text": "Comparar o valor mobiliário com a oferta disponível e cobrar do cliente pela parcela externa da análise solicitada.", "isCorrect": false, "distractorReason": "A cobrança separada não transforma consultoria externa em prestação de informação inerente à relação comercial." },
+        { "id": "opt_4", "text": "Fornecer a análise sem cobrar honorários e registrar que uma eventual operação deverá ocorrer em outra instituição financeira.", "isCorrect": false, "distractorReason": "A ausência de remuneração direta não torna a recomendação externa parte da atividade permitida ao assessor." }
+      ],
+      "explanation": "A prestação de informações pelo assessor está ligada aos produtos oferecidos e aos serviços prestados pelos intermediários que representa. A solicitação sobre ativo externo não autoriza consultoria independente sob o credenciamento de assessor.",
+      "commonTrap": "Supor que a gratuidade ou o uso de marca pessoal permite ampliar a oferta representada pelo assessor.", "estimatedSeconds": 130, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 3º, III e § 3º; art. 7º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-I-000020", "topicCode": "I", "subtopicSlug": "atividade-assessor-relacao-intermediarios", "contentNodeSlug": "tema-i-relacao-intermediarios-multiplos-vinculos",
+      "family": { "code": "AI-I-MULTIPLOS-VINCULOS-001", "name": "Múltiplos vínculos", "angle": "diferenciar divulgação geral e atuação concreta" },
+      "difficulty": 4, "questionType": "case_based", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["múltiplos vínculos", "prospecção", "transparência"],
+      "statement": "Um assessor não exclusivo informa corretamente todos os seus vínculos em uma página institucional. Em contato individual, porém, oferece um produto sem dizer qual intermediário representa naquele atendimento. A conduta é:",
+      "options": [
+        { "id": "opt_1", "text": "Inadequada, porque a divulgação geral dos vínculos não substitui a identificação do intermediário relacionado ao atendimento concreto.", "isCorrect": true },
+        { "id": "opt_2", "text": "Adequada, porque a página institucional permite ao cliente deduzir qual instituição deve executar a operação posteriormente escolhida.", "isCorrect": false, "distractorReason": "O cliente precisa associar a atuação concreta ao intermediário representado, sem depender de dedução posterior." },
+        { "id": "opt_3", "text": "Adequada, caso o assessor revele a instituição antes da liquidação financeira, ainda que a decisão já tenha sido tomada.", "isCorrect": false, "distractorReason": "A transparência deve acompanhar o atendimento e a formação da decisão, não apenas a liquidação." },
+        { "id": "opt_4", "text": "Inadequada se os intermediários oferecerem produtos equivalentes e pagarem remunerações diferentes pela distribuição realizada ao cliente.", "isCorrect": false, "distractorReason": "O dever de identificação na atuação concreta não depende da equivalência dos produtos nem da remuneração." }
+      ],
+      "explanation": "A norma distingue a divulgação dos vínculos mantidos pelo assessor da identificação do intermediário em nome do qual ele atua em cada situação. A lista institucional não supre a transparência exigida no atendimento concreto.",
+      "commonTrap": "Confundir a publicidade geral da relação de intermediários com a identificação exigida em cada oferta ou atendimento.", "estimatedSeconds": 125, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 3º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    },
+    {
+      "id": "AI-I-000021", "topicCode": "I", "subtopicSlug": "atividade-assessor-assessor-consultor", "contentNodeSlug": "tema-i-assessor-consultor-independencia",
+      "family": { "code": "AI-I-CONFLITO-CONSULTORIA-001", "name": "Assessor versus consultor", "angle": "avaliar exercício simultâneo sem cobrança" },
+      "difficulty": 4, "questionType": "conceptual_trap", "cognitiveSkill": "ANALYSIS", "status": "ACTIVE", "tags": ["consultoria", "credenciamento", "incompatibilidade"],
+      "statement": "Uma pessoa credenciada como assessora pretende prestar consultoria de valores mobiliários gratuitamente, fora do expediente e para clientes distintos. Quanto à incompatibilidade entre as atividades, é correto afirmar que:",
+      "options": [
+        { "id": "opt_1", "text": "A ausência de cobrança e a separação de horários não afastam a vedação ao exercício simultâneo enquanto permanecer o credenciamento.", "isCorrect": true },
+        { "id": "opt_2", "text": "A atuação é compatível quando os clientes da consultoria não mantêm conta nos intermediários vinculados à assessora durante aquele período.", "isCorrect": false, "distractorReason": "A incompatibilidade não é afastada pela separação das bases de clientes." },
+        { "id": "opt_3", "text": "A atuação é compatível se as recomendações gratuitas forem documentadas sem referência ao credenciamento ou à atividade profissional de assessoria.", "isCorrect": false, "distractorReason": "A forma de documentar a recomendação não elimina o exercício material da consultoria." },
+        { "id": "opt_4", "text": "A ausência de remuneração transforma a consultoria em atividade educacional compatível com o credenciamento profissional mantido pela pessoa natural.", "isCorrect": false, "distractorReason": "O caráter gratuito não altera a natureza de uma recomendação individualizada própria de consultoria." }
+      ],
+      "explanation": "A regra de incompatibilidade alcança o exercício simultâneo das atividades e não depende da cobrança, do horário ou da coincidência entre clientes. Para exercer consultoria, a pessoa deve observar o cancelamento prévio do credenciamento de assessor.",
+      "commonTrap": "Usar gratuidade, horários ou públicos distintos como se fossem exceções regulatórias à incompatibilidade profissional.", "estimatedSeconds": 130, "requiresCalculation": false, "calculatorAllowed": false,
+      "sources": [{ "authority": "CVM", "normNumber": "Resolução CVM 178/2023", "versionLabel": "Republicada em 03/08/2023", "url": "https://conteudo.cvm.gov.br/legislacao/resolucoes/resol178.html", "locator": "art. 7º, §§ 1º e 2º", "confidence": "OFFICIAL", "checkedAt": "2026-10-27" }]
+    }
+  ]
+}
